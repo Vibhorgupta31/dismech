@@ -969,8 +969,8 @@ environmental:
   exposure_term:
     preferred_term: Infectious agent exposure
     term:
-      id: ECTO:3000001
-      label: exposure to virus
+      id: ECTO:3000000
+      label: exposure to organism
 - name: Stress
   notes: Psychological stress can trigger flares.
   presence: Positive

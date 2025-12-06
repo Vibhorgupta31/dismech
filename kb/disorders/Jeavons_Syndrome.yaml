@@ -350,8 +350,8 @@ environmental:
   exposure_term:
     preferred_term: Sleep deprivation
     term:
-      id: XCO:0001068
-      label: sleep
+      id: XCO:0001069
+      label: sleep restriction
   evidence:
   - reference: PMID:28314522
     supports: SUPPORT

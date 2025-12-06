@@ -824,8 +824,8 @@ environmental:
   exposure_term:
     preferred_term: Infectious agent exposure
     term:
-      id: ECTO:3000001
-      label: exposure to virus
+      id: ECTO:3000000
+      label: exposure to organism
 review_notes: Antiphospholipid syndrome is an autoimmune disorder characterized by
   thrombosis (both venous and arterial) and pregnancy complications due to autoantibodies
   against phospholipid-binding proteins. I expanded the thrombosis phenotypes to include

@@ -654,8 +654,8 @@ environmental:
   exposure_term:
     preferred_term: Infectious agent exposure
     term:
-      id: ECTO:3000001
-      label: exposure to virus
+      id: ECTO:3000000
+      label: exposure to organism
 treatments:
 - name: Glucocorticoid Replacement
   description: Hydrocortisone or prednisone to replace cortisol.

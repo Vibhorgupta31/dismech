@@ -475,11 +475,6 @@ environmental:
     explanation: The study found that emotional stress could trigger FMF attacks,
       but physical stress did not show a significant effect. Therefore, while stress
       in general may trigger episodes, physical stress specifically does not.
-  exposure_term:
-    preferred_term: Physical stress exposure
-    term:
-      id: ECTO:0001031
-      label: exposure to psychological stress
 - name: Emotional Stress
   effect: Potential trigger for flare-ups
   evidence:

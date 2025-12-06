@@ -21,6 +21,7 @@ prefixes:
   MONDO: http://purl.obolibrary.org/obo/MONDO_
   GENO: http://purl.obolibrary.org/obo/GENO_
   ECTO: http://purl.obolibrary.org/obo/ECTO_
+  ExO: http://purl.obolibrary.org/obo/ExO_
   ENVO: http://purl.obolibrary.org/obo/ENVO_
   XCO: http://purl.obolibrary.org/obo/XCO_
   PMID: http://www.ncbi.nlm.nih.gov/pubmed/
@@ -181,10 +182,23 @@ enums:
     comments:
       - ECTO (Environmental Conditions, Treatments, and Exposures Ontology) is preferred
       - XCO (Experimental Conditions Ontology) can also be used
+    reachable_from:
+      source_nodes:
+        - ExO:0000002  ## exposure event (ECTO root)
+        - XCO:0000000  ## experimental condition (XCO root)
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
   EnvironmentTerm:
     description: A term representing an environmental context or setting (from ENVO)
     comments:
       - ENVO (Environment Ontology) describes habitats, biomes, and environmental features
+    reachable_from:
+      source_nodes:
+        - ENVO:01000254  ## environmental system
+      is_direct: false
+      relationship_types:
+        - rdfs:subClassOf
 
 slots:
   name:

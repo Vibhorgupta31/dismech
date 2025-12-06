@@ -568,8 +568,8 @@ environmental:
   exposure_term:
     preferred_term: Physical activity exposure
     term:
-      id: ECTO:0010003
-      label: exposure to environmental physical object quality
+      id: XCO:0000059
+      label: physical activity
 treatments:
 - name: Beta Blockers
   description: Used to reduce stress on the aorta and prevent its enlargement.
