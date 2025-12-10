@@ -82,10 +82,10 @@ pathophysiology:
     deficiency in muscle biopsies, suggesting that P4H-TM loss can affect mitochondrial
     function.
   biological_processes:
-  - preferred_term: Mitochondrial electron transport
+  - preferred_term: Oxidative phosphorylation
     term:
-      id: GO:0006120
-      label: mitochondrial electron transport, NADH to ubiquinone
+      id: GO:0006119
+      label: oxidative phosphorylation
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
@@ -108,9 +108,9 @@ phenotypes:
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
-    snippet: Biallelic loss-of-function P4HTM gene variants cause hypotonia, hypoventilation,
-      intellectual disability, dysautonomia, epilepsy, and eye abnormalities.
-    explanation: Hypotonia is a core feature of HIDEA syndrome.
+    snippet: All the patients have hypotonia (N = 13/13), and either intellectual
+      disability (N = 12/13) or developmental delay
+    explanation: Hypotonia is present in 100% of HIDEA patients.
 - category: Respiratory
   name: Central Hypoventilation
   description: Reduced ventilation due to impaired central respiratory control, with
@@ -125,9 +125,9 @@ phenotypes:
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
-    snippet: Biallelic loss-of-function P4HTM gene variants cause hypotonia, hypoventilation,
-      intellectual disability, dysautonomia, epilepsy, and eye abnormalities.
-    explanation: Hypoventilation is a defining feature of HIDEA syndrome.
+    snippet: the common presenting features include strabismus (N = 11/13, 85%),
+      epilepsy (N = 10/13, 77%), and central or obstructive sleep apnea
+    explanation: Central or obstructive sleep apnea occurs in most HIDEA patients.
 - category: Developmental
   name: Global Developmental Delay
   description: Significant delays in motor, speech, and cognitive development beginning
@@ -158,9 +158,9 @@ phenotypes:
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
-    snippet: Biallelic loss-of-function P4HTM gene variants cause hypotonia, hypoventilation,
-      intellectual disability, dysautonomia, epilepsy, and eye abnormalities.
-    explanation: Intellectual disability is part of the core phenotype.
+    snippet: All the patients have hypotonia (N = 13/13), and either intellectual
+      disability (N = 12/13) or developmental delay
+    explanation: Intellectual disability is present in 12 of 13 patients.
 - category: Neurologic
   name: Epilepsy
   description: Seizures in most patients, often beginning in infancy, with EEG showing
@@ -176,9 +176,9 @@ phenotypes:
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
-    snippet: Biallelic loss-of-function P4HTM gene variants cause hypotonia, hypoventilation,
-      intellectual disability, dysautonomia, epilepsy, and eye abnormalities.
-    explanation: Epilepsy is a core feature of HIDEA syndrome.
+    snippet: the common presenting features include strabismus (N = 11/13, 85%),
+      epilepsy (N = 10/13, 77%), and central or obstructive sleep apnea
+    explanation: Epilepsy is present in 77% of HIDEA patients.
 - category: Autonomic
   name: Dysautonomia
   description: Autonomic dysfunction including temperature dysregulation and constipation.
@@ -193,9 +193,11 @@ phenotypes:
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
-    snippet: Biallelic loss-of-function P4HTM gene variants cause hypotonia, hypoventilation,
-      intellectual disability, dysautonomia, epilepsy, and eye abnormalities.
-    explanation: Dysautonomia is part of the HIDEA phenotype spectrum.
+    snippet: Some patients also show dysautonomia, including constipation (N = 6/13,
+      46%), recurrent hypothermia or hyperthermia (N = 4/13, 31%), and reduced
+      sweating (N = 2/13, 15%)
+    explanation: Dysautonomia features including temperature dysregulation and
+      constipation are present in subsets of HIDEA patients.
 - category: Ophthalmologic
   name: Abnormal Eye Movements
   description: Eye movement abnormalities including rotary nystagmus, exotropia, and
@@ -294,9 +296,10 @@ genetic:
   evidence:
   - reference: PMID:30940925
     supports: SUPPORT
-    snippet: Biallelic loss-of-function P4HTM gene variants cause hypotonia, hypoventilation,
-      intellectual disability, dysautonomia, epilepsy, and eye abnormalities (HIDEA).
-    explanation: P4HTM is the causative gene for HIDEA syndrome.
+    snippet: Variant characterization demonstrates that the variants affect protein
+      folding by yielding an insoluble protein product.
+    explanation: The study demonstrated that P4HTM variants cause loss of function
+      through protein misfolding.
   - reference: PMID:25078763
     supports: SUPPORT
     snippet: Whole-genome sequencing of one affected individual pinpointed three genes
