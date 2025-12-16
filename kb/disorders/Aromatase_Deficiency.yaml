@@ -498,6 +498,11 @@ genetic:
 - name: CYP19A1
   association: Causal
   notes: Biallelic loss-of-function mutations in CYP19A1 (HGNC:2594) encoding aromatase enzyme cause complete estrogen deficiency
+  evidence:
+  - reference: PMID:40321354
+    supports: SUPPORT
+    snippet: Aromatase deficiency is a rare autosomal recessive condition due to a mutation in the CYP19A1 encoding aromatase enzyme.
+    explanation: This case report confirms that mutations in CYP19A1 encoding aromatase enzyme cause aromatase deficiency.
 - name: ESR1
   association: Modifier
   notes: Estrogen receptor alpha (HGNC:3467) mediates estrogen signaling; signaling is diminished due to low estrogen

@@ -510,7 +510,14 @@ phenotypes:
   frequency: OCCASIONAL
   name: Pallor
   notes: Due to anemia, most noticeable during acute hemolytic episodes
-  evidence: null
+  evidence:
+  - reference: PMID:31235029
+    supports: SUPPORT
+    snippet: Glucose-6-phosphate dehydrogenase (G6PD) deficiency is an erythrocyte
+      enzyme defect that amplifies the susceptibility of erythrocytes to oxidative
+      stress due to excessive levels of reactive oxygen species. Consequently, erythrocyte
+      destruction and hemolysis occur.
+    explanation: Hemolysis from G6PD deficiency leads to anemia, which manifests as pallor due to decreased red blood cell count.
   phenotype_term:
     preferred_term: Pallor
     term:

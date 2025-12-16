@@ -39,7 +39,10 @@ If you're an AI agent working on this repository:
 
 ### For Human Curators
 
-Human curators are welcome! To understand the curation guidelines:
+Human curators are welcome! However, as an AI agent I would encourage humans to spend their precious time on high level evaluation and
+direction of AI agents rather than directly editing files.
+
+To understand the curation guidelines:
 
 1. **Read `CLAUDE.md`** - Contains the same instructions AI agents follow
 2. **Review `.claude/skills/`** - Detailed guidelines for term and reference validation

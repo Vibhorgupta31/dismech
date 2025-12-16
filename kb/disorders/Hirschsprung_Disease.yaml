@@ -608,12 +608,35 @@ genetic:
   association: Germline Mutations
   subtype: Autosomal Dominant
   notes: SOX10 is a core ENS regulatory gene involved in neural crest cell development and enteric nervous system formation. Mutations contribute to HSCR through shared transcriptional control with RET and EDNRB.
+  evidence:
+  - reference: PMID:9425902
+    supports: SUPPORT
+    snippet: We propose SOX10 as a candidate disease gene for individuals with HSCR whose disease does not have an identified genetic origin.
+    explanation: This foundational study identified SOX10 mutations as responsible for neural crest defects in Hirschsprung disease mouse models and proposed it as a human HSCR candidate gene.
+  - reference: PMID:20130826
+    supports: SUPPORT
+    snippet: Mutations in SOX10 are associated with several neurocristopathies such as Waardenburg syndrome type IV (WS4), a congenital disorder characterized by the association of hearing loss, pigmentary abnormalities, and absence of ganglion cells in the myenteric and submucosal plexus of the gastrointestinal tract, also known as aganglionic megacolon or Hirschsprung disease (HSCR).
+    explanation: This study reports the first SOX10 mutation in an isolated HSCR patient without syndromic features.
 - name: PHOX2B
   association: Germline Mutations
   notes: PHOX2B is a core ENS regulatory gene that controls neural crest cell differentiation and enteric ganglia development. It participates in gene regulatory networks with RET.
+  evidence:
+  - reference: PMID:41253684
+    supports: SUPPORT
+    snippet: Hirschsprung disease (HD) can be associated with congenital central hypoventilation syndrome (CCHS). CCHS is mostly due to PHOX2B pathogenic variants.
+    explanation: This report demonstrates the association between PHOX2B variants and Hirschsprung disease, particularly in syndromic cases with CCHS.
 - name: NRG1
   association: Germline Mutations
   notes: NRG1 (Neuregulin 1) is involved in neural crest cell migration and ENS development. It participates in gene regulatory networks controlling enteric nervous system formation.
+  evidence:
+  - reference: PMID:38169757
+    supports: SUPPORT
+    snippet: RET, NRG1, and L1CAM genes are reported as pathological gene variants associated with the incidence of different variants of Hirschsprung's disease.
+    explanation: This report lists NRG1 among the key genes associated with Hirschsprung disease variants.
+  - reference: PMID:34422713
+    supports: SUPPORT
+    snippet: The discovery of new HSCR genes such as neuregulin and BACE2 as well as the deeper understanding of the roles and mechanisms of known HSCR genes provided solid evidence that many HSCR cases are in the form of complex polygenic/oligogenic disorder where rare variants act in the sensitized background of HSCR-associated common variants.
+    explanation: This review identifies neuregulin (NRG1) as a newly discovered HSCR gene.
 - name: ZEB2
   association: Germline Mutations
   notes: ZEB2 is a transcription factor involved in neural crest cell development and enteric nervous system formation. Part of the gene regulatory network explaining RET-EDNRB epistasis.

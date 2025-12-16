@@ -333,12 +333,31 @@ genetic:
 - name: SYNGAP1
   association: Associated
   notes: Synaptic Ras GTPase-activating protein in NMDA receptor complex; loss-of-function variants reported in EMA cases; implicates excitatory synaptic dysfunction and altered dendritic spine/plasticity.
+  evidence:
+  - reference: PMID:30541864
+    supports: SUPPORT
+    snippet: Seizure types included eyelid myoclonia with absences (65%), myoclonic seizures (34%), atypical (20%) and typical (18%) absences, and atonic seizures (14%), triggered by eating in 25%.
+    explanation: This large cohort study of 57 SYNGAP1 patients found 65% had eyelid myoclonia with absences, demonstrating strong overlap with Jeavons syndrome phenotype.
+  - reference: PMID:34070602
+    supports: SUPPORT
+    snippet: Based on this, four genes could be associated to this syndrome (SYNGAP1, KIA02022/NEXMIF, RORB, and CHD2).
+    explanation: This review identifies SYNGAP1 as one of four candidate genes associated with eyelid myoclonia with absences (Jeavons syndrome).
 - name: NEXMIF
   association: Associated
   notes: Also known as KIAA2022; X-linked gene producing EMA-like phenotypes, often pharmacoresistant; female-predominant effects via X-inactivation/mosaicism; synaptic/neurodevelopmental dysfunction from haploinsufficiency.
+  evidence:
+  - reference: PMID:34070602
+    supports: SUPPORT
+    snippet: Based on this, four genes could be associated to this syndrome (SYNGAP1, KIA02022/NEXMIF, RORB, and CHD2).
+    explanation: This review identifies NEXMIF (KIAA2022) as one of four candidate genes associated with eyelid myoclonia with absences (Jeavons syndrome).
 - name: RORB
   association: Associated
   notes: Nuclear receptor involved in neuronal differentiation; alterations reported in some EMA cases; may affect cortical network development/excitability.
+  evidence:
+  - reference: PMID:34070602
+    supports: SUPPORT
+    snippet: Based on this, four genes could be associated to this syndrome (SYNGAP1, KIA02022/NEXMIF, RORB, and CHD2).
+    explanation: This review identifies RORB as one of four candidate genes associated with eyelid myoclonia with absences (Jeavons syndrome).
 - name: CHD2
   association: Associated
   notes: Chromatin remodeling dysfunction may perturb neuronal gene expression and cortical excitability; variants observed in EMA cases with GTCS comorbidity.
@@ -351,6 +370,10 @@ genetic:
     explanation: The literature indicates that CHD2 mutations may overlap with phenotypes
       seen in Jeavons Syndrome, but it does not specifically state a direct genetic
       association exclusive to Jeavons Syndrome.
+  - reference: PMID:34070602
+    supports: SUPPORT
+    snippet: Based on this, four genes could be associated to this syndrome (SYNGAP1, KIA02022/NEXMIF, RORB, and CHD2).
+    explanation: This review identifies CHD2 as one of four candidate genes associated with eyelid myoclonia with absences (Jeavons syndrome).
 - name: CSNK2B
   association: Associated
   notes: Casein kinase 2 beta; de novo missense variant reported in child with eyelid myoclonia; influences neuronal development and Wnt/β-catenin signaling; proposed novel candidate gene.
@@ -368,9 +391,19 @@ genetic:
 - name: KCNB1
   association: Associated
   notes: Voltage-gated potassium channel Kv2.1; rare variants reported in EMA-like presentations; perturbation can change neuronal repolarization and network excitability.
+  evidence:
+  - reference: PMID:34070602
+    supports: PARTIAL
+    snippet: Moreover, although there is not enough evidence yet to consider them as candidate for EMA, three more genes present also different alterations in some patients with clinical diagnosis of the disease (SLC2A1, NAA10, and KCNB1).
+    explanation: This review notes KCNB1 alterations in some EMA patients, though evidence is limited.
 - name: NAA10
   association: Associated
   notes: N-terminal acetyltransferase; rare EMA reports; N-terminal acetylation defects could impact multiple neuronal proteins and circuit development.
+  evidence:
+  - reference: PMID:34070602
+    supports: PARTIAL
+    snippet: Moreover, although there is not enough evidence yet to consider them as candidate for EMA, three more genes present also different alterations in some patients with clinical diagnosis of the disease (SLC2A1, NAA10, and KCNB1).
+    explanation: This review notes NAA10 alterations in some EMA patients, though evidence is limited.
 - name: GABRA1
   association: Associated
   evidence:

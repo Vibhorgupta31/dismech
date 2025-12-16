@@ -268,7 +268,7 @@ slots:
     range: string
   description:
     range: string
-    recommended: true
+    # recommended: true
   preferred_term:
     description: The preferred human-readable term for this descriptor
     range: string
@@ -838,6 +838,7 @@ classes:
           A description of the descriptor. This may typically be redundant with the `term` object, but the
           description is more human-readable and may be used to communicate nuances not captured by the
           rigid standardization of the term object.
+        recommended: false
 
   # Post-composition classes
   Qualifier:
@@ -1009,6 +1010,13 @@ classes:
       - publication
       - evidence
       - notes
+    slot_usage:
+      description:
+        description: >-
+          A description of the dataset. This may typically be redundant with the `title` slot, but the
+          description is more human-readable and may be used to communicate nuances not captured by the
+          rigid standardization of the title slot.
+        recommended: true
 
   Subtype:
     slots:
