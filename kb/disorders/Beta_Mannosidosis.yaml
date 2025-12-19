@@ -48,7 +48,7 @@ pathophysiology:
           id: UBERON:0000955
           label: brain
     evidence:
-      - reference: DOI:10.1186/s13023-020-01508-3
+      - reference: PMID:32847582
         supports: SUPPORT
         snippet: >-
           a rare lysosomal storage disorder named beta-mannosidosis whose clinical
@@ -66,7 +66,7 @@ phenotypes:
         id: HP:0001249
         label: Intellectual disability
     evidence:
-      - reference: DOI:10.1186/s13023-020-01508-3
+      - reference: PMID:32847582
         supports: SUPPORT
         snippet: >-
           clinical manifestation includes deafness and mental retardation
@@ -83,7 +83,7 @@ phenotypes:
         id: HP:0000407
         label: Sensorineural hearing impairment
     evidence:
-      - reference: DOI:10.1186/s13023-020-01508-3
+      - reference: PMID:32847582
         supports: SUPPORT
         snippet: >-
           10 beta-mannosidosis patients of Roma origin from eight families in the
@@ -117,7 +117,7 @@ genetic:
     inheritance:
       - name: Autosomal recessive
     evidence:
-      - reference: DOI:10.1186/s13023-020-01508-3
+      - reference: PMID:32847582
         supports: SUPPORT
         snippet: >-
           carrier/heterozygote frequency of 3.77%. This is about 925 times higher

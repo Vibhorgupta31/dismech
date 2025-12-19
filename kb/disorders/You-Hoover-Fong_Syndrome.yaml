@@ -38,7 +38,7 @@ pathophysiology:
           id: UBERON:0000955
           label: brain
     evidence:
-      - reference: DOI:10.1371/journal.pone.0244505
+      - reference: PMID:33444416
         supports: SUPPORT
         snippet: >-
           the human counterpart of CLK-2/TEL2, TELO2, has been also implicated in
@@ -56,7 +56,7 @@ phenotypes:
         id: HP:0001263
         label: Global developmental delay
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           global development delay complicated with postnatal growth retardation
@@ -73,13 +73,13 @@ phenotypes:
         id: HP:0001249
         label: Intellectual disability
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           extremely severe mental retardation
         explanation: >-
           Severe intellectual disability is a core feature documented in YHFS cases.
-      - reference: DOI:10.1371/journal.pone.0244505
+      - reference: PMID:33444416
         supports: SUPPORT
         snippet: >-
           variants of TELO2 have been linked to an intellectual disability disorder,
@@ -95,7 +95,7 @@ phenotypes:
         id: HP:0000252
         label: Microcephaly
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           microcephaly
@@ -110,7 +110,7 @@ phenotypes:
         id: HP:0000518
         label: Cataract
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           congenital cataract
@@ -134,7 +134,7 @@ phenotypes:
         id: HP:0000365
         label: Hearing impairment
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           abnormal hearing
@@ -157,7 +157,7 @@ phenotypes:
         id: HP:0001627
         label: Abnormal heart morphology
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           congenital atrial septal defect
@@ -173,7 +173,7 @@ genetic:
     inheritance:
       - name: Autosomal recessive
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           two compound heterozygous mutations, including a likely pathogenic TELO2
@@ -201,7 +201,7 @@ treatments:
         id: MAXO:0000004
         label: surgical procedure
     evidence:
-      - reference: DOI:10.1515/biol-2022-0602
+      - reference: PMID:37215500
         supports: SUPPORT
         snippet: >-
           After bilateral cataract surgery, the infant obtained better visual acuity
