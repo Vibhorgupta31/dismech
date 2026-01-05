@@ -124,6 +124,63 @@ phenotypes:
         supports: SUPPORT
         snippet: "Additionally, postnatal optic nerve atrophy was diagnosed."
         explanation: Manotas et al. 2021 documents postnatal optic nerve atrophy in a TARP syndrome patient, expanding the known systemic manifestations of this condition.
+  - name: Intellectual disability
+    category: Neurologic
+    frequency: VERY_FREQUENT
+    diagnostic: false
+    description: Severe to profound intellectual disability, a consistent feature across TARP syndrome cases affecting cognitive development and learning.
+    phenotype_term:
+      preferred_term: Intellectual disability
+      term:
+        id: HP:0001249
+        label: Intellectual disability
+    evidence:
+      - reference: PMID:30462380
+        supports: SUPPORT
+        snippet: "He was diagnosed with severe to profound intellectual disability in early childhood and had not developed language at age 28 years."
+        explanation: Højland et al. 2018 documents severe to profound intellectual disability in the first reported adult TARP patient, confirming this as a consistent and persistent feature.
+  - name: Esotropia
+    category: Ophthalmic
+    frequency: RARE
+    description: Inward deviation of the eye(s), an ophthalmic manifestation documented in adult TARP syndrome.
+    phenotype_term:
+      preferred_term: Esotropia
+      term:
+        id: HP:0000565
+        label: Esotropia
+    evidence:
+      - reference: PMID:30462380
+        supports: SUPPORT
+        snippet: "Clinical examination of the patient revealed sloping forehead, prominent nasal bridge and nose, high myopia, esotropia, displacement of lacrimal points in the cranial direction"
+        explanation: Højland et al. 2018 documents esotropia as an ophthalmic finding in an adult TARP patient, expanding the known ocular manifestations of the syndrome.
+  - name: Scoliosis
+    category: Skeletal
+    frequency: RARE
+    description: Abnormal lateral curvature of the spine; rare skeletal manifestation requiring surgical intervention in some TARP patients.
+    phenotype_term:
+      preferred_term: Scoliosis
+      term:
+        id: HP:0002650
+        label: Scoliosis
+    evidence:
+      - reference: PMID:30462380
+        supports: SUPPORT
+        snippet: "Surgery for severe thoracolumbar scoliosis was performed at age 21 years."
+        explanation: Højland et al. 2018 documents severe thoracolumbar scoliosis in an adult TARP patient, a previously unreported manifestation of TARP syndrome.
+  - name: Prominent nose
+    category: Craniofacial
+    frequency: RARE
+    description: Abnormally prominent nasal structure, part of the expanding craniofacial phenotype in TARP syndrome.
+    phenotype_term:
+      preferred_term: Prominent nose
+      term:
+        id: HP:0000448
+        label: Prominent nose
+    evidence:
+      - reference: PMID:30462380
+        supports: SUPPORT
+        snippet: "Clinical examination of the patient revealed sloping forehead, prominent nasal bridge and nose, high myopia, esotropia"
+        explanation: Højland et al. 2018 documents prominent nose and nasal bridge as craniofacial features in an adult TARP patient, expanding the phenotypic spectrum beyond the initially described cardinal features.
 pathophysiology:
   - name: RBM10-mediated alternative splicing dysregulation
     description: >-
