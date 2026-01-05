@@ -24,6 +24,19 @@ pathophysiology:
     explanation: Establishes PIGL mutations as the cause of CHIME syndrome and describes the gene's role in GPI anchor biosynthesis.
 - name: GPI Anchor Deficiency
   description: Reduced levels of GPI-anchored proteins on cell surface due to impaired biosynthesis, affecting normal cellular functions and signaling pathways. This leads to the multisystem phenotype characteristic of CHIME syndrome.
+  biological_processes:
+  - preferred_term: cell adhesion
+    term:
+      id: GO:0007155
+      label: cell adhesion
+  - preferred_term: signal transduction
+    term:
+      id: GO:0007165
+      label: signal transduction
+  - preferred_term: immune response
+    term:
+      id: GO:0006955
+      label: immune response
   evidence:
   - reference: PMID:22444671
     supports: SUPPORT
