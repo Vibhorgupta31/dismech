@@ -90,6 +90,30 @@ phenotypes:
         supports: SUPPORT
         snippet: "Vitelline vascular remnants (VVR) are a rare vitelline duct anomaly with approximately 26 cases previously reported. There are no previously reported cases of VVRs in patients with TARP syndrome."
         explanation: Omorodion et al. 2023 documents the first reported case of vitelline vascular remnant causing intestinal obstruction in a TARP syndrome patient, expanding the known phenotypic spectrum.
+  - name: Horseshoe kidney
+    category: Renal
+    frequency: RARE
+    description: Fusion of the bilateral kidneys at the lower poles, forming a horseshoe-shaped structure; rare renal malformation reported in TARP syndrome.
+    evidence:
+      - reference: PMID:34031074
+        supports: SUPPORT
+        snippet: "intrauterine growth restriction, with a persistent left superior vena cava, interatrial communication and a horseshoe kidney"
+        explanation: Manotas et al. 2021 documents a TARP syndrome patient with horseshoe kidney, a previously unreported renal manifestation in this syndrome.
+  - name: Optic nerve atrophy
+    category: Ophthalmic
+    frequency: RARE
+    diagnostic: false
+    description: Degeneration and loss of optic nerve tissue leading to reduced visual function; rare ophthalmic manifestation in TARP syndrome.
+    phenotype_term:
+      preferred_term: Optic atrophy
+      term:
+        id: HP:0000648
+        label: Optic atrophy
+    evidence:
+      - reference: PMID:34031074
+        supports: SUPPORT
+        snippet: "Additionally, postnatal optic nerve atrophy was diagnosed."
+        explanation: Manotas et al. 2021 documents postnatal optic nerve atrophy in a TARP syndrome patient, expanding the known systemic manifestations of this condition.
 pathophysiology:
   - name: RBM10-mediated alternative splicing dysregulation
     description: >-
@@ -258,7 +282,8 @@ notes: |
   may present with syndactyly, polydactyly, or brain anomalies including cerebellar vermis hypoplasia, ventriculomegaly,
   and corpus callosum thinning. Rare hepatic manifestations including neonatal cholestasis with elevated alpha-fetoprotein
   have been documented in survival cases. Rare gastrointestinal complications including vitelline vascular remnants causing
-  intestinal obstruction have also been reported in TARP patients.
+  intestinal obstruction have also been reported in TARP patients. Additional rare manifestations include renal malformations
+  (horseshoe kidney) and ophthalmic involvement (optic nerve atrophy), indicating the broad multisystem nature of this disorder.
 
   The molecular basis of TARP syndrome involves loss-of-function mutations in RBM10 on chromosome Xp11.23. RBM10 functions
   as a U2-associated splicing repressor that promotes cassette exon skipping through interaction with U2 snRNP at intron
@@ -283,6 +308,9 @@ notes: |
 
   Lane et al. 2023 (BMJ Case Reports): Clinical characterization of TARP with RBM10 splice mutations and improved survival.
   PMID: 36944446 | DOI: 10.1136/bcr-2022-253035
+
+  Manotas et al. 2021 (BMJ Case Reports): TARP syndrome with renal malformation (horseshoe kidney) and optic nerve atrophy.
+  PMID: 34031074 | DOI: 10.1136/bcr-2020-240601
 
   Omorodion et al. 2023 (Birth Defects Research): TARP syndrome case with vitelline vascular remnant causing intestinal obstruction.
   PMID: 37340830 | DOI: 10.1002/bdr2.2212
