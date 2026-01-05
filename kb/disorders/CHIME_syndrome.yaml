@@ -44,12 +44,12 @@ pathophysiology:
     explanation: Demonstrates functional consequences of PIGL mutations showing reduced GPI anchor markers in patient cells.
 phenotypes:
 - category: Ophthalmic
-  name: Retinal Coloboma
+  name: Chorioretinal Coloboma
   frequency: VERY_FREQUENT
   diagnostic: true
-  notes: Ocular colobomas are a defining feature of CHIME syndrome, reflecting disrupted morphogen signaling and cell adhesion during optic fissure closure.
+  notes: Chorioretinal colobomas are a defining feature of CHIME syndrome, characterized by absence of regions of the retina, retinal pigment epithelium, and choroid. These reflect disrupted morphogen signaling and cell adhesion during optic fissure closure.
   phenotype_term:
-    preferred_term: Retinal coloboma
+    preferred_term: Chorioretinal coloboma
     term:
       id: HP:0000567
       label: Chorioretinal coloboma
