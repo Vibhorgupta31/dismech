@@ -13,7 +13,7 @@ phenotypes:
     category: Neurologic
     frequency: OBLIGATE
     diagnostic: true
-    description: Moderate to severe intellectual disability with delayed developmental milestones. Variable severity ranging from learning disabilities to developmental delay.
+    description: Moderate to severe intellectual disability with delayed developmental milestones. Variable severity ranging from learning disabilities to developmental delay, with some cases showing normal or above-average cognitive function.
     phenotype_term:
       preferred_term: Intellectual disability
       term:
@@ -28,6 +28,10 @@ phenotypes:
         supports: SUPPORT
         snippet: "Grange syndrome (GRNG-MIM#135580) is a rare recessive disorder associating variable features including diffuse vascular stenosis, brachysyndactyly, osteopenia with increased bone fragility, cardiac malformations, and variable developmental delay."
         explanation: Viora-Dupont et al. 2023 case report documenting variable developmental delay as a feature of Grange syndrome with newly identified intragenic deletion in YY1AP1.
+      - reference: PMID:30556293
+        supports: PARTIAL
+        snippet: "Learning disabilities, brachysyndactyly, bone fragility, and congenital heart defects seem to be the most variable features of Grange syndrome... Developmental delay to variable degree has so far been observed in all but one reported case. Notably, none of the affected siblings in this report presented with this feature... Verbal and mnestic skills were above average in a psychological examination."
+        explanation: Rath et al. 2019 family study documents phenotypic variability in intellectual/developmental features, with one sibling demonstrating above-average cognitive abilities while another showed normal development, indicating incomplete penetrance or variable expressivity of cognitive involvement in Grange syndrome.
   - name: Micrognathia
     category: Craniofacial
     frequency: VERY_FREQUENT
@@ -66,7 +70,7 @@ phenotypes:
     category: Limb
     frequency: VERY_FREQUENT
     diagnostic: true
-    description: Shortened fingers and toes with webbing or fusion between digits.
+    description: Shortened fingers and toes with webbing or fusion between digits, often requiring surgical correction in childhood.
     phenotype_term:
       preferred_term: Brachysyndactyly
       term:
@@ -81,11 +85,15 @@ phenotypes:
         supports: SUPPORT
         snippet: "a 3-year-old girl with brachysyndactyly, renal artery stenosis with hypertension, and bone fragility."
         explanation: Wallerstein et al. 2006 early case report documenting brachysyndactyly as a consistent feature in Grange syndrome.
+      - reference: PMID:30556293
+        supports: SUPPORT
+        snippet: "she still has bilateral cutaneous syndactyly of her second and third toes... Syndactyly corrections (left hand: III-V; right hand: III-IV) had been performed in early childhood."
+        explanation: Rath et al. 2019 family study documents variable syndactyly presentation requiring surgical correction, highlighting the consistent acral involvement in Grange syndrome.
   - name: Hypertension
     category: Cardiovascular
     frequency: VERY_FREQUENT
     diagnostic: true
-    description: Elevated blood pressure resulting from vascular stenosis and renal artery involvement.
+    description: Elevated blood pressure resulting from vascular stenosis and renal artery involvement, often presenting in childhood and contributing to serious vascular complications.
     phenotype_term:
       preferred_term: Hypertension
       term:
@@ -100,6 +108,10 @@ phenotypes:
         supports: SUPPORT
         snippet: "a 3-year-old girl with brachysyndactyly, renal artery stenosis with hypertension, and bone fragility."
         explanation: Wallerstein et al. 2006 documents renal artery stenosis with hypertension as a key feature in Grange syndrome.
+      - reference: PMID:22987684
+        supports: SUPPORT
+        snippet: "Grange syndrome is a disorder characterized by arterial occlusive disease, hypertension, congenital cardiac defects, bone fragility, brachysyndactyly, and learning disabilities."
+        explanation: Volonghi et al. 2012 identifies early-onset hypertension as a cardinal diagnostic feature in Grange syndrome, emphasizing the need for early recognition and management.
 pathophysiology:
   - name: YY1AP1 Loss-of-Function and INO80 Chromatin Remodeling Defect
     description: Biallelic loss-of-function mutations in YY1AP1 disrupt the INO80 ATP-dependent chromatin-remodeling complex, impairing transcriptional programs essential for vascular smooth muscle cell (VSMC) differentiation and homeostasis. YY1AP1 deficiency leads to increased p21/CDKN1A levels, G1/G2 cell-cycle arrest, reduced VSMC proliferation, and impaired TGF-β–driven upregulation of contractile markers (SM α-actin, SM22α, calponin), resulting in focal stenoses and occlusions in multiple arterial beds, particularly renal and intracranial arteries.
@@ -133,6 +145,10 @@ pathophysiology:
         supports: SUPPORT
         snippet: "Grange syndrome (OMIM 602531) is characterized by a constellation of symptoms of hypertension, stenosis, or occlusion of different arteries (including the cerebral, renal, abdominal, and coronary vessels) with a variable occurrence of brachysyndactyly, bone fragility, and congenital heart defects."
         explanation: Karakaya et al. 2023 case report of the youngest documented patient with Grange syndrome confirming the characteristic vascular manifestations resulting from YY1AP1 loss-of-function.
+      - reference: PMID:22987684
+        supports: SUPPORT
+        snippet: "We report on the case of an 18-year-old female presenting with subarachnoid hemorrhage due to the rupture of a basilar artery aneurysm, and with distinctive systemic features including extensive vasculopathy, facial dysmorphisms and brachysyndactyly, consistent with the diagnosis of Grange syndrome."
+        explanation: Volonghi et al. 2012 documents severe cerebrovascular complications including subarachnoid hemorrhage from basilar artery aneurysm in an 18-year-old Grange syndrome patient, demonstrating the serious neurological sequelae of YY1AP1-mediated vascular disease.
 genetic:
   - name: YY1AP1
     association: Causal
@@ -154,6 +170,10 @@ genetic:
         supports: SUPPORT
         snippet: "Copy number variant analysis from exome data identified a homozygous intragenic out-of-frame deletion of 1.84 kb encompassing exons seven and eight of YY1AP1, confirming a molecular diagnosis of GRNG."
         explanation: Viora-Dupont et al. 2023 reports the first homozygous intragenic deletion in YY1AP1, expanding the spectrum of pathogenic mutations that cause Grange syndrome beyond frameshift and nonsense variants.
+      - reference: PMID:30556293
+        supports: SUPPORT
+        snippet: "Whole exome sequencing including near-splice regions led to the identification of two intronic YY1AP1 variants which were predicted to interfere with normal splicing... RT-PCR analyses confirmed skipping of exon 6 on one allele and exonization of 22 bp in intron 6 on the other."
+        explanation: Rath et al. 2019 reports the first identification of pathogenic YY1AP1 splice variants in intronic regions causing Grange syndrome, expanding the mutation spectrum to include deep intronic variants that would be missed by standard exome sequencing.
 treatments:
   - name: Antithrombotic Therapy
     description: Antiplatelet agents to reduce thrombotic risk in patients with arterial stenosis.
