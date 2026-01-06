@@ -25,9 +25,9 @@ phenotypes:
         snippet: "whose symptoms include stenosis or occlusion of multiple arteries, congenital heart defects, brachydactyly, syndactyly, bone fragility, and learning disabilities."
         explanation: Raggio et al. 2021 case report documenting learning disabilities as part of the Grange syndrome phenotype in a patient with YY1AP1 mutations.
       - reference: PMID:37698238
-        supports: SUPPORT
+        supports: PARTIAL
         snippet: "Grange syndrome (GRNG-MIM#135580) is a rare recessive disorder associating variable features including diffuse vascular stenosis, brachysyndactyly, osteopenia with increased bone fragility, cardiac malformations, and variable developmental delay."
-        explanation: Viora-Dupont et al. 2023 case report documenting variable developmental delay as a feature of Grange syndrome with newly identified intragenic deletion in YY1AP1.
+        explanation: Viora-Dupont et al. 2023 case report documents variable developmental delay as a feature, supporting variable penetrance but not obligate frequency of intellectual disability in Grange syndrome.
       - reference: PMID:30556293
         supports: PARTIAL
         snippet: "Learning disabilities, brachysyndactyly, bone fragility, and congenital heart defects seem to be the most variable features of Grange syndrome... Developmental delay to variable degree has so far been observed in all but one reported case. Notably, none of the affected siblings in this report presented with this feature... Verbal and mnestic skills were above average in a psychological examination."
@@ -49,9 +49,9 @@ phenotypes:
         explanation: Volonghi et al. 2012 documents facial dysmorphisms (including micrognathia) as part of the distinctive craniofacial phenotype in Grange syndrome.
   - name: Hypertelorism
     category: Craniofacial
-    frequency: VERY_FREQUENT
-    diagnostic: true
-    description: Increased distance between the inner canthi of the eyes.
+    frequency: FREQUENT
+    diagnostic: false
+    description: Increased distance between the inner canthi of the eyes, documented in some Grange syndrome cases but not uniformly present.
     phenotype_term:
       preferred_term: Hypertelorism
       term:
@@ -61,11 +61,7 @@ phenotypes:
       - reference: PMID:27939641
         supports: SUPPORT
         snippet: "Grange syndrome is an autosomal-recessive condition characterized by severe and early-onset vascular disease similar to FMD and variable penetrance of brachydactyly, syndactyly, bone fragility, and learning disabilities."
-        explanation: Guo et al. 2017 defines the clinical phenotype of Grange syndrome including the craniofacial features associated with YY1AP1 loss-of-function mutations.
-      - reference: PMID:37698238
-        supports: SUPPORT
-        snippet: "In a patient with cutaneous and bone syndactyly and a hemorrhagic stroke at the age of 16 months, consistent with a clinical diagnosis of GRNG"
-        explanation: Viora-Dupont et al. 2023 documents syndactyly as a key feature in Grange syndrome, part of the broader acral and craniofacial phenotype.
+        explanation: Guo et al. 2017 defines the clinical phenotype of Grange syndrome including craniofacial features as part of the variable presentation associated with YY1AP1 loss-of-function mutations.
   - name: Brachydactyly
     category: Limb
     frequency: VERY_FREQUENT
@@ -128,8 +124,8 @@ phenotypes:
         snippet: "Grange syndrome is a disorder characterized by arterial occlusive disease, hypertension, congenital cardiac defects, bone fragility, brachysyndactyly, and learning disabilities."
         explanation: Volonghi et al. 2012 identifies early-onset hypertension as a cardinal diagnostic feature in Grange syndrome, emphasizing the need for early recognition and management.
 pathophysiology:
-  - name: YY1AP1 Loss-of-Function and INO80 Chromatin Remodeling Defect
-    description: Biallelic loss-of-function mutations in YY1AP1 disrupt the INO80 ATP-dependent chromatin-remodeling complex, impairing transcriptional programs essential for vascular smooth muscle cell (VSMC) differentiation and homeostasis. YY1AP1 deficiency leads to increased p21/CDKN1A levels, G1/G2 cell-cycle arrest, reduced VSMC proliferation, and impaired TGF-β–driven upregulation of contractile markers (SM α-actin, SM22α, calponin), resulting in focal stenoses and occlusions in multiple arterial beds, particularly renal and intracranial arteries.
+  - name: YY1AP1 Loss-of-Function and INO80 Chromatin Remodeling Complex Disruption
+    description: Biallelic loss-of-function mutations in YY1AP1 disrupt the INO80 ATP-dependent chromatin-remodeling complex, impairing transcriptional programs essential for vascular smooth muscle cell (VSMC) differentiation and homeostasis.
     biological_processes:
       - preferred_term: chromatin remodeling
         term:
@@ -139,14 +135,6 @@ pathophysiology:
         term:
           id: GO:0006355
           label: regulation of transcription, DNA-templated
-      - preferred_term: smooth muscle cell differentiation
-        term:
-          id: GO:0051145
-          label: smooth muscle cell differentiation
-      - preferred_term: cell cycle G1/S transition
-        term:
-          id: GO:0001542
-          label: G1/S transition checkpoint
     evidence:
       - reference: PMID:27939641
         supports: SUPPORT
@@ -164,6 +152,26 @@ pathophysiology:
         supports: SUPPORT
         snippet: "We report on the case of an 18-year-old female presenting with subarachnoid hemorrhage due to the rupture of a basilar artery aneurysm, and with distinctive systemic features including extensive vasculopathy, facial dysmorphisms and brachysyndactyly, consistent with the diagnosis of Grange syndrome."
         explanation: Volonghi et al. 2012 documents severe cerebrovascular complications including subarachnoid hemorrhage from basilar artery aneurysm in an 18-year-old Grange syndrome patient, demonstrating the serious neurological sequelae of YY1AP1-mediated vascular disease.
+  - name: Vascular Smooth Muscle Cell Dysfunction and Arterial Stenosis
+    description: Loss of YY1AP1 in vascular smooth muscle cells leads to increased p21/CDKN1A levels, G1/G2 cell-cycle arrest, reduced VSMC proliferation, and impaired TGF-β-driven upregulation of contractile markers (SM α-actin, SM22α, calponin), resulting in focal stenoses and occlusions in multiple arterial beds.
+    biological_processes:
+      - preferred_term: smooth muscle cell differentiation
+        term:
+          id: GO:0051145
+          label: smooth muscle cell differentiation
+      - preferred_term: cell cycle arrest
+        term:
+          id: GO:0007050
+          label: cell cycle arrest
+    evidence:
+      - reference: PMID:27939641
+        supports: SUPPORT
+        snippet: "Loss of YY1AP1 in vascular smooth muscle cells leads to cell cycle arrest with decreased proliferation and increased levels of the cell cycle regulator p21/WAF/CDKN1A and disrupts TGF-β-driven differentiation of smooth muscle cells."
+        explanation: Guo et al. 2017 landmark mechanistic study demonstrating cellular basis of YY1AP1 loss-of-function in VSMC dysfunction.
+      - reference: PMID:33971976
+        supports: SUPPORT
+        snippet: "This gene is related to Grange syndrome, a recessive rare disease, whose symptoms include stenosis or occlusion of multiple arteries, congenital heart defects, brachydactyly, syndactyly, bone fragility, and learning disabilities."
+        explanation: Raggio et al. 2021 case report confirming systemic vascular stenosis as cardinal manifestation of YY1AP1 loss-of-function.
 genetic:
   - name: YY1AP1
     association: Causal
@@ -228,11 +236,7 @@ treatments:
         explanation: Raggio et al. 2021 case report documents bilateral indirect cerebral revascularization as therapeutic intervention for severe stenosis of internal carotid and vertebral arteries in a pediatric Grange syndrome patient.
   - name: Vascular Intervention
     description: Percutaneous balloon angioplasty for renal artery stenosis and renovascular hypertension.
-    treatment_term:
-      preferred_term: surgical procedure
-      term:
-        id: MAXO:0000004
-        label: surgical procedure
+    notes: "Current MAXO/NCIT terminology insufficient: balloon angioplasty is an interventional radiology procedure distinct from general surgical procedures. Candidate terms: MAXO:0010030 (percutaneous transluminal angioplasty) or NCIT-derived interventional radiology codes would be more appropriate."
     evidence:
       - reference: PMID:33971976
         supports: SUPPORT
