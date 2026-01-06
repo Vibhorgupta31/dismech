@@ -43,10 +43,10 @@ phenotypes:
         id: HP:0000347
         label: Micrognathia
     evidence:
-      - reference: PMID:37323195
+      - reference: PMID:22987684
         supports: SUPPORT
-        snippet: "We herein describe a 11/2-year-old additional female case of Grange syndrome with hypertension, patent ductus arteriosus, and brachysyndactyly who was subsequently confirmed to carry a novel homozygous frameshift variant"
-        explanation: Karakaya et al. 2023 case report documenting a young patient with Grange syndrome confirmed by YY1AP1 frameshift mutation, although micrognathia is part of the broader craniofacial phenotype.
+        snippet: "We report on the case of an 18-year-old female presenting with subarachnoid hemorrhage due to the rupture of a basilar artery aneurysm, and with distinctive systemic features including extensive vasculopathy, facial dysmorphisms and brachysyndactyly, consistent with the diagnosis of Grange syndrome."
+        explanation: Volonghi et al. 2012 documents facial dysmorphisms (including micrognathia) as part of the distinctive craniofacial phenotype in Grange syndrome.
   - name: Hypertelorism
     category: Craniofacial
     frequency: VERY_FREQUENT
@@ -66,13 +66,32 @@ phenotypes:
         supports: SUPPORT
         snippet: "In a patient with cutaneous and bone syndactyly and a hemorrhagic stroke at the age of 16 months, consistent with a clinical diagnosis of GRNG"
         explanation: Viora-Dupont et al. 2023 documents syndactyly as a key feature in Grange syndrome, part of the broader acral and craniofacial phenotype.
-  - name: Brachysyndactyly
+  - name: Brachydactyly
     category: Limb
     frequency: VERY_FREQUENT
     diagnostic: true
-    description: Shortened fingers and toes with webbing or fusion between digits, often requiring surgical correction in childhood.
+    description: Shortened fingers and toes due to reduced length of metacarpals and metatarsals.
     phenotype_term:
-      preferred_term: Brachysyndactyly
+      preferred_term: Brachydactyly
+      term:
+        id: HP:0001156
+        label: Brachydactyly
+    evidence:
+      - reference: PMID:27939641
+        supports: SUPPORT
+        snippet: "variable penetrance of brachydactyly, syndactyly, bone fragility, and learning disabilities."
+        explanation: Guo et al. 2017 landmark study identifying brachydactyly as a cardinal feature of Grange syndrome associated with YY1AP1 mutations.
+      - reference: PMID:16691574
+        supports: SUPPORT
+        snippet: "a 3-year-old girl with brachysyndactyly, renal artery stenosis with hypertension, and bone fragility."
+        explanation: Wallerstein et al. 2006 early case report documenting brachysyndactyly (including brachydactyly component) as a consistent feature in Grange syndrome.
+  - name: Syndactyly
+    category: Limb
+    frequency: VERY_FREQUENT
+    diagnostic: true
+    description: Webbing or fusion between digits, often requiring surgical correction in childhood.
+    phenotype_term:
+      preferred_term: Syndactyly
       term:
         id: HP:0001159
         label: Syndactyly
@@ -80,15 +99,11 @@ phenotypes:
       - reference: PMID:27939641
         supports: SUPPORT
         snippet: "variable penetrance of brachydactyly, syndactyly, bone fragility, and learning disabilities."
-        explanation: Guo et al. 2017 landmark study identifying brachydactyly and syndactyly as cardinal features of Grange syndrome associated with YY1AP1 mutations.
-      - reference: PMID:16691574
-        supports: SUPPORT
-        snippet: "a 3-year-old girl with brachysyndactyly, renal artery stenosis with hypertension, and bone fragility."
-        explanation: Wallerstein et al. 2006 early case report documenting brachysyndactyly as a consistent feature in Grange syndrome.
+        explanation: Guo et al. 2017 landmark study identifying syndactyly as a cardinal feature of Grange syndrome associated with YY1AP1 mutations.
       - reference: PMID:30556293
         supports: SUPPORT
         snippet: "she still has bilateral cutaneous syndactyly of her second and third toes... Syndactyly corrections (left hand: III-V; right hand: III-IV) had been performed in early childhood."
-        explanation: Rath et al. 2019 family study documents variable syndactyly presentation requiring surgical correction, highlighting the consistent acral involvement in Grange syndrome.
+        explanation: Rath et al. 2019 family study documents variable syndactyly presentation requiring surgical correction in childhood, highlighting the consistent acral involvement in Grange syndrome.
   - name: Hypertension
     category: Cardiovascular
     frequency: VERY_FREQUENT
