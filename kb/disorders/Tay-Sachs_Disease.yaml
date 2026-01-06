@@ -181,10 +181,30 @@ genetic:
 treatments:
 - name: Supportive Care
   description: Symptomatic management including seizure control, nutrition support, respiratory care.
+  evidence:
+  - reference: PMID:27491214
+    supports: SUPPORT
+    snippet: "Both are devastating diseases without cure or specific treatment however, with the use of supportive aggressive medical management, the lifespan and quality of life has been extended for both diseases."
+    explanation: Review confirms supportive care extends lifespan and quality of life in GM2 gangliosidoses including Tay-Sachs disease.
 - name: Genetic Counseling
   description: Carrier screening especially in high-risk populations.
+  evidence:
+  - reference: PMID:12108829
+    supports: SUPPORT
+    snippet: "Carrier testing for Tay-Sachs disease should be offered to couples when at least one individual is of Ashkenazi Jewish (carrier frequency 1/30), Pennsylvania Dutch, Southern Louisiana Cajun, or Eastern Quebec French Canadian descent."
+    explanation: Review establishes carrier screening recommendations for high-risk populations including Ashkenazi Jews.
 - name: Substrate Reduction Therapy
   description: Investigational approaches to reduce GM2 synthesis.
+  evidence:
+  - reference: PMID:27491214
+    supports: SUPPORT
+    snippet: "Treatment with FDA-approved glucose analogs to reduce the amount of ganglioside substrate is used as off-label treatments for some patients."
+    explanation: Review confirms substrate reduction therapy using glucose analogs is being used off-label in GM2 gangliosidoses.
 - name: Gene Therapy
   description: Experimental AAV-based gene therapy in clinical trials.
+  evidence:
+  - reference: PMID:35145305
+    supports: SUPPORT
+    snippet: "This study provides early safety and proof-of-concept data in humans for treatment of patients with TSD by AAV gene therapy."
+    explanation: First-in-human AAV gene therapy trial demonstrates safety and proof-of-concept for Tay-Sachs disease treatment.
 datasets:

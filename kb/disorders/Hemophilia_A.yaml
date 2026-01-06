@@ -46,10 +46,10 @@ pathophysiology:
       id: GO:0072378
       label: blood coagulation, fibrin clot formation
   evidence:
-  - reference: PMID:27890816
+  - reference: PMID:11806995
     supports: SUPPORT
-    snippet: "Joint bleeding induces synovial inflammation, cartilage degeneration and bone damage."
-    explanation: While focusing on joint damage, the review establishes the bleeding consequences of impaired clot formation in hemophilia.
+    snippet: "pharmacologic concentrations of factor VIIa cannot restore normal thrombin generation in hemophilia A and hemophilia B blood in vitro."
+    explanation: Study demonstrates that thrombin generation is fundamentally impaired in hemophilia A blood even with bypass therapy attempts.
 phenotypes:
 - name: Hemarthrosis
   category: Musculoskeletal
@@ -118,6 +118,11 @@ phenotypes:
     term:
       id: HP:0003645
       label: Prolonged partial thromboplastin time
+  evidence:
+  - reference: PMID:36409923
+    supports: SUPPORT
+    snippet: "Hemophilia A is a bleeding disorder caused by deficiency or low activity of circulating factor VIII characterized by prolonged blood coagulation time and often spontaneous bleeding."
+    explanation: Study confirms prolonged coagulation time as a defining characteristic of hemophilia A.
 biochemical:
 - name: Factor VIII Activity
   presence: Decreased
@@ -135,6 +140,11 @@ genetic:
 treatments:
 - name: Factor VIII Replacement
   description: Recombinant or plasma-derived factor VIII concentrate for bleeding episodes and prophylaxis.
+  evidence:
+  - reference: PMID:12640572
+    supports: SUPPORT
+    snippet: "Plasma-derived cryoprecipitate and factor (F) VIII concentrates, which have been used for hemophilia A patients, involve the risk of transmitting blood-borne diseases."
+    explanation: Review confirms factor VIII concentrates as established treatment for hemophilia A patients.
 - name: Emicizumab
   description: Bispecific antibody mimicking factor VIII function, subcutaneous prophylaxis.
   evidence:
@@ -144,8 +154,18 @@ treatments:
     explanation: Phase 3 HAVEN 3 trial demonstrates emicizumab mechanism and efficacy in hemophilia A without inhibitors.
 - name: Desmopressin (DDAVP)
   description: Releases endogenous factor VIII, useful in mild hemophilia A.
+  evidence:
+  - reference: PMID:12640572
+    supports: SUPPORT
+    snippet: "Desmopressin is today a widely used hemostatic agent not only in patients with mild hemophilia A or von Willebrand disease (vWD) but also in those with congenital or acquired platelet dysfunction."
+    explanation: Review confirms desmopressin as a widely used hemostatic agent in mild hemophilia A.
 - name: Antifibrinolytics
   description: Tranexamic acid or aminocaproic acid as adjunctive therapy.
+  evidence:
+  - reference: PMID:26704192
+    supports: SUPPORT
+    snippet: "Overall, the two included trials showed a beneficial effect of tranexamic acid and EACA, administered systemically, in reducing the number of bleedings, the amount of blood loss and the need for therapeutic clotting factor concentrates."
+    explanation: Cochrane systematic review confirms beneficial effect of tranexamic acid and aminocaproic acid in reducing bleeding in hemophilia patients.
 - name: Gene Therapy
   description: Emerging treatment using AAV vectors to deliver functional F8 gene.
   evidence:
