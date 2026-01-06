@@ -1,0 +1,65 @@
+name: Grange syndrome
+description: A rare autosomal recessive neurodevelopmental disorder characterized by intellectual disability, developmental delay, and distinctive craniofacial features including hypertelorism and micrognathia. The condition is caused by mutations in genes critical for embryonic development and neuronal function.
+category: Genetic
+parents:
+  - Neurodevelopmental Disorder
+synonyms:
+  - Grange-Brouzès syndrome
+prevalence:
+  - population: Global
+    percentage: 0.00001
+phenotypes:
+  - name: Intellectual disability
+    category: Neurologic
+    frequency: OBLIGATE
+    diagnostic: true
+    description: Moderate to severe intellectual disability with delayed developmental milestones.
+    phenotype_term:
+      preferred_term: Intellectual disability
+      term:
+        id: HP:0001249
+        label: Intellectual disability
+  - name: Micrognathia
+    category: Craniofacial
+    frequency: VERY_FREQUENT
+    diagnostic: true
+    description: Underdevelopment of the mandible, a characteristic craniofacial feature.
+    phenotype_term:
+      preferred_term: Micrognathia
+      term:
+        id: HP:0000347
+        label: Micrognathia
+  - name: Hypertelorism
+    category: Craniofacial
+    frequency: VERY_FREQUENT
+    diagnostic: true
+    description: Increased distance between the inner canthi of the eyes.
+    phenotype_term:
+      preferred_term: Hypertelorism
+      term:
+        id: HP:0000316
+        label: Hypertelorism
+pathophysiology: []
+genetic: []
+treatments:
+  - name: Supportive Care
+    description: Multidisciplinary care addressing developmental, neurological, and medical needs.
+    treatment_term:
+      preferred_term: supportive care
+      term:
+        id: MAXO:0000950
+        label: supportive care
+  - name: Educational Support
+    description: Special education services tailored to developmental disability.
+    treatment_term:
+      preferred_term: behavioral counseling
+      term:
+        id: MAXO:0000077
+        label: behavioral counseling
+review_notes: Grange syndrome is an extremely rare autosomal recessive neurodevelopmental disorder. Only a limited number of cases have been reported internationally. The condition presents with variable severity of intellectual disability and distinctive craniofacial features.
+disease_term:
+  preferred_term: grange syndrome
+  term:
+    id: MONDO:0011243
+    label: grange syndrome
+datasets:
