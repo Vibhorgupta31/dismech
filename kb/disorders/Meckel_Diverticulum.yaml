@@ -1,4 +1,9 @@
 name: Meckel Diverticulum
+disease_term:
+  preferred_term: Meckel diverticulum
+  term:
+    id: MONDO:0007955
+    label: Meckel diverticulum
 category: Congenital
 parents:
 - Gastrointestinal Disease
@@ -55,7 +60,7 @@ pathophysiology:
 phenotypes:
 - category: Gastrointestinal
   name: Gastrointestinal Bleeding
-  frequency: COMMON
+  frequency: FREQUENT
   notes: Painless lower gastrointestinal bleeding is the most common presentation in children, often due to peptic ulceration from ectopic gastric mucosa.
   phenotype_term:
     preferred_term: Gastrointestinal hemorrhage
@@ -81,7 +86,7 @@ phenotypes:
     explanation: This documents rare neonatal presentation with massive rectal bleeding in the first week of life.
 - category: Gastrointestinal
   name: Intestinal Obstruction
-  frequency: COMMON
+  frequency: FREQUENT
   notes: Bowel obstruction is a common complication in adults, often due to intussusception, volvulus, or band formation.
   phenotype_term:
     preferred_term: Intestinal obstruction
@@ -113,6 +118,11 @@ phenotypes:
   name: Diverticulitis
   frequency: OCCASIONAL
   notes: Inflammation of the diverticulum (diverticulitis) may present similarly to appendicitis.
+  phenotype_term:
+    preferred_term: diverticulitis
+    term:
+      id: MONDO:0004235
+      label: diverticulitis
   evidence:
   - reference: PMID:8506491
     supports: SUPPORT
@@ -130,6 +140,11 @@ phenotypes:
   name: Intestinal Perforation
   frequency: OCCASIONAL
   notes: Perforation of the diverticulum can occur, leading to peritonitis and acute abdomen.
+  phenotype_term:
+    preferred_term: intestinal perforation
+    term:
+      id: MONDO:0006807
+      label: intestinal perforation
   evidence:
   - reference: PMID:17021300
     supports: SUPPORT
@@ -147,6 +162,11 @@ phenotypes:
   name: Intussusception
   frequency: OCCASIONAL
   notes: Meckel diverticulum can serve as a lead point for intussusception.
+  phenotype_term:
+    preferred_term: intussusception
+    term:
+      id: MONDO:0007835
+      label: intussusception
   evidence:
   - reference: PMID:17021300
     supports: SUPPORT
@@ -158,7 +178,7 @@ phenotypes:
     explanation: This notes that Meckel diverticulum as a lead point for intussusception is uncommon in adults.
 - category: Gastrointestinal
   name: Ectopic Gastric Mucosa
-  frequency: COMMON
+  frequency: FREQUENT
   notes: Approximately 50-60% of symptomatic Meckel diverticula contain heterotopic gastric or pancreatic tissue, with gastric mucosa being more common.
   evidence:
   - reference: PMID:27064958
