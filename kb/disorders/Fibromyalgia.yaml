@@ -104,7 +104,7 @@ pathophysiology:
   cell_types:
   - preferred_term: Peripheral Sensory Neurons
     term:
-      id: CL:0000099
+      id: CL:0000101
       label: sensory neuron
   evidence:
   - reference: PMID:39062116
@@ -265,8 +265,8 @@ phenotypes:
   phenotype_term:
     preferred_term: Autonomic Dysfunction
     term:
-      id: HP:0002459
-      label: Dysautonomia
+      id: HP:0012332
+      label: Abnormal autonomic nervous system physiology
 biochemical:
 - name: Substance P
   presence: Elevated
@@ -372,22 +372,22 @@ treatments:
   treatment_term:
     preferred_term: psychotherapy
     term:
-      id: MAXO:0000016
-      label: psychotherapy
+      id: MAXO:0000077
+      label: behavioral counseling
 - name: Sleep Hygiene Education
   description: Behavioral interventions to improve sleep quality and reduce non-restorative sleep patterns.
   treatment_term:
     preferred_term: patient education
     term:
-      id: MAXO:0000072
-      label: patient education
+      id: MAXO:0000077
+      label: behavioral counseling
 - name: Mindfulness-Based Stress Reduction
   description: Meditation and mindfulness practices for pain management and stress reduction.
   treatment_term:
     preferred_term: behavioral intervention
     term:
-      id: MAXO:0010070
-      label: behavioral intervention
+      id: MAXO:0000010
+      label: cognitive and behavioral intervention
 - name: Aquatic Therapy
   description: Water-based exercise therapy for low-impact conditioning and pain relief.
   treatment_term:
