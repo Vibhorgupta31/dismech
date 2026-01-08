@@ -241,8 +241,8 @@ phenotypes:
     phenotype_term:
       preferred_term: Chronic kidney disease
       term:
-        id: HP:0000112
-        label: Nephropathy
+        id: HP:0012622
+        label: Chronic kidney disease
 
   - name: Left ventricular hypertrophy
     category: Cardiac
@@ -351,8 +351,8 @@ treatments:
     treatment_term:
       preferred_term: enzyme replacement therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0000933
+        label: enzyme replacement or supplementation therapy
     target_phenotypes:
       - Proteinuria
       - Chronic kidney disease
