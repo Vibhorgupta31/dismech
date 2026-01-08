@@ -890,6 +890,12 @@ slots:
     multivalued: true
     range: ComputationalModel
     inlined_as_list: true
+  differential_diagnoses:
+    description: Differential diagnoses - similar diseases that must be ruled out
+    multivalued: true
+    range: DifferentialDiagnosis
+    inlined_as_list: true
+    recommended: false
 
 classes:
   Any:
@@ -1132,6 +1138,27 @@ classes:
       - evidence
       - notes
 
+  DifferentialDiagnosis:
+    description: A disease or condition that presents similarly to the focal disease and must be differentiated
+    comments:
+      - Documents diseases/conditions with overlapping clinical presentations
+      - Includes distinguishing features to help differentiate from the focal disease
+      - Essential for clinical diagnostic accuracy
+    slots:
+      - name
+      - description
+      - phenotypes
+      - evidence
+      - notes
+      - disease_term
+    slot_usage:
+      description:
+        description: >-
+          Clinical or mechanistic similarities and key overlapping features with the focal disease
+      notes:
+        description: >-
+          Distinguishing features that help differentiate from the focal disease
+
   Subtype:
     slots:
       - name
@@ -1307,6 +1334,7 @@ classes:
       - modeling_considerations
       - epidemiology
       - diagnosis
+      - differential_diagnoses
       - synonyms
       - inheritance
       - animal_models
