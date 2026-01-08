@@ -37,7 +37,7 @@ jobs:
         run: uv tool install rust-just
 
       - name: Install project
-        run: uv sync
+        run: uv sync --dev
 
       - name: Generate disorder HTML pages
         run: just gen-pages
