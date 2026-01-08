@@ -397,6 +397,40 @@
         .biochemical-box .item-name { color: #92400e; }
         .biochemical-box .item-desc { color: #b45309; }
 
+        /* Datasets */
+        .dataset-box {
+            background: #f0f9ff;
+            border-left: 4px solid #0284c7;
+        }
+        .dataset-box .item-name { color: #0c4a6e; }
+        .dataset-box .item-desc { color: #0369a1; }
+
+        .tag-dataset {
+            background: #e0f2fe;
+            color: #0369a1;
+        }
+
+        .tag-organism {
+            background: #fae8ff;
+            color: #a21caf;
+        }
+
+        .tag-datatype {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .dataset-accession a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .dataset-accession a:hover {
+            text-decoration: underline;
+        }
+
         /* Subtypes */
         .subtype-box {
             background: #eef2ff;
@@ -588,6 +622,10 @@
             <div class="stat-item">
                 <div class="stat-value">3</div>
                 <div class="stat-label">Subtypes</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Datasets</div>
             </div>
         </div>
 
@@ -1256,15 +1294,15 @@
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
     Stroke[&#34;Stroke&#34;]
-    Pulmonary_Embolism[&#34;Pulmonary Embolism&#34;]
     Deep_Vein_Thrombosis[&#34;Deep Vein Thrombosis&#34;]
+    Pulmonary_Embolism[&#34;Pulmonary Embolism&#34;]
 
     Deep_Vein_Thrombosis --&gt; Pulmonary_Embolism
     Deep_Vein_Thrombosis --&gt; Stroke
 
     style Stroke fill:#fef3c7
-    style Pulmonary_Embolism fill:#fef3c7
-    style Deep_Vein_Thrombosis fill:#fef3c7</pre>
+    style Deep_Vein_Thrombosis fill:#fef3c7
+    style Pulmonary_Embolism fill:#fef3c7</pre>
             </div>
         </div>
         
@@ -1628,8 +1666,8 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0100602" target="_blank">
-                            HP:0100602
+                        <a href="https://monarchinitiative.org/disease/MONDO:0005081" target="_blank">
+                            MONDO:0005081
                         </a>
                     </span>
                     
@@ -2606,6 +2644,9 @@
         </div>
         
 
+        <!-- Datasets -->
+        
+
         <!-- YAML Source -->
         <div class="card">
             <div class="card-header" style="cursor: pointer;" onclick="toggleYaml()">
@@ -3125,8 +3166,8 @@ phenotypes:
   phenotype_term:
     preferred_term: Preeclampsia
     term:
-      id: HP:0100602
-      label: Preeclampsia
+      id: MONDO:0005081
+      label: preeclampsia
 - category: Hematologic
   frequency: FREQUENT
   name: Thrombocytopenia
