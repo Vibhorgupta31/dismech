@@ -346,6 +346,11 @@ slots:
     range: EvidenceItem
     inlined_as_list: true
     recommended: true
+  distinguishing_features:
+    description: >-
+      Key clinical, laboratory, imaging, or epidemiological features that help differentiate a related condition from the focal disease
+    multivalued: true
+    range: string
   review_notes:
     examples:
       - value: Added an additional clinically relevant subtype.
@@ -1148,16 +1153,20 @@ classes:
       - name
       - description
       - phenotypes
+      - distinguishing_features
       - evidence
       - notes
       - disease_term
     slot_usage:
       description:
         description: >-
-          Clinical or mechanistic similarities and key overlapping features with the focal disease
+          Clinical or mechanistic overlaps, shared presentations, and diagnostic considerations with the focal disease
+      distinguishing_features:
+        description: >-
+          Key clinical, laboratory, imaging, or epidemiological features that help differentiate this condition from the focal disease
       notes:
         description: >-
-          Distinguishing features that help differentiate from the focal disease
+          Additional clinical notes or management considerations
 
   Subtype:
     slots:
