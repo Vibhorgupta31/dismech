@@ -111,10 +111,6 @@ pathophysiology:
     supports: SUPPORT
     snippet: "These include central sensitization, associated with an increase in the release of both excitatory and inhibitory neurotransmitters; peripheral sensitization, involving alterations in peripheral nociceptor signaling; and inflammatory and immune mechanisms that develop concurrently with the aforementioned processes."
     explanation: Establishes peripheral sensitization involving nociceptor signaling as one of three key pathophysiological processes in fibromyalgia.
-  - reference: PMID:39062116
-    supports: SUPPORT
-    snippet: "Whether ongoing peripheral nociceptor input is required to initiate and sustain CS in established FM remains controversial, despite evidence of subtle inflammation, muscle or metabolic abnormalities, and small-fiber pathology."
-    explanation: Acknowledges small-fiber pathology as documented peripheral abnormality that may contribute to central sensitization maintenance.
 - name: Genetic Susceptibility
   description: >
     Multiple genetic variants affect neurotransmitter systems, pain processing,
@@ -130,10 +126,6 @@ pathophysiology:
     supports: SUPPORT
     snippet: "Evidence of association in the replication cohort was observed for TAAR1, RGS4, CNR1, and GRIA4."
     explanation: Large-scale genetic study identifies TAAR1, RGS4, CNR1, and GRIA4 as genes with evidence of association with fibromyalgia in replication cohort.
-  - reference: PMID:21905019
-    supports: SUPPORT
-    snippet: "The analgesic properties of the CB-1 cannabinoid receptor have been well-documented"
-    explanation: CNR1 gene encodes CB-1 cannabinoid receptor with documented analgesic properties, supporting potential role in fibromyalgia pain modulation.
 phenotypes:
 - name: Chronic Widespread Pain
   category: Musculoskeletal
@@ -240,11 +232,6 @@ phenotypes:
     term:
       id: HP:0007328
       label: Impaired pain sensation
-  evidence:
-  - reference: PMID:39062116
-    supports: SUPPORT
-    snippet: "Central sensitization (CS), amplified pain processing within the central nervous system, is widely accepted as a core mechanism in FM pathophysiology."
-    explanation: Central sensitization leads to amplified pain processing resulting in hypersensitivity to normally non-painful stimuli.
 - name: Joint Stiffness
   category: Musculoskeletal
   frequency: FREQUENT
