@@ -96,6 +96,11 @@ phenotypes:
       term:
         id: HP:0000822
         label: Hypertension
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "Hypertension affects 70% to 80% of patients with ADPKD"
+        explanation: "JAMA review confirms very high prevalence of hypertension in ADPKD patients."
   - name: Chronic Kidney Disease
     category: Renal
     frequency: VERY_FREQUENT
@@ -119,6 +124,11 @@ phenotypes:
       term:
         id: HP:0001407
         label: Hepatic cysts
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "More than 90% of patients older than 35 years have hepatic cysts"
+        explanation: "JAMA review confirms hepatic cysts as a very common manifestation in ADPKD."
   - name: Intracranial Aneurysm
     category: Vascular
     frequency: OCCASIONAL
@@ -128,6 +138,11 @@ phenotypes:
       term:
         id: HP:0007029
         label: Cerebral berry aneurysm
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "approximately 9% to 14% develop intracranial aneurysms"
+        explanation: "JAMA review confirms intracranial aneurysms occur in 9-14% of ADPKD patients."
   - name: Flank Pain
     category: Renal
     frequency: FREQUENT
@@ -182,6 +197,11 @@ treatments:
       term:
         id: MAXO:0000058
         label: pharmacotherapy
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "First-line treatment includes blood pressure control, dietary and weight management, and adequate hydration."
+        explanation: "JAMA review confirms blood pressure control as first-line treatment for ADPKD."
   - name: Renal Dialysis
     description: >
       Dialysis (hemodialysis or peritoneal dialysis) for end-stage renal disease.
@@ -191,6 +211,11 @@ treatments:
       term:
         id: MAXO:0000601
         label: renal dialysis
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "Approximately 50% of individuals with ADPKD require kidney replacement therapy by 62 years of age."
+        explanation: "JAMA review confirms high rate of kidney replacement therapy (dialysis/transplant) in ADPKD."
   - name: Kidney Transplantation
     description: >
       Kidney transplantation is the preferred treatment for end-stage renal disease
@@ -200,4 +225,9 @@ treatments:
       term:
         id: MAXO:0010039
         label: organ transplantation
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "Approximately 50% of individuals with ADPKD require kidney replacement therapy by 62 years of age."
+        explanation: "JAMA review confirms high rate of kidney replacement therapy (dialysis/transplant) in ADPKD."
 datasets:
