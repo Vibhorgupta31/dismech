@@ -1016,6 +1016,14 @@
     "violations": 0
   },
   {
+    "file": "Cushings_Syndrome.yaml",
+    "global_compliance": 93.54838709677419,
+    "weighted_compliance": 97.63779527559055,
+    "total_checks": 31,
+    "total_populated": 29,
+    "violations": 0
+  },
+  {
     "file": "Grange_syndrome.yaml",
     "global_compliance": 93.54838709677419,
     "weighted_compliance": 97.47899159663865,
@@ -1080,6 +1088,14 @@
     "violations": 0
   },
   {
+    "file": "Semicircular_Canal_Dehiscence_Syndrome.yaml",
+    "global_compliance": 97.36842105263158,
+    "weighted_compliance": 100.0,
+    "total_checks": 38,
+    "total_populated": 37,
+    "violations": 0
+  },
+  {
     "file": "Stiff_Person_Syndrome.yaml",
     "global_compliance": 97.61904761904762,
     "weighted_compliance": 100.0,
@@ -1109,6 +1125,22 @@
     "weighted_compliance": 100.0,
     "total_checks": 58,
     "total_populated": 57,
+    "violations": 0
+  },
+  {
+    "file": "Fabry_Disease.yaml",
+    "global_compliance": 98.33333333333333,
+    "weighted_compliance": 100.0,
+    "total_checks": 60,
+    "total_populated": 59,
+    "violations": 0
+  },
+  {
+    "file": "Maple_Syrup_Urine_Disease.yaml",
+    "global_compliance": 98.50746268656717,
+    "weighted_compliance": 100.0,
+    "total_checks": 67,
+    "total_populated": 66,
     "violations": 0
   }
 ]

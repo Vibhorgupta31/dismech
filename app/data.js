@@ -3118,6 +3118,69 @@ window.searchData = [
     "num_treatments": 9
   },
   {
+    "name": "Cushing's Syndrome",
+    "disease_id": "MONDO:0018912",
+    "category": "Complex",
+    "parents": [
+      "Endocrine Disorders",
+      "Adrenal Gland Diseases"
+    ],
+    "subtypes": [],
+    "description": "Cushing's syndrome results from prolonged exposure to excess glucocorticoids, either exogenous (iatrogenic from corticosteroid therapy) or endogenous (from pituitary adenomas secreting ACTH, adrenal tumors, or ectopic ACTH production). Elevated cortisol causes widespread metabolic, immunologic, and cardiovascular effects.\n",
+    "pathophysiology": [
+      "Chronic Cortisol Excess",
+      "Hypothalamic-Pituitary-Adrenal Axis Dysregulation",
+      "Metabolic Consequences of Hypercortisolism"
+    ],
+    "cell_types": [
+      "glucocorticoid secreting cell",
+      "corticotroph"
+    ],
+    "cell_type_ids": [
+      "CL:0000460",
+      "CL:0002309"
+    ],
+    "biological_processes": [
+      "glucocorticoid secretion",
+      "response to glucocorticoid"
+    ],
+    "phenotypes": [
+      "Central Obesity",
+      "Purple Striae",
+      "Proximal Muscle Weakness",
+      "Hypertension",
+      "Glucose Intolerance",
+      "Osteoporosis",
+      "Easy Bruising"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0001956",
+      "HP:0001065",
+      "HP:0003701",
+      "HP:0000822",
+      "HP:0001952",
+      "HP:0000939",
+      "HP:0000978"
+    ],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [
+      "Surgical Resection",
+      "Medical Therapy",
+      "Radiation Therapy",
+      "Bilateral Adrenalectomy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Cushings_Syndrome.yaml",
+    "page_url": "../pages/disorders/Cushing's_Syndrome.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 3,
+    "num_genes": 0,
+    "num_treatments": 4
+  },
+  {
     "name": "Cystic Fibrosis",
     "disease_id": "MONDO:0009061",
     "category": "Genetic",
