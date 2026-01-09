@@ -1,0 +1,141 @@
+name: Meniere's Disease
+category: Complex
+disease_term:
+  preferred_term: Meniere disease
+  term:
+    id: MONDO:0007972
+    label: Meniere disease
+parents:
+  - Inner Ear Diseases
+  - Vestibular Disorders
+pathophysiology:
+  - name: Endolymphatic Hydrops
+    description: >
+      Meniere's disease is characterized by distension of the endolymphatic space
+      (endolymphatic hydrops) due to impaired reabsorption of endolymph or excess
+      production. This results in rupture of the membranous labyrinth and mixing
+      of endolymph and perilymph, leading to vestibular and cochlear dysfunction.
+    evidence:
+      - reference: PMID:27083887
+        supports: SUPPORT
+        snippet: "Over 75 years ago, endolymphatic hydrops was discovered as the pathologic correlate of Menière's disease."
+        explanation: "This review confirms endolymphatic hydrops as the pathologic correlate of Meniere's disease."
+  - name: Ion Transport Dysfunction
+    description: >
+      Abnormal regulation of fluid and ion homeostasis in the inner ear, particularly
+      involving potassium transport in the stria vascularis and endolymphatic sac,
+      contributes to endolymph accumulation and hydrops formation.
+    biological_processes:
+      - preferred_term: potassium ion transport
+        term:
+          id: GO:0006813
+          label: potassium ion transport
+  - name: Autoimmune and Inflammatory Mechanisms
+    description: >
+      Elevated inflammatory markers and autoantibodies have been found in some patients,
+      suggesting that immune-mediated inner ear damage may contribute to disease
+      pathogenesis in a subset of cases.
+    biological_processes:
+      - preferred_term: inflammatory response
+        term:
+          id: GO:0006954
+          label: inflammatory response
+phenotypes:
+  - name: Episodic Vertigo
+    description: >
+      Recurrent attacks of spinning vertigo lasting 20 minutes to several hours,
+      often accompanied by nausea and vomiting. Episodes are unpredictable and
+      can be severely debilitating.
+    phenotype_term:
+      preferred_term: paroxysmal vertigo
+      term:
+        id: HP:0010532
+        label: Paroxysmal vertigo
+  - name: Sensorineural Hearing Loss
+    description: >
+      Fluctuating, progressive hearing loss initially affecting low frequencies,
+      eventually becoming permanent and affecting all frequencies as the disease
+      progresses.
+    phenotype_term:
+      preferred_term: low-frequency sensorineural hearing impairment
+      term:
+        id: HP:0008573
+        label: Low-frequency sensorineural hearing impairment
+  - name: Tinnitus
+    description: >
+      Ringing, buzzing, or roaring sounds in the affected ear, often low-pitched
+      and fluctuating. May become constant with disease progression.
+    phenotype_term:
+      preferred_term: tinnitus
+      term:
+        id: HP:0000360
+        label: Tinnitus
+  - name: Aural Fullness
+    description: >
+      Sensation of pressure or fullness in the affected ear, often preceding
+      or accompanying vertiginous episodes.
+  - name: Nausea and Vomiting
+    description: >
+      Autonomic symptoms accompanying acute vertigo episodes due to vestibular
+      system dysfunction.
+    phenotype_term:
+      preferred_term: nausea and vomiting
+      term:
+        id: HP:0002017
+        label: Nausea and vomiting
+treatments:
+  - name: Low-Sodium Diet
+    description: >
+      Dietary sodium restriction to reduce fluid retention and minimize
+      endolymphatic hydrops. Often combined with diuretics.
+    treatment_term:
+      preferred_term: dietary intervention
+      term:
+        id: MAXO:0000088
+        label: dietary intervention
+  - name: Diuretic Therapy
+    description: >
+      Thiazide diuretics or acetazolamide to reduce endolymph volume and
+      pressure, decreasing the frequency of vertigo attacks.
+    treatment_term:
+      preferred_term: pharmacotherapy
+      term:
+        id: MAXO:0000058
+        label: pharmacotherapy
+  - name: Betahistine
+    description: >
+      Histamine analog that improves inner ear blood flow and reduces
+      vestibular symptoms. Widely used outside North America.
+    treatment_term:
+      preferred_term: pharmacotherapy
+      term:
+        id: MAXO:0000058
+        label: pharmacotherapy
+  - name: Intratympanic Injections
+    description: >
+      Injection of corticosteroids or gentamicin through the tympanic membrane
+      to reduce vertigo. Gentamicin causes controlled vestibular ablation.
+    treatment_term:
+      preferred_term: pharmacotherapy
+      term:
+        id: MAXO:0000058
+        label: pharmacotherapy
+  - name: Vestibular Rehabilitation
+    description: >
+      Physical therapy exercises to improve balance and reduce dizziness by
+      promoting central compensation for vestibular dysfunction.
+    treatment_term:
+      preferred_term: physical therapy
+      term:
+        id: MAXO:0000011
+        label: physical therapy
+  - name: Endolymphatic Sac Surgery
+    description: >
+      Surgical decompression of the endolymphatic sac to improve endolymph
+      drainage and reduce hydrops, though efficacy is debated.
+    treatment_term:
+      preferred_term: surgical procedure
+      term:
+        id: MAXO:0000004
+        label: surgical procedure
+datasets:
