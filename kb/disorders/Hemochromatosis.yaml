@@ -170,4 +170,15 @@ treatments:
       term:
         id: MAXO:0000079
         label: genetic counseling
+genetic:
+  - name: HFE Mutations
+    association: Causative
+    notes: Most common mutation is C282Y (p.Cys282Tyr) homozygosity, accounting for 80-90% of hereditary hemochromatosis cases. H63D (p.His63Asp) compound heterozygosity also contributes.
+    inheritance:
+      - name: Autosomal Recessive
+    evidence:
+      - reference: PMID:23985001
+        supports: SUPPORT
+        snippet: "most commonly in C282Y homozygous individuals"
+        explanation: "Review confirms C282Y homozygosity as the most common cause of hereditary hemochromatosis."
 datasets:
