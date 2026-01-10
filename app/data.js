@@ -3118,6 +3118,69 @@ window.searchData = [
     "num_treatments": 9
   },
   {
+    "name": "Cushing's Syndrome",
+    "disease_id": "MONDO:0018912",
+    "category": "Complex",
+    "parents": [
+      "Endocrine Disorders",
+      "Adrenal Gland Diseases"
+    ],
+    "subtypes": [],
+    "description": "Cushing's syndrome results from prolonged exposure to excess glucocorticoids, either exogenous (iatrogenic from corticosteroid therapy) or endogenous (from pituitary adenomas secreting ACTH, adrenal tumors, or ectopic ACTH production). Elevated cortisol causes widespread metabolic, immunologic, and cardiovascular effects.\n",
+    "pathophysiology": [
+      "Chronic Cortisol Excess",
+      "Hypothalamic-Pituitary-Adrenal Axis Dysregulation",
+      "Metabolic Consequences of Hypercortisolism"
+    ],
+    "cell_types": [
+      "glucocorticoid secreting cell",
+      "corticotroph"
+    ],
+    "cell_type_ids": [
+      "CL:0000460",
+      "CL:0002309"
+    ],
+    "biological_processes": [
+      "glucocorticoid secretion",
+      "response to glucocorticoid"
+    ],
+    "phenotypes": [
+      "Central Obesity",
+      "Purple Striae",
+      "Proximal Muscle Weakness",
+      "Hypertension",
+      "Glucose Intolerance",
+      "Osteoporosis",
+      "Easy Bruising"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0001956",
+      "HP:0001065",
+      "HP:0003701",
+      "HP:0000822",
+      "HP:0001952",
+      "HP:0000939",
+      "HP:0000978"
+    ],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [
+      "Surgical Resection",
+      "Medical Therapy",
+      "Radiation Therapy",
+      "Bilateral Adrenalectomy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Cushings_Syndrome.yaml",
+    "page_url": "../pages/disorders/Cushing's_Syndrome.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 3,
+    "num_genes": 0,
+    "num_treatments": 4
+  },
+  {
     "name": "Cystic Fibrosis",
     "disease_id": "MONDO:0009061",
     "category": "Genetic",
@@ -4364,6 +4427,94 @@ window.searchData = [
     "num_pathophysiology": 5,
     "num_genes": 3,
     "num_treatments": 6
+  },
+  {
+    "name": "Fabry disease",
+    "disease_id": "MONDO:0010526",
+    "category": "Mendelian",
+    "parents": [
+      "Lysosomal storage diseases",
+      "X-linked genetic disorders"
+    ],
+    "subtypes": [],
+    "description": "Fabry disease is an X-linked lysosomal storage disorder caused by pathogenic variants in GLA that reduce or abolish \u03b1-galactosidase A activity, leading to lysosomal accumulation of glycosphingolipids, principally globotriaosylceramide (Gb3) and its deacylated derivative globotriaosylsphingosine (lyso-Gb3). Substrate accumulation initiates a network of cellular stress responses including endoplasmic reticulum stress, autophagy impairment, mitochondrial dysfunction, and activation of innate immune pathways, leading to progressive organ damage in kidney, heart, vasculature, and nervous system.\n",
+    "pathophysiology": [
+      "Lysosomal alpha-galactosidase A deficiency and Gb3 accumulation",
+      "Endoplasmic reticulum stress and unfolded protein response",
+      "Mitochondrial dysfunction and oxidative stress",
+      "Autophagy impairment",
+      "Innate immune activation and inflammation",
+      "Endothelial dysfunction and vascular remodeling",
+      "Fibrosis and extracellular matrix remodeling"
+    ],
+    "cell_types": [
+      "endothelial cell"
+    ],
+    "cell_type_ids": [
+      "CL:0000115"
+    ],
+    "biological_processes": [
+      "glycosphingolipid metabolic process",
+      "lysosomal catabolic process",
+      "response to unfolded protein",
+      "NF-kappaB signaling pathway",
+      "reactive oxygen species metabolic process",
+      "regulation of mitochondrial membrane potential",
+      "autophagy",
+      "complement activation",
+      "inflammatory response",
+      "leukocyte adhesion to endothelial cells",
+      "extracellular matrix organization",
+      "transforming growth factor beta signaling pathway"
+    ],
+    "phenotypes": [
+      "Acrodystrophic neuropathic pain",
+      "Angiokeratomas",
+      "Proteinuria",
+      "Chronic kidney disease",
+      "Left ventricular hypertrophy",
+      "Cardiac arrhythmia",
+      "Stroke"
+    ],
+    "phenotype_categories": [
+      "Neurological",
+      "Cutaneous",
+      "Renal",
+      "Cardiac"
+    ],
+    "phenotype_ids": [
+      "HP:0012531",
+      "HP:0001014",
+      "HP:0000093",
+      "HP:0012622",
+      "HP:0001638",
+      "HP:0011675",
+      "HP:0001297"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [
+      "GLA gene mutations"
+    ],
+    "treatments": [
+      "Enzyme replacement therapy",
+      "Pharmacological chaperone therapy",
+      "Gene therapy",
+      "Supportive care"
+    ],
+    "environmental": [],
+    "biochemical": [
+      "Lyso-Gb3"
+    ],
+    "source_file": "Fabry_Disease.yaml",
+    "page_url": "../pages/disorders/Fabry_disease.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 7,
+    "num_genes": 1,
+    "num_treatments": 4
   },
   {
     "name": "Familial Mediterranean Fever",
@@ -7575,6 +7726,115 @@ window.searchData = [
     "num_pathophysiology": 5,
     "num_genes": 4,
     "num_treatments": 7
+  },
+  {
+    "name": "Maple Syrup Urine Disease",
+    "disease_id": "MONDO:0009563",
+    "category": "Genetic",
+    "parents": [
+      "Metabolic Disease",
+      "Inborn Error of Metabolism"
+    ],
+    "subtypes": [
+      "Classic MSUD",
+      "Intermediate MSUD",
+      "Intermittent MSUD",
+      "Thiamine-Responsive MSUD"
+    ],
+    "description": "Mutations in genes encoding subunits of the branched-chain alpha-ketoacid dehydrogenase complex (BCKDH) cause deficient catabolism of branched-chain amino acids (leucine, isoleucine, valine). This leads to accumulation of these amino acids and their toxic ketoacid derivatives in blood and tissues. The BCKDH complex catalyzes the first irreversible step in BCAA catabolism.\n",
+    "pathophysiology": [
+      "Branched-Chain Alpha-Ketoacid Dehydrogenase Deficiency",
+      "Leucine and Ketoacid Neurotoxicity",
+      "Skeletal Muscle Dysfunction"
+    ],
+    "cell_types": [
+      "hepatocyte",
+      "neuron",
+      "astrocyte",
+      "skeletal muscle fiber"
+    ],
+    "cell_type_ids": [
+      "CL:0000182",
+      "CL:0000540",
+      "CL:0000127",
+      "CL:0008002"
+    ],
+    "biological_processes": [
+      "branched-chain amino acid catabolic process",
+      "generation of precursor metabolites and energy"
+    ],
+    "phenotypes": [
+      "Abnormal Urinary Odor",
+      "Poor Feeding",
+      "Lethargy",
+      "Encephalopathy",
+      "Seizures",
+      "Hypotonia",
+      "Intellectual Disability",
+      "Vomiting",
+      "Coma",
+      "Global Developmental Delay",
+      "Elevated Branched Chain Amino Acids"
+    ],
+    "phenotype_categories": [
+      "Other",
+      "Neurological",
+      "Biochemical"
+    ],
+    "phenotype_ids": [
+      "HP:0012088",
+      "HP:0008872",
+      "HP:0001254",
+      "HP:0006846",
+      "HP:0001250",
+      "HP:0001252",
+      "HP:0001249",
+      "HP:0002013",
+      "HP:0001259",
+      "HP:0001263",
+      "HP:0008344"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OBLIGATE"
+    ],
+    "genes": [
+      "BCKDHA",
+      "BCKDHB",
+      "DBT",
+      "DLD"
+    ],
+    "treatments": [
+      "BCAA-Restricted Diet",
+      "Medical Formula",
+      "Thiamine Supplementation",
+      "Liver Transplantation",
+      "Intravenous BCAA-Free Solution",
+      "Acute Crisis Management",
+      "Phenylbutyrate",
+      "Metformin"
+    ],
+    "environmental": [
+      "Dietary Protein",
+      "Catabolic Stress",
+      "Fever"
+    ],
+    "biochemical": [
+      "Plasma Leucine",
+      "Plasma Isoleucine",
+      "Plasma Valine",
+      "Alloisoleucine",
+      "Alpha-Ketoisocaproic Acid (KIC)",
+      "Alpha-Ketoisovaleric Acid (KIV)",
+      "Alpha-Keto-beta-Methylvaleric Acid (KMV)"
+    ],
+    "source_file": "Maple_Syrup_Urine_Disease.yaml",
+    "page_url": "../pages/disorders/Maple_Syrup_Urine_Disease.html",
+    "num_phenotypes": 11,
+    "num_pathophysiology": 3,
+    "num_genes": 4,
+    "num_treatments": 8
   },
   {
     "name": "Marfan Syndrome",
@@ -10964,6 +11224,79 @@ window.searchData = [
     "num_pathophysiology": 2,
     "num_genes": 0,
     "num_treatments": 1
+    "name": "Semicircular Canal Dehiscence Syndrome",
+    "disease_id": "MONDO:0018484",
+    "category": "Structural",
+    "parents": [
+      "Inner Ear Disease",
+      "Vestibular Disorder"
+    ],
+    "subtypes": [],
+    "description": "An abnormal opening or thinning in the bone overlying the superior semicircular canal creates a pathological third mobile window in the inner ear, in addition to the oval and round windows. This dehiscence may result from congenitally thin otic capsule bone predisposition with subsequent trauma trigger.",
+    "pathophysiology": [
+      "Bony Dehiscence of Semicircular Canal",
+      "Third Window Effect",
+      "Abnormal Sound and Pressure Transmission",
+      "Otic Capsule Bone Biology"
+    ],
+    "cell_types": [
+      "vestibular hair cell",
+      "osteoclast",
+      "osteoblast"
+    ],
+    "cell_type_ids": [
+      "CL:0000609",
+      "CL:0000092",
+      "CL:0000062"
+    ],
+    "biological_processes": [
+      "mechanotransduction",
+      "vestibular receptor stimulus detection",
+      "bone remodeling"
+    ],
+    "phenotypes": [
+      "Vertigo",
+      "Sound-Induced Nystagmus",
+      "Oscillopsia",
+      "Autophony",
+      "Pulsatile Tinnitus",
+      "Conductive Hearing Loss",
+      "Chronic Disequilibrium",
+      "Hyperacusis"
+    ],
+    "phenotype_categories": [
+      "Vestibular",
+      "Auditory"
+    ],
+    "phenotype_ids": [
+      "HP:0002321",
+      "HP:0000639",
+      "HP:0034773",
+      "HP:6000032",
+      "HP:0008629",
+      "HP:0000405",
+      "HP:0002141",
+      "HP:0010780"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Observation and Symptom Management",
+      "Surgical Canal Plugging",
+      "Surgical Resurfacing"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Semicircular_Canal_Dehiscence_Syndrome.yaml",
+    "page_url": "../pages/disorders/Semicircular_Canal_Dehiscence_Syndrome.html",
+    "num_phenotypes": 8,
+    "num_pathophysiology": 4,
+    "num_genes": 0,
+    "num_treatments": 3
   },
   {
     "name": "Sickle Cell Disease",
