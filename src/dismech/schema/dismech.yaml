@@ -575,6 +575,10 @@ slots:
     description: The MONDO term for a disease subtype
     range: DiseaseDescriptor
     inlined: true
+  infectious_agent_term:
+    description: The NCBITaxon term for this infectious agent
+    range: OrganismDescriptor
+    inlined: true
   exposure_term:
     description: The ECTO/XCO term for this exposure event
     range: ExposureDescriptor
@@ -1391,6 +1395,7 @@ classes:
   InfectiousAgent:
     slots:
       - name
+      - infectious_agent_term
       - evidence
       - description
       - has_subtypes
