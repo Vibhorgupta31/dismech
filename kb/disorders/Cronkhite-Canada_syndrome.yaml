@@ -283,6 +283,10 @@ treatments:
         supports: SUPPORT
         snippet: "All patients received an initial prednisone dose equivalence of 30-80 mg daily, and five patients required steroids at the time of the last follow-up."
         explanation: "Large cohort study confirms prednisone dosing range and documents sustained steroid requirement in subset of patients for long-term disease control"
+      - reference: PMID:34002159
+        supports: SUPPORT
+        snippet: "It is necessary to extend the duration of prednisone maintenance therapy for CCS. Prednisone is still effective when readministered after relapse."
+        explanation: "Case report demonstrates importance of extended maintenance therapy and confirms effectiveness of steroid retreatment after relapse"
     treatment_term:
       preferred_term: corticosteroid agent therapy
       term:
@@ -312,6 +316,10 @@ treatments:
         supports: SUPPORT
         snippet: "Twelve patients trialed thiopurine therapy, and ten patients continued with a thiopurine until the last follow-up."
         explanation: "Large cohort study documents long-term tolerability and sustained use of thiopurine therapy in majority of CCS patients for maintaining remission"
+      - reference: PMID:32669505
+        supports: SUPPORT
+        snippet: "Calcineurin inhibitors such as CyA might have potential therapeutic efficacy for CCS associated with MN."
+        explanation: "Case report demonstrates cyclosporine A as promising therapeutic option for CCS with autoimmune complications"
     treatment_term:
       preferred_term: pharmacotherapy
       term:
@@ -439,8 +447,10 @@ differential_diagnoses:
 
 notes: >
   Cronkhite-Canada syndrome is a rare disorder with unknown etiology. Most patients respond to corticosteroid therapy,
-  but long-term management and monitoring for malignancy is essential. The condition requires multidisciplinary care
-  including gastroenterology, dermatology, and nutritional support. Serious metabolic complications including electrolyte
-  abnormalities (particularly hypokalemia from protein-losing enteropathy) can predispose to cardiac arrhythmias, requiring
-  careful electrolyte monitoring and cardiac surveillance. Early recognition and prompt immunosuppressive therapy are critical
-  for preventing complications and improving patient outcomes.
+  but long-term management and monitoring for malignancy is essential. The condition carries increased risk of gastrointestinal
+  malignancies including colorectal cancer, gastric cancer, and esophageal cancer, making regular endoscopic surveillance critical.
+  The condition requires multidisciplinary care including gastroenterology, dermatology, and nutritional support. Serious metabolic
+  complications including electrolyte abnormalities (particularly hypokalemia from protein-losing enteropathy) can predispose to
+  cardiac arrhythmias, requiring careful electrolyte monitoring and cardiac surveillance. Extended duration of maintenance corticosteroid
+  therapy is often necessary to prevent relapse. Early recognition and prompt immunosuppressive therapy are critical for preventing
+  complications and improving patient outcomes.
