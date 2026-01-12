@@ -9,17 +9,30 @@ parents:
   - Iron Metabolism Disorders
   - Hereditary Metabolic Diseases
 pathophysiology:
-  - name: HFE-mediated Iron Overload
+  - name: HFE Loss Lowers Hepcidin
     description: >
-      Mutations in the HFE gene (most commonly C282Y) impair hepcidin regulation, leading
-      to inappropriately low hepcidin levels. This causes excessive iron absorption from
-      the intestine via unregulated ferroportin activity, resulting in systemic iron
-      overload that deposits in parenchymal tissues.
+      Pathogenic HFE variants (most commonly C282Y homozygosity) blunt hepcidin induction,
+      leaving circulating hepcidin inappropriately low relative to body iron stores.
     evidence:
       - reference: PMID:23985001
         supports: SUPPORT
         snippet: "Hereditary hemochromatosis is an inherited iron overload disorder caused by inappropriately low hepcidin secretion leading to increased duodenal absorption of dietary iron, most commonly in C282Y homozygous individuals."
-        explanation: "This review describes the core pathophysiology of hereditary hemochromatosis involving impaired hepcidin regulation and increased iron absorption."
+        explanation: Impaired HFE signaling results in low hepcidin in C282Y homozygotes.
+    biological_processes:
+      - preferred_term: iron ion homeostasis
+        term:
+          id: GO:0055072
+          label: iron ion homeostasis
+
+  - name: Low Hepcidin Leads to Ferroportin Hyperabsorption
+    description: >
+      Suppressed hepcidin fails to internalize and degrade ferroportin on enterocytes, so
+      dietary iron efflux into plasma is unchecked, driving systemic iron overload.
+    evidence:
+      - reference: PMID:23985001
+        supports: SUPPORT
+        snippet: "Hereditary hemochromatosis is an inherited iron overload disorder caused by inappropriately low hepcidin secretion leading to increased duodenal absorption of dietary iron"
+        explanation: Low hepcidin permits unregulated ferroportin-mediated iron export from the gut.
     biological_processes:
       - preferred_term: iron ion transport
         term:
@@ -36,10 +49,10 @@ pathophysiology:
           id: CL:0000182
           label: hepatocyte
     biological_processes:
-      - preferred_term: response to oxidative stress
+      - preferred_term: cellular response to oxidative stress
         term:
-          id: GO:0006979
-          label: response to oxidative stress
+          id: GO:0034599
+          label: cellular response to oxidative stress
   - name: Cardiac Iron Deposition
     description: >
       Iron accumulation in cardiomyocytes causes oxidative damage and impaired contractility,
@@ -50,10 +63,10 @@ pathophysiology:
           id: CL:0000746
           label: cardiac muscle cell
     biological_processes:
-      - preferred_term: response to oxidative stress
+      - preferred_term: cellular response to oxidative stress
         term:
-          id: GO:0006979
-          label: response to oxidative stress
+          id: GO:0034599
+          label: cellular response to oxidative stress
   - name: Pancreatic Iron Toxicity
     description: >
       Iron deposition in pancreatic beta cells causes oxidative damage and impaired insulin
@@ -64,10 +77,10 @@ pathophysiology:
           id: CL:0000169
           label: type B pancreatic cell
     biological_processes:
-      - preferred_term: response to oxidative stress
+      - preferred_term: cellular response to oxidative stress
         term:
-          id: GO:0006979
-          label: response to oxidative stress
+          id: GO:0034599
+          label: cellular response to oxidative stress
 phenotypes:
   - name: Hepatomegaly
     description: >
