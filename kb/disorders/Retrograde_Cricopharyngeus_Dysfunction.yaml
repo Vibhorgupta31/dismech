@@ -33,6 +33,14 @@ phenotypes:
     supports: SUPPORT
     snippet: "The incapacity to belch is the hallmark of the disease."
     explanation: The Jiménez-Castillo 2025 series states the hallmark symptom is inability to belch.
+  - reference: PMID:36054518
+    supports: SUPPORT
+    snippet: "The inability to burp (98.8%), bloating (92.9%), gurgling noises (31.8%), and excessive flatulence (21.2%) were the most common symptoms."
+    explanation: The Jefferson case series quantifies inability to burp as the dominant presenting symptom.
+  - reference: PMID:38115814
+    supports: SUPPORT
+    snippet: "99% reported inability to burp, 98% reported abdominal bloating, 93% reported socially awkward gurgling noises, 89% reported excessive flatulence."
+    explanation: Survey data reinforce inability to burp as near-universal among affected patients.
 - name: Abdominal Distention
   description: Abdominal bloating and distension due to trapped air that cannot be expelled through belching.
   frequency: Common
@@ -50,6 +58,10 @@ phenotypes:
     supports: SUPPORT
     snippet: "A large constellation of hitherto unexplained symptoms including inability to burp, gurgling noises from the chest and lower neck, abdominal bloating, flatulence, painful hiccups and emetophobia was defined as Retrograde Cricopharyngeus Dysfunction (R-CPD) in 2019."
     explanation: The Pavesi 2023 case report lists abdominal bloating as a key symptom.
+  - reference: PMID:38115814
+    supports: SUPPORT
+    snippet: "99% reported inability to burp, 98% reported abdominal bloating, 93% reported socially awkward gurgling noises, 89% reported excessive flatulence."
+    explanation: Community survey data show abdominal bloating affects nearly all respondents with R-CPD.
 - name: Chest Pain
   description: Chest discomfort or pain, particularly after eating, related to air entrapment in the esophagus.
   frequency: Common
@@ -93,6 +105,10 @@ phenotypes:
     supports: SUPPORT
     snippet: "A large constellation of hitherto unexplained symptoms including inability to burp, gurgling noises from the chest and lower neck, abdominal bloating, flatulence, painful hiccups and emetophobia was defined as Retrograde Cricopharyngeus Dysfunction (R-CPD) in 2019."
     explanation: Gurgling noises from the chest and lower neck are highlighted among the presenting symptoms.
+  - reference: PMID:38115814
+    supports: SUPPORT
+    snippet: "99% reported inability to burp, 98% reported abdominal bloating, 93% reported socially awkward gurgling noises, 89% reported excessive flatulence."
+    explanation: Survey responses show gurgling noises are frequent in R-CPD.
 
 pathophysiology:
 - name: Failure of Upper Esophageal Sphincter Relaxation
@@ -168,7 +184,7 @@ pathophysiology:
   evidence:
   - reference: PMID:38587015
     supports: SUPPORT
-    snippet: "The RCPD cohort, compared to the asymptomatic cohort, exhibited significantly greater upper esophageal sphincter (UES) length [4.5 (SD: 0.7) vs 3.7 (0.9) cm, P = .01] and higher UES basal pressures [91.9 (35.0) vs 49.7 (25.5) mm Hg, P = .002]."
+    snippet: "The RCPD cohort, compared to the asymptomatic cohort, exhibited significantly greater upper esophageal sphincter (UES) length [4.5 (SD: 0.7) vs 3.7 (0.9) cm" 
     explanation: The case-control study quantified higher UES basal pressures in R-CPD patients relative to controls.
   - reference: PMID:41506952
     supports: SUPPORT
@@ -204,6 +220,18 @@ treatments:
     supports: SUPPORT
     snippet: "previously undergone percutaneous botulinum toxin injection that initially provided temporary relief."
     explanation: The Dealino 2026 case notes symptomatic improvement after botulinum toxin injection.
+  - reference: PMID:40411338
+    supports: SUPPORT
+    snippet: "The immediate success rate of botulinum toxin injection into the cricopharyngeal sphincter in facilitating burping was 92.5%."
+    explanation: Systematic review reports high immediate success for botulinum toxin in R-CPD.
+  - reference: PMID:39883449
+    supports: SUPPORT
+    snippet: "The cumulative success rate of BTI was 90.6% (96 of 106 patients)."
+    explanation: In-office botulinum injections achieved high cumulative success in a 106-patient series.
+  - reference: PMID:38576368
+    supports: SUPPORT
+    snippet: "At median follow-up of 29 months (range, 3-50) post-treatment, 51.3% (n = 20/39) of patients reported persistent complete relief of symptoms"
+    explanation: Belgian case series quantifies short- and long-term response rates to botulinum toxin.
 
 diagnosis:
 - name: High-Resolution Impedance Manometry
@@ -221,6 +249,18 @@ diagnosis:
     supports: SUPPORT
     snippet: "We performed HRM with a belch provocation test for which the patient drank 500 ml of carbonated water. The study revealed increased esophageal pressure, an absence of UES relaxation and secondary peristalsis once the patient mentioned the need to belch."
     explanation: HRM with belch provocation shows characteristic pressure rise and absent UES relaxation in R-CPD.
+
+differential_diagnoses:
+- name: Supragastric Belching
+  description: Functional belching disorder characterized by repetitive supradiaphragmatic air influx and frequent belches, rather than an inability to vent esophageal gas.
+  distinguishing_features:
+  - Patients exhibit frequent, often repetitive belching episodes instead of inability to belch.
+  - High-resolution manometry shows normal UES relaxation during belches, without trapped gas-related pressure build-up.
+  evidence:
+  - reference: PMID:38767031
+    supports: SUPPORT
+    snippet: "The incapacity to belch is the hallmark of the disease."
+    explanation: R-CPD is defined by inability to belch, distinguishing it from conditions like supragastric belching where belching is frequent.
 
 notes: >
   R-CPD was first formally described as a clinical entity in 2019 by Bastian and Smithson.
