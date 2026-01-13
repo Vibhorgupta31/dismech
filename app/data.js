@@ -645,6 +645,77 @@ window.searchData = [
     "num_treatments": 4
   },
   {
+    "name": "Alpha-1 Antitrypsin Deficiency",
+    "disease_id": "MONDO:0013282",
+    "category": "Mendelian",
+    "parents": [
+      "Genetic Lung Diseases",
+      "Hereditary Metabolic Diseases"
+    ],
+    "subtypes": [],
+    "description": "Alpha-1 antitrypsin (AAT) is the major inhibitor of neutrophil elastase in the lung. Deficiency of AAT leads to unopposed elastase activity, causing progressive destruction of alveolar walls and development of emphysema, particularly affecting the lower lobes.\n",
+    "pathophysiology": [
+      "Protease-Antiprotease Imbalance in Lung",
+      "Hepatic Protein Aggregation",
+      "Pulmonary Inflammation"
+    ],
+    "cell_types": [
+      "neutrophil",
+      "hepatocyte"
+    ],
+    "cell_type_ids": [
+      "CL:0000775",
+      "CL:0000182"
+    ],
+    "biological_processes": [
+      "neutrophil degranulation",
+      "response to endoplasmic reticulum stress",
+      "inflammatory response"
+    ],
+    "phenotypes": [
+      "Emphysema",
+      "Chronic Obstructive Pulmonary Disease",
+      "Liver Cirrhosis",
+      "Hepatomegaly",
+      "Dyspnea",
+      "Wheezing",
+      "Panniculitis"
+    ],
+    "phenotype_categories": [
+      "Cutaneous"
+    ],
+    "phenotype_ids": [
+      "HP:0032967",
+      "HP:0002097",
+      "HP:0001394",
+      "HP:0002240",
+      "HP:0002094",
+      "HP:0030828",
+      "HP:0012490"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "RARE"
+    ],
+    "genes": [],
+    "treatments": [
+      "Alpha-1 Antitrypsin Augmentation Therapy",
+      "Smoking Cessation",
+      "Bronchodilators",
+      "Lung Transplantation",
+      "Liver Transplantation"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Alpha_1_Antitrypsin_Deficiency.yaml",
+    "page_url": "../pages/disorders/Alpha-1_Antitrypsin_Deficiency.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 3,
+    "num_genes": 0,
+    "num_treatments": 5
+  },
+  {
     "name": "Alzheimer's Disease",
     "disease_id": "MONDO:0004975",
     "category": "Complex",
@@ -2887,7 +2958,11 @@ window.searchData = [
       "Fever"
     ],
     "phenotype_categories": [],
-    "phenotype_ids": [],
+    "phenotype_ids": [
+      "HP:0002014",
+      "HP:0002027",
+      "HP:0001945"
+    ],
     "frequencies": [],
     "genes": [],
     "treatments": [
@@ -3116,6 +3191,138 @@ window.searchData = [
     "num_pathophysiology": 6,
     "num_genes": 6,
     "num_treatments": 9
+  },
+  {
+    "name": "Cronkhite-Canada syndrome",
+    "disease_id": "MONDO:0008283",
+    "category": "Complex",
+    "parents": [
+      "Gastrointestinal polyposis syndromes",
+      "Genetic disorders with cutaneous manifestations"
+    ],
+    "subtypes": [],
+    "description": "Cronkhite-Canada syndrome (CCS) is a rare, non-hereditary gastrointestinal polyposis syndrome characterized by the association of extensive hamartomatous polyps throughout the gastrointestinal tract with a distinctive cutaneous triad of alopecia, nail changes (onychodystrophy), and hyperpigmentation. The condition has significant gastrointestinal morbidity including protein-losing enteropathy, chronic diarrhea, and increased cancer risk. Although historically considered a relentlessly progressive disease with high mortality, modern advances in understanding and treatment with corticosteroids and immunomodulators have substantially improved prognosis and overall survival.\n",
+    "pathophysiology": [
+      "Hamartomatous polyp formation in the gastrointestinal tract",
+      "Autoimmune and IgG4-mediated inflammation",
+      "Epithelial barrier dysfunction and protein-losing enteropathy",
+      "Helicobacter pylori infection and dysbiosis"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [
+      "Epithelial cell proliferation",
+      "Epithelial cell morphogenesis",
+      "Plasma cell differentiation",
+      "Cytokine production",
+      "Tight junction",
+      "Defense response to bacterium"
+    ],
+    "phenotypes": [
+      "Gastrointestinal polyposis",
+      "Alopecia",
+      "Nail changes",
+      "Hyperpigmentation",
+      "Chronic diarrhea",
+      "Protein-losing enteropathy"
+    ],
+    "phenotype_categories": [
+      "Gastrointestinal",
+      "Cutaneous"
+    ],
+    "phenotype_ids": [
+      "HP:0004390",
+      "HP:0001596",
+      "HP:0008394",
+      "HP:0000953",
+      "HP:0002014",
+      "HP:0002243"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Corticosteroids",
+      "Immunosuppressive agents",
+      "Supportive care"
+    ],
+    "environmental": [],
+    "biochemical": [
+      "Serum albumin",
+      "Serum iron",
+      "Total serum protein"
+    ],
+    "source_file": "Cronkhite-Canada_syndrome.yaml",
+    "page_url": "../pages/disorders/Cronkhite-Canada_syndrome.html",
+    "num_phenotypes": 6,
+    "num_pathophysiology": 4,
+    "num_genes": 0,
+    "num_treatments": 3
+  },
+  {
+    "name": "Cushing's Syndrome",
+    "disease_id": "MONDO:0018912",
+    "category": "Complex",
+    "parents": [
+      "Endocrine Disorders",
+      "Adrenal Gland Diseases"
+    ],
+    "subtypes": [],
+    "description": "Cushing's syndrome results from prolonged exposure to excess glucocorticoids, either exogenous (iatrogenic from corticosteroid therapy) or endogenous (from pituitary adenomas secreting ACTH, adrenal tumors, or ectopic ACTH production). Elevated cortisol causes widespread metabolic, immunologic, and cardiovascular effects.\n",
+    "pathophysiology": [
+      "Chronic Cortisol Excess",
+      "Hypothalamic-Pituitary-Adrenal Axis Dysregulation",
+      "Metabolic Consequences of Hypercortisolism"
+    ],
+    "cell_types": [
+      "glucocorticoid secreting cell",
+      "corticotroph"
+    ],
+    "cell_type_ids": [
+      "CL:0000460",
+      "CL:0002309"
+    ],
+    "biological_processes": [
+      "glucocorticoid secretion",
+      "response to glucocorticoid"
+    ],
+    "phenotypes": [
+      "Central Obesity",
+      "Purple Striae",
+      "Proximal Muscle Weakness",
+      "Hypertension",
+      "Glucose Intolerance",
+      "Osteoporosis",
+      "Easy Bruising"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0001956",
+      "HP:0001065",
+      "HP:0003701",
+      "HP:0000822",
+      "HP:0001952",
+      "HP:0000939",
+      "HP:0000978"
+    ],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [
+      "Surgical Resection",
+      "Medical Therapy",
+      "Radiation Therapy",
+      "Bilateral Adrenalectomy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Cushings_Syndrome.yaml",
+    "page_url": "../pages/disorders/Cushing's_Syndrome.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 3,
+    "num_genes": 0,
+    "num_treatments": 4
   },
   {
     "name": "Cystic Fibrosis",
@@ -4364,6 +4571,94 @@ window.searchData = [
     "num_pathophysiology": 5,
     "num_genes": 3,
     "num_treatments": 6
+  },
+  {
+    "name": "Fabry disease",
+    "disease_id": "MONDO:0010526",
+    "category": "Mendelian",
+    "parents": [
+      "Lysosomal storage diseases",
+      "X-linked genetic disorders"
+    ],
+    "subtypes": [],
+    "description": "Fabry disease is an X-linked lysosomal storage disorder caused by pathogenic variants in GLA that reduce or abolish \u03b1-galactosidase A activity, leading to lysosomal accumulation of glycosphingolipids, principally globotriaosylceramide (Gb3) and its deacylated derivative globotriaosylsphingosine (lyso-Gb3). Substrate accumulation initiates a network of cellular stress responses including endoplasmic reticulum stress, autophagy impairment, mitochondrial dysfunction, and activation of innate immune pathways, leading to progressive organ damage in kidney, heart, vasculature, and nervous system.\n",
+    "pathophysiology": [
+      "Lysosomal alpha-galactosidase A deficiency and Gb3 accumulation",
+      "Endoplasmic reticulum stress and unfolded protein response",
+      "Mitochondrial dysfunction and oxidative stress",
+      "Autophagy impairment",
+      "Innate immune activation and inflammation",
+      "Endothelial dysfunction and vascular remodeling",
+      "Fibrosis and extracellular matrix remodeling"
+    ],
+    "cell_types": [
+      "endothelial cell"
+    ],
+    "cell_type_ids": [
+      "CL:0000115"
+    ],
+    "biological_processes": [
+      "glycosphingolipid metabolic process",
+      "lysosomal catabolic process",
+      "response to unfolded protein",
+      "NF-kappaB signaling pathway",
+      "reactive oxygen species metabolic process",
+      "regulation of mitochondrial membrane potential",
+      "autophagy",
+      "complement activation",
+      "inflammatory response",
+      "leukocyte adhesion to endothelial cells",
+      "extracellular matrix organization",
+      "transforming growth factor beta signaling pathway"
+    ],
+    "phenotypes": [
+      "Acrodystrophic neuropathic pain",
+      "Angiokeratomas",
+      "Proteinuria",
+      "Chronic kidney disease",
+      "Left ventricular hypertrophy",
+      "Cardiac arrhythmia",
+      "Stroke"
+    ],
+    "phenotype_categories": [
+      "Neurological",
+      "Cutaneous",
+      "Renal",
+      "Cardiac"
+    ],
+    "phenotype_ids": [
+      "HP:0012531",
+      "HP:0001014",
+      "HP:0000093",
+      "HP:0012622",
+      "HP:0001638",
+      "HP:0011675",
+      "HP:0001297"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [
+      "GLA gene mutations"
+    ],
+    "treatments": [
+      "Enzyme replacement therapy",
+      "Pharmacological chaperone therapy",
+      "Gene therapy",
+      "Supportive care"
+    ],
+    "environmental": [],
+    "biochemical": [
+      "Lyso-Gb3"
+    ],
+    "source_file": "Fabry_Disease.yaml",
+    "page_url": "../pages/disorders/Fabry_disease.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 7,
+    "num_genes": 1,
+    "num_treatments": 4
   },
   {
     "name": "Familial Mediterranean Fever",
@@ -6084,6 +6379,76 @@ window.searchData = [
     "num_treatments": 8
   },
   {
+    "name": "Hemochromatosis",
+    "disease_id": "MONDO:0006507",
+    "category": "Mendelian",
+    "parents": [
+      "Iron Metabolism Disorders",
+      "Hereditary Metabolic Diseases"
+    ],
+    "subtypes": [],
+    "description": "Pathogenic HFE variants (most commonly C282Y homozygosity) blunt hepcidin induction, leaving circulating hepcidin inappropriately low relative to body iron stores.\n",
+    "pathophysiology": [
+      "HFE Loss Lowers Hepcidin",
+      "Low Hepcidin Leads to Ferroportin Hyperabsorption",
+      "Hepatic Iron Toxicity",
+      "Cardiac Iron Deposition",
+      "Pancreatic Iron Toxicity"
+    ],
+    "cell_types": [
+      "hepatocyte",
+      "cardiac muscle cell",
+      "type B pancreatic cell"
+    ],
+    "cell_type_ids": [
+      "CL:0000182",
+      "CL:0000746",
+      "CL:0000169"
+    ],
+    "biological_processes": [
+      "iron ion homeostasis",
+      "iron ion transport",
+      "cellular response to oxidative stress"
+    ],
+    "phenotypes": [
+      "Hepatomegaly",
+      "Skin Hyperpigmentation",
+      "Diabetes Mellitus",
+      "Arthropathy",
+      "Cardiomyopathy",
+      "Hypogonadism",
+      "Fatigue"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0002240",
+      "HP:0007574",
+      "HP:0000819",
+      "HP:0003040",
+      "HP:0001638",
+      "HP:0000044",
+      "HP:0012378"
+    ],
+    "frequencies": [],
+    "genes": [
+      "HFE Mutations"
+    ],
+    "treatments": [
+      "Phlebotomy (Therapeutic Venesection)",
+      "Iron Chelation Therapy",
+      "Dietary Modification",
+      "Screening of Family Members"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Hemochromatosis.yaml",
+    "page_url": "../pages/disorders/Hemochromatosis.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 5,
+    "num_genes": 1,
+    "num_treatments": 4
+  },
+  {
     "name": "Hemophilia A",
     "disease_id": "MONDO:0010602",
     "category": "Genetic",
@@ -6251,6 +6616,96 @@ window.searchData = [
     "num_pathophysiology": 6,
     "num_genes": 1,
     "num_treatments": 5
+  },
+  {
+    "name": "Hepatitis C",
+    "disease_id": "MONDO:0005231",
+    "category": "Infectious",
+    "parents": [
+      "Viral Hepatitis",
+      "Liver Disease"
+    ],
+    "subtypes": [
+      "Acute Hepatitis C",
+      "Chronic Hepatitis C"
+    ],
+    "description": "Hepatitis C is a liver infection caused by the hepatitis C virus (HCV). It is primarily transmitted through blood-to-blood contact, including injection drug use, unsafe medical practices, and rarely through sexual transmission. Acute infection is often asymptomatic but progresses to chronic infection in 75-85% of cases. Chronic hepatitis C can lead to liver cirrhosis, hepatocellular carcinoma, and liver failure. Direct-acting antiviral therapies have revolutionized treatment, with cure rates exceeding 95%.\n",
+    "pathophysiology": [
+      "Viral Replication and Hepatocyte Injury",
+      "Chronic Inflammation and Fibrosis",
+      "Immune Evasion",
+      "Hepatocellular Carcinoma Development"
+    ],
+    "cell_types": [
+      "hepatocyte",
+      "hepatic stellate cell",
+      "T cell"
+    ],
+    "cell_type_ids": [
+      "CL:0000182",
+      "CL:0000632",
+      "CL:0000084"
+    ],
+    "biological_processes": [
+      "viral life cycle",
+      "chronic inflammatory response",
+      "hepatic stellate cell activation",
+      "collagen biosynthetic process",
+      "symbiont-mediated suppression of host type I interferon-mediated signaling pathway"
+    ],
+    "phenotypes": [
+      "Fatigue",
+      "Jaundice",
+      "Hepatomegaly",
+      "Elevated Transaminases",
+      "Cirrhosis",
+      "Hepatocellular Carcinoma"
+    ],
+    "phenotype_categories": [
+      "Constitutional",
+      "Hepatic",
+      "Laboratory",
+      "Neoplastic"
+    ],
+    "phenotype_ids": [
+      "HP:0012378",
+      "HP:0000952",
+      "HP:0002240",
+      "HP:0002910",
+      "HP:0001394",
+      "HP:0001402"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [
+      "IL28B Polymorphisms"
+    ],
+    "treatments": [
+      "Direct-Acting Antivirals (DAAs)",
+      "Liver Transplantation",
+      "Hepatocellular Carcinoma Surveillance"
+    ],
+    "environmental": [
+      "Injection Drug Use",
+      "Unsafe Medical Practices",
+      "Occupational Exposure",
+      "Tattoos and Body Piercing"
+    ],
+    "biochemical": [
+      "HCV RNA",
+      "Anti-HCV Antibodies",
+      "Elevated ALT",
+      "Elevated Bilirubin"
+    ],
+    "source_file": "Hepatitis_C.yaml",
+    "page_url": "../pages/disorders/Hepatitis_C.html",
+    "num_phenotypes": 6,
+    "num_pathophysiology": 4,
+    "num_genes": 1,
+    "num_treatments": 3
   },
   {
     "name": "Hirschsprung Disease",
@@ -7577,6 +8032,115 @@ window.searchData = [
     "num_treatments": 7
   },
   {
+    "name": "Maple Syrup Urine Disease",
+    "disease_id": "MONDO:0009563",
+    "category": "Genetic",
+    "parents": [
+      "Metabolic Disease",
+      "Inborn Error of Metabolism"
+    ],
+    "subtypes": [
+      "Classic MSUD",
+      "Intermediate MSUD",
+      "Intermittent MSUD",
+      "Thiamine-Responsive MSUD"
+    ],
+    "description": "Mutations in genes encoding subunits of the branched-chain alpha-ketoacid dehydrogenase complex (BCKDH) cause deficient catabolism of branched-chain amino acids (leucine, isoleucine, valine). This leads to accumulation of these amino acids and their toxic ketoacid derivatives in blood and tissues. The BCKDH complex catalyzes the first irreversible step in BCAA catabolism.\n",
+    "pathophysiology": [
+      "Branched-Chain Alpha-Ketoacid Dehydrogenase Deficiency",
+      "Leucine and Ketoacid Neurotoxicity",
+      "Skeletal Muscle Dysfunction"
+    ],
+    "cell_types": [
+      "hepatocyte",
+      "neuron",
+      "astrocyte",
+      "skeletal muscle fiber"
+    ],
+    "cell_type_ids": [
+      "CL:0000182",
+      "CL:0000540",
+      "CL:0000127",
+      "CL:0008002"
+    ],
+    "biological_processes": [
+      "branched-chain amino acid catabolic process",
+      "generation of precursor metabolites and energy"
+    ],
+    "phenotypes": [
+      "Abnormal Urinary Odor",
+      "Poor Feeding",
+      "Lethargy",
+      "Encephalopathy",
+      "Seizures",
+      "Hypotonia",
+      "Intellectual Disability",
+      "Vomiting",
+      "Coma",
+      "Global Developmental Delay",
+      "Elevated Branched Chain Amino Acids"
+    ],
+    "phenotype_categories": [
+      "Other",
+      "Neurological",
+      "Biochemical"
+    ],
+    "phenotype_ids": [
+      "HP:0012088",
+      "HP:0008872",
+      "HP:0001254",
+      "HP:0006846",
+      "HP:0001250",
+      "HP:0001252",
+      "HP:0001249",
+      "HP:0002013",
+      "HP:0001259",
+      "HP:0001263",
+      "HP:0008344"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OBLIGATE"
+    ],
+    "genes": [
+      "BCKDHA",
+      "BCKDHB",
+      "DBT",
+      "DLD"
+    ],
+    "treatments": [
+      "BCAA-Restricted Diet",
+      "Medical Formula",
+      "Thiamine Supplementation",
+      "Liver Transplantation",
+      "Intravenous BCAA-Free Solution",
+      "Acute Crisis Management",
+      "Phenylbutyrate",
+      "Metformin"
+    ],
+    "environmental": [
+      "Dietary Protein",
+      "Catabolic Stress",
+      "Fever"
+    ],
+    "biochemical": [
+      "Plasma Leucine",
+      "Plasma Isoleucine",
+      "Plasma Valine",
+      "Alloisoleucine",
+      "Alpha-Ketoisocaproic Acid (KIC)",
+      "Alpha-Ketoisovaleric Acid (KIV)",
+      "Alpha-Keto-beta-Methylvaleric Acid (KMV)"
+    ],
+    "source_file": "Maple_Syrup_Urine_Disease.yaml",
+    "page_url": "../pages/disorders/Maple_Syrup_Urine_Disease.html",
+    "num_phenotypes": 11,
+    "num_pathophysiology": 3,
+    "num_genes": 4,
+    "num_treatments": 8
+  },
+  {
     "name": "Marfan Syndrome",
     "disease_id": "MONDO:0007947",
     "category": "Genetic",
@@ -7818,6 +8382,67 @@ window.searchData = [
     "num_pathophysiology": 5,
     "num_genes": 8,
     "num_treatments": 5
+  },
+  {
+    "name": "Meniere's Disease",
+    "disease_id": "MONDO:0007972",
+    "category": "Complex",
+    "parents": [
+      "Inner Ear Diseases",
+      "Vestibular Disorders"
+    ],
+    "subtypes": [],
+    "description": "Meniere's disease is characterized by distension of the endolymphatic space (endolymphatic hydrops) due to impaired reabsorption of endolymph or excess production. This results in rupture of the membranous labyrinth and mixing of endolymph and perilymph, leading to vestibular and cochlear dysfunction.\n",
+    "pathophysiology": [
+      "Endolymphatic Hydrops",
+      "Ion Transport Dysfunction",
+      "Autoimmune and Inflammatory Mechanisms",
+      "Blood-Labyrinth Barrier Dysfunction and Oxidative Stress"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [
+      "potassium ion transport",
+      "sodium ion transport",
+      "water homeostasis",
+      "inflammatory response",
+      "NF-kB signaling",
+      "response to cytokine",
+      "response to oxidative stress"
+    ],
+    "phenotypes": [
+      "Episodic Vertigo",
+      "Sensorineural Hearing Loss",
+      "Tinnitus",
+      "Aural Fullness",
+      "Nausea and Vomiting"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0010532",
+      "HP:0008573",
+      "HP:0000360",
+      "HP:0031704",
+      "HP:0002017"
+    ],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [
+      "Low-Sodium Diet",
+      "Diuretic Therapy",
+      "Betahistine",
+      "Intratympanic Injections",
+      "Vestibular Rehabilitation",
+      "Endolymphatic Sac Surgery"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Menieres_Disease.yaml",
+    "page_url": "../pages/disorders/Meniere's_Disease.html",
+    "num_phenotypes": 5,
+    "num_pathophysiology": 4,
+    "num_genes": 0,
+    "num_treatments": 6
   },
   {
     "name": "Migraine",
@@ -10536,6 +11161,64 @@ window.searchData = [
     "num_treatments": 5
   },
   {
+    "name": "Retrograde Cricopharyngeus Dysfunction",
+    "disease_id": "MONDO:0100099",
+    "category": "Syndromic",
+    "parents": [
+      "Neuromuscular Disorder",
+      "Gastrointestinal Disorder"
+    ],
+    "subtypes": [],
+    "description": "A syndrome characterized by the inability to belch due to failure of the upper esophageal sphincter (cricopharyngeus muscle) to relax in response to retrograde esophageal gaseous distension. The associated symptom complex includes abdominal bloating, chest pain, gurgling noises in the chest, nausea, and excessive flatulence.",
+    "pathophysiology": [
+      "Failure of Upper Esophageal Sphincter Relaxation",
+      "Elevated Upper Esophageal Sphincter Basal Pressure"
+    ],
+    "cell_types": [
+      "muscle cell",
+      "sensory neuron"
+    ],
+    "cell_type_ids": [
+      "CL:0000187",
+      "CL:0000101"
+    ],
+    "biological_processes": [
+      "regulation of muscle contraction",
+      "skeletal muscle contraction",
+      "muscle contraction"
+    ],
+    "phenotypes": [
+      "Inability to Belch",
+      "Abdominal Distention",
+      "Chest Pain",
+      "Nausea",
+      "Gurgling Sounds"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0025031",
+      "HP:0003270",
+      "HP:0100749",
+      "HP:0002018"
+    ],
+    "frequencies": [
+      "Common",
+      "Variable"
+    ],
+    "genes": [],
+    "treatments": [
+      "Botulinum Toxin Injection"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Retrograde_Cricopharyngeus_Dysfunction.yaml",
+    "page_url": "../pages/disorders/Retrograde_Cricopharyngeus_Dysfunction.html",
+    "num_phenotypes": 5,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 1
+  },
+  {
     "name": "Rett Syndrome",
     "disease_id": "MONDO:0010726",
     "category": "Genetic",
@@ -10906,6 +11589,139 @@ window.searchData = [
     "num_pathophysiology": 7,
     "num_genes": 11,
     "num_treatments": 5
+  },
+  {
+    "name": "Scurvy",
+    "disease_id": "MONDO:0009412",
+    "category": "Nutritional",
+    "parents": [
+      "Vitamin Deficiency Disease"
+    ],
+    "subtypes": [],
+    "description": "Vitamin C (ascorbic acid) is essential for hydroxylation of proline and lysine residues in collagen synthesis by prolyl and lysyl hydroxylases. Deficiency leads to inadequate hydroxyproline and hydroxylysine formation, preventing triple-helix stability and mature cross-links, resulting in defective collagen formation that affects connective tissues throughout the body.\n",
+    "pathophysiology": [
+      "Collagen Synthesis Impairment",
+      "Vascular Integrity Failure"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Perifollicular Hemorrhages",
+      "Ecchymoses",
+      "Skin Discoloration",
+      "Gingival Bleeding",
+      "Arthralgias",
+      "Fatigue",
+      "Impaired Wound Healing"
+    ],
+    "phenotype_categories": [
+      "Dermatological",
+      "Oral",
+      "Musculoskeletal",
+      "Constitutional"
+    ],
+    "phenotype_ids": [
+      "HP:0000967",
+      "HP:0000978",
+      "HP:0000225",
+      "HP:0002829",
+      "HP:0012378",
+      "HP:0001058"
+    ],
+    "frequencies": [
+      "FREQUENT",
+      "VERY_FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Vitamin C Supplementation"
+    ],
+    "environmental": [
+      "Vitamin C Deficiency"
+    ],
+    "biochemical": [],
+    "source_file": "Scurvy.yaml",
+    "page_url": "../pages/disorders/Scurvy.html",
+    "num_phenotypes": 7,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 1
+  },
+  {
+    "name": "Semicircular Canal Dehiscence Syndrome",
+    "disease_id": "MONDO:0018484",
+    "category": "Structural",
+    "parents": [
+      "Inner Ear Disease",
+      "Vestibular Disorder"
+    ],
+    "subtypes": [],
+    "description": "An abnormal opening or thinning in the bone overlying the superior semicircular canal creates a pathological third mobile window in the inner ear, in addition to the oval and round windows. This dehiscence may result from congenitally thin otic capsule bone predisposition with subsequent trauma trigger.",
+    "pathophysiology": [
+      "Bony Dehiscence of Semicircular Canal",
+      "Third Window Effect",
+      "Abnormal Sound and Pressure Transmission",
+      "Otic Capsule Bone Biology"
+    ],
+    "cell_types": [
+      "vestibular hair cell",
+      "osteoclast",
+      "osteoblast"
+    ],
+    "cell_type_ids": [
+      "CL:0000609",
+      "CL:0000092",
+      "CL:0000062"
+    ],
+    "biological_processes": [
+      "mechanotransduction",
+      "vestibular receptor stimulus detection",
+      "bone remodeling"
+    ],
+    "phenotypes": [
+      "Vertigo",
+      "Sound-Induced Nystagmus",
+      "Oscillopsia",
+      "Autophony",
+      "Pulsatile Tinnitus",
+      "Conductive Hearing Loss",
+      "Chronic Disequilibrium",
+      "Hyperacusis"
+    ],
+    "phenotype_categories": [
+      "Vestibular",
+      "Auditory"
+    ],
+    "phenotype_ids": [
+      "HP:0002321",
+      "HP:0000639",
+      "HP:0034773",
+      "HP:6000032",
+      "HP:0008629",
+      "HP:0000405",
+      "HP:0002141",
+      "HP:0010780"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Observation and Symptom Management",
+      "Surgical Canal Plugging",
+      "Surgical Resurfacing"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Semicircular_Canal_Dehiscence_Syndrome.yaml",
+    "page_url": "../pages/disorders/Semicircular_Canal_Dehiscence_Syndrome.html",
+    "num_phenotypes": 8,
+    "num_pathophysiology": 4,
+    "num_genes": 0,
+    "num_treatments": 3
   },
   {
     "name": "Sickle Cell Disease",
@@ -11786,7 +12602,11 @@ window.searchData = [
       "Nausea"
     ],
     "phenotype_categories": [],
-    "phenotype_ids": [],
+    "phenotype_ids": [
+      "HP:0002014",
+      "HP:0032155",
+      "HP:0002018"
+    ],
     "frequencies": [],
     "genes": [],
     "treatments": [
@@ -12236,6 +13056,72 @@ window.searchData = [
     "num_pathophysiology": 5,
     "num_genes": 4,
     "num_treatments": 8
+  },
+  {
+    "name": "Visual Snow Syndrome",
+    "disease_id": "MONDO:0018486",
+    "category": "Complex",
+    "parents": [
+      "Neurological Disease"
+    ],
+    "subtypes": [],
+    "description": "Visual snow syndrome is thought to involve cortical hyperexcitability, particularly in the lingual gyrus and other visual processing areas. Electrophysiological studies have revealed cortical hyperresponsivity in visual brain areas, and imaging studies demonstrated microstructural and functional connectivity alterations in multiple cortical and thalamic regions.\n",
+    "pathophysiology": [
+      "Visual Cortex Hyperexcitability",
+      "Thalamocortical Network Dysfunction"
+    ],
+    "cell_types": [
+      "cortical interneuron"
+    ],
+    "cell_type_ids": [
+      "CL:0008031"
+    ],
+    "biological_processes": [
+      "visual perception",
+      "synaptic transmission"
+    ],
+    "phenotypes": [
+      "Visual Snow",
+      "Palinopsia",
+      "Photophobia",
+      "Nyctalopia",
+      "Entoptic Phenomena",
+      "Photopsia",
+      "Tinnitus",
+      "Vitreous Floaters"
+    ],
+    "phenotype_categories": [
+      "Neurological"
+    ],
+    "phenotype_ids": [
+      "HP:0000613",
+      "HP:0000662",
+      "HP:0030786",
+      "HP:0000360",
+      "HP:0100832"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Lamotrigine",
+      "Tinted Lenses",
+      "Cognitive Behavioral Therapy",
+      "Benzodiazepines"
+    ],
+    "environmental": [
+      "Migraine Comorbidity",
+      "Anxiety and Depression"
+    ],
+    "biochemical": [],
+    "source_file": "Visual_Snow_Syndrome.yaml",
+    "page_url": "../pages/disorders/Visual_Snow_Syndrome.html",
+    "num_phenotypes": 8,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 4
   },
   {
     "name": "Vitiligo",
