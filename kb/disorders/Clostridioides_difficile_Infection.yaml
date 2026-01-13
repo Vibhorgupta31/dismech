@@ -55,8 +55,8 @@ treatments:
   - name: Fecal microbiota transplantation
     description: Restoration of normal gut microbiota for recurrent infections.
     treatment_term:
-      preferred_term: organ transplantation
+      preferred_term: fecal microbiota transplantation
       term:
-        id: MAXO:0010039
-        label: organ transplantation
-datasets: []
+        id: MAXO:0000748
+        label: fecal microbiota transplantation
+datasets:
