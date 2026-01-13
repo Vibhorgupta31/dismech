@@ -181,6 +181,52 @@ phenotypes:
         supports: SUPPORT
         snippet: "the most common clinical manifestation is AV block, which can be acute in onset and can rapidly progress to complete heart block."
         explanation: Case report and review emphasize AV block as the hallmark of Lyme carditis.
+  - name: Dementia (Reversible Neuroborreliosis)
+    category: Neurological
+    frequency: RARE
+    description: Subcortical or reversible dementia presentations of neuroborreliosis that improve with antibiotic therapy.
+    phenotype_term:
+      preferred_term: Dementia
+      term:
+        id: HP:0000726
+        label: Dementia
+    evidence:
+      - reference: PMID:30046879
+        supports: SUPPORT
+        snippet: "Dementia-like syndromes are rare manifestations of Lyme neuroborreliosis... The response to 2-4 weeks of antibiotic treatment with ceftriaxone was excellent."
+        explanation: Review of definite neuroborreliosis cases shows dementia syndromes resolving after ceftriaxone.
+      - reference: PMID:36740841
+        supports: SUPPORT
+        snippet: "Lyme disease is an uncommon cause of reversible dementia... the brilliant clinical improvement after the appropriate antimicrobial therapy is strongly suggestive for a diagnosis of neuroborreliosis."
+        explanation: Geriatric case of reversible dementia with marked improvement after antimicrobial therapy.
+  - name: Myelitis
+    category: Neurological
+    frequency: RARE
+    description: Inflammatory spinal cord involvement as a rare manifestation of acute neuroborreliosis, sometimes with mild clinical symptoms despite marked MRI edema.
+    phenotype_term:
+      preferred_term: Myelitis
+      term:
+        id: HP:0012486
+        label: Myelitis
+    evidence:
+      - reference: PMID:33082765
+        supports: SUPPORT
+        snippet: "We report a case of acute neuroborreliosis that manifested as extended isolated cervical myelitis."
+        explanation: Case report confirms Lyme-associated cervical myelitis with CSF pleocytosis and intrathecal Borrelia antibodies.
+  - name: Bullous Skin Lesions
+    category: Dermatologic
+    frequency: RARE
+    description: Autoimmune blistering lesions (epidermolysis bullosa acquisita-like) following Lyme infection; reported after atypical erythema migrans.
+    phenotype_term:
+      preferred_term: Subepidermal blistering
+      term:
+        id: HP:0033804
+        label: Subepidermal blistering
+    evidence:
+      - reference: PMID:41133080
+        supports: SUPPORT
+        snippet: "developed acquired epidermolysis bullosa (EBA) following an LD diagnosis. Initially, the patient presented with atypical erythema migrans, which later evolved into multiple bullous lesions"
+        explanation: Case report documents bullous lesions evolving after Lyme disease.
 biochemical:
   - name: Anti-Borrelia Antibodies (IgM/IgG)
     presence: Detected
@@ -204,6 +250,13 @@ environmental:
     notes: Peak transmission during late spring and summer months (May-August) when nymphal ticks are active
   - name: Outdoor Activities
     notes: Risk factors include hiking, camping, gardening, and activities in wooded or grassy areas
+  - name: Non-Ixodes Tick Exposure
+    notes: Rare reports of dog tick (Rhipicephalus) transmission in India; underscores need to consider atypical vectors in endemic settings
+    evidence:
+      - reference: PMID:36352974
+        supports: SUPPORT
+        snippet: "we present the case of Lyme's disease in an adult male with dog tick, Rhipecephalus as a vector."
+        explanation: Case report documents Lyme transmission by Rhipicephalus dog tick, highlighting atypical vector risk.
 treatments:
   - name: Oral Doxycycline
     description: >
