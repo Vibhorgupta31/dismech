@@ -47,6 +47,14 @@ pathophysiology:
         supports: SUPPORT
         snippet: "Amyotrophic lateral sclerosis (ALS) and frontotemporal lobar degeneration (FTLD) share many clinical, pathological, and genetic features"
         explanation: Single-cell analysis confirms motor neuron vulnerability in ALS and identifies vulnerable populations in cortical layer 5.
+      - reference: PMID:38891021
+        supports: SUPPORT
+        snippet: "upper and lower motor neurons in the brain and spinal cord progressively degenerate during the course of the disease, leading to the loss of the voluntary movement of the arms and legs."
+        explanation: Review summarizes canonical ALS pathology of progressive upper and lower motor neuron degeneration causing loss of voluntary movement.
+      - reference: PMID:36116464
+        supports: SUPPORT
+        snippet: "Amyotrophic lateral sclerosis is a fatal CNS neurodegenerative disease."
+        explanation: Lancet Seminar underscores ALS as a fatal neurodegenerative disorder affecting central nervous system motor pathways.
   - name: TDP-43 Proteinopathy
     description: >
       Cytoplasmic aggregation of TDP-43 (TAR DNA-binding protein 43) is found in approximately
@@ -103,6 +111,10 @@ pathophysiology:
         supports: SUPPORT
         snippet: "Some research suggests that the excitatory amino acid neurotransmitter glutamate may be involved in the pathogenesis."
         explanation: Trial of riluzole, an antiglutamate agent, supports role of glutamate excitotoxicity in ALS pathogenesis.
+      - reference: PMID:40508048
+        supports: SUPPORT
+        snippet: "understanding of the key pathogenetic links of ALS, including glutamate-mediated excitotoxicity and oxidative stress, has significantly advanced."
+        explanation: Recent mechanistic review highlights glutamate-mediated excitotoxicity as a key pathogenic process and therapeutic target in ALS.
   - name: Oxidative Stress
     description: >
       Motor neurons are particularly vulnerable to oxidative damage due to high metabolic
@@ -123,6 +135,14 @@ pathophysiology:
         supports: SUPPORT
         snippet: "a gene that encodes a cytosolic, Cu/Zn-binding superoxide dismutase (SOD1), a homodimeric metalloenzyme that catalyzes the dismutation of the toxic superoxide anion"
         explanation: Discovery of SOD1 mutations in familial ALS implicates oxidative stress in disease pathogenesis.
+      - reference: PMID:40508048
+        supports: SUPPORT
+        snippet: "This review considers the recent evidence on molecular mechanisms of these processes, as well as the therapeutic strategies aimed at their modulation. Special attention is paid to antiglutamatergic and antioxidant drugs as approaches to the ALS pathogenetic therapy."
+        explanation: Review emphasizes oxidative stress as a targetable pathogenic mechanism and discusses antioxidant therapeutic strategies in ALS.
+      - reference: PMID:35269543
+        supports: SUPPORT
+        snippet: "ALS has a multifaceted nature affected by many pathological mechanisms, including oxidative stress (also via protein aggregation), mitochondrial dysfunction, glutamate-induced excitotoxicity, apoptosis, neuroinflammation, axonal degeneration, skeletal muscle deterioration and viruses."
+        explanation: Therapeutic strategies review highlights oxidative stress among key pathological mechanisms contributing to ALS.
   - name: Neuroinflammation
     description: >
       Activated microglia and astrocytes contribute to motor neuron death through the release
@@ -227,6 +247,36 @@ pathophysiology:
         supports: SUPPORT
         snippet: "TBK1 also has a major role in autophagy and mitophagy, chiefly the phosphorylation of autophagy adaptors. Several other ALS genes are also involved in autophagy, including p62 and OPTN."
         explanation: Review describes TBK1's role in autophagy and confirms multiple ALS genes function in autophagy pathways.
+
+  - name: Genetic Drivers and Therapeutic Translation
+    description: >
+      Expanding genetic discoveries across ALS, including C9orf72 repeat expansions and mutations in SOD1, TARDBP, and FUS, have catalyzed targeted therapeutic strategies such as antisense oligonucleotides, highlighting how genetic architecture informs treatment development.
+    genes:
+      - preferred_term: C9orf72
+        term:
+          id: HGNC:28337
+          label: C9orf72
+      - preferred_term: SOD1
+        term:
+          id: HGNC:11179
+          label: SOD1
+      - preferred_term: TARDBP
+        term:
+          id: HGNC:11571
+          label: TARDBP
+      - preferred_term: FUS
+        term:
+          id: HGNC:4016
+          label: FUS
+    evidence:
+      - reference: PMID:37024676
+        supports: SUPPORT
+        snippet: "Recent advances in sequencing technologies and collaborative efforts have led to substantial progress in identifying the genetic causes of amyotrophic lateral sclerosis (ALS). This momentum has, in turn, fostered the development of putative molecular therapies."
+        explanation: Review links expanding ALS genetic discoveries to the development of targeted molecular therapies.
+      - reference: PMID:36543887
+        supports: SUPPORT
+        snippet: "Significant discoveries and advances have been made in ALS preclinical models, genetics, pathology, biomarkers, imaging and clinical readouts over the last 10-15 years."
+        explanation: Drug discovery review notes recent genetic and translational advances enabling targeted ALS therapies.
 phenotypes:
   - name: Muscle Weakness
     category: Neuromuscular
@@ -314,6 +364,10 @@ phenotypes:
         supports: SUPPORT
         snippet: "Bulbar dysfunction can manifest as dysphagia (trouble swallowing) and dysarthria (trouble speaking)."
         explanation: StatPearls article highlights dysphagia as a common bulbar manifestation in ALS.
+      - reference: PMID:39207520
+        supports: SUPPORT
+        snippet: "Throughout the disease, more than two-thirds of ALS patients experience dysphagia, regardless of the region of onset."
+        explanation: Dysphagia-focused review reports that swallowing difficulty affects the majority of ALS patients and requires routine assessment.
   - name: Respiratory Insufficiency
     category: Respiratory
     frequency: VERY_FREQUENT
@@ -402,12 +456,32 @@ genetic:
 environmental:
   - name: Heavy Metal Exposure
     notes: Occupational exposure to lead, mercury, and other heavy metals has been associated with increased ALS risk.
+    evidence:
+      - reference: PMID:31578652
+        supports: SUPPORT
+        snippet: "The ratio of maximal/minimal lead exposure yielded a pooled odds ratio (OR) of 1.46 (95% confidence interval (CI) 1.16-1.83) with moderate heterogeneity (I2 = 51.8%; p = 0.019)."
+        explanation: Meta-analysis finds lead exposure positively associated with ALS risk across population-based studies.
   - name: Pesticide Exposure
     notes: Agricultural pesticide exposure has been linked to increased ALS incidence in epidemiological studies.
+    evidence:
+      - reference: PMID:22521219
+        supports: SUPPORT
+        snippet: "In the meta-analysis, ALS was associated with use of pesticides as a group (1.9, 1.1-3.1)."
+        explanation: Systematic review and AHS cohort analysis report elevated ALS odds with pesticide exposure.
   - name: Military Service
     notes: Veterans have approximately twice the risk of developing ALS compared to the general population, possibly related to environmental exposures.
+    evidence:
+      - reference: PMID:14504315
+        supports: SUPPORT
+        snippet: "A significant elevated risk of ALS occurred among all deployed personnel (RR = 1.92; 95% CL = 1.29, 2.84)."
+        explanation: Gulf War veteran cohort showed nearly twofold higher ALS risk compared with non-deployed personnel.
   - name: Smoking
     notes: Cigarette smoking is a confirmed risk factor for ALS, particularly in women.
+    evidence:
+      - reference: PMID:20639382
+        supports: SUPPORT
+        snippet: "The pooled RR (95% CI) of ALS was 1.28 (0.97 to 1.68) for current versus never smokers and 1.12 (0.98 to 1.27) for ever versus never smokers."
+        explanation: Meta-analysis of case-control and cohort studies indicates elevated ALS risk with smoking, especially among women.
 treatments:
   - name: Riluzole
     description: >
@@ -437,6 +511,10 @@ treatments:
         supports: SUPPORT
         snippet: "Edaravone showed efficacy in a small subset of people with ALS who met criteria identified in post-hoc analysis of a previous phase 3 study, showing a significantly smaller decline of ALSFRS-R score compared with placebo."
         explanation: Phase 3 trial demonstrating edaravone slows functional decline in early-stage ALS patients.
+      - reference: PMID:35006266
+        supports: REFUTE
+        snippet: "although long-term intravenous edaravone therapy for patients with ALS was feasible and mainly well tolerated, it was not associated with any disease-modifying benefit."
+        explanation: Real-world cohort study found long-term intravenous edaravone well tolerated but without additional disease-modifying benefit versus standard therapy.
   - name: Tofersen
     description: >
       Antisense oligonucleotide therapy approved for SOD1-ALS that reduces SOD1 protein
@@ -497,6 +575,11 @@ treatments:
       Coordinated care from neurologists, pulmonologists, physical therapists, occupational
       therapists, speech therapists, nutritionists, and palliative care specialists extends
       survival and improves quality of life.
+    evidence:
+      - reference: PMID:24510737
+        supports: SUPPORT
+        snippet: "Multidisciplinary care includes rehabilitation interventions that have the goal of assisting people to teach their fullest potential despite the presence of a disabling disease."
+        explanation: Rehabilitation review emphasizes multidisciplinary care as core to ALS management to optimize function and quality of life.
 datasets:
   - accession: gtex:GTEx_v8_Spinal_cord_cervical_c-1
     title: GTEx v8 Spinal Cord (cervical c-1)
