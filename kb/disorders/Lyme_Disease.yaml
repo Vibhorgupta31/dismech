@@ -302,4 +302,116 @@ treatments:
         supports: SUPPORT
         snippet: "The patient's symptoms resolved quickly with a four-day inpatient course of IV ceftriaxone followed by 10 days of oral doxycycline."
         explanation: Neuroborreliosis case improved with intravenous ceftriaxone then doxycycline.
+differential_diagnoses:
+  - name: Southern Tick-Associated Rash Illness (STARI)
+    disease_term:
+      preferred_term: Southern Tick-Associated Rash Illness
+      term:
+        id: MONDO:0025294
+        label: tick-borne infectious disease
+    description: Lone star tick-associated erythema migrans–like rash without Borrelia burgdorferi infection.
+    distinguishing_features:
+      - Occurs after Amblyomma americanum bite in southeastern/south-central US; Borrelia testing negative.
+      - Typically lacks systemic neurologic or cardiac involvement seen in disseminated Lyme.
+    evidence:
+      - reference: PMID:40788480
+        supports: SUPPORT
+        snippet: "Southern tick-associated rash illness (STARI)"
+        explanation: Highlights STARI as a distinct erythema migrans–like illness linked to lone star tick bites.
+  - name: Cellulitis
+    disease_term:
+      preferred_term: cellulitis
+      term:
+        id: MONDO:0005230
+        label: cellulitis
+    description: Bacterial skin infection that can mimic early erythema migrans.
+    distinguishing_features:
+      - Painful, warm, expanding erythema often with fever.
+      - No central clearing.
+      - Responds rapidly to anti-staphylococcal/streptococcal therapy.
+    evidence:
+      - reference: PMID:26437159
+        supports: SUPPORT
+        snippet: "atypical vesicular features... resulted in multiple misdiagnoses and delayed treatment"
+        explanation: Atypical erythema migrans presentations can be misdiagnosed as bacterial cellulitis.
+  - name: Septic Arthritis
+    disease_term:
+      preferred_term: infective arthritis
+      term:
+        id: MONDO:0042485
+        label: infective arthritis
+    description: Acute bacterial arthritis of large joints.
+    distinguishing_features:
+      - Very high synovial WBC with positive Gram stain/culture.
+      - Lacks migratory arthralgias and Borrelia serology.
+      - Requires urgent drainage.
+    evidence:
+      - reference: PMID:24028811
+        supports: SUPPORT
+        snippet: "clinical and biological picture often resembles that of septic arthritis"
+        explanation: Pediatric Lyme arthritis cases can initially be confused with septic arthritis.
+  - name: Rheumatoid Arthritis
+    disease_term:
+      preferred_term: rheumatoid arthritis
+      term:
+        id: MONDO:0008383
+        label: rheumatoid arthritis
+    description: Chronic symmetric inflammatory polyarthritis.
+    distinguishing_features:
+      - Small-joint symmetric involvement with RF/anti-CCP positivity.
+      - No tick exposure history or erythema migrans.
+      - Nodules and erosions on imaging.
+    evidence:
+      - reference: PMID:24028811
+        supports: SUPPORT
+        snippet: "clinical and biological picture often resembles that of septic arthritis and juvenile rheumatoid arthritis"
+        explanation: Lyme arthritis may mimic rheumatoid patterns, prompting serologic differentiation.
+  - name: Viral Encephalitis
+    disease_term:
+      preferred_term: viral encephalitis
+      term:
+        id: MONDO:0006009
+        label: viral encephalitis
+    description: CNS infection causing encephalopathy that can overlap with neuroborreliosis symptoms.
+    distinguishing_features:
+      - CSF PCR panels for HSV/VZV/arboviruses.
+      - Absent Borrelia intrathecal antibodies.
+      - Often acute febrile onset.
+    evidence:
+      - reference: PMID:29848409
+        supports: SUPPORT
+        snippet: "Two serum samples from one patient showed neutralizing antibodies against TBE virus."
+        explanation: Tick-borne encephalitis virus infection was found in a patient initially suspected of Lyme, illustrating viral encephalitis as a key differential.
+  - name: Multiple Sclerosis and Other Demyelinating Myelopathies
+    disease_term:
+      preferred_term: multiple sclerosis
+      term:
+        id: MONDO:0005301
+        label: multiple sclerosis
+    description: Demyelinating CNS disease that can mimic neuroborreliosis with cord lesions.
+    distinguishing_features:
+      - Oligoclonal bands without intrathecal Borrelia antibodies.
+      - Typical MS lesion distribution.
+      - Relapsing course without tick exposure.
+    evidence:
+      - reference: PMID:34861197
+        supports: SUPPORT
+        snippet: "examples... newly diagnosed included multiple sclerosis"
+        explanation: Cohort of presumed Lyme referrals identified multiple sclerosis as a frequent alternate diagnosis.
+  - name: Viral Myocarditis/Other Causes of AV Block
+    disease_term:
+      preferred_term: myocarditis
+      term:
+        id: MONDO:0004496
+        label: myocarditis
+    description: Cardiac conduction disease from viral myocarditis or idiopathic fibrosis.
+    distinguishing_features:
+      - Elevated cardiac biomarkers and viral serologies.
+      - Absence of erythema migrans or Lyme serology.
+      - Persistent AV block without rapid reversal on antibiotics.
+    evidence:
+      - reference: PMID:40385752
+        supports: SUPPORT
+        snippet: "Comprehensive investigations excluded other bradyarrhythmia causes, such as Lyme disease, sarcoidosis, and myocarditis"
+        explanation: Case of dengue-related complete heart block underscores non-Lyme infectious causes of advanced AV block.
 datasets:
