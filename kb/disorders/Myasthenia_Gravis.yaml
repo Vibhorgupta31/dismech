@@ -247,9 +247,4 @@ treatments:
     explanation: Plasma exchange is highly effective, particularly in MuSK-MG where it outperforms IVIG.
 - name: Intravenous Immunoglobulin
   description: Immunomodulation, used for exacerbations and crisis.
-  treatment_term:
-    preferred_term: passive immunizing agent therapy
-    term:
-      id: MAXO:0000298
-      label: passive immunizing agent therapy
 datasets: []
