@@ -538,6 +538,11 @@ treatments:
       term:
         id: MAXO:0000506
         label: noninvasive ventilation
+    evidence:
+      - reference: PMID:16426990
+        supports: SUPPORT
+        snippet: "This subgroup showed improvement in several measures of quality of life and a median survival benefit of 205 days (p=0.006) with maintained quality of life for most of this period."
+        explanation: Randomized controlled trial demonstrated non-invasive ventilation improves quality of life and extends survival in ALS patients with preserved bulbar function.
   - name: Physical Therapy
     description: >
       Range of motion exercises and adaptive strategies to maintain function and prevent
@@ -570,11 +575,26 @@ treatments:
     description: >
       Feeding tube placement to maintain nutrition when swallowing becomes unsafe or
       inadequate due to bulbar involvement.
+    treatment_term:
+      preferred_term: supportive care
+      term:
+        id: MAXO:0000950
+        label: supportive care
+    evidence:
+      - reference: PMID:39207520
+        supports: SUPPORT
+        snippet: "Early discussion of potential treatments such as high-calorie diets or percutaneous endoscopic gastrostomy (PEG) is crucial."
+        explanation: Dysphagia management review underscores PEG as an essential intervention when nutrition is compromised in ALS.
   - name: Multidisciplinary Care
     description: >
       Coordinated care from neurologists, pulmonologists, physical therapists, occupational
       therapists, speech therapists, nutritionists, and palliative care specialists extends
       survival and improves quality of life.
+    treatment_term:
+      preferred_term: supportive care
+      term:
+        id: MAXO:0000950
+        label: supportive care
     evidence:
       - reference: PMID:24510737
         supports: SUPPORT
