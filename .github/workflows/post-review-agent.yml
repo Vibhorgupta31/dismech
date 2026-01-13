@@ -68,6 +68,11 @@ jobs:
         run: |
           uv sync
 
+      - name: Install just
+        run: |
+          uv tool install rust-just
+          uv sync
+
       - name: Run Editorial Review Bot
         id: editorial-bot
         uses: anthropics/claude-code-action@v1
