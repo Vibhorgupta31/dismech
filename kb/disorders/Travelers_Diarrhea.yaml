@@ -39,11 +39,6 @@ phenotypes:
 treatments:
   - name: Oral rehydration therapy
     description: Fluid and electrolyte replacement is the cornerstone of treatment.
-    treatment_term:
-      preferred_term: oral rehydration therapy
-      term:
-        id: MAXO:0001298
-        label: therapy
   - name: Loperamide
     description: Antimotility agent for symptomatic relief in non-invasive cases.
     treatment_term:
