@@ -96,11 +96,6 @@ phenotypes:
       term:
         id: HP:0031180
         label: Erythema migrans
-    evidence:
-      - reference: PMID:17029130
-        supports: SUPPORT
-        snippet: "For each of these Ixodes tickborne infections, information is provided about prevention, epidemiology, clinical manifestations, diagnosis, and treatment."
-        explanation: IDSA guidelines provide comprehensive information on Lyme disease clinical manifestations including erythema migrans.
   - name: Fatigue
     category: Constitutional
     frequency: VERY_FREQUENT
