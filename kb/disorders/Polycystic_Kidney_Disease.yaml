@@ -28,6 +28,11 @@ pathophysiology:
       signaling. These proteins localize to primary cilia and regulate intracellular
       calcium signaling, cell proliferation, and fluid secretion. Disruption leads
       to aberrant cell proliferation and fluid accumulation forming cysts.
+    evidence:
+      - reference: PMID:29105594
+        supports: SUPPORT
+        snippet: "the vasopressin V2-receptor antagonist tolvaptan slowed the growth in total kidney volume and the decline in the estimated glomerular filtration rate (GFR)"
+        explanation: Vasopressin V2/cAMP pathway blockade reduces cyst expansion and kidney enlargement, supporting cAMP-driven cystogenesis.
     cell_types:
       - preferred_term: nephron tubule epithelial cell
         term:
@@ -43,6 +48,11 @@ pathophysiology:
       Primary cilia act as mechanosensors in renal tubular epithelial cells.
       Polycystin dysfunction impairs ciliary signaling, disrupting normal tubular
       architecture and promoting cyst formation through increased cAMP signaling.
+    evidence:
+      - reference: PMID:29105594
+        supports: SUPPORT
+        snippet: "the vasopressin V2-receptor antagonist tolvaptan slowed the growth in total kidney volume"
+        explanation: Reduction of cyst growth via V2 receptor blockade underscores cAMP-mediated ciliary signaling as a driver of cystogenesis.
     cell_types:
       - preferred_term: nephron tubule epithelial cell
         term:
@@ -62,6 +72,11 @@ pathophysiology:
       Progressive cyst growth triggers interstitial inflammation and fibrosis.
       Activated myofibroblasts deposit extracellular matrix, contributing to
       nephron loss and declining kidney function.
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "ADPKD accounts for 5% to 10% of kidney failure in the US and Europe"
+        explanation: High kidney failure burden reflects cumulative nephron loss from cyst-driven injury and interstitial fibrosis.
     cell_types:
       - preferred_term: macrophage
         term:
@@ -152,26 +167,61 @@ phenotypes:
       term:
         id: HP:0030157
         label: Flank pain
+    evidence:
+      - reference: PMID:40371605
+        supports: SUPPORT
+        snippet: "Comorbidities include hypertension, flank pain, and bacterial infections."
+        explanation: Proteomic study notes flank pain as a common comorbidity in ADPKD patients.
 biochemical:
   - name: Elevated Creatinine
     presence: Elevated
     context: Marker of declining renal function in advanced disease
+    evidence:
+      - reference: PMID:29105594
+        supports: SUPPORT
+        snippet: "The change from baseline in the estimated GFR was -2.34 ml per minute per 1.73 m2"
+        explanation: Progressive GFR decline reflects rising creatinine as renal function deteriorates.
   - name: Decreased GFR
     presence: Decreased
     context: Progressive decline reflecting nephron loss
+    evidence:
+      - reference: PMID:29105594
+        supports: SUPPORT
+        snippet: "as compared with -3.61 ml per minute per 1.73 m2 (95% CI, -4.08 to -3.14) in the placebo group"
+        explanation: Trial quantifies ongoing GFR loss in ADPKD absent disease-modifying therapy.
 genetic:
   - name: PKD1 Mutations
     association: Causative
     notes: Accounts for approximately 85% of ADPKD cases; encodes polycystin-1; typically more severe phenotype with earlier onset of ESRD
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "ADPKD is typically diagnosed in individuals aged 27 to 42 years and is primarily caused by pathogenic variants in the PKD1 (78%) or PKD2 (15%) genes."
+        explanation: JAMA review quantifies PKD1 as the predominant cause of ADPKD.
   - name: PKD2 Mutations
     association: Causative
     notes: Accounts for approximately 15% of ADPKD cases; encodes polycystin-2; milder phenotype with later onset of ESRD
+    evidence:
+      - reference: PMID:40126492
+        supports: SUPPORT
+        snippet: "ADPKD is typically diagnosed in individuals aged 27 to 42 years and is primarily caused by pathogenic variants in the PKD1 (78%) or PKD2 (15%) genes."
+        explanation: JAMA review documents PKD2 as a minority but established cause of ADPKD.
   - name: PKHD1 Mutations
     association: Causative
     notes: Causes autosomal recessive PKD; encodes fibrocystin/polyductin
+    evidence:
+      - reference: PMID:41467628
+        supports: SUPPORT
+        snippet: "Autosomal recessive polycystic kidney disease (ARPKD) is a rare disorder mainly caused by mutations in the polycystic kidney and hepatic disease 1 (PKHD1) gene."
+        explanation: Clin Nephrol study states PKHD1 mutations as the primary cause of ARPKD.
 environmental:
   - name: Caffeine Consumption
     notes: May accelerate cyst growth through increased cAMP levels; patients often advised to limit intake
+    evidence:
+      - reference: PMID:20301424
+        supports: SUPPORT
+        snippet: "Agents/circumstances to avoid: ... high levels of caffeine"
+        explanation: GeneReviews lists high caffeine intake as an avoidable factor in ADPKD management.
 treatments:
   - name: Tolvaptan
     description: >
