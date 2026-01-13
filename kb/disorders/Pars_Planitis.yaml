@@ -223,19 +223,9 @@ genetic:
 - name: HLA-B27
   association: Risk Factor
   notes: Associated with some cases of intermediate uveitis
-  evidence:
-  - reference: PMID:35759636
-    supports: SUPPORT
-    snippet: "Intermediate uveitis patients should be questioned about a history of autoimmune disorders such as multiple sclerosis or sarcoidosis."
-    explanation: While HLA-B27 is commonly associated with anterior uveitis, it can also be present in intermediate uveitis cases, particularly those with systemic autoimmune associations.
 - name: HLA-DR4
   association: Risk Factor
   notes: Genetic predisposition factor in some populations
-  evidence:
-  - reference: PMID:28613790
-    supports: SUPPORT
-    snippet: "The most widely accepted hypothesis is that pars planitis represents an autoimmune disorder of the eye."
-    explanation: HLA-DR4 has been associated with autoimmune forms of uveitis, consistent with the autoimmune etiology of pars planitis.
 environmental:
 - name: Infectious Agents
   effect: Potential trigger
