@@ -30,17 +30,15 @@ pathophysiology:
           id: CL:0000625
           label: CD8-positive, alpha-beta T cell
     evidence:
-      - reference: PMID:36639608
+      - reference: PMID:37140960
         supports: SUPPORT
-        snippet: "Long COVID is an often debilitating illness that occurs in at least 10% of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infections."
-        explanation: Establishes the prevalence and debilitating nature of Long COVID following SARS-CoV-2 infection.
-  - name: Immune Dysregulation
+        snippet: "Persistence of SARS-CoV-2 RNA or antigens is reported in some organs, yet the mechanism by which they do so and how they may be associated with pathogenic immune responses is unclear."
+        explanation: Links Long COVID to persistence of SARS-CoV-2 RNA or antigen in tissues and resulting immune responses.
+  - name: Systemic Immune Activation
     description: >
-      Chronic immune activation with elevated inflammatory cytokines,
-      autoantibody production, and T cell exhaustion contribute to persistent
-      symptoms. Long COVID patients exhibit systemic inflammation with increased
-      frequencies of CD4+ T cells poised to migrate to inflamed tissues and
-      exhausted SARS-CoV-2-specific CD8+ T cells.
+      Long COVID patients show ongoing systemic inflammation with altered T cell
+      subset distributions and cytokine perturbations, indicating chronic immune
+      activation and dysregulated signaling.
     cell_types:
       - preferred_term: CD4-positive T cell
         term:
@@ -63,11 +61,35 @@ pathophysiology:
       - reference: PMID:38212464
         supports: SUPPORT
         snippet: "LC individuals exhibited systemic inflammation and immune dysregulation. This was evidenced by global differences in T cell subset distribution implying ongoing immune responses, as well as by sex-specific perturbations in cytolytic subsets."
-        explanation: Directly demonstrates systemic inflammation and T cell dysregulation in Long COVID patients.
+        explanation: Demonstrates persistent systemic inflammation and altered immune signaling in Long COVID.
+  - name: T Cell Exhaustion and Tissue Trafficking
+    description: >
+      SARS-CoV-2-specific CD8+ T cells exhibit exhaustion phenotypes while CD4+ T
+      cells are poised to migrate to inflamed tissues, reflecting sustained antigen
+      exposure and chronic activation in Long COVID.
+    cell_types:
+      - preferred_term: CD4-positive T cell
+        term:
+          id: CL:0000624
+          label: CD4-positive, alpha-beta T cell
+      - preferred_term: CD8-positive T cell
+        term:
+          id: CL:0000625
+          label: CD8-positive, alpha-beta T cell
+    biological_processes:
+      - preferred_term: T cell migration
+        term:
+          id: GO:0072678
+          label: T cell migration
+      - preferred_term: T cell activation
+        term:
+          id: GO:0042110
+          label: T cell activation
+    evidence:
       - reference: PMID:38212464
         supports: SUPPORT
         snippet: "LC individuals displayed increased frequencies of CD4+ T cells poised to migrate to inflamed tissues and exhausted SARS-CoV-2-specific CD8+ T cells"
-        explanation: Documents specific T cell abnormalities including exhaustion phenotypes in Long COVID.
+        explanation: Documents tissue-trafficking CD4+ cells and exhausted virus-specific CD8+ cells in Long COVID.
   - name: Endothelial Dysfunction and Microclots
     description: >
       Persistent endothelial damage and formation of amyloid-like fibrin microclots
@@ -97,37 +119,60 @@ pathophysiology:
         supports: SUPPORT
         snippet: "the ability of these fibrin amyloid microclots (fibrinaloids) to block up capillaries, and thus to limit the passage of red blood cells and hence O2 exchange, can actually underpin the majority of these symptoms"
         explanation: Explains how microclots may cause Long COVID symptoms through impaired oxygen delivery.
-  - name: Serotonin Depletion
+  - name: Serotonin Depletion Mechanisms
     description: >
-      Peripheral serotonin reduction occurs through three mechanisms: diminished
-      intestinal absorption of tryptophan, platelet hyperactivation depleting
-      serotonin stores, and enhanced MAO-mediated serotonin turnover. This
-      peripheral serotonin reduction impairs vagus nerve activity and thereby
-      affects hippocampal responses and memory.
+      Long COVID features reduced peripheral serotonin driven by diminished
+      intestinal tryptophan absorption, platelet hyperactivation that depletes
+      stored serotonin, and enhanced monoamine oxidase-mediated serotonin
+      turnover.
     biological_processes:
-      - preferred_term: neurogenesis
+      - preferred_term: tryptophan transport
         term:
-          id: GO:0022008
-          label: neurogenesis
+          id: GO:0015827
+          label: tryptophan transport
+      - preferred_term: platelet activation
+        term:
+          id: GO:0030168
+          label: platelet activation
+      - preferred_term: serotonin metabolic process
+        term:
+          id: GO:0042427
+          label: serotonin metabolic process
+    evidence:
+      - reference: PMID:37848036
+        supports: SUPPORT
+        snippet: "Viral infection and type I interferon-driven inflammation reduce serotonin through three mechanisms: diminished intestinal absorption of the serotonin precursor tryptophan; platelet hyperactivation and thrombocytopenia, which impacts serotonin storage; and enhanced MAO-mediated serotonin turnover."
+        explanation: Describes the three mechanistic drivers of serotonin loss in Long COVID.
+  - name: Vagus-Hippocampal Signaling Impairment
+    description: >
+      Peripheral serotonin depletion weakens vagus nerve activity, leading to
+      impaired hippocampal responses and memory formation that contribute to
+      cognitive symptoms in Long COVID.
+    biological_processes:
       - preferred_term: regulation of synaptic plasticity
         term:
           id: GO:0048167
           label: regulation of synaptic plasticity
+      - preferred_term: memory
+        term:
+          id: GO:0007613
+          label: memory
     evidence:
       - reference: PMID:37848036
         supports: SUPPORT
-        snippet: "We find that PASC are associated with serotonin reduction. Viral infection and type I interferon-driven inflammation reduce serotonin through three mechanisms: diminished intestinal absorption of the serotonin precursor tryptophan; platelet hyperactivation and thrombocytopenia, which impacts serotonin storage; and enhanced MAO-mediated serotonin turnover."
-        explanation: Identifies the three mechanisms causing serotonin depletion in Long COVID.
-      - reference: PMID:37848036
-        supports: SUPPORT
         snippet: "Peripheral serotonin reduction, in turn, impedes the activity of the vagus nerve and thereby impairs hippocampal responses and memory."
-        explanation: Explains how peripheral serotonin reduction causes cognitive symptoms through the vagus nerve-hippocampus pathway.
+        explanation: Connects serotonin loss to vagal signaling deficits and hippocampal dysfunction.
   - name: Autonomic Nervous System Dysfunction
     description: >
       Dysautonomia, particularly postural orthostatic tachycardia syndrome (POTS),
       develops in many Long COVID patients. This may be related to virus- or
       immune-mediated disruption of the autonomic nervous system resulting in
       orthostatic intolerance syndromes.
+    biological_processes:
+      - preferred_term: mast cell activation
+        term:
+          id: GO:0045576
+          label: mast cell activation
     evidence:
       - reference: PMID:33243837
         supports: SUPPORT
@@ -137,30 +182,44 @@ pathophysiology:
         supports: SUPPORT
         snippet: "'Post-acute COVID' (known colloquially as 'long COVID') is emerging as a prevalent syndrome. It encompasses a plethora of debilitating symptoms (including breathlessness, chest pain, palpitations and orthostatic intolerance)"
         explanation: Documents the prevalence of autonomic symptoms in Long COVID.
-  - name: Mitochondrial Dysfunction
+  - name: Impaired Mitochondrial Energy Production
     description: >
-      Impaired mitochondrial function and reduced ATP production contribute to
-      chronic fatigue, cognitive disturbances, and exercise intolerance in Long COVID.
-      SARS-CoV-2 infection shifts cellular metabolism toward glycolysis due to
-      impaired oxidative phosphorylation.
+      Long COVID is associated with reduced mitochondrial ATP production and
+      impaired oxidative phosphorylation, contributing to fatigue, cognitive
+      disturbances, and exercise intolerance.
+    biological_processes:
+      - preferred_term: oxidative phosphorylation
+        term:
+          id: GO:0006119
+          label: oxidative phosphorylation
+      - preferred_term: ATP biosynthetic process
+        term:
+          id: GO:0006754
+          label: ATP biosynthetic process
+    evidence:
+      - reference: PMID:38668888
+        supports: SUPPORT
+        snippet: "Emerging evidence has pointed to mitochondrial dysfunction as a potential underpinning mechanism contributing to the persistence and diversity of long COVID symptoms."
+        explanation: Links mitochondrial dysfunction and reduced energy production to persistent Long COVID symptoms.
+  - name: Metabolic Shift and Oxidative Stress
+    description: >
+      Mitochondrial impairment drives a shift toward glycolysis with associated
+      oxidative stress and metabolic disturbances, further exacerbating systemic
+      symptoms in Long COVID.
     biological_processes:
       - preferred_term: glycolytic process
         term:
           id: GO:0006096
           label: glycolytic process
-      - preferred_term: oxidative phosphorylation
+      - preferred_term: response to oxidative stress
         term:
-          id: GO:0006119
-          label: oxidative phosphorylation
+          id: GO:0006979
+          label: response to oxidative stress
     evidence:
       - reference: PMID:38668888
         supports: SUPPORT
-        snippet: "Among the myriad of symptoms reported by long COVID sufferers, chronic fatigue, cognitive disturbances, and exercise intolerance are predominant, suggesting systemic alterations beyond the initial viral pathology. Emerging evidence has pointed to mitochondrial dysfunction as a potential underpinning mechanism"
-        explanation: Links mitochondrial dysfunction to the predominant symptoms of Long COVID.
-      - reference: PMID:38668888
-        supports: SUPPORT
         snippet: "This review aims to synthesize current findings related to mitochondrial dysfunction in long COVID, exploring its implications for cellular energy deficits, oxidative stress, immune dysregulation, metabolic disturbances, and endothelial dysfunction."
-        explanation: Describes the multiple consequences of mitochondrial dysfunction in Long COVID.
+        explanation: Describes oxidative stress and metabolic disturbances resulting from mitochondrial dysfunction in Long COVID.
   - name: Mast Cell Activation
     description: >
       Mast cell activation syndrome (MCAS) has been implicated in Long COVID
