@@ -733,3 +733,40 @@ notes: >
   both mild and severe acute illness and may present as a relapsing-remitting
   course with new symptoms emerging months to years after initial infection.
 datasets:
+  - accession: n3c:N3C
+    title: National COVID Cohort Collaborative (N3C)
+    description: >
+      Multi-institutional U.S. clinical data enclave aggregating patient-level
+      EHR data on COVID-19 and post-acute sequelae for large-scale analytics.
+    conditions:
+      - COVID-19
+      - Post-acute sequelae of SARS-CoV-2 infection
+    publication: PMID:32805036
+    evidence:
+      - reference: PMID:32805036
+        supports: SUPPORT
+        snippet: "Here, we introduce the National COVID Cohort Collaborative (N3C), an open science community focused on analyzing patient-level data from many centers."
+        explanation: Describes N3C as the patient-level data resource enabling COVID-19 and Long COVID research.
+    notes: "Repository site: https://covid.cd2h.org/"
+  - accession: geo:GSE270045
+    title: Integrated immune, hormonal, and transcriptomic profiling in long COVID with ME/CFS
+    description: >
+      GEO bulk transcriptomic dataset paired with immune and hormonal profiling
+      in long COVID patients meeting ME/CFS criteria, highlighting sex-specific
+      dysregulation.
+    organism:
+      preferred_term: human
+      term:
+        id: NCBITaxon:9606
+        label: Homo sapiens
+    data_type: BULK_RNA_SEQ
+    conditions:
+      - Long COVID with ME/CFS
+    platform: GEO
+    publication: PMID:41205594
+    evidence:
+      - reference: PMID:41205594
+        supports: SUPPORT
+        snippet: "Integrated immune, hormonal, and transcriptomic profiling reveals sex-specific dysregulation in long COVID patients with ME/CFS."
+        explanation: Links the dataset to sex-specific transcriptomic and immune profiling in long COVID with ME/CFS.
+    notes: "Dataset record: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270045"
