@@ -174,10 +174,10 @@ progression:
 infectious_agent:
 - name: Ebola Virus
   infectious_agent_term:
-    preferred_term: Ebolavirus
+    preferred_term: Ebola virus
     term:
       id: NCBITaxon:1570291
-      label: Ebolavirus
+      label: Ebola virus
   evidence:
   - reference: PMID:32080199
     supports: SUPPORT

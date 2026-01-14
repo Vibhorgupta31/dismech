@@ -18,10 +18,10 @@ parents:
 infectious_agent:
   - name: Hepatitis C virus
     infectious_agent_term:
-      preferred_term: Hepatitis C virus
+      preferred_term: Hepacivirus hominis
       term:
-        id: NCBITaxon:11103
-        label: Hepatitis C virus
+        id: NCBITaxon:3052230
+        label: Hepacivirus hominis
 has_subtypes:
   - name: Acute Hepatitis C
     description: Initial HCV infection within the first 6 months, often asymptomatic but may present with jaundice and elevated transaminases.
