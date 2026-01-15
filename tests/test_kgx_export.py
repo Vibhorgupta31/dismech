@@ -90,7 +90,7 @@ class TestLocationToEdge:
         edge = location_to_edge("MONDO:0007947", location)
         assert isinstance(edge, Association)
         assert edge.subject == "MONDO:0007947"
-        assert edge.predicate == "biolink:located_in"
+        assert edge.predicate == "biolink:disease_has_location"
         assert edge.object == "UBERON:0000947"
         assert edge.primary_knowledge_source == KNOWLEDGE_SOURCE
 
@@ -112,7 +112,7 @@ class TestBiologicalProcessToEdge:
         edge = biological_process_to_edge("MONDO:0004979", process)
         assert isinstance(edge, Association)
         assert edge.subject == "MONDO:0004979"
-        assert edge.predicate == "biolink:has_participant"
+        assert edge.predicate == "biolink:affects"
         assert edge.object == "GO:0006954"
         assert edge.primary_knowledge_source == KNOWLEDGE_SOURCE
 
@@ -136,9 +136,10 @@ class TestTreatmentToEdge:
         }
         edge = treatment_to_edge("MONDO:0004979", treatment)
         assert isinstance(edge, Association)
-        assert edge.subject == "MONDO:0004979"
-        assert edge.predicate == "biolink:treated_by"
-        assert edge.object == "MAXO:0000312"
+        # Treatment is subject, disease is object
+        assert edge.subject == "MAXO:0000312"
+        assert edge.predicate == "biolink:treats_or_applied_or_studied_to_treat"
+        assert edge.object == "MONDO:0004979"
         assert edge.primary_knowledge_source == KNOWLEDGE_SOURCE
 
     def test_missing_treatment_term(self):
@@ -249,9 +250,10 @@ class TestTransform:
         # Check edge types are present
         predicates = [e.predicate for e in edges]
         assert predicates.count("biolink:has_phenotype") == 2
-        assert predicates.count("biolink:has_participant") == 2  # cell_type + process
-        assert predicates.count("biolink:located_in") == 1
-        assert predicates.count("biolink:treated_by") == 1
+        assert predicates.count("biolink:has_participant") == 1  # cell_type only
+        assert predicates.count("biolink:affects") == 1  # biological process
+        assert predicates.count("biolink:disease_has_location") == 1
+        assert predicates.count("biolink:treats_or_applied_or_studied_to_treat") == 1
         assert predicates.count("biolink:gene_associated_with_condition") == 1
 
     def test_transform_missing_disease_term(self):

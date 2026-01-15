@@ -14,12 +14,28 @@ from koza import KozaTransform
 from biolink_model.datamodel.pydanticmodel_v2 import (
     AgentTypeEnum,
     Association,
+    DiseaseToPhenotypicFeatureAssociation,
     KnowledgeLevelEnum,
 )
 
 
 # Knowledge source for all edges
 KNOWLEDGE_SOURCE = "infores:dismech"
+
+# Frequency enum to HP term mapping
+FREQUENCY_TO_HP = {
+    "OBLIGATE": "HP:0040280",
+    "VERY_FREQUENT": "HP:0040281",
+    "FREQUENT": "HP:0040282",
+    "OCCASIONAL": "HP:0040283",
+    "VERY_RARE": "HP:0040284",
+}
+
+# Modifier enum to biolink direction qualifier
+MODIFIER_TO_DIRECTION = {
+    "INCREASED": "increased",
+    "DECREASED": "decreased",
+}
 
 
 def _make_edge_id(subject: str, predicate: str, obj: str) -> str:
@@ -51,7 +67,7 @@ def _get_term_id(obj: dict[str, Any] | None, path: list[str]) -> str | None:
     return current if isinstance(current, str) else None
 
 
-def phenotype_to_edge(disease_id: str, phenotype: dict[str, Any]) -> Association | None:
+def phenotype_to_edge(disease_id: str, phenotype: dict[str, Any]) -> DiseaseToPhenotypicFeatureAssociation | None:
     """
     Convert a phenotype entry to a KGX edge.
 
@@ -60,18 +76,23 @@ def phenotype_to_edge(disease_id: str, phenotype: dict[str, Any]) -> Association
         phenotype: A phenotype dict from phenotypes[]
 
     Returns:
-        Association or None if phenotype_term.term.id is missing
+        DiseaseToPhenotypicFeatureAssociation or None if phenotype_term.term.id is missing
     """
     term_id = _get_term_id(phenotype, ["phenotype_term", "term", "id"])
     if not term_id:
         return None
 
+    # Map frequency enum to HP term for qualifier
+    frequency = phenotype.get("frequency")
+    frequency_qualifier = FREQUENCY_TO_HP.get(frequency) if frequency else None
+
     predicate = "biolink:has_phenotype"
-    return Association(
+    return DiseaseToPhenotypicFeatureAssociation(
         id=_make_edge_id(disease_id, predicate, term_id),
         subject=disease_id,
         predicate=predicate,
         object=term_id,
+        frequency_qualifier=frequency_qualifier,
         primary_knowledge_source=KNOWLEDGE_SOURCE,
         knowledge_level=KnowledgeLevelEnum.knowledge_assertion,
         agent_type=AgentTypeEnum.manual_validation_of_automated_agent,
@@ -120,7 +141,7 @@ def location_to_edge(disease_id: str, location: dict[str, Any]) -> Association |
     if not term_id:
         return None
 
-    predicate = "biolink:located_in"
+    predicate = "biolink:disease_has_location"
     return Association(
         id=_make_edge_id(disease_id, predicate, term_id),
         subject=disease_id,
@@ -136,6 +157,10 @@ def biological_process_to_edge(disease_id: str, process: dict[str, Any]) -> Asso
     """
     Convert a biological process entry to a KGX edge.
 
+    Uses biolink:affects predicate. The modifier field (INCREASED/DECREASED)
+    is captured in the qualifiers list for future use when biolink supports
+    typed qualifier fields on a Disease→BiologicalProcess association.
+
     Args:
         disease_id: The disease term ID
         process: A process dict from pathophysiology[].biological_processes[]
@@ -147,12 +172,23 @@ def biological_process_to_edge(disease_id: str, process: dict[str, Any]) -> Asso
     if not term_id:
         return None
 
-    predicate = "biolink:has_participant"
+    # Get modifier and map to direction qualifier string
+    # Note: Base Association class doesn't support typed qualifiers like
+    # object_direction_qualifier, so we store it in the qualifiers list
+    modifier = process.get("modifier")
+    direction = MODIFIER_TO_DIRECTION.get(modifier) if modifier else None
+
+    predicate = "biolink:affects"
+    qualifiers = []
+    if direction:
+        qualifiers.append(f"direction:{direction}")
+
     return Association(
         id=_make_edge_id(disease_id, predicate, term_id),
         subject=disease_id,
         predicate=predicate,
         object=term_id,
+        qualifiers=qualifiers if qualifiers else None,
         primary_knowledge_source=KNOWLEDGE_SOURCE,
         knowledge_level=KnowledgeLevelEnum.knowledge_assertion,
         agent_type=AgentTypeEnum.manual_validation_of_automated_agent,
@@ -163,6 +199,10 @@ def treatment_to_edge(disease_id: str, treatment: dict[str, Any]) -> Association
     """
     Convert a treatment entry to a KGX edge.
 
+    Treatment → Disease using treats_or_applied_or_studied_to_treat.
+    This is the safe/broad predicate since dismech doesn't capture
+    evidence level to distinguish treats vs studied_to_treat.
+
     Args:
         disease_id: The disease term ID
         treatment: A treatment dict from treatments[]
@@ -170,16 +210,16 @@ def treatment_to_edge(disease_id: str, treatment: dict[str, Any]) -> Association
     Returns:
         Association or None if treatment_term.term.id is missing
     """
-    term_id = _get_term_id(treatment, ["treatment_term", "term", "id"])
-    if not term_id:
+    treatment_id = _get_term_id(treatment, ["treatment_term", "term", "id"])
+    if not treatment_id:
         return None
 
-    predicate = "biolink:treated_by"
+    predicate = "biolink:treats_or_applied_or_studied_to_treat"
     return Association(
-        id=_make_edge_id(disease_id, predicate, term_id),
-        subject=disease_id,
+        id=_make_edge_id(treatment_id, predicate, disease_id),
+        subject=treatment_id,
         predicate=predicate,
-        object=term_id,
+        object=disease_id,
         primary_knowledge_source=KNOWLEDGE_SOURCE,
         knowledge_level=KnowledgeLevelEnum.knowledge_assertion,
         agent_type=AgentTypeEnum.manual_validation_of_automated_agent,
@@ -211,6 +251,35 @@ def gene_to_edge(disease_id: str, gene: dict[str, Any]) -> Association | None:
     return Association(
         id=_make_edge_id(gene_id, predicate, disease_id),
         subject=gene_id,
+        predicate=predicate,
+        object=disease_id,
+        primary_knowledge_source=KNOWLEDGE_SOURCE,
+        knowledge_level=KnowledgeLevelEnum.knowledge_assertion,
+        agent_type=AgentTypeEnum.manual_validation_of_automated_agent,
+    )
+
+
+def exposure_to_edge(disease_id: str, environmental: dict[str, Any]) -> Association | None:
+    """
+    Convert an environmental exposure entry to a KGX edge.
+
+    Exposure → Disease using contributes_to (risk factor relationship).
+
+    Args:
+        disease_id: The disease term ID
+        environmental: An environmental dict from environmental[]
+
+    Returns:
+        Association or None if exposure_term.term.id is missing
+    """
+    exposure_id = _get_term_id(environmental, ["exposure_term", "term", "id"])
+    if not exposure_id:
+        return None
+
+    predicate = "biolink:contributes_to"
+    return Association(
+        id=_make_edge_id(exposure_id, predicate, disease_id),
+        subject=exposure_id,
         predicate=predicate,
         object=disease_id,
         primary_knowledge_source=KNOWLEDGE_SOURCE,
@@ -272,6 +341,12 @@ def transform(record: dict[str, Any]) -> Iterator[Association]:
     # Extract gene association edges
     for gene in record.get("genetic") or []:
         edge = gene_to_edge(disease_id, gene)
+        if edge:
+            yield edge
+
+    # Extract environmental exposure edges
+    for environmental in record.get("environmental") or []:
+        edge = exposure_to_edge(disease_id, environmental)
         if edge:
             yield edge
 
