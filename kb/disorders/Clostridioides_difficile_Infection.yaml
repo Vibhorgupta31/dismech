@@ -52,6 +52,17 @@ treatments:
       term:
         id: MAXO:0000058
         label: pharmacotherapy
+      qualifiers:
+        - predicate:
+            preferred_term: route of administration
+            term:
+              id: NCIT:C38114
+              label: Route of Administration
+          value:
+            preferred_term: oral route of administration
+            term:
+              id: NCIT:C38288
+              label: Oral Route of Administration
   - name: Fidaxomicin
     description: Alternative antibiotic with lower recurrence rates.
     treatment_term:
@@ -59,6 +70,17 @@ treatments:
       term:
         id: MAXO:0000058
         label: pharmacotherapy
+      qualifiers:
+        - predicate:
+            preferred_term: route of administration
+            term:
+              id: NCIT:C38114
+              label: Route of Administration
+          value:
+            preferred_term: oral route of administration
+            term:
+              id: NCIT:C38288
+              label: Oral Route of Administration
   - name: Fecal microbiota transplantation
     description: Restoration of normal gut microbiota for recurrent infections.
     treatment_term:
@@ -66,4 +88,15 @@ treatments:
       term:
         id: MAXO:0000748
         label: fecal microbiota transplantation
+      qualifiers:
+        - predicate:
+            preferred_term: clinical course
+            term:
+              id: NCIT:C28008
+              label: Clinical Course
+          value:
+            preferred_term: recurrent disease
+            term:
+              id: MONDO:0700096
+              label: recurrent disease
 datasets:
