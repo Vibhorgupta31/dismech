@@ -22,6 +22,21 @@ pathophysiology:
       inflammation, fluid secretion, and in severe cases pseudomembranous colitis.
       Disruption of normal gut microbiota, often by antibiotics, allows C. difficile
       to proliferate.
+    locations:
+      - preferred_term: colon
+        term:
+          id: UBERON:0001155
+          label: colon
+    biological_processes:
+      - preferred_term: inflammatory response
+        term:
+          id: GO:0006954
+          label: inflammatory response
+    evidence:
+      - reference: PMID:34837014
+        supports: SUPPORT
+        snippet: The bacterium produces up to three toxins, which are considered the major virulence factors in C. difficile infection. These toxins promote inflammation, tissue damage and diarrhoea.
+        explanation: Review details that C. difficile toxins drive inflammation and tissue injury, underpinning colonic damage.
 phenotypes:
   - name: Diarrhea
     description: Watery diarrhea, often foul-smelling, is the hallmark symptom.
@@ -30,6 +45,11 @@ phenotypes:
       term:
         id: HP:0002014
         label: Diarrhea
+    evidence:
+      - reference: PMID:28613708
+        supports: SUPPORT
+        snippet: This obligate anaerobic bacillus is recognized for its ability to produce toxins and is the leading cause of antibiotic-associated diarrhea worldwide.
+        explanation: StatPearls review states CDI is the leading cause of antibiotic-associated diarrhea.
   - name: Abdominal pain
     description: Cramping abdominal pain accompanying diarrhea.
     phenotype_term:
@@ -37,6 +57,11 @@ phenotypes:
       term:
         id: HP:0002027
         label: Abdominal pain
+    evidence:
+      - reference: PMID:37004449
+        supports: SUPPORT
+        snippet: A 40 years old male patient presented with abdominal pain and diarrhea of 10 days duration after he was diagnosed and managed as a case of Clostridium Difficile infection and amebiasis.
+        explanation: Case report notes abdominal pain with CDI presentation.
   - name: Fever
     description: Systemic inflammatory response to infection.
     phenotype_term:
@@ -44,6 +69,11 @@ phenotypes:
       term:
         id: HP:0001945
         label: Fever
+    evidence:
+      - reference: PMID:33402156
+        supports: SUPPORT
+        snippet: A 53-year-old Caucasian male presented to the emergency room for two days of lower abdominal pain associated with nausea, non-bilious vomiting, and subjective fevers.
+        explanation: CDI case report documents fever accompanying infection.
 treatments:
   - name: Vancomycin
     description: Oral vancomycin is first-line treatment for C. difficile infection.
@@ -63,6 +93,11 @@ treatments:
             term:
               id: NCIT:C38288
               label: Oral Route of Administration
+    evidence:
+      - reference: PMID:38508330
+        supports: SUPPORT
+        snippet: Effective infection management requires appropriate interpretation of diagnostic tests, as well as the use of vancomycin and fidaxomicin as first-line treatment.
+        explanation: Clinical review lists oral vancomycin among first-line agents for CDI management.
   - name: Fidaxomicin
     description: Alternative antibiotic with lower recurrence rates.
     treatment_term:
@@ -81,6 +116,15 @@ treatments:
             term:
               id: NCIT:C38288
               label: Oral Route of Administration
+    evidence:
+      - reference: PMID:38726585
+        supports: SUPPORT
+        snippet: IDSA/SHEA shifted its preference for initial treatment to fidaxomicin over vancomycin and metronidazole due to its lower recurrence rate.
+        explanation: Guideline update highlights fidaxomicin as preferred initial therapy because of reduced recurrence.
+      - reference: PMID:39282548
+        supports: SUPPORT
+        snippet: Management of CDI has evolved, with fidaxomicin emerging as a superior treatment option over vancomycin for initial and recurrent infections due to its reduction of recurrence rate.
+        explanation: Recent review reinforces fidaxomicin's superiority to vancomycin for initial and recurrent CDI.
   - name: Fecal microbiota transplantation
     description: Restoration of normal gut microbiota for recurrent infections.
     treatment_term:
@@ -99,4 +143,85 @@ treatments:
             term:
               id: MONDO:0700096
               label: recurrent disease
-datasets:
+    evidence:
+      - reference: PMID:38508330
+        supports: SUPPORT
+        snippet: Novel treatments such as Bezlotoxumab, fecal microbiota transplant, and live biotherapeutic products are proven effective in recurrent C. difficile infection and address dysbiosis.
+        explanation: Review notes FMT as effective for recurrent CDI in restoring microbiota.
+      - reference: PMID:39282548
+        supports: SUPPORT
+        snippet: Faecal microbiota transplantation (FMT) is effective for recurrent CDI, restoring gut eubiosis.
+        explanation: Update article explicitly states FMT effectiveness for recurrent CDI by reestablishing gut balance.
+differential_diagnoses:
+  - name: Ulcerative colitis
+    description: Chronic immune-mediated colitis that can flare with bloody diarrhea and may coexist with CDI.
+    distinguishing_features:
+      - Continuous colonic inflammation with bloody mucus stools and endoscopic evidence of ulcerative colitis.
+    disease_term:
+      preferred_term: ulcerative colitis
+      term:
+        id: MONDO:0005101
+        label: ulcerative colitis
+    evidence:
+      - reference: PMID:38335423
+        supports: SUPPORT
+        snippet: This case underscores the diagnosis of severe UC through colonoscopy and colonic biopsy, along with the supplementary identification of a positive result for Clostridioides difficile in the fecal sample.
+        explanation: Report highlights overlapping presentation of UC flare with concurrent CDI.
+  - name: Lymphocytic colitis
+    description: Microscopic colitis subtype causing chronic watery diarrhea that can mimic or coexist with CDI.
+    distinguishing_features:
+      - Chronic watery diarrhea with microscopic inflammatory infiltrates and normal endoscopic appearance.
+    disease_term:
+      preferred_term: lymphocytic colitis
+      term:
+        id: MONDO:0000704
+        label: lymphocytic colitis
+    evidence:
+      - reference: PMID:38313897
+        supports: SUPPORT
+        snippet: Persistent watery diarrhea and was diagnosed with lymphocytic colitis in the setting of a concomitant C. difficile infection.
+        explanation: Case shows lymphocytic colitis presenting with CDI-like diarrhea.
+  - name: Ischemic colitis
+    description: Colonic ischemia presenting with acute abdominal pain and diarrhea that can be confused with infectious colitis.
+    distinguishing_features:
+      - Sudden abdominal pain with ischemic changes on imaging or colonoscopy.
+    disease_term:
+      preferred_term: ischemic colitis
+      term:
+        id: MONDO:0000701
+        label: ischemic colitis
+    evidence:
+      - reference: PMID:37004449
+        supports: SUPPORT
+        snippet: A 40 years old male patient presented with abdominal pain and diarrhea of 10 days duration after he was diagnosed and managed as a case of Clostridium Difficile infection and amebiasis; computed tomography angiography revealed a vascular malformation ... he underwent Hartmann's procedure due to colonic ischemia.
+        explanation: Case documents ischemic colitis occurring in the context of CDI symptoms.
+  - name: Strongyloidiasis hyperinfection
+    description: Parasitic hyperinfection that can present with diarrhea and mimic severe CDI in immunosuppressed hosts.
+    distinguishing_features:
+      - Eosinophilia may be absent; larvae detected in stool or respiratory samples in immunosuppressed patients.
+    disease_term:
+      preferred_term: strongyloidiasis
+      term:
+        id: MONDO:0005974
+        label: strongyloidiasis
+    evidence:
+      - reference: PMID:35181536
+        supports: SUPPORT
+        snippet: We describe a fatal case of S. stercoralis hyperinfection ... presenting with diarrhea along with Clostridium difficile colitis after the use of a prolonged course of steroids.
+        explanation: Report shows Strongyloides hyperinfection mimicking CDI in steroid-treated patient.
+  - name: Acute appendicitis
+    description: Extraintestinal manifestation with right lower quadrant pain that can coexist with or be mistaken for CDI.
+    distinguishing_features:
+      - Localized right lower quadrant tenderness and imaging evidence of appendiceal inflammation.
+    disease_term:
+      preferred_term: appendicitis
+      term:
+        id: MONDO:0005649
+        label: appendicitis
+    evidence:
+      - reference: PMID:33402156
+        supports: SUPPORT
+        snippet: Repeat CT of the abdomen and pelvis with contrast (Fig. 1) was performed which showed progression of his colitis, now extending from the cecum to the rectum as well as findings concerning for appendicitis as seen on the prior CT scan. C. difficile testing was positive for which the patient was started on oral vancomycin.
+        explanation: Case report documents appendicitis identified alongside CDI with CT progression guiding management.
+datasets: []
+
