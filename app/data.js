@@ -3054,13 +3054,17 @@ window.searchData = [
       "Healthcare-associated infections"
     ],
     "subtypes": [],
-    "description": "C. difficile produces toxins A and B that damage colonic epithelium, causing inflammation, fluid secretion, and in severe cases pseudomembranous colitis. Disruption of normal gut microbiota, often by antibiotics, allows C. difficile to proliferate.\n",
+    "description": "Broad-spectrum antibiotic exposure disrupts gut flora, permitting C. difficile spores to germinate and colonize the colon.",
     "pathophysiology": [
-      "Toxin-mediated colonic injury"
+      "Microbiota disruption enables colonization",
+      "Toxin-mediated epithelial injury",
+      "Pseudomembranous colitis with fluid secretion"
     ],
     "cell_types": [],
     "cell_type_ids": [],
-    "biological_processes": [],
+    "biological_processes": [
+      "inflammatory response"
+    ],
     "phenotypes": [
       "Diarrhea",
       "Abdominal pain",
@@ -3077,16 +3081,20 @@ window.searchData = [
     "treatments": [
       "Vancomycin",
       "Fidaxomicin",
-      "Fecal microbiota transplantation"
+      "Fecal microbiota transplantation",
+      "Bezlotoxumab",
+      "Loop ileostomy with colonic lavage"
     ],
-    "environmental": [],
+    "environmental": [
+      "Healthcare facility exposure"
+    ],
     "biochemical": [],
     "source_file": "Clostridioides_difficile_Infection.yaml",
     "page_url": "../pages/disorders/Clostridioides_difficile_Infection.html",
     "num_phenotypes": 3,
-    "num_pathophysiology": 1,
+    "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 3
+    "num_treatments": 5
   },
   {
     "name": "Coronary Artery Disease",

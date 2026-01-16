@@ -152,14 +152,6 @@
     "violations": 4
   },
   {
-    "file": "Clostridioides_difficile_Infection.yaml",
-    "global_compliance": 47.05882352941176,
-    "weighted_compliance": 59.67741935483871,
-    "total_checks": 17,
-    "total_populated": 8,
-    "violations": 1
-  },
-  {
     "file": "Hashimotos_Thyroiditis.yaml",
     "global_compliance": 47.22222222222222,
     "weighted_compliance": 59.70149253731343,
@@ -1166,6 +1158,14 @@
     "total_checks": 49,
     "total_populated": 47,
     "violations": 1
+  },
+  {
+    "file": "Clostridioides_difficile_Infection.yaml",
+    "global_compliance": 96.07843137254902,
+    "weighted_compliance": 98.4375,
+    "total_checks": 51,
+    "total_populated": 49,
+    "violations": 0
   },
   {
     "file": "Jeavons_Syndrome.yaml",
