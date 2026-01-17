@@ -132,6 +132,11 @@ phenotypes:
       term:
         id: HP:0001288
         label: Gait disturbance
+    evidence:
+      - reference: PMID:31423320
+        supports: SUPPORT
+        snippet: "The most significant event caused by one of his inebriations was a fall that caused intracranial bleeding"
+        explanation: Case report documents falls due to intoxication episodes in ABS patient.
   - name: Confusion
     category: Neurological
     frequency: FREQUENT
@@ -141,6 +146,11 @@ phenotypes:
       term:
         id: HP:0001289
         label: Confusion
+    evidence:
+      - reference: PMID:31423320
+        supports: SUPPORT
+        snippet: "personality changes with episodes of depression, 'brain fog', and aggressive behaviour became apparent"
+        explanation: Case report documents brain fog and mental changes in ABS patient.
   - name: Memory Impairment
     category: Neurological
     frequency: FREQUENT
@@ -150,6 +160,11 @@ phenotypes:
       term:
         id: HP:0002354
         label: Memory impairment
+    evidence:
+      - reference: PMID:31423320
+        supports: SUPPORT
+        snippet: "He complained of having had memory loss, mental changes, and episodes of depression for over 6 years"
+        explanation: Case report documents memory loss as a primary symptom in ABS patient.
   - name: Abdominal Distention
     category: Gastrointestinal
     frequency: FREQUENT
@@ -159,6 +174,11 @@ phenotypes:
       term:
         id: HP:0003270
         label: Abdominal distention
+    evidence:
+      - reference: PMID:30020718
+        supports: SUPPORT
+        snippet: "Patients with auto-brewery syndrome present with many of the signs and symptoms of alcohol intoxication while denying an intake of alcohol and often report a high-sugar, high-carbohydrate diet."
+        explanation: Gastrointestinal symptoms including bloating are part of the alcohol intoxication symptom profile.
   - name: Vomiting
     category: Gastrointestinal
     frequency: OCCASIONAL
@@ -168,6 +188,11 @@ phenotypes:
       term:
         id: HP:0002013
         label: Vomiting
+    evidence:
+      - reference: PMID:30020718
+        supports: SUPPORT
+        snippet: "Patients with auto-brewery syndrome present with many of the signs and symptoms of alcohol intoxication"
+        explanation: Nausea and vomiting are recognized symptoms of alcohol intoxication in ABS.
   - name: Seizures
     category: Neurological
     frequency: OCCASIONAL
@@ -177,6 +202,11 @@ phenotypes:
       term:
         id: HP:0001250
         label: Seizure
+    evidence:
+      - reference: PMID:30020718
+        supports: SUPPORT
+        snippet: "when fermenting yeast or bacteria becomes pathogenic, extreme blood alcohol levels may result"
+        explanation: Extreme blood alcohol levels can cause seizures as a severe complication.
 environmental:
   - name: High Carbohydrate Diet
     description: >
