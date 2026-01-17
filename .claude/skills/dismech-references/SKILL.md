@@ -253,5 +253,28 @@ The `ClinicalTrial` class in the schema supports:
 - **phase**: Trial phase (Phase I, II, III, IV)
 - **status**: Recruitment/trial status (Recruiting, Completed, Terminated, etc.)
 - **description**: Summary of the trial
-- **target_phenotypes**: Phenotypes the trial addresses
+- **target_phenotypes**: Phenotypes the trial addresses (as PhenotypeDescriptor objects with HP ontology terms)
 - **evidence**: Evidence items validated against ClinicalTrials.gov
+
+Example clinical trial entry with ontology-linked phenotypes:
+```yaml
+clinical_trials:
+- name: NCT05813288
+  phase: Phase III
+  status: Completed
+  description: Study of dexpramipexole in severe eosinophilic asthma
+  target_phenotypes:
+    - preferred_term: Wheezing
+      term:
+        id: HP:0030828
+        label: Wheezing
+    - preferred_term: Breathlessness
+      term:
+        id: HP:0002094
+        label: Dyspnea
+  evidence:
+  - reference: clinicaltrials:NCT05813288
+    supports: SUPPORT
+    snippet: "The objective of this clinical study is to investigate the safety, tolerability, and efficacy of dexpramipexole in participants with inadequately controlled severe eosinophilic asthma."
+    explanation: "This trial directly evaluates a therapeutic approach for severe eosinophilic asthma"
+```

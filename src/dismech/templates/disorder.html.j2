@@ -1135,7 +1135,12 @@
                 <div class="item-meta">
                     <strong style="font-size: 0.8rem; color: #6b21a8;">Target Phenotypes:</strong>
                     {% for pheno in trial.target_phenotypes %}
-                    <span class="tag" style="background: #ede9fe; color: #6b21a8; font-size: 0.8rem;">{{ pheno }}</span>
+                    <span class="tag" style="background: #ede9fe; color: #6b21a8; font-size: 0.8rem;">
+                        {{ pheno.preferred_term or pheno.term.label }}
+                        {% if pheno.term and pheno.term.id %}
+                        <a href="{{ pheno.term.id | curie_to_url }}" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        {% endif %}
+                    </span>
                     {% endfor %}
                 </div>
                 {% endif %}

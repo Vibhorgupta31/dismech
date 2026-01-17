@@ -837,12 +837,14 @@ slots:
     range: string
     required: true
   target_phenotypes:
-    description: Names of phenotypes that this treatment addresses or targets
+    description: Phenotypes that this treatment or trial addresses or targets
     multivalued: true
-    range: string
+    range: PhenotypeDescriptor
+    inlined_as_list: true
     comments:
       - Should reference phenotype names defined in the same disease's phenotypes list
-      - Enables linking treatments to the symptoms/manifestations they aim to manage
+      - Enables linking treatments/trials to the symptoms/manifestations they aim to manage
+      - Each phenotype can include ontology term references (HP)
   # Dataset-related slots
   accession:
     description: Dataset accession identifier as a CURIE (e.g., geo:GSE67472)
