@@ -1507,8 +1507,8 @@ datasets:
 
 clinical_trials:
 - name: NCT05813288
-  phase: Phase III
-  status: Completed
+  phase: PHASE_III
+  status: COMPLETED
   description: A randomized, double-blind, placebo-controlled study to assess the efficacy, safety, and tolerability of dexpramipexole in participants with severe eosinophilic asthma. The trial evaluated a novel oral treatment approach over 52 weeks in patients with inadequately controlled disease.
   target_phenotypes:
     - preferred_term: Wheezing

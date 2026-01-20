@@ -1106,7 +1106,7 @@ treatments:
       label: supportive care
 clinical_trials:
 - name: NCT03568383
-  phase: Phase III
+  phase: PHASE_III
   description: Open-label randomized prophylaxis study comparing delamanid versus isoniazid for preventing active tuberculosis among high-risk household contacts of adults with multidrug-resistant TB over 96 weeks of follow-up.
   evidence:
   - reference: clinicaltrials:NCT03568383
