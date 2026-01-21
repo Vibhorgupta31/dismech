@@ -183,7 +183,7 @@ treatments:
   description: Regular imaging due to cancer risk.
 clinical_trials:
 - name: NCT06037577
-  phase: Phase I
+  phase: PHASE_I
   description: Double-blind, randomized, placebo-controlled study assessing safety, tolerability, pharmacokinetics, and pharmacodynamics of single escalating subcutaneous doses of CM-101, an anti-fibrotic agent developed for PSC.
   evidence:
   - reference: clinicaltrials:NCT06037577
