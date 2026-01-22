@@ -77,15 +77,15 @@ enums:
     description: The provenance/source of the evidence item
     permissible_values:
       HUMAN_CLINICAL:
-        description: Direct observation in human patients
+        description: Human clinical observations (patients, cohorts, case reports, clinical trials, epidemiology)
       MODEL_ORGANISM:
-        description: Evidence from animal models (mouse, rat, zebrafish, etc.)
+        description: In vivo animal evidence (mouse, zebrafish, primate, veterinary case series including dog/cat/horse, other non-human animal models etc.)
       IN_VITRO:
-        description: Cell culture or in vitro experiments
+        description: In vitro or ex vivo assays (cell culture, organoids, tissue slices, biochemical assays)
       COMPUTATIONAL:
-        description: In silico predictions or models
+        description: In silico/modeling studies (simulation, docking, ML predictions, network inference) even when using clinical data inputs
       OTHER:
-        description: Evidence from sources not covered above
+        description: Evidence not fitting the above (e.g., expert consensus without data, image atlases without cohort context)
   FrequencyEnum:
     description: The frequency of an event or phenomenon
     permissible_values:
