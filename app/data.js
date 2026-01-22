@@ -1691,7 +1691,14 @@ window.searchData = [
       "neutrophil",
       "macrophage"
     ],
-    "cell_type_ids": [],
+    "cell_type_ids": [
+      "CL:2000044",
+      "CL:0000706",
+      "CL:0000129",
+      "CL:0000127",
+      "CL:0000775",
+      "CL:0000235"
+    ],
     "biological_processes": [
       "inflammatory response",
       "innate immune response",
@@ -1713,10 +1720,6 @@ window.searchData = [
       "Hearing Loss",
       "Hydrocephalus",
       "Petechial Rash",
-      "Lumbar Puncture",
-      "CSF Culture",
-      "Blood Culture",
-      "CT or MRI",
       "Seizures",
       "Focal Neurological Deficits"
     ],
@@ -1733,7 +1736,7 @@ window.searchData = [
       "HP:0000365",
       "HP:0000238",
       "HP:0001250",
-      "HP:0007340"
+      "HP:0001268"
     ],
     "frequencies": [
       "VERY_FREQUENT",
@@ -1752,7 +1755,7 @@ window.searchData = [
     "biochemical": [],
     "source_file": "Bacterial_meningitis.yaml",
     "page_url": "../pages/disorders/Bacterial_meningitis.html",
-    "num_phenotypes": 14,
+    "num_phenotypes": 10,
     "num_pathophysiology": 6,
     "num_genes": 0,
     "num_treatments": 5
@@ -8389,6 +8392,83 @@ window.searchData = [
     "num_pathophysiology": 11,
     "num_genes": 0,
     "num_treatments": 4
+  },
+  {
+    "name": "Ludwig's Angina",
+    "disease_id": "MONDO:0006576",
+    "category": "Infectious",
+    "parents": [
+      "Infectious Disorder"
+    ],
+    "subtypes": [],
+    "description": "Dental infection of a mandibular tooth provides the odontogenic nidus that seeds deeper spaces.",
+    "pathophysiology": [
+      "Odontogenic Source Infection (Mandibular Molar)",
+      "Polymicrobial Cellulitis of Mouth Floor",
+      "Cervical Fascial Spread Across Submandibular-Sublingual Spaces",
+      "Descending Necrotizing Mediastinitis Extension",
+      "Tongue Elevation and Airway Narrowing from Floor Edema"
+    ],
+    "cell_types": [
+      "Neutrophil"
+    ],
+    "cell_type_ids": [
+      "CL:0000775"
+    ],
+    "biological_processes": [
+      "Response to bacterium",
+      "Inflammatory response",
+      "Regulation of vascular permeability"
+    ],
+    "phenotypes": [
+      "Stridor",
+      "Dyspnea",
+      "Trismus",
+      "Fever",
+      "Anterior Neck Swelling",
+      "Facial Nerve Palsy"
+    ],
+    "phenotype_categories": [
+      "Respiratory",
+      "Neuromusculoskeletal",
+      "Constitutional",
+      "Oropharyngeal",
+      "Neurological"
+    ],
+    "phenotype_ids": [
+      "HP:0010307",
+      "HP:0002094",
+      "HP:0000211",
+      "HP:0001945",
+      "HP:6000176",
+      "HP:0010628"
+    ],
+    "frequencies": [
+      "OCCASIONAL",
+      "FREQUENT",
+      "VERY_FREQUENT",
+      "RARE"
+    ],
+    "genes": [],
+    "treatments": [
+      "Airway Protection (Tracheostomy or Secured Airway)",
+      "Broad-Spectrum Intravenous Antibiotics",
+      "Surgical Drainage and Odontogenic Source Control"
+    ],
+    "environmental": [
+      "Poor Dentition or Oral Hygiene",
+      "Diabetes Mellitus",
+      "Recent Third Molar Extraction",
+      "Recent Influenza Infection",
+      "Low Socioeconomic Status or Unemployment"
+    ],
+    "biochemical": [],
+    "source_file": "Ludwigs_Angina.yaml",
+    "page_url": "../pages/disorders/Ludwig's_Angina.html",
+    "num_phenotypes": 6,
+    "num_pathophysiology": 5,
+    "num_genes": 0,
+    "num_treatments": 3
   },
   {
     "name": "Lyme Disease",
