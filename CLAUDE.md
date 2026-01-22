@@ -104,6 +104,18 @@ Set `evidence_source` to clarify provenance:
 - OTHER for evidence types that do not fit the above categories
 Model organism evidence should not be the only support for human phenotypes; keep it distinct via `evidence_source`.
 
+Quick classification rules (use these before tagging):
+- HUMAN_CLINICAL: human patients, cohorts, case reports, clinical trials (NCT), epidemiology.
+- MODEL_ORGANISM: any in vivo animal data (mouse, zebrafish, dog/cat/horse veterinary case series, primate, or other non-human animals), even if observational and not interventional.
+- IN_VITRO: cultured cells or tissue explants (human or animal), organoids, ex vivo slices, biochemical assays outside an organism.
+- COMPUTATIONAL: in silico modeling, docking, simulations, ML predictions, network/pathway inference without wet-lab confirmation.
+- OTHER: anything that does not cleanly fit above (e.g., expert consensus without data, pathology image atlases without linked cohort context).
+
+Edge cases:
+- Veterinary observations are MODEL_ORGANISM (non-human mammals are still animal models for this purpose).
+- In silico “modeling studies” belong to COMPUTATIONAL, even if they use clinical datasets as input.
+- If a paper mixes sources, split evidence items so each item gets a single `evidence_source`.
+
 ### Ontology Term Mappings
 When adding enum values with `meaning` fields, the description MUST exactly match the ontology term's canonical label. Use OAK to verify:
 ```bash
