@@ -11564,6 +11564,75 @@ window.searchData = [
     "num_treatments": 4
   },
   {
+    "name": "Pouchitis",
+    "disease_id": "MONDO:0005312",
+    "category": "Complex",
+    "parents": [
+      "Inflammatory Bowel Disease",
+      "Postoperative Complications"
+    ],
+    "subtypes": [],
+    "description": "Altered gut microbiome composition in the ileal pouch, with decreased microbial diversity and shifts toward pathogenic bacterial species. The pouch environment lacks normal colonic bacteria and experiences reduced butyrate-producing bacteria, leading to an imbalanced microbial ecosystem that triggers inflammation.\n",
+    "pathophysiology": [
+      "Bacterial Dysbiosis",
+      "Mucosal Immune Dysregulation",
+      "Epithelial Barrier Dysfunction",
+      "NOD2 Genetic Susceptibility"
+    ],
+    "cell_types": [
+      "neutrophil",
+      "dendritic cell",
+      "T cell",
+      "intestinal epithelial cell"
+    ],
+    "cell_type_ids": [
+      "CL:0000775",
+      "CL:0000451",
+      "CL:0000084",
+      "CL:0002563"
+    ],
+    "biological_processes": [
+      "inflammatory response",
+      "cytokine production",
+      "bicellular tight junction assembly"
+    ],
+    "phenotypes": [
+      "Increased Stool Frequency",
+      "Abdominal Pain",
+      "Rectal Bleeding",
+      "Urgency",
+      "Fever"
+    ],
+    "phenotype_categories": [],
+    "phenotype_ids": [
+      "HP:0002014",
+      "HP:0002027",
+      "HP:0002573",
+      "HP:0012701",
+      "HP:0001945"
+    ],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [
+      "Antibiotic Therapy",
+      "Probiotic Therapy",
+      "Anti-inflammatory Medications",
+      "Immunosuppressive Therapy"
+    ],
+    "environmental": [
+      "Prior Ulcerative Colitis",
+      "Surgical Factors",
+      "NSAID Use"
+    ],
+    "biochemical": [],
+    "source_file": "Pouchitis.yaml",
+    "page_url": "../pages/disorders/Pouchitis.html",
+    "num_phenotypes": 5,
+    "num_pathophysiology": 4,
+    "num_genes": 0,
+    "num_treatments": 4
+  },
+  {
     "name": "Primary Biliary Cholangitis",
     "disease_id": "MONDO:0005388",
     "category": "Autoimmune",

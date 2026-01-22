@@ -504,6 +504,14 @@
     "violations": 1
   },
   {
+    "file": "Pouchitis.yaml",
+    "global_compliance": 69.44444444444444,
+    "weighted_compliance": 79.45205479452055,
+    "total_checks": 36,
+    "total_populated": 25,
+    "violations": 0
+  },
+  {
     "file": "Beta_Mannosidosis.yaml",
     "global_compliance": 69.56521739130434,
     "weighted_compliance": 80.0,
