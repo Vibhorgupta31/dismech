@@ -91,9 +91,18 @@ All evidence must have PMID references and support classification:
 evidence:
   - reference: PMID:12345678
     supports: SUPPORT  # or REFUTE, PARTIAL, NO_EVIDENCE, WRONG_STATEMENT
+    evidence_source: HUMAN_CLINICAL  # or MODEL_ORGANISM, IN_VITRO, COMPUTATIONAL
     snippet: "Quoted text from the paper"
     explanation: "Why this evidence supports/refutes the claim"
 ```
+
+Set `evidence_source` to clarify provenance:
+- HUMAN_CLINICAL for direct human observations (default when not specified)
+- MODEL_ORGANISM when citing animal model recapitulation
+- IN_VITRO for cell-based experiments
+- COMPUTATIONAL for in silico predictions
+- OTHER for evidence types that do not fit the above categories
+Model organism evidence should not be the only support for human phenotypes; keep it distinct via `evidence_source`.
 
 ### Ontology Term Mappings
 When adding enum values with `meaning` fields, the description MUST exactly match the ontology term's canonical label. Use OAK to verify:
