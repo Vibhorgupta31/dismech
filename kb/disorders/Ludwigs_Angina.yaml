@@ -8,8 +8,8 @@ disease_term:
     id: MONDO:0006576
     label: Ludwig's angina
 pathophysiology:
-- name: Odontogenic Polymicrobial Cellulitis of Mouth Floor
-  description: Rapid cellulitis seeded by odontogenic flora in the mouth floor and submandibular spaces.
+- name: Odontogenic Source Infection (Mandibular Molar)
+  description: Dental infection of a mandibular tooth provides the odontogenic nidus that seeds deeper spaces.
   cell_types:
   - preferred_term: Neutrophil
     term:
@@ -21,19 +21,45 @@ pathophysiology:
       id: GO:0009617
       label: response to bacterium
   locations:
-  - preferred_term: Floor of mouth
-    term:
-      id: UBERON:0003688
-      label: floor of mouth
   - preferred_term: Root of tooth
     term:
       id: UBERON:0011605
       label: root of tooth
+  - preferred_term: Mandibular molar tooth
+    term:
+      id: UBERON:0001094
+      label: mandibular molar tooth
   evidence:
   - reference: PMID:33383265
     supports: SUPPORT
     snippet: "Ludwig's angina is a rapidly spreading infection that involves the floor of the mouth."
-    explanation: Confirms odontogenic infection centered on the mouth floor.
+    explanation: Establishes the odontogenic dental source leading to floor-of-mouth infection.
+- name: Polymicrobial Cellulitis of Mouth Floor
+  description: Mixed oral flora invade submandibular and sublingual spaces, producing rapidly spreading cellulitis.
+  cell_types:
+  - preferred_term: Neutrophil
+    term:
+      id: CL:0000775
+      label: neutrophil
+  biological_processes:
+  - preferred_term: Inflammatory response
+    term:
+      id: GO:0006954
+      label: inflammatory response
+  locations:
+  - preferred_term: Floor of mouth
+    term:
+      id: UBERON:0003688
+      label: floor of mouth
+  - preferred_term: Submandibular space
+    term:
+      id: UBERON:0012443
+      label: submandibular space
+  evidence:
+  - reference: PMID:33383265
+    supports: SUPPORT
+    snippet: "Ludwig's angina is a rapidly spreading infection that involves the floor of the mouth."
+    explanation: Highlights rapid polymicrobial cellulitis centered on the mouth floor and submandibular spaces.
 - name: Cervical Fascial Spread Across Submandibular-Sublingual Spaces
   description: Infection tracks along cervical fascial planes through submandibular, sublingual, and submental spaces.
   cell_types:
