@@ -576,14 +576,6 @@
     "violations": 0
   },
   {
-    "file": "Bacterial_meningitis.yaml",
-    "global_compliance": 71.29629629629629,
-    "weighted_compliance": 69.81132075471697,
-    "total_checks": 108,
-    "total_populated": 77,
-    "violations": 3
-  },
-  {
     "file": "Hemophilia_A.yaml",
     "global_compliance": 71.42857142857143,
     "weighted_compliance": 78.35051546391753,
@@ -1208,6 +1200,14 @@
     "violations": 0
   },
   {
+    "file": "Bacterial_meningitis.yaml",
+    "global_compliance": 96.89922480620154,
+    "weighted_compliance": 98.20717131474103,
+    "total_checks": 129,
+    "total_populated": 125,
+    "violations": 0
+  },
+  {
     "file": "Auto-Brewery_Syndrome.yaml",
     "global_compliance": 97.36842105263158,
     "weighted_compliance": 100.0,
@@ -1293,6 +1293,14 @@
     "weighted_compliance": 100.0,
     "total_checks": 60,
     "total_populated": 59,
+    "violations": 0
+  },
+  {
+    "file": "Ludwigs_Angina.yaml",
+    "global_compliance": 98.50746268656717,
+    "weighted_compliance": 100.0,
+    "total_checks": 67,
+    "total_populated": 66,
     "violations": 0
   },
   {
