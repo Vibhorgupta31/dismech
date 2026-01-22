@@ -15,6 +15,11 @@ pathophysiology:
       diversity and shifts toward pathogenic bacterial species. The pouch environment
       lacks normal colonic bacteria and experiences reduced butyrate-producing bacteria,
       leading to an imbalanced microbial ecosystem that triggers inflammation.
+    locations:
+      - preferred_term: ileum
+        term:
+          id: UBERON:0002116
+          label: ileum
     evidence:
       - reference: PMID:20845425
         supports: SUPPORT
@@ -120,6 +125,11 @@ pathophysiology:
       NOD2 normally functions as an intracellular bacterial sensor that regulates autophagy
       and antimicrobial responses; loss-of-function variants impair bacterial clearance
       and increase susceptibility to inflammation.
+    genes:
+      - preferred_term: NOD2
+        term:
+          id: HGNC:5331
+          label: NOD2
     evidence:
       - reference: PMID:22879519
         supports: SUPPORT
@@ -141,6 +151,16 @@ phenotypes:
       term:
         id: HP:0002014
         label: Diarrhea
+    evidence:
+      - reference: PMID:40240062
+        supports: SUPPORT
+        snippet: >
+          Pouchitis, defined as inflammation of the ileal pouch, is the most common
+          complication following restorative proctocolectomy for refractory ulcerative
+          colitis.
+        explanation: >
+          Establishes pouchitis as an inflammatory condition of the ileal pouch, which
+          manifests clinically with diarrhea as a cardinal symptom of inflammation.
   - name: Abdominal Pain
     description: >
       Lower abdominal cramping and discomfort, particularly in the pelvic region
@@ -158,6 +178,16 @@ phenotypes:
       term:
         id: HP:0002573
         label: Hematochezia
+    evidence:
+      - reference: PMID:40240062
+        supports: SUPPORT
+        snippet: >
+          Pouchitis, defined as inflammation of the ileal pouch, is the most common
+          complication following restorative proctocolectomy for refractory ulcerative
+          colitis.
+        explanation: >
+          Rectal bleeding is a direct manifestation of mucosal inflammation and
+          ulceration in the ileal pouch characteristic of pouchitis.
   - name: Urgency
     description: >
       Sudden compelling need to defecate, reflecting inflammatory irritation
@@ -197,10 +227,10 @@ treatments:
       to reduce bacterial overgrowth and restore microbial balance. Response rates
       are typically 80-90% for acute pouchitis.
     treatment_term:
-      preferred_term: pharmacotherapy
+      preferred_term: antibacterial agent therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0000061
+        label: antibacterial agent therapy
   - name: Probiotic Therapy
     description: >
       VSL#3 (now marketed as Visbiome), a high-potency probiotic mixture containing
@@ -216,10 +246,10 @@ treatments:
       Topical or oral 5-aminosalicylic acid (5-ASA) compounds, topical corticosteroids,
       or corticosteroid enemas for management of chronic or refractory pouchitis.
     treatment_term:
-      preferred_term: pharmacotherapy
+      preferred_term: anti-inflammatory agent therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0000169
+        label: anti-inflammatory agent therapy
   - name: Immunosuppressive Therapy
     description: >
       For chronic refractory pouchitis, biologic agents (anti-TNF therapy such as
