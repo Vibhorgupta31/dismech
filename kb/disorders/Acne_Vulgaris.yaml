@@ -25,10 +25,10 @@ pathophysiology:
           id: UBERON:0011932
           label: pilosebaceous unit
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:32748305
         supports: SUPPORT
-        snippet: "Characterized by various lesion types, the pathogenesis of acne is complex, involving genetic, hormonal, microbial, and inflammatory factors."
-        explanation: This review discusses the multifactorial pathogenesis of acne including the role of follicular hyperkeratinization.
+        snippet: "Acne pathogenesis is attributed to four key factors: excess sebum production, hyperproliferation of Cutibacterium acnes (C. acnes, formerly called Propionibacterium acnes) bacteria, hyperkeratinization of the pilosebaceous follicles, and inflammatory mechanisms"
+        explanation: This review explicitly identifies hyperkeratinization of the pilosebaceous follicles as one of the four key factors in acne pathogenesis.
   - name: Sebaceous gland hyperactivity
     description: >
       Androgen-driven increase in sebum production by sebaceous glands provides
@@ -45,10 +45,10 @@ pathophysiology:
           id: GO:0006629
           label: lipid metabolic process
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:32748305
         supports: SUPPORT
-        snippet: "the pathogenesis of acne is complex, involving genetic, hormonal, microbial, and inflammatory factors"
-        explanation: The review describes how hormonal factors drive sebaceous gland activity in acne pathogenesis.
+        snippet: "In acne, mTORC1 mediates sebaceous gland hyperproliferation, lipid synthesis, and hyperplasia of keratinocytes"
+        explanation: This paper describes the molecular mechanism by which mTORC1 signaling drives sebaceous gland hyperactivity and lipid production in acne.
   - name: Cutibacterium acnes colonization
     description: >
       Cutibacterium acnes (formerly Propionibacterium acnes) proliferates in the
@@ -65,10 +65,10 @@ pathophysiology:
           id: UBERON:0011932
           label: pilosebaceous unit
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:32748305
         supports: SUPPORT
-        snippet: "the pathogenesis of acne is complex, involving genetic, hormonal, microbial, and inflammatory factors"
-        explanation: The microbial factor refers to C. acnes colonization as a key pathogenic mechanism.
+        snippet: "Acne pathogenesis is attributed to four key factors: excess sebum production, hyperproliferation of Cutibacterium acnes (C. acnes, formerly called Propionibacterium acnes) bacteria, hyperkeratinization of the pilosebaceous follicles, and inflammatory mechanisms"
+        explanation: This review explicitly identifies C. acnes bacterial hyperproliferation as one of the four key factors in acne pathogenesis.
   - name: Inflammatory cascade
     description: >
       C. acnes triggers innate immune responses through Toll-like receptor 2
@@ -154,12 +154,8 @@ phenotypes:
   - name: Post-inflammatory hyperpigmentation
     description: >
       Darkening of skin at sites of resolved acne lesions, particularly common
-      in individuals with darker skin tones.
-    evidence:
-      - reference: DOI:10.3390/cosmetics11030074
-        supports: SUPPORT
-        snippet: "Degraded keratinocytes plug the pores, consequently forming microcomedons, which can later evolve to papules, nodules, pustules and scars."
-        explanation: Scarring and hyperpigmentation are sequelae of inflammatory acne lesions as described in the acne progression.
+      in individuals with darker skin tones. This sequela results from inflammatory
+      damage to melanocytes and is a common concern in patients with skin of color.
   - name: Scarring
     description: >
       Permanent textural changes including atrophic (ice pick, boxcar, rolling)
@@ -182,10 +178,10 @@ biochemical:
       androgen receptor signaling, explaining the onset of acne at puberty and
       its association with hyperandrogenic states.
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:32748305
         supports: SUPPORT
-        snippet: "the pathogenesis of acne is complex, involving genetic, hormonal, microbial, and inflammatory factors"
-        explanation: Hormonal factors including androgens are key drivers of acne pathogenesis.
+        snippet: "Excess sebum production occurs because of increased activity of androgen hormones and IGF-1"
+        explanation: This paper directly links androgen hormones to excess sebum production in acne pathogenesis.
   - name: Sebum lipids
     presence: Altered
     notes: >
@@ -204,10 +200,10 @@ genetic:
       affecting androgen metabolism, inflammatory pathways, and sebaceous gland
       function contribute to acne susceptibility.
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:32748305
         supports: SUPPORT
-        snippet: "the pathogenesis of acne is complex, involving genetic, hormonal, microbial, and inflammatory factors"
-        explanation: Genetic factors are explicitly listed as contributing to acne pathogenesis.
+        snippet: "It is known that multiple factors impact acne pathophysiology, including genetic, hormonal, inflammatory, and environmental influences."
+        explanation: This review explicitly identifies genetic factors as one of the key influences on acne pathophysiology.
 environmental:
   - name: Diet
     description: >
