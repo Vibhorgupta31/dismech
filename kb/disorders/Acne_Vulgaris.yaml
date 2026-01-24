@@ -105,10 +105,10 @@ phenotypes:
         id: HP:0040137
         label: Comedonal acne
     evidence:
-      - reference: DOI:10.3390/cosmetics11030074
+      - reference: PMID:24062871
         supports: SUPPORT
-        snippet: "Degraded keratinocytes plug the pores, consequently forming microcomedons, which can later evolve to papules, nodules, pustules and scars."
-        explanation: This paper explicitly describes the formation of microcomedones from follicular plugging as an early lesion in acne pathogenesis.
+        snippet: "evidence has emerged supporting a role for inflammation at all stages of acne lesion development, perhaps subclinically even before comedo formation"
+        explanation: This review discusses the role of comedones as a key lesion type in acne pathogenesis.
   - name: Inflammatory papules
     description: >
       Small, raised, erythematous lesions resulting from inflammation around
@@ -176,10 +176,10 @@ phenotypes:
         id: HP:0001075
         label: Atrophic scars
     evidence:
-      - reference: DOI:10.3390/ijms252111579
+      - reference: PMID:29344322
         supports: SUPPORT
-        snippet: "Hypertrophic scars, keloids and atrophic scars arise from dysregulated wound healing processes characterized by persistent inflammation, aberrant collagen deposition, and impaired extracellular matrix remodeling."
-        explanation: This review describes the molecular mechanisms underlying different scar types including atrophic scars seen in acne.
+        snippet: "This review focuses on atrophic scars, the most common type of acne scar."
+        explanation: This review confirms atrophic scars as the most common type of acne scarring.
 biochemical:
   - name: Androgens
     presence: Elevated
@@ -198,10 +198,10 @@ biochemical:
       Changes in sebum composition, including altered fatty acid profiles and
       increased squalene oxidation, contribute to comedogenesis and inflammation.
     evidence:
-      - reference: DOI:10.3390/cosmetics11030074
+      - reference: PMID:20871834
         supports: SUPPORT
-        snippet: "Adult acne is a chronic inflammatory disease of the pilosebaceous unit characterized by the excessive production of abnormal sebum favoring an imbalance of the skin microbiota"
-        explanation: The paper describes abnormal sebum production as a characteristic feature of acne pathogenesis.
+        snippet: "Altered ratio between saturated and unsaturated fatty acids has been indicated as an important feature to be considered in addition to the altered amount of specific fatty acids such as linoleic acid"
+        explanation: This review describes alterations in sebum fatty acid composition as a key feature in acne pathogenesis.
 genetic:
   - name: Polygenic susceptibility
     association: Associated
@@ -254,19 +254,19 @@ treatments:
         id: MAXO:0000237
         label: retinoid agent therapy
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:30674002
         supports: SUPPORT
-        snippet: "Key topical agents include retinoids, benzoyl peroxide, antibiotics, and other specialized compounds."
-        explanation: The review identifies topical retinoids as key treatment agents for acne.
+        snippet: "Topical retinoids are safe and efficacious for the treatment of acne vulgaris."
+        explanation: This systematic review confirms the safety and efficacy of topical retinoids for acne treatment.
   - name: Benzoyl peroxide
     description: >
       Antimicrobial agent that kills C. acnes through oxidative damage without
       promoting antibiotic resistance. Also has mild comedolytic activity.
     treatment_term:
-      preferred_term: pharmacotherapy
+      preferred_term: antimicrobial agent therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0001021
+        label: antimicrobial agent therapy
     evidence:
       - reference: PMID:19761357
         supports: SUPPORT
@@ -278,10 +278,10 @@ treatments:
       anti-inflammatory effects. Should be combined with benzoyl peroxide to
       prevent resistance.
     treatment_term:
-      preferred_term: pharmacotherapy
+      preferred_term: antibacterial agent therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0000061
+        label: antibacterial agent therapy
     evidence:
       - reference: PMID:16086756
         supports: SUPPORT
@@ -292,10 +292,10 @@ treatments:
       Tetracyclines (doxycycline, minocycline) are used for moderate-to-severe
       inflammatory acne. Have both antimicrobial and anti-inflammatory effects.
     treatment_term:
-      preferred_term: pharmacotherapy
+      preferred_term: antibacterial agent therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0000061
+        label: antibacterial agent therapy
     evidence:
       - reference: PMID:28542914
         supports: SUPPORT
@@ -321,12 +321,12 @@ treatments:
       Combined oral contraceptives and spironolactone reduce androgen effects
       on sebaceous glands. Used in female patients with hormonal acne patterns.
     treatment_term:
-      preferred_term: pharmacotherapy
+      preferred_term: hormone modifying therapy
       term:
-        id: MAXO:0000058
-        label: pharmacotherapy
+        id: MAXO:0000283
+        label: hormone modifying therapy
     evidence:
-      - reference: DOI:10.3390/cosmetics11030074
+      - reference: PMID:28492054
         supports: SUPPORT
-        snippet: "Beyond classical stepwise therapeutic protocols (topical agents, isotretinoin, antibiotics, hormonal therapy with estrogens, progestins, spironolactone), novel approaches include the highly effective topical antiandrogen clascoterone"
-        explanation: This review lists hormonal therapy with estrogens, progestins, and spironolactone among established therapeutic protocols for adult female acne.
+        snippet: "Hormone-based therapies including combined oral contraceptive medications and spironolactone are considered effective therapies to treat adult acne in women."
+        explanation: This systematic review confirms the efficacy of hormonal therapies including oral contraceptives and spironolactone for treating acne in women.
