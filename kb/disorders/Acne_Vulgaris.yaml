@@ -65,10 +65,10 @@ pathophysiology:
           id: UBERON:0011932
           label: pilosebaceous unit
     evidence:
-      - reference: PMID:32748305
+      - reference: PMID:24062871
         supports: SUPPORT
-        snippet: "Acne pathogenesis is attributed to four key factors: excess sebum production, hyperproliferation of Cutibacterium acnes (C. acnes, formerly called Propionibacterium acnes) bacteria, hyperkeratinization of the pilosebaceous follicles, and inflammatory mechanisms"
-        explanation: This review explicitly identifies C. acnes bacterial hyperproliferation as one of the four key factors in acne pathogenesis.
+        snippet: "Propionibacterium acnes colonizes the duct of the sebaceous follicle, causing an innate immune response and the progression from a so-called noninflammatory comedo to an inflammatory papule, pustule, or nodule."
+        explanation: This review describes how P. acnes colonizes sebaceous follicles and triggers the innate immune response in acne.
   - name: Inflammatory cascade
     description: >
       C. acnes triggers innate immune responses through Toll-like receptor 2
@@ -119,10 +119,10 @@ phenotypes:
         id: HP:0030350
         label: Erythematous papule
     evidence:
-      - reference: DOI:10.3390/cosmetics11030074
+      - reference: PMID:24062871
         supports: SUPPORT
-        snippet: "Degraded keratinocytes plug the pores, consequently forming microcomedons, which can later evolve to papules, nodules, pustules and scars."
-        explanation: The paper describes the progression from microcomedones to papules in acne pathogenesis.
+        snippet: "the progression from a so-called noninflammatory comedo to an inflammatory papule, pustule, or nodule"
+        explanation: This review describes the progression from comedones to inflammatory papules in acne lesion development.
   - name: Pustules
     description: >
       Inflamed lesions containing purulent material, representing more advanced
@@ -133,10 +133,10 @@ phenotypes:
         id: HP:0200039
         label: Pustule
     evidence:
-      - reference: DOI:10.3390/cosmetics11030074
+      - reference: PMID:12113648
         supports: SUPPORT
-        snippet: "Degraded keratinocytes plug the pores, consequently forming microcomedons, which can later evolve to papules, nodules, pustules and scars."
-        explanation: The paper describes pustules as a lesion type that evolves from microcomedones.
+        snippet: "Localized pustular eruptions are seen on the hands and feet in adults with pustulosis palmaris et plantaris and acrodermatitis continua (both of which may be variants of psoriasis); on the face in patients with acne vulgaris, rosacea, and perioral dermatitis"
+        explanation: This review identifies pustular eruptions on the face as a characteristic feature of acne vulgaris.
   - name: Nodules and cysts
     description: >
       Deep, painful lesions representing severe inflammatory acne with potential
@@ -147,10 +147,10 @@ phenotypes:
         id: HP:0033188
         label: Cystic acne
     evidence:
-      - reference: DOI:10.3390/cosmetics11030074
+      - reference: PMID:21062102
         supports: SUPPORT
-        snippet: "Degraded keratinocytes plug the pores, consequently forming microcomedons, which can later evolve to papules, nodules, pustules and scars."
-        explanation: Nodules are described as a lesion type in the progression of acne.
+        snippet: "Severe nodular acne, defined as grade 4 or 5 acne on the Investigator's Static Global Assessment scale, is a skin condition characterized by intense erythema, inflammation, nodules, cysts, and scarring."
+        explanation: This review defines severe nodular acne as characterized by nodules and cysts with associated inflammation and scarring potential.
   - name: Post-inflammatory hyperpigmentation
     description: >
       Darkening of skin at sites of resolved acne lesions, particularly common
@@ -161,6 +161,11 @@ phenotypes:
       term:
         id: HP:0000953
         label: Hyperpigmentation of the skin
+    evidence:
+      - reference: PMID:34468934
+        supports: SUPPORT
+        snippet: "the inflammatory processes of acne stimulate excess melanogenesis and abnormal melanin deposition, leading to pigmentary sequelae known as post-inflammatory hyperpigmentation"
+        explanation: This paper specifically describes the pathogenesis of acne-induced post-inflammatory hyperpigmentation through excess melanin production.
   - name: Scarring
     description: >
       Permanent textural changes including atrophic (ice pick, boxcar, rolling)
@@ -263,10 +268,10 @@ treatments:
         id: MAXO:0000058
         label: pharmacotherapy
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:19761357
         supports: SUPPORT
-        snippet: "Key topical agents include retinoids, benzoyl peroxide, antibiotics, and other specialized compounds."
-        explanation: Benzoyl peroxide is listed as a key topical agent for acne treatment.
+        snippet: "BPO-containing combinations do not induce bacterial resistance and are important first-line treatments for mild to moderate acne vulgaris."
+        explanation: This review establishes benzoyl peroxide as an important first-line treatment for acne that does not promote bacterial resistance.
   - name: Topical antibiotics
     description: >
       Clindamycin and erythromycin reduce C. acnes populations and have
@@ -278,10 +283,10 @@ treatments:
         id: MAXO:0000058
         label: pharmacotherapy
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:16086756
         supports: SUPPORT
-        snippet: "Key topical agents include retinoids, benzoyl peroxide, antibiotics, and other specialized compounds."
-        explanation: Topical antibiotics are listed as key treatment agents for acne.
+        snippet: "topical antibiotics remain one of the cornerstones of acne management"
+        explanation: This systematic review confirms topical antibiotics as a cornerstone treatment for acne.
   - name: Oral antibiotics
     description: >
       Tetracyclines (doxycycline, minocycline) are used for moderate-to-severe
@@ -292,10 +297,10 @@ treatments:
         id: MAXO:0000058
         label: pharmacotherapy
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:28542914
         supports: SUPPORT
-        snippet: "Systemic options like antibiotics, hormonal therapies, and retinoids offer significant therapeutic benefits, particularly for moderate to severe cases."
-        explanation: The review describes systemic antibiotics as beneficial for moderate to severe acne.
+        snippet: "isotretinoin therapy reduced acne lesion counts by a clinically relevant amount, and always by a greater amount than control, which was either placebo (two studies), oral antibiotics (seven studies) or other control"
+        explanation: This systematic review confirms oral antibiotics as an established comparator treatment for acne in clinical trials.
   - name: Oral isotretinoin
     description: >
       Systemic retinoid reserved for severe, recalcitrant acne. Addresses all
@@ -307,10 +312,10 @@ treatments:
         id: MAXO:0000237
         label: retinoid agent therapy
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: PMID:33085149
         supports: SUPPORT
-        snippet: "Systemic options like antibiotics, hormonal therapies, and retinoids offer significant therapeutic benefits, particularly for moderate to severe cases."
-        explanation: Systemic retinoids (isotretinoin) are indicated for severe acne cases.
+        snippet: "Oral isotretinoin is the most effective treatment for moderate to severe acne and its side effects are mostly dose-dependent."
+        explanation: This systematic review confirms oral isotretinoin as the most effective treatment for moderate to severe acne.
   - name: Hormonal therapy
     description: >
       Combined oral contraceptives and spironolactone reduce androgen effects
@@ -321,7 +326,7 @@ treatments:
         id: MAXO:0000058
         label: pharmacotherapy
     evidence:
-      - reference: DOI:10.3390/ijms25105302
+      - reference: DOI:10.3390/cosmetics11030074
         supports: SUPPORT
-        snippet: "Systemic options like antibiotics, hormonal therapies, and retinoids offer significant therapeutic benefits, particularly for moderate to severe cases."
-        explanation: Hormonal therapies are listed as beneficial systemic treatment options.
+        snippet: "Beyond classical stepwise therapeutic protocols (topical agents, isotretinoin, antibiotics, hormonal therapy with estrogens, progestins, spironolactone), novel approaches include the highly effective topical antiandrogen clascoterone"
+        explanation: This review lists hormonal therapy with estrogens, progestins, and spironolactone among established therapeutic protocols for adult female acne.
