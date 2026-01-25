@@ -305,6 +305,17 @@ treatments:
       term:
         id: MAXO:0000237
         label: retinoid agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: retinoid
+            term:
+              id: NCIT:C68299
+              label: Retinoid
     evidence:
       - reference: PMID:30674002
         supports: SUPPORT
@@ -319,6 +330,17 @@ treatments:
       term:
         id: MAXO:0000237
         label: retinoid agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: trifarotene
+            term:
+              id: NCIT:C118577
+              label: Trifarotene
     evidence:
       - reference: PMID:36927117
         supports: SUPPORT
@@ -333,6 +355,17 @@ treatments:
       term:
         id: MAXO:0001021
         label: antimicrobial agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: benzoyl peroxide
+            term:
+              id: NCIT:C47411
+              label: Benzoyl Peroxide
     evidence:
       - reference: PMID:19761357
         supports: SUPPORT
@@ -348,6 +381,17 @@ treatments:
       term:
         id: MAXO:0000061
         label: antibacterial agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: antibiotic
+            term:
+              id: NCIT:C258
+              label: Antibiotic
     evidence:
       - reference: PMID:16086756
         supports: SUPPORT
@@ -364,6 +408,17 @@ treatments:
       term:
         id: MAXO:0000061
         label: antibacterial agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: tetracycline antibiotic
+            term:
+              id: NCIT:C1595
+              label: Tetracycline Antibiotic
     evidence:
       - reference: PMID:28542914
         supports: SUPPORT
@@ -383,6 +438,17 @@ treatments:
       term:
         id: MAXO:0000237
         label: retinoid agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: isotretinoin
+            term:
+              id: NCIT:C603
+              label: Isotretinoin
     evidence:
       - reference: PMID:33085149
         supports: SUPPORT
@@ -397,6 +463,27 @@ treatments:
       term:
         id: MAXO:0000283
         label: hormone modifying therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: oral contraceptive
+            term:
+              id: NCIT:C389
+              label: Oral Contraceptive
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: spironolactone
+            term:
+              id: NCIT:C840
+              label: Spironolactone
     evidence:
       - reference: PMID:28492054
         supports: SUPPORT
@@ -406,6 +493,22 @@ treatments:
     description: >
       Organic acid-based peels are used to exfoliate acne-prone skin and reduce
       lesion counts, with agent selection tailored to patient tolerability.
+    treatment_term:
+      preferred_term: therapeutic procedure of skin of body
+      term:
+        id: MAXO:0001417
+        label: therapeutic procedure of skin of body
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: chemical peel
+            term:
+              id: NCIT:C93203
+              label: Chemical Peel
     evidence:
       - reference: PMID:37894698
         supports: SUPPORT
@@ -415,6 +518,32 @@ treatments:
     description: >
       Azelaic acid peels reduce sebum and lesion burden as a nonpharmacologic
       option for facial acne.
+    treatment_term:
+      preferred_term: therapeutic procedure of skin of body
+      term:
+        id: MAXO:0001417
+        label: therapeutic procedure of skin of body
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: chemical peel
+            term:
+              id: NCIT:C93203
+              label: Chemical Peel
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: azelaic acid
+            term:
+              id: NCIT:C47407
+              label: Azelaic Acid
     evidence:
       - reference: PMID:31455112
         supports: SUPPORT
@@ -424,6 +553,42 @@ treatments:
     description: >
       Medium-depth peels such as glycolic acid and trichloroacetic acid are
       used to improve atrophic acne scars.
+    treatment_term:
+      preferred_term: therapeutic procedure of skin of body
+      term:
+        id: MAXO:0001417
+        label: therapeutic procedure of skin of body
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: chemical peel
+            term:
+              id: NCIT:C93203
+              label: Chemical Peel
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: glycolic acid
+            term:
+              id: NCIT:C83737
+              label: Glycolic Acid
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: topical trichloroacetic acid
+            term:
+              id: NCIT:C125002
+              label: Topical Trichloroacetic Acid
     evidence:
       - reference: PMID:39483653
         supports: SUPPORT
@@ -433,6 +598,22 @@ treatments:
     description: >
       Blue light phototherapy is used as an alternative for inflammatory acne,
       with evidence of clinical improvement.
+    treatment_term:
+      preferred_term: radiation therapy
+      term:
+        id: MAXO:0000014
+        label: radiation therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: phototherapy
+            term:
+              id: NCIT:C15301
+              label: Phototherapy
     evidence:
       - reference: PMID:34696155
         supports: SUPPORT
@@ -442,6 +623,22 @@ treatments:
     description: >
       Visible light devices, including blue light, can reduce acne lesion
       counts in patients seeking nonpharmacologic treatments.
+    treatment_term:
+      preferred_term: radiation therapy
+      term:
+        id: MAXO:0000014
+        label: radiation therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: phototherapy
+            term:
+              id: NCIT:C15301
+              label: Phototherapy
     evidence:
       - reference: PMID:39056372
         supports: SUPPORT
@@ -451,6 +648,22 @@ treatments:
     description: >
       Photodynamic therapy is used off-label for inflammatory acne with
       evidence supporting efficacy in dermatologic indications.
+    treatment_term:
+      preferred_term: radiation therapy
+      term:
+        id: MAXO:0000014
+        label: radiation therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: photodynamic therapy
+            term:
+              id: NCIT:C15300
+              label: Photodynamic Therapy
     evidence:
       - reference: PMID:39226531
         supports: SUPPORT
@@ -460,6 +673,32 @@ treatments:
     description: >
       Nd:YAG laser and intralesional platelet-rich plasma injections are used
       for inflammatory acne in split-face comparative protocols.
+    treatment_term:
+      preferred_term: therapeutic procedure of skin of body
+      term:
+        id: MAXO:0001417
+        label: therapeutic procedure of skin of body
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: laser therapy
+            term:
+              id: NCIT:C15466
+              label: Laser Therapy
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: platelet-rich plasma
+            term:
+              id: NCIT:C106557
+              label: Platelet-rich Plasma
     evidence:
       - reference: PMID:35084634
         supports: SUPPORT
@@ -469,6 +708,32 @@ treatments:
     description: >
       Targeted laser therapy that selectively affects sebaceous glands and is
       being evaluated for moderate to severe acne.
+    treatment_term:
+      preferred_term: laser surgical procedure
+      term:
+        id: MAXO:0001578
+        label: laser surgical procedure
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: laser therapy
+            term:
+              id: NCIT:C15466
+              label: Laser Therapy
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: infrared laser therapy
+            term:
+              id: NCIT:C66918
+              label: Infrared Laser Therapy
     evidence:
       - reference: PMID:38271552
         supports: SUPPORT
