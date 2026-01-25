@@ -266,6 +266,37 @@ genetic:
         supports: SUPPORT
         snippet: "Both GWAS and single gene disorders unequivocally indicate stem/progenitor cell maintenance and cellular migration as the most important processes in the pathogenesis of acne."
         explanation: This genetics review connects GWAS and monogenic findings to core biological processes underlying acne susceptibility.
+  - name: Candidate gene families
+    association: Associated
+    notes: >
+      Reviews highlight inflammatory cytokine genes (IL, TNF), RETN, CYP family
+      genes, and extracellular matrix regulators (MMPs, TIMPs) as recurrent
+      candidates linked to acne susceptibility.
+    evidence:
+      - reference: PMID:37662507
+        supports: SUPPORT
+        snippet: "some genes (such as IL, TNF, RETN, CYP family, MMPs and TIMPs genes et al) are associated with acne vulgaris and may affect the progression and prognosis of the disease."
+        explanation: This review summarizes multiple gene families repeatedly implicated in acne susceptibility and outcomes.
+  - name: RETN-420C>G and IL6-572G>C polymorphisms
+    association: Associated
+    notes: >
+      Case-control data in a Chinese cohort link RETN-420G and IL6-572C alleles
+      to increased acne susceptibility and severity.
+    evidence:
+      - reference: PMID:35279931
+        supports: SUPPORT
+        snippet: "There is a strong correlation between RETN-420 and IL6-572 polymorphisms and acne susceptibility; the RETN-420G and IL6-572C alleles increase the risk of acne development."
+        explanation: This study reports RETN-420 and IL6-572 risk alleles associated with acne susceptibility.
+  - name: TNFR2 M196R and TLR2 Arg753Gln polymorphisms
+    association: Associated
+    notes: >
+      Risk alleles in TNFR2 and TLR2 are enriched in moderate-to-severe acne
+      subgroups, supporting an inflammatory genetic contribution.
+    evidence:
+      - reference: PMID:20861605
+        supports: SUPPORT
+        snippet: "The 196R allele of TNFR2 M196R as well as the 753Gln allele of TLR2 Arg753Gln are risk factors for acne vulgaris in Chinese Han patients, further supporting the contribution of inflammatory cytokines to the pathogenesis of acne."
+        explanation: This study links TNFR2 and TLR2 risk alleles to acne susceptibility in a Chinese Han cohort.
 environmental:
   - name: Diet
     description: >
