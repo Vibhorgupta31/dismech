@@ -250,6 +250,16 @@ biochemical:
         supports: SUPPORT
         snippet: "Altered ratio between saturated and unsaturated fatty acids has been indicated as an important feature to be considered in addition to the altered amount of specific fatty acids such as linoleic acid"
         explanation: This review describes alterations in sebum fatty acid composition as a key feature in acne pathogenesis.
+  - name: IL-17
+    presence: Decreased
+    notes: >
+      Serum IL-17 levels are lower in acne vulgaris compared with controls in a
+      severity-stratified cohort, suggesting altered systemic cytokine signaling.
+    evidence:
+      - reference: PMID:41465543
+        supports: SUPPORT
+        snippet: "Serum IL-17 levels were significantly higher in the control group compared to both acne groups (p < 0.05), with no gender-related differences."
+        explanation: This study reports decreased serum IL-17 in acne vulgaris compared with controls.
 genetic:
   - name: Polygenic susceptibility
     association: Associated
@@ -325,6 +335,15 @@ environmental:
         supports: SUPPORT
         snippet: "The basis for the association between emotional stress and the onset or exacerbation of acne is in several cutaneous neurogenic factors which interact with a pathogenic cascade in acne."
         explanation: The paper describes neurogenic mechanisms linking stress to acne pathogenesis.
+  - name: Air pollution and climate stressors
+    description: >
+      Repeated exposure to rising pollutant levels and climate-related
+      environmental changes is associated with acne burden.
+    evidence:
+      - reference: PMID:41464454
+        supports: SUPPORT
+        snippet: "Psoriasis, acne vulgaris, atopic dermatitis, photoaging, melasma, and skin cancers have been associated with repeated exposure to rising levels of pollutants."
+        explanation: This review links acne vulgaris with pollutant exposure among climate-sensitive skin conditions.
 
 datasets:
   - accession: geo:GSE315350
@@ -467,6 +486,51 @@ treatments:
         supports: SUPPORT
         snippet: "topical antibiotics remain one of the cornerstones of acne management"
         explanation: This systematic review confirms topical antibiotics as a cornerstone treatment for acne.
+  - name: Clindamycin/adapalene/benzoyl peroxide gel
+    description: >
+      Triple-combination topical therapy for moderate to severe acne, combining
+      clindamycin phosphate, adapalene, and benzoyl peroxide for long-term use.
+    treatment_term:
+      preferred_term: pharmacotherapy
+      term:
+        id: MAXO:0000058
+        label: pharmacotherapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: clindamycin phosphate
+            term:
+              id: NCIT:C47978
+              label: Clindamycin Phosphate
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: adapalene
+            term:
+              id: NCIT:C28989
+              label: Adapalene
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: benzoyl peroxide
+            term:
+              id: NCIT:C47411
+              label: Benzoyl Peroxide
+    evidence:
+      - reference: PMID:41552868
+        supports: SUPPORT
+        snippet: "At week 24, 67% of participants achieved treatment success, and significant reductions from baseline in inflammatory (88%) and noninflammatory (68%) lesions were observed (p < 0.001, both)."
+        explanation: This pooled analysis supports long-term efficacy of the triple-combination gel.
   - name: Oral antibiotics
     description: >
       Tetracyclines (doxycycline, minocycline) are used for moderate-to-severe
@@ -664,6 +728,66 @@ treatments:
         supports: SUPPORT
         snippet: "A 30% TCA peel is efficacious and well-tolerated for mild-to-moderate acne scars."
         explanation: This split-face study supports TCA peels for improving acne scarring.
+  - name: Ablative fractional CO2 laser
+    description: >
+      Ablative fractional CO2 laser is used for atrophic acne scars but can
+      cause erythema, dyspigmentation, and prolonged recovery.
+    treatment_term:
+      preferred_term: laser surgical procedure
+      term:
+        id: MAXO:0001578
+        label: laser surgical procedure
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic procedure
+            term:
+              id: NCIT:C49236
+              label: Therapeutic Procedure
+          value:
+            preferred_term: laser therapy
+            term:
+              id: NCIT:C15466
+              label: Laser Therapy
+    evidence:
+      - reference: PMID:41521693
+        supports: SUPPORT
+        snippet: "Ablative fractional CO2 laser is effective for acne scar treatment but is often associated with side effects such as erythema and dyspigmentation, along with prolonged recovery time."
+        explanation: This trial background notes efficacy of CO2 laser for acne scars with notable side effects.
+  - name: Post-laser antioxidant serum
+    description: >
+      Topical antioxidant serum with vitamins C and E (with ferulic acid) is
+      used after ablative laser procedures to support skin recovery.
+    treatment_term:
+      preferred_term: pharmacotherapy
+      term:
+        id: MAXO:0000058
+        label: pharmacotherapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: vitamin C
+            term:
+              id: NCIT:C68507
+              label: Vitamin C
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: topical vitamin E
+            term:
+              id: NCIT:C67081
+              label: Topical Vitamin E
+    evidence:
+      - reference: PMID:41521693
+        supports: SUPPORT
+        snippet: "This study found that CE Ferulic led to enhanced wound healing, reduced erythema and melanin levels, and improved skin hydration following laser treatment, suggesting its beneficial application in combination with laser treatment to accelerate skin recovery."
+        explanation: This split-face trial supports antioxidant serum use after CO2 laser for acne scars.
   - name: Blue light therapy
     description: >
       Blue light phototherapy is used as an alternative for inflammatory acne,
@@ -853,6 +977,23 @@ clinical_trials:
         explanation: This study explicitly enrolls participants with acne vulgaris and evaluates topical tretinoin treatment.
 
 differential_diagnoses:
+  - name: PAPASH syndrome
+    disease_term:
+      preferred_term: PAPASH syndrome
+      term:
+        id: MONDO:0958343
+        label: PAPASH syndrome
+    description: >
+      Autoinflammatory syndrome combining acne with pyoderma gangrenosum,
+      hidradenitis suppurativa, and inflammatory arthritis.
+    distinguishing_features:
+      - Syndromic triad with pyoderma gangrenosum and hidradenitis suppurativa alongside acne.
+      - Systemic inflammatory arthritis or other autoinflammatory features.
+    evidence:
+      - reference: PMID:41499625
+        supports: SUPPORT
+        snippet: "PAPASH spectrum syndrome is a rare autoinflammatory condition encompassing psoriatic arthritis, pyoderma gangrenosum, acne, and hidradenitis suppurativa."
+        explanation: This case report defines PAPASH syndrome as a syndromic condition including acne and related inflammatory diseases.
   - name: Rosacea
     disease_term:
       preferred_term: rosacea
