@@ -8,6 +8,19 @@ disease_term:
 parents:
   - Inflammatory skin disease
   - Pilosebaceous unit disorder
+infectious_agent:
+  - name: Cutibacterium acnes
+    infectious_agent_term:
+      preferred_term: Cutibacterium acnes
+      term:
+        id: NCBITaxon:1747
+        label: Cutibacterium acnes
+    description: Commensal skin bacterium that proliferates in occluded follicles and contributes to inflammatory acne lesions.
+    evidence:
+      - reference: PMID:24062871
+        supports: SUPPORT
+        snippet: "Propionibacterium acnes colonizes the duct of the sebaceous follicle, causing an innate immune response and the progression from a so-called noninflammatory comedo to an inflammatory papule, pustule, or nodule."
+        explanation: This review links C. acnes colonization to inflammatory progression in acne.
 pathophysiology:
   - name: Follicular keratinization
     description: >
