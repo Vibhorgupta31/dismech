@@ -144,3 +144,9 @@ dmypy.json
 .idea
 # Local vscode editor config
 .vscode
+
+# Embeddings cache (large files, regenerated from OPENAI_API_KEY)
+cache/embeddings/
+
+# Generated embedding app data (regenerated with just embed-app-data)
+app/embeddings/data.js
