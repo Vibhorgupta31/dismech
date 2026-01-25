@@ -21,6 +21,28 @@ infectious_agent:
         supports: SUPPORT
         snippet: "Propionibacterium acnes colonizes the duct of the sebaceous follicle, causing an innate immune response and the progression from a so-called noninflammatory comedo to an inflammatory papule, pustule, or nodule."
         explanation: This review links C. acnes colonization to inflammatory progression in acne.
+prevalence:
+  - population: Adolescents and young adults (Europe, ages 15-24 years)
+    percentage: 57.8
+    evidence:
+      - reference: PMID:28707712
+        supports: SUPPORT
+        snippet: "The overall adjusted prevalence of self-reported acne was 57.8% (95% confidence interval 56.9% to 58.7%)."
+        explanation: This European survey reports a high prevalence of acne among adolescents and young adults.
+  - population: Adolescents and young adults (global, ages 10-24 years, 2021)
+    percentage: 9.79
+    evidence:
+      - reference: PMID:39271178
+        supports: SUPPORT
+        snippet: "Globally, the age-standardized prevalence rate of acne vulgaris among adolescents and young adults increased from 8563.4 per 100 000 population [95% uncertainty interval (UI) 7343.5-9920.1] in 1990 to 9790.5 (95% UI 8420.9-11 287.2) per 100 000 population in 2021, with an AAPC of 0.43 [95% confidence interval (CI) 0.41-0.46]."
+        explanation: The 2021 age-standardized prevalence of 9790.5 per 100,000 corresponds to about 9.79%.
+  - population: Young people (moderate-to-severe acne)
+    percentage: 20
+    evidence:
+      - reference: PMID:23210645
+        supports: SUPPORT
+        snippet: "Moderate-to-severe acne affects around 20% of young people and severity correlates with pubertal maturity."
+        explanation: This review summarizes the prevalence of moderate-to-severe acne among young people.
 pathophysiology:
   - name: Follicular keratinization
     description: >
