@@ -34,7 +34,12 @@ prevalence:
     evidence:
       - reference: PMID:39271178
         supports: SUPPORT
-        snippet: "Globally, the age-standardized prevalence rate of acne vulgaris among adolescents and young adults increased from 8563.4 per 100 000 population [95% uncertainty interval (UI) 7343.5-9920.1] in 1990 to 9790.5 (95% UI 8420.9-11 287.2) per 100 000 population in 2021, with an AAPC of 0.43 [95% confidence interval (CI) 0.41-0.46]."
+        snippet: |-
+          RESULTS: Globally, the age-standardized prevalence rate of acne vulgaris among 
+          adolescents and young adults increased from 8563.4 per 100 000 population [95% 
+          uncertainty interval (UI) 7343.5-9920.1] in 1990 to 9790.5 (95% UI 8420.9-11 
+          287.2) per 100 000 population in 2021, with an AAPC of 0.43 [95% confidence 
+          interval (CI) 0.41-0.46].
         explanation: The 2021 age-standardized prevalence of 9790.5 per 100,000 corresponds to about 9.79%.
   - population: Young people (moderate-to-severe acne)
     percentage: 20
