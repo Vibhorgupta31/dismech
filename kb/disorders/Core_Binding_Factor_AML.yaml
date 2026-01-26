@@ -40,8 +40,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41152985
     supports: SUPPORT
-    snippet: "core-binding factor acute myeloid leukemia patients, defined by the presence of a RUNX1::RUNX1T1 or CBFB::MYH11 fusion gene."
-    explanation: This abstract defines CBF-AML by RUNX1::RUNX1T1 or CBFB::MYH11 fusions, supporting the core-binding factor disruption described.
+    snippet: "core-binding factor acute myeloid leukemia patients, defined by the presence of a RUNX1::RUNX1T1 or CBFB::MYH11
+      fusion gene."
+    explanation: This abstract defines CBF-AML by RUNX1::RUNX1T1 or CBFB::MYH11 fusions, supporting the core-binding 
+      factor disruption described.
   cell_types:
   - preferred_term: myeloid progenitor cell
     term:
@@ -110,6 +112,11 @@ pathophysiology:
       label: myeloblast
 histopathology:
 - name: Myeloblast Predominance
+  finding_term:
+    preferred_term: Myeloblasts Present
+    term:
+      id: NCIT:C155995
+      label: Myeloblasts Present
   frequency: VERY_FREQUENT
   description: Acute myeloid leukemia features increased myeloblasts in blood or marrow.
   evidence:
@@ -265,5 +272,5 @@ classifications:
   icdo_morphology:
     classification_value: Leukemia
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

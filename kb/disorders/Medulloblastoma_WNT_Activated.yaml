@@ -38,7 +38,8 @@ pathophysiology:
   - reference: PMID:40967259
     supports: SUPPORT
     snippet: "nearly all cases harbor either somatic CTNNB1 mutations or germline APC mutations."
-    explanation: This abstract sentence supports that WNT-activated medulloblastomas are driven by CTNNB1 or APC mutations.
+    explanation: This abstract sentence supports that WNT-activated medulloblastomas are driven by CTNNB1 or APC 
+      mutations.
   cell_types:
   - preferred_term: cerebellar granule cell
     term:
@@ -106,6 +107,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Malignant Pediatric Brain Tumor
+  finding_term:
+    preferred_term: Medulloblastoma
+    term:
+      id: NCIT:C3222
+      label: Medulloblastoma
   frequency: VERY_FREQUENT
   description: Medulloblastoma is the most common malignant brain tumor of childhood.
   evidence:
@@ -244,5 +250,5 @@ classifications:
   icdo_morphology:
     classification_value: Embryonal Neoplasm
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

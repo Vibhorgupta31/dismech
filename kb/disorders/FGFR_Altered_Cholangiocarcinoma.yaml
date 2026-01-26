@@ -24,7 +24,8 @@ pathophysiology:
   evidence:
   - reference: PMID:36535760
     supports: SUPPORT
-    snippet: "Gene fusions are among the most frequent alterations, involving FGFR2 in 10-15% of iCCAs in particular, and NTRK genes at a lower frequency (<1%)."
+    snippet: "Gene fusions are among the most frequent alterations, involving FGFR2 in 10-15% of iCCAs in particular, and
+      NTRK genes at a lower frequency (<1%)."
     explanation: "Supports FGFR2 fusions as frequent alterations in intrahepatic cholangiocarcinoma."
   cell_types:
   - preferred_term: intrahepatic cholangiocyte
@@ -92,6 +93,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Well Differentiated Cholangiocarcinoma
+  finding_term:
+    preferred_term: Cholangiocarcinoma
+    term:
+      id: NCIT:C4436
+      label: Cholangiocarcinoma
   frequency: VERY_FREQUENT
   description: Most cholangiocarcinomas are well differentiated.
   evidence:
@@ -267,5 +273,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

@@ -24,8 +24,10 @@ pathophysiology:
   evidence:
   - reference: PMID:40303293
     supports: SUPPORT
-    snippet: HER2-positive breast cancer, which accounts for approximately 15-20% of all breast cancers, is characterized by its aggressive recurrence, metastasis and reduced survival.
-    explanation: This abstract identifies HER2-positive breast cancer as a distinct, aggressive subtype, supporting the disease definition used here.
+    snippet: HER2-positive breast cancer, which accounts for approximately 15-20% of all breast cancers, is 
+      characterized by its aggressive recurrence, metastasis and reduced survival.
+    explanation: This abstract identifies HER2-positive breast cancer as a distinct, aggressive subtype, supporting the 
+      disease definition used here.
   cell_types:
   - preferred_term: luminal epithelial cell of mammary gland
     term:
@@ -87,6 +89,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Invasive Ductal Carcinoma
+  finding_term:
+    preferred_term: Invasive Breast Carcinoma of No Special Type
+    term:
+      id: NCIT:C4194
+      label: Invasive Breast Carcinoma of No Special Type
   frequency: VERY_FREQUENT
   description: Invasive ductal carcinoma is the most common type of breast cancer.
   evidence:
@@ -221,5 +228,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

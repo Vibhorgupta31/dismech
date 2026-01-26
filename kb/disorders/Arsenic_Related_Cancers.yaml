@@ -34,7 +34,8 @@ environmental:
   evidence:
   - reference: PMID:26411935
     supports: SUPPORT
-    snippet: "Naturally occurring inorganic arsenic is known to increase the risk of cancers of the skin and several other organs, including the urinary bladder, lung, and liver."
+    snippet: "Naturally occurring inorganic arsenic is known to increase the risk of cancers of the skin and several other
+      organs, including the urinary bladder, lung, and liver."
     explanation: "Supports arsenic exposure as a risk factor for multiple cancers."
 pathophysiology:
 - name: Arsenic Uptake and Metabolism
@@ -158,8 +159,14 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Skin Carcinomas
+  finding_term:
+    preferred_term: Skin Carcinoma
+    term:
+      id: NCIT:C4914
+      label: Skin Carcinoma
   frequency: COMMON
-  description: Common arsenic-induced skin cancers include Bowen's disease, basal cell carcinoma, and squamous cell carcinoma.
+  description: Common arsenic-induced skin cancers include Bowen's disease, basal cell carcinoma, and squamous cell 
+    carcinoma.
   evidence:
   - reference: PMID:16807664
     supports: SUPPORT
@@ -333,5 +340,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

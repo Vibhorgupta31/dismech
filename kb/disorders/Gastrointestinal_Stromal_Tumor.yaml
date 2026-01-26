@@ -70,8 +70,10 @@ pathophysiology:
   evidence:
   - reference: PMID:12181401
     supports: SUPPORT
-    snippet: "Constitutive activation of KIT receptor tyrosine kinase is critical in the pathogenesis of gastrointestinal stromal tumors."
-    explanation: This landmark NEJM study established that constitutive KIT activation is the critical driver of GIST pathogenesis.
+    snippet: "Constitutive activation of KIT receptor tyrosine kinase is critical in the pathogenesis of gastrointestinal
+      stromal tumors."
+    explanation: This landmark NEJM study established that constitutive KIT activation is the critical driver of GIST 
+      pathogenesis.
 - name: PDGFRA Receptor Activation
   description: >-
     PDGFRA mutations, particularly D842V in the activation loop, result in
@@ -112,6 +114,11 @@ pathophysiology:
       label: phosphatidylinositol 3-kinase signaling
 histopathology:
 - name: Mesenchymal Tumor
+  finding_term:
+    preferred_term: Gastrointestinal Stromal Tumor
+    term:
+      id: NCIT:C3868
+      label: Gastrointestinal Stromal Tumor
   frequency: VERY_FREQUENT
   description: Gastrointestinal stromal tumor is the most common mesenchymal tumor of the GI tract.
   evidence:
@@ -224,8 +231,11 @@ treatments:
   evidence:
   - reference: PMID:12181401
     supports: SUPPORT
-    snippet: "Imatinib induced a sustained objective response in more than half of patients with an advanced unresectable or metastatic gastrointestinal stromal tumor. Inhibition of the KIT signal-transduction pathway is a promising treatment for advanced gastrointestinal stromal tumors, which resist conventional chemotherapy."
-    explanation: The Demetri et al. NEJM study demonstrated that imatinib achieves objective responses in 53.7% of advanced GIST patients by inhibiting the KIT signaling pathway.
+    snippet: "Imatinib induced a sustained objective response in more than half of patients with an advanced unresectable
+      or metastatic gastrointestinal stromal tumor. Inhibition of the KIT signal-transduction pathway is a promising treatment
+      for advanced gastrointestinal stromal tumors, which resist conventional chemotherapy."
+    explanation: The Demetri et al. NEJM study demonstrated that imatinib achieves objective responses in 53.7% of 
+      advanced GIST patients by inhibiting the KIT signaling pathway.
 - name: Sunitinib
   description: >-
     Second-line treatment after imatinib failure or intolerance. Multi-kinase
@@ -271,5 +281,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

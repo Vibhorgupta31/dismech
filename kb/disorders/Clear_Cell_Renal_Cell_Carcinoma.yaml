@@ -121,9 +121,15 @@ pathophysiology:
   - reference: PMID:37085424
     supports: SUPPORT
     snippet: "These include somatic gene mutations such as VHL, PBRM1, SETD2, and BAP1"
-    explanation: This review confirms PBRM1, SETD2, and BAP1 as recurrent genomic biomarkers in ccRCC contributing to epigenetic dysregulation.
+    explanation: This review confirms PBRM1, SETD2, and BAP1 as recurrent genomic biomarkers in ccRCC contributing to 
+      epigenetic dysregulation.
 histopathology:
 - name: Clear Cell Renal Cell Carcinoma
+  finding_term:
+    preferred_term: Clear Cell Renal Cell Carcinoma
+    term:
+      id: NCIT:C4033
+      label: Clear Cell Renal Cell Carcinoma
   frequency: VERY_FREQUENT
   description: Clear cell RCC is the most common histologic subtype of renal cell carcinoma.
   evidence:
@@ -281,5 +287,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

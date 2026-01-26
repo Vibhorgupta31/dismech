@@ -45,8 +45,10 @@ pathophysiology:
   evidence:
   - reference: PMID:15118073
     supports: SUPPORT
-    snippet: A subgroup of patients with non-small-cell lung cancer have specific mutations in the EGFR gene, which correlate with clinical responsiveness to the tyrosine kinase inhibitor gefitinib.
-    explanation: This abstract links EGFR mutations in NSCLC with sensitivity to EGFR TKIs, supporting the role of activating EGFR mutations.
+    snippet: A subgroup of patients with non-small-cell lung cancer have specific mutations in the EGFR gene, which 
+      correlate with clinical responsiveness to the tyrosine kinase inhibitor gefitinib.
+    explanation: This abstract links EGFR mutations in NSCLC with sensitivity to EGFR TKIs, supporting the role of 
+      activating EGFR mutations.
   cell_types:
   - preferred_term: type II pneumocyte
     term:
@@ -107,6 +109,11 @@ pathophysiology:
       label: response to drug
 histopathology:
 - name: Adenocarcinoma Predominance
+  finding_term:
+    preferred_term: Lung Adenocarcinoma
+    term:
+      id: NCIT:C3512
+      label: Lung Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common histologic subtype in NSCLC.
   evidence:
@@ -239,5 +246,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

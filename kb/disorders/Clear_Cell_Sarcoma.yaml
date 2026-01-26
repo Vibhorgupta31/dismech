@@ -82,6 +82,11 @@ pathophysiology:
       label: cell differentiation
 histopathology:
 - name: Malignant Melanoma of Soft Parts
+  finding_term:
+    preferred_term: Clear Cell Sarcoma of Soft Tissue
+    term:
+      id: NCIT:C3745
+      label: Clear Cell Sarcoma of Soft Tissue
   frequency: VERY_FREQUENT
   description: Clear cell sarcoma is also known as malignant melanoma of soft parts.
   evidence:
@@ -210,5 +215,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

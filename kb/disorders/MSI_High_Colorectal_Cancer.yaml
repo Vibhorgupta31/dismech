@@ -35,8 +35,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41113075
     supports: SUPPORT
-    snippet: High microsatellite instability (MSI-H) colorectal cancer (CRC), caused by deficient mismatch repair, accounts for about 15% of all CRC cases and is more common in right-sided tumors.
-    explanation: This abstract explicitly links MSI-H CRC to deficient mismatch repair, supporting the core disease mechanism described.
+    snippet: High microsatellite instability (MSI-H) colorectal cancer (CRC), caused by deficient mismatch repair, 
+      accounts for about 15% of all CRC cases and is more common in right-sided tumors.
+    explanation: This abstract explicitly links MSI-H CRC to deficient mismatch repair, supporting the core disease 
+      mechanism described.
   cell_types:
   - preferred_term: colon epithelial cell
     term:
@@ -114,6 +116,11 @@ pathophysiology:
     tumors vulnerable to PD-1/PD-L1 blockade.
 histopathology:
 - name: Adenocarcinoma
+  finding_term:
+    preferred_term: Adenocarcinoma
+    term:
+      id: NCIT:C2852
+      label: Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common pathologic subtype of colon cancer.
   evidence:
@@ -271,5 +278,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

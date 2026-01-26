@@ -74,6 +74,11 @@ pathophysiology:
       label: phosphatidylinositol 3-kinase signaling
 histopathology:
 - name: Urothelial Carcinoma
+  finding_term:
+    preferred_term: Urothelial Carcinoma
+    term:
+      id: NCIT:C4030
+      label: Urothelial Carcinoma
   frequency: VERY_FREQUENT
   description: Bladder carcinomas are classified as urothelial carcinoma.
   evidence:
@@ -132,7 +137,9 @@ genetic:
   evidence:
   - reference: PMID:31264434
     supports: SUPPORT
-    snippet: "Specific mutations have been identified that predict response to therapy including ERCC2 mutations and cisplatin, DNA damage and repair mutations and checkpoint inhibitors, and FGFR3 mutations and FGFR tyrosine kinase inhibitors such as erdafitinib."
+    snippet: "Specific mutations have been identified that predict response to therapy including ERCC2 mutations and cisplatin,
+      DNA damage and repair mutations and checkpoint inhibitors, and FGFR3 mutations and FGFR tyrosine kinase inhibitors such
+      as erdafitinib."
     explanation: "Supports clinically relevant FGFR3 mutations in urothelial carcinoma."
 treatments:
 - name: Erdafitinib
@@ -176,5 +183,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

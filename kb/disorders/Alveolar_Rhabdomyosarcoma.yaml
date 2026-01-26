@@ -41,7 +41,8 @@ pathophysiology:
   evidence:
   - reference: PMID:39686893
     supports: SUPPORT
-    snippet: "According to literature data, the frequency of the PAX3::FOXO1 translocation is 70-90% and the PAX7::FOXO1 translocation 10-30%."
+    snippet: "According to literature data, the frequency of the PAX3::FOXO1 translocation is 70-90% and the PAX7::FOXO1 translocation
+      10-30%."
     explanation: "Supports the prevalence of PAX3/7-FOXO1 fusions in alveolar rhabdomyosarcoma."
   cell_types:
   - preferred_term: skeletal muscle myoblast
@@ -90,6 +91,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Rhabdomyosarcoma
+  finding_term:
+    preferred_term: Rhabdomyosarcoma
+    term:
+      id: NCIT:C3359
+      label: Rhabdomyosarcoma
   frequency: VERY_FREQUENT
   description: Rhabdomyosarcoma is a malignant tumor of mesenchymal origin.
   evidence:
@@ -226,5 +232,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

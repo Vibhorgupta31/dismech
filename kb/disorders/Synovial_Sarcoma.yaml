@@ -40,7 +40,8 @@ pathophysiology:
   evidence:
   - reference: PMID:32092619
     supports: SUPPORT
-    snippet: "SS18 (SYT) break-apart by FISH or SS18-SSX (SYT-SSX) fusion by reverse transcription-polymerase chain reaction is recommended as a sensitive and specific test to differentiate patients with synovial sarcoma from other sarcomas."
+    snippet: "SS18 (SYT) break-apart by FISH or SS18-SSX (SYT-SSX) fusion by reverse transcription-polymerase chain reaction
+      is recommended as a sensitive and specific test to differentiate patients with synovial sarcoma from other sarcomas."
     explanation: "Supports the presence of SS18-SSX fusions as a defining feature of synovial sarcoma."
   biological_processes:
   - preferred_term: chromatin remodeling
@@ -80,6 +81,11 @@ pathophysiology:
       label: apoptotic process
 histopathology:
 - name: Synovial Sarcoma
+  finding_term:
+    preferred_term: Synovial Sarcoma
+    term:
+      id: NCIT:C3400
+      label: Synovial Sarcoma
   frequency: VERY_FREQUENT
   description: Synovial sarcoma is a rare soft tissue tumor.
   evidence:
@@ -204,5 +210,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

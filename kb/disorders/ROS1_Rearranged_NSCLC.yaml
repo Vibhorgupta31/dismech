@@ -40,7 +40,8 @@ pathophysiology:
   - reference: PMID:31720561
     supports: SUPPORT
     snippet: ROS1 gene fusions account for approximately 1-2% of all cases of non-small cell lung cancer (NSCLC).
-    explanation: This abstract establishes that ROS1 fusions define a small NSCLC subset, supporting the ROS1 gene rearrangement mechanism.
+    explanation: This abstract establishes that ROS1 fusions define a small NSCLC subset, supporting the ROS1 gene 
+      rearrangement mechanism.
   cell_types:
   - preferred_term: type II pneumocyte
     term:
@@ -105,6 +106,11 @@ pathophysiology:
       label: response to drug
 histopathology:
 - name: Adenocarcinoma Predominance
+  finding_term:
+    preferred_term: Lung Adenocarcinoma
+    term:
+      id: NCIT:C3512
+      label: Lung Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common histologic subtype in NSCLC.
   evidence:
@@ -242,5 +248,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

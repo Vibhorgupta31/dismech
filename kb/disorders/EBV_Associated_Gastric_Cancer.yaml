@@ -31,8 +31,10 @@ infectious_agent:
   evidence:
   - reference: PMID:41280003
     supports: SUPPORT
-    snippet: Epstein-Barr virus associated gastric cancer (EBVaGC) accounts for ~9-10% of gastric cancers worldwide and is defined by a distinctive molecular profile, including extreme hypermethylation of the DNA.
-    explanation: This abstract defines EBV-associated gastric cancer as a distinct molecular subtype and provides its global frequency.
+    snippet: Epstein-Barr virus associated gastric cancer (EBVaGC) accounts for ~9-10% of gastric cancers worldwide and 
+      is defined by a distinctive molecular profile, including extreme hypermethylation of the DNA.
+    explanation: This abstract defines EBV-associated gastric cancer as a distinct molecular subtype and provides its 
+      global frequency.
 pathophysiology:
 - name: EBV Latent Infection of Gastric Epithelium
   description: >-
@@ -121,6 +123,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Gastric Adenocarcinoma
+  finding_term:
+    preferred_term: Gastric Adenocarcinoma
+    term:
+      id: NCIT:C4004
+      label: Gastric Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common histologic type of gastric cancer.
   evidence:
@@ -263,5 +270,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

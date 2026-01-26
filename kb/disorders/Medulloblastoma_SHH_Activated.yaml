@@ -40,8 +40,10 @@ pathophysiology:
   evidence:
   - reference: PMID:35489737
     supports: SUPPORT
-    snippet: "SHH tumors contain mutations and alterations in GLI1, GLI2, SUFU, and PTCH1 genes, which constitutively activate the SHH pathway."
-    explanation: This abstract explicitly states that SHH tumors have GLI1/GLI2/SUFU/PTCH1 alterations that constitutively activate SHH signaling.
+    snippet: "SHH tumors contain mutations and alterations in GLI1, GLI2, SUFU, and PTCH1 genes, which constitutively activate
+      the SHH pathway."
+    explanation: This abstract explicitly states that SHH tumors have GLI1/GLI2/SUFU/PTCH1 alterations that 
+      constitutively activate SHH signaling.
   cell_types:
   - preferred_term: cerebellar granule cell
     term:
@@ -100,6 +102,11 @@ pathophysiology:
       label: cerebellum development
 histopathology:
 - name: Malignant Pediatric Brain Tumor
+  finding_term:
+    preferred_term: Medulloblastoma
+    term:
+      id: NCIT:C3222
+      label: Medulloblastoma
   frequency: VERY_FREQUENT
   description: Medulloblastoma is the most common malignant brain tumor of childhood.
   evidence:
@@ -254,5 +261,5 @@ classifications:
   icdo_morphology:
     classification_value: Embryonal Neoplasm
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

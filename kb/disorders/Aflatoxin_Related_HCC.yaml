@@ -44,8 +44,10 @@ environmental:
   evidence:
   - reference: PMID:40863326
     supports: SUPPORT
-    snippet: Exposure to aflatoxins, potent mycotoxins produced by Aspergillus fungi contaminating staple foods, and chronic hepatitis B virus (HBV) infection are major etiological factors, especially where they co-exist.
-    explanation: This abstract identifies aflatoxin exposure as a major etiological factor for HCC, supporting the environmental risk described.
+    snippet: Exposure to aflatoxins, potent mycotoxins produced by Aspergillus fungi contaminating staple foods, and 
+      chronic hepatitis B virus (HBV) infection are major etiological factors, especially where they co-exist.
+    explanation: This abstract identifies aflatoxin exposure as a major etiological factor for HCC, supporting the 
+      environmental risk described.
 pathophysiology:
 - name: Aflatoxin B1 Metabolic Activation
   description: >-
@@ -144,6 +146,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Hepatocellular Carcinoma
+  finding_term:
+    preferred_term: Hepatocellular Carcinoma
+    term:
+      id: NCIT:C3099
+      label: Hepatocellular Carcinoma
   frequency: VERY_FREQUENT
   description: Hepatocellular carcinoma is the most common primary liver malignancy.
   evidence:
@@ -313,5 +320,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

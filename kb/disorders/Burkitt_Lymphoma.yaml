@@ -119,6 +119,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Aggressive B-Cell Lymphoma
+  finding_term:
+    preferred_term: Aggressive B-Cell Non-Hodgkin Lymphoma
+    term:
+      id: NCIT:C178541
+      label: Aggressive B-Cell Non-Hodgkin Lymphoma
   frequency: VERY_FREQUENT
   description: Burkitt lymphoma is an aggressive form of B cell lymphoma.
   evidence:
@@ -280,5 +285,5 @@ classifications:
   icdo_morphology:
     classification_value: Lymphoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

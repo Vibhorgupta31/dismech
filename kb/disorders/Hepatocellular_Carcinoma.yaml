@@ -42,8 +42,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41567639
     supports: SUPPORT
-    snippet: HCC typically arises in patients with chronic liver disease, including hepatitis, cirrhosis, and non-alcoholic fatty liver diseases.
-    explanation: This abstract states that HCC commonly arises in chronic liver disease and cirrhosis, supporting the mechanism described.
+    snippet: HCC typically arises in patients with chronic liver disease, including hepatitis, cirrhosis, and 
+      non-alcoholic fatty liver diseases.
+    explanation: This abstract states that HCC commonly arises in chronic liver disease and cirrhosis, supporting the 
+      mechanism described.
   cell_types:
   - preferred_term: hepatocyte
     term:
@@ -135,6 +137,11 @@ pathophysiology:
       label: angiogenesis
 histopathology:
 - name: Hepatocellular Carcinoma
+  finding_term:
+    preferred_term: Hepatocellular Carcinoma
+    term:
+      id: NCIT:C3099
+      label: Hepatocellular Carcinoma
   frequency: VERY_FREQUENT
   description: Hepatocellular carcinoma is the most common primary liver malignancy.
   evidence:
@@ -354,5 +361,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

@@ -72,8 +72,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41580684
     supports: SUPPORT
-    snippet: "Polycythemia vera (PV) is a myeloproliferative neoplasm, characterized by trilineage hypercellularity, which increases the risk of thrombosis."
-    explanation: This abstract states that PV is an MPN with increased thrombosis risk, supporting the thrombotic mechanism described.
+    snippet: "Polycythemia vera (PV) is a myeloproliferative neoplasm, characterized by trilineage hypercellularity, which
+      increases the risk of thrombosis."
+    explanation: This abstract states that PV is an MPN with increased thrombosis risk, supporting the thrombotic 
+      mechanism described.
   biological_processes:
   - preferred_term: blood coagulation
     modifier: ABNORMAL
@@ -82,6 +84,11 @@ pathophysiology:
       label: blood coagulation
 histopathology:
 - name: Erythrocytosis
+  finding_term:
+    preferred_term: Erythrocytosis
+    term:
+      id: NCIT:C113711
+      label: Erythrocytosis
   frequency: VERY_FREQUENT
   description: Polycythemia vera is typically characterized by erythrocytosis.
   evidence:
@@ -258,5 +265,5 @@ classifications:
   icdo_morphology:
     classification_value: Leukemia
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

@@ -38,7 +38,8 @@ pathophysiology:
   evidence:
   - reference: PMID:20066421
     supports: SUPPORT
-    snippet: "Using microdissection techniques, EWS-WT1-gene fusion transcripts were detected in the cystic (single-cell-layered), the papillary and the solid tumor proliferations (exon 7 of EWS on chromosome 22 with exon 8 of WT1 on chromosome 11)."
+    snippet: "Using microdissection techniques, EWS-WT1-gene fusion transcripts were detected in the cystic (single-cell-layered),
+      the papillary and the solid tumor proliferations (exon 7 of EWS on chromosome 22 with exon 8 of WT1 on chromosome 11)."
     explanation: "Supports the presence of EWS-WT1 fusion transcripts in DSRCT."
   biological_processes:
   - preferred_term: positive regulation of transcription by RNA polymerase II
@@ -81,6 +82,11 @@ pathophysiology:
       label: cell differentiation
 histopathology:
 - name: Desmoplastic Small Round Cell Tumor
+  finding_term:
+    preferred_term: Desmoplastic Small Round Cell Tumor
+    term:
+      id: NCIT:C8300
+      label: Desmoplastic Small Round Cell Tumor
   frequency: VERY_FREQUENT
   description: Desmoplastic small round cell tumor is a rare and highly aggressive mesenchymal tumor.
   evidence:
@@ -222,5 +228,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

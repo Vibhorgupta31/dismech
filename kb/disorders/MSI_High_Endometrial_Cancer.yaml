@@ -34,7 +34,9 @@ pathophysiology:
   evidence:
   - reference: PMID:39860407
     supports: SUPPORT
-    snippet: "Cancer immunotherapy through the use of PD-1/PD-L1 inhibitors have shown significant promise in endometrial carcinoma (EC), particularly in tumors with microsatellite instability (MSI) or mismatch repair deficiency (dMMR), present in approximately 30% of cases."
+    snippet: "Cancer immunotherapy through the use of PD-1/PD-L1 inhibitors have shown significant promise in endometrial
+      carcinoma (EC), particularly in tumors with microsatellite instability (MSI) or mismatch repair deficiency (dMMR), present
+      in approximately 30% of cases."
     explanation: "Supports the frequency of MSI/dMMR in endometrial carcinoma."
   cell_types:
   - preferred_term: endometrial epithelial cell
@@ -82,6 +84,11 @@ pathophysiology:
       label: immune response
 histopathology:
 - name: Endometrioid Adenocarcinoma
+  finding_term:
+    preferred_term: Endometrioid Adenocarcinoma
+    term:
+      id: NCIT:C3769
+      label: Endometrioid Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Endometrioid adenocarcinoma is the most frequent histological subtype.
   evidence:
@@ -218,5 +225,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

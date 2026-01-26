@@ -124,6 +124,11 @@ pathophysiology:
       label: B cell
 histopathology:
 - name: Small B-Cell Clonal Expansion
+  finding_term:
+    preferred_term: Small Lymphocytic Lymphoma
+    term:
+      id: NCIT:C7540
+      label: Small Lymphocytic Lymphoma
   frequency: VERY_FREQUENT
   description: Chronic lymphocytic leukemia is characterized by clonal expansion of CLL B cells.
   evidence:
@@ -343,5 +348,5 @@ classifications:
   icdo_morphology:
     classification_value: Leukemia
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

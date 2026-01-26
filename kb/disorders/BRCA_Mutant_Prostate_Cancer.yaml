@@ -76,6 +76,11 @@ pathophysiology:
       label: single-strand break repair
 histopathology:
 - name: Acinar Adenocarcinoma
+  finding_term:
+    preferred_term: Prostate Acinar Adenocarcinoma
+    term:
+      id: NCIT:C5596
+      label: Prostate Acinar Adenocarcinoma
   frequency: VERY_FREQUENT
   description: The most common prostatic cancers are acinary adenocarcinomas.
   evidence:
@@ -136,7 +141,9 @@ genetic:
   evidence:
   - reference: PMID:36434163
     supports: SUPPORT
-    snippet: "Emerging data show that germline mutations in homologous recombination genes (BRCA1/2, ATM, CHECK2), in mismatch repair genes (MLH1, MLH2, MSH6), and other additional genes are associated with the development and aggressiveness of PCa."
+    snippet: "Emerging data show that germline mutations in homologous recombination genes (BRCA1/2, ATM, CHECK2), in mismatch
+      repair genes (MLH1, MLH2, MSH6), and other additional genes are associated with the development and aggressiveness of
+      PCa."
     explanation: "Supports BRCA1/2 mutations contributing to prostate cancer development and aggressiveness."
 - name: BRCA1
   association: Germline and Somatic Loss-of-Function Mutations
@@ -204,5 +211,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

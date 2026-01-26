@@ -39,7 +39,8 @@ infectious_agent:
   evidence:
   - reference: PMID:41232971
     supports: SUPPORT
-    snippet: "Two subtypes have been identified: Merkel polyomavirus-related (MCPyV), present in 80% of cases in Europe, and UV-related."
+    snippet: "Two subtypes have been identified: Merkel polyomavirus-related (MCPyV), present in 80% of cases in Europe, and
+      UV-related."
     explanation: "Supports the high prevalence of MCPyV-positive Merkel cell carcinoma."
   infectious_agent_term:
     preferred_term: Merkel cell polyomavirus
@@ -129,6 +130,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Cutaneous Neuroendocrine Carcinoma
+  finding_term:
+    preferred_term: Merkel Cell Carcinoma
+    term:
+      id: NCIT:C9231
+      label: Merkel Cell Carcinoma
   frequency: VERY_FREQUENT
   description: Merkel carcinoma is a highly aggressive cutaneous neuroendocrine carcinoma.
   evidence:
@@ -265,5 +271,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

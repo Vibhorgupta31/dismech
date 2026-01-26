@@ -56,8 +56,10 @@ pathophysiology:
   evidence:
   - reference: PMID:33741715
     supports: SUPPORT
-    snippet: "Ewing sarcomas are driven by EWS-ETS fusions, most commonly EWS-FLI1, which promotes widespread metabolic reprogramming, including activation of serine biosynthesis."
-    explanation: This study demonstrates that EWS-FLI1 is the driver fusion oncogene in Ewing sarcoma that activates transcriptional programs including metabolic reprogramming.
+    snippet: "Ewing sarcomas are driven by EWS-ETS fusions, most commonly EWS-FLI1, which promotes widespread metabolic reprogramming,
+      including activation of serine biosynthesis."
+    explanation: This study demonstrates that EWS-FLI1 is the driver fusion oncogene in Ewing sarcoma that activates 
+      transcriptional programs including metabolic reprogramming.
 - name: Aberrant Transcriptional Regulation
   description: >-
     EWS-FLI1 binds to GGAA microsatellite repeats throughout the genome, creating
@@ -76,8 +78,10 @@ pathophysiology:
   evidence:
   - reference: PMID:33741715
     supports: SUPPORT
-    snippet: "We identified and validated an EWS-FLI1 binding site at the ATF4 promoter, indicating that the fusion can directly activate ATF4 transcription."
-    explanation: This study demonstrates that EWS-FLI1 functions as an aberrant transcription factor that directly binds promoter regions to activate target genes.
+    snippet: "We identified and validated an EWS-FLI1 binding site at the ATF4 promoter, indicating that the fusion can directly
+      activate ATF4 transcription."
+    explanation: This study demonstrates that EWS-FLI1 functions as an aberrant transcription factor that directly binds
+      promoter regions to activate target genes.
 - name: Blocked Differentiation
   description: >-
     EWS-FLI1 represses genes required for mesenchymal differentiation, maintaining
@@ -91,6 +95,11 @@ pathophysiology:
       label: cell differentiation
 histopathology:
 - name: Small Round Cell Tumor
+  finding_term:
+    preferred_term: Ewing Sarcoma
+    term:
+      id: NCIT:C4817
+      label: Ewing Sarcoma
   frequency: VERY_FREQUENT
   description: Ewing sarcoma is a small round cell tumor of bone or soft tissue.
   evidence:
@@ -242,5 +251,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

@@ -77,8 +77,11 @@ pathophysiology:
   evidence:
   - reference: PMID:41514563
     supports: SUPPORT
-    snippet: "Primary myelofibrosis (PMF) is a Philadelphia chromosome (Ph)-negative myeloproliferative neoplasm (MPN) that features clonal proliferation of atypical megakaryocytes and myeloid cells, fibrosis of the bone marrow, extramedullary hematopoiesis, and increased risk of leukemic transformation to acute myeloid leukemia (AML)."
-    explanation: This abstract highlights bone marrow fibrosis and atypical megakaryocyte proliferation, supporting the fibrosis mechanism described.
+    snippet: "Primary myelofibrosis (PMF) is a Philadelphia chromosome (Ph)-negative myeloproliferative neoplasm (MPN) that
+      features clonal proliferation of atypical megakaryocytes and myeloid cells, fibrosis of the bone marrow, extramedullary
+      hematopoiesis, and increased risk of leukemic transformation to acute myeloid leukemia (AML)."
+    explanation: This abstract highlights bone marrow fibrosis and atypical megakaryocyte proliferation, supporting the 
+      fibrosis mechanism described.
   biological_processes:
   - preferred_term: extracellular matrix organization
     modifier: INCREASED
@@ -103,6 +106,11 @@ pathophysiology:
       label: hemopoiesis
 histopathology:
 - name: Bone Marrow Fibrosis
+  finding_term:
+    preferred_term: Bone Marrow Fibrosis
+    term:
+      id: NCIT:C36212
+      label: Bone Marrow Fibrosis
   frequency: VERY_FREQUENT
   description: Primary myelofibrosis is characterized by bone marrow fibrosis.
   evidence:
@@ -285,5 +293,5 @@ classifications:
   icdo_morphology:
     classification_value: Leukemia
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

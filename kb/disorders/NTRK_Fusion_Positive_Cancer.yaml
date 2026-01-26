@@ -38,7 +38,8 @@ pathophysiology:
   evidence:
   - reference: PMID:39988443
     supports: SUPPORT
-    snippet: "Fusion variations of neurotrophic receptor tyrosine kinase (NTRK) are oncogenic drivers in various solid tumors such as breast cancer, salivary gland carcinoma, infant fibrosarcoma, etc."
+    snippet: "Fusion variations of neurotrophic receptor tyrosine kinase (NTRK) are oncogenic drivers in various solid tumors
+      such as breast cancer, salivary gland carcinoma, infant fibrosarcoma, etc."
     explanation: "Supports NTRK fusions as oncogenic drivers across solid tumors."
   biological_processes:
   - preferred_term: protein tyrosine kinase activity
@@ -77,6 +78,11 @@ pathophysiology:
       label: phosphatidylinositol 3-kinase signaling
 histopathology:
 - name: Histology-Agnostic Solid Tumors
+  finding_term:
+    preferred_term: Malignant Solid Neoplasm
+    term:
+      id: NCIT:C132146
+      label: Malignant Solid Neoplasm
   frequency: COMMON
   description: NTRK gene fusions are found across cancer types.
   evidence:
@@ -179,5 +185,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

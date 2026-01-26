@@ -42,8 +42,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41560679
     supports: SUPPORT
-    snippet: "Neuroblastoma (NB) is a pediatric solid tumor originating from neural crest cells (NCCs), which are precursors of the sympathetic nervous system."
-    explanation: This abstract states neuroblastoma originates from neural crest cells, supporting the developmental origin described.
+    snippet: "Neuroblastoma (NB) is a pediatric solid tumor originating from neural crest cells (NCCs), which are precursors
+      of the sympathetic nervous system."
+    explanation: This abstract states neuroblastoma originates from neural crest cells, supporting the developmental 
+      origin described.
   cell_types:
   - preferred_term: neural crest derived neuroblast
     term:
@@ -89,6 +91,11 @@ pathophysiology:
       label: MAPK cascade
 histopathology:
 - name: Neural Crest Tumor
+  finding_term:
+    preferred_term: Neuroblastoma
+    term:
+      id: NCIT:C3270
+      label: Neuroblastoma
   frequency: VERY_FREQUENT
   description: Neuroblastoma is a malignant tumor of neural crest origin.
   evidence:
@@ -289,5 +296,5 @@ classifications:
   icdo_morphology:
     classification_value: Embryonal Neoplasm
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

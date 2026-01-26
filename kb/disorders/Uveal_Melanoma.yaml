@@ -43,7 +43,8 @@ pathophysiology:
   evidence:
   - reference: PMID:23877823
     supports: SUPPORT
-    snippet: "Recently, major key genes involved in uveal melanoma development, GNAQ, GNA11, BAP1, SF3B1 and EIF1AX, have been identified."
+    snippet: "Recently, major key genes involved in uveal melanoma development, GNAQ, GNA11, BAP1, SF3B1 and EIF1AX, have
+      been identified."
     explanation: "Supports GNAQ and GNA11 as key genes in uveal melanoma development."
   cell_types:
   - preferred_term: melanocyte
@@ -115,6 +116,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Melanocytic Neoplasm
+  finding_term:
+    preferred_term: Melanocytic Neoplasm
+    term:
+      id: NCIT:C7058
+      label: Melanocytic Neoplasm
   frequency: VERY_FREQUENT
   description: Malignant melanoma represents a neoplasm stemming from melanocytes.
   evidence:
@@ -251,5 +257,5 @@ classifications:
   icdo_morphology:
     classification_value: Melanoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

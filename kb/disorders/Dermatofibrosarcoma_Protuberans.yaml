@@ -42,7 +42,8 @@ pathophysiology:
   evidence:
   - reference: PMID:17397592
     supports: SUPPORT
-    snippet: "The demonstration of the oncogenic power of the translocation COL1A1-PDGFB in DFSP has allowed the successful introduction of drug therapy with antagonists of the PDGFB receptor for metastatic or locally advanced cases."
+    snippet: "The demonstration of the oncogenic power of the translocation COL1A1-PDGFB in DFSP has allowed the successful
+      introduction of drug therapy with antagonists of the PDGFB receptor for metastatic or locally advanced cases."
     explanation: "Supports the COL1A1-PDGFB translocation as a driver in DFSP."
   biological_processes:
   - preferred_term: positive regulation of transcription by RNA polymerase II
@@ -87,6 +88,11 @@ pathophysiology:
       label: MAPK cascade
 histopathology:
 - name: Dermal Soft Tissue Sarcoma
+  finding_term:
+    preferred_term: Dermatofibrosarcoma Protuberans
+    term:
+      id: NCIT:C4683
+      label: Dermatofibrosarcoma Protuberans
   frequency: VERY_FREQUENT
   description: Dermatofibrosarcoma protuberans is a low- to intermediate-grade dermal soft tissue malignant tumor.
   evidence:
@@ -196,5 +202,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

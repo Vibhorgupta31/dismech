@@ -26,8 +26,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41251904
     supports: SUPPORT
-    snippet: "Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL) is characterized by the BCR::ABL1 fusion gene resulting from the translocation t(9;22)."
-    explanation: This abstract directly links Ph+ ALL to the BCR::ABL1 fusion from t(9;22), matching the described mechanism.
+    snippet: "Philadelphia chromosome-positive acute lymphoblastic leukemia (Ph+ ALL) is characterized by the BCR::ABL1 fusion
+      gene resulting from the translocation t(9;22)."
+    explanation: This abstract directly links Ph+ ALL to the BCR::ABL1 fusion from t(9;22), matching the described 
+      mechanism.
   cell_types:
   - preferred_term: B-lymphoblast
     term:
@@ -108,6 +110,11 @@ pathophysiology:
       label: B-lymphoblast
 histopathology:
 - name: Lymphoblastic Neoplasm
+  finding_term:
+    preferred_term: Acute Lymphoblastic Leukemia
+    term:
+      id: NCIT:C3167
+      label: Acute Lymphoblastic Leukemia
   frequency: VERY_FREQUENT
   description: Acute lymphoblastic leukemia is a malignancy of B- or T-lymphoblasts.
   evidence:
@@ -283,5 +290,5 @@ classifications:
   icdo_morphology:
     classification_value: Leukemia
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

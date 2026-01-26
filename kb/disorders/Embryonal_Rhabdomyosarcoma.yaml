@@ -40,7 +40,8 @@ pathophysiology:
   evidence:
   - reference: PMID:10095436
     supports: SUPPORT
-    snippet: "Allelic losses of 11p15.5 are characteristic of embryonal RMS (eRMS), whereas an increase in the expression of the Igf2 gene located on 11p15.5 has regularly been observed in eRMS and alveolar RMS (aRMS)."
+    snippet: "Allelic losses of 11p15.5 are characteristic of embryonal RMS (eRMS), whereas an increase in the expression
+      of the Igf2 gene located on 11p15.5 has regularly been observed in eRMS and alveolar RMS (aRMS)."
     explanation: "Supports 11p15.5 loss of heterozygosity as characteristic of embryonal rhabdomyosarcoma."
   cell_types:
   - preferred_term: skeletal muscle myoblast
@@ -80,6 +81,11 @@ pathophysiology:
       label: MAPK cascade
 histopathology:
 - name: Rhabdomyosarcoma
+  finding_term:
+    preferred_term: Rhabdomyosarcoma
+    term:
+      id: NCIT:C3359
+      label: Rhabdomyosarcoma
   frequency: VERY_FREQUENT
   description: Rhabdomyosarcoma is a malignant tumor of mesenchymal origin.
   evidence:
@@ -207,5 +213,5 @@ classifications:
   icdo_morphology:
     classification_value: Sarcoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

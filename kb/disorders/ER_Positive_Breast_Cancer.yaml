@@ -34,8 +34,10 @@ pathophysiology:
   evidence:
   - reference: PMID:41549581
     supports: SUPPORT
-    snippet: At the heart of this subtype is the estrogen signaling pathway, especially the estrogen receptor alpha (ERα), which plays a major role in the development, growth, and response to these cancers.
-    explanation: This abstract links ER+ breast cancer to estrogen receptor alpha-driven signaling, supporting the core mechanism described.
+    snippet: At the heart of this subtype is the estrogen signaling pathway, especially the estrogen receptor alpha 
+      (ERα), which plays a major role in the development, growth, and response to these cancers.
+    explanation: This abstract links ER+ breast cancer to estrogen receptor alpha-driven signaling, supporting the core 
+      mechanism described.
   cell_types:
   - preferred_term: luminal epithelial cell of mammary gland
     term:
@@ -83,6 +85,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Invasive Ductal Carcinoma
+  finding_term:
+    preferred_term: Invasive Breast Carcinoma of No Special Type
+    term:
+      id: NCIT:C4194
+      label: Invasive Breast Carcinoma of No Special Type
   frequency: VERY_FREQUENT
   description: Invasive ductal carcinoma is the most common type of breast cancer.
   evidence:
@@ -236,5 +243,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

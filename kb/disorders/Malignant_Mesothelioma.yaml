@@ -39,7 +39,8 @@ environmental:
   evidence:
   - reference: PMID:23743993
     supports: SUPPORT
-    snippet: "Malignant pleural mesothelioma (MPM) is an aggressive, malignant tumor of the pleural surface and is strongly associated with asbestos exposure."
+    snippet: "Malignant pleural mesothelioma (MPM) is an aggressive, malignant tumor of the pleural surface and is strongly
+      associated with asbestos exposure."
     explanation: "Supports the strong association between mesothelioma and asbestos exposure."
   exposure_term:
     preferred_term: exposure to asbestos
@@ -137,6 +138,11 @@ pathophysiology:
     description: Loss of p16 allows uncontrolled CDK4/6-mediated cell cycle progression
 histopathology:
 - name: Mesothelial Neoplasm
+  finding_term:
+    preferred_term: Mesothelial Neoplasm
+    term:
+      id: NCIT:C3786
+      label: Mesothelial Neoplasm
   frequency: VERY_FREQUENT
   description: Malignant mesothelioma is a neoplasm arising from mesothelial cells lining serosal cavities.
   evidence:
@@ -300,5 +306,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

@@ -25,8 +25,10 @@ pathophysiology:
   evidence:
   - reference: PMID:40023845
     supports: SUPPORT
-    snippet: Hotspot BRAF, hotspot NRAS, and NF1 loss-of-function mutations are found in approximately 50%, 25%, and 15% of cutaneous melanomas, respectively.
-    explanation: This abstract reports hotspot NRAS mutations in a substantial fraction of cutaneous melanomas, supporting the NRAS-mutant subtype.
+    snippet: Hotspot BRAF, hotspot NRAS, and NF1 loss-of-function mutations are found in approximately 50%, 25%, and 15%
+      of cutaneous melanomas, respectively.
+    explanation: This abstract reports hotspot NRAS mutations in a substantial fraction of cutaneous melanomas, 
+      supporting the NRAS-mutant subtype.
   cell_types:
   - preferred_term: melanocyte
     term:
@@ -93,6 +95,11 @@ pathophysiology:
       label: apoptotic process
 histopathology:
 - name: Melanocytic Neoplasm
+  finding_term:
+    preferred_term: Melanocytic Neoplasm
+    term:
+      id: NCIT:C7058
+      label: Melanocytic Neoplasm
   frequency: VERY_FREQUENT
   description: Malignant melanoma represents a neoplasm stemming from melanocytes.
   evidence:
@@ -193,5 +200,5 @@ classifications:
   icdo_morphology:
     classification_value: Melanoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

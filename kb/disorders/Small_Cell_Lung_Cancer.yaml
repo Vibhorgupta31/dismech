@@ -50,7 +50,8 @@ environmental:
   evidence:
   - reference: PMID:8166467
     supports: SUPPORT
-    snippet: "Cigarette smoking and occupational risk factors are more strongly associated with squamous and small cell lung cancers than with adenocarcinoma."
+    snippet: "Cigarette smoking and occupational risk factors are more strongly associated with squamous and small cell lung
+      cancers than with adenocarcinoma."
     explanation: "Supports the strong association between SCLC and cigarette smoking."
   exposure_term:
     preferred_term: exposure to tobacco smoking
@@ -131,6 +132,11 @@ pathophysiology:
       label: neuron differentiation
 histopathology:
 - name: Neuroendocrine Carcinoma
+  finding_term:
+    preferred_term: Neuroendocrine Carcinoma
+    term:
+      id: NCIT:C3773
+      label: Neuroendocrine Carcinoma
   frequency: VERY_FREQUENT
   description: Small-cell lung cancer is a very aggressive neuroendocrine carcinoma.
   evidence:
@@ -307,5 +313,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

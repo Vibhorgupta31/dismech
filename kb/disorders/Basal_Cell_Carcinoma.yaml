@@ -46,7 +46,8 @@ pathophysiology:
   evidence:
   - reference: PMID:19082818
     supports: SUPPORT
-    snippet: "Aberrant activation of sonic hedgehog signaling has been reported for sporadic and hereditary basal cell carcinoma caused by specific genetic mutations."
+    snippet: "Aberrant activation of sonic hedgehog signaling has been reported for sporadic and hereditary basal cell carcinoma
+      caused by specific genetic mutations."
     explanation: "Supports aberrant Hedgehog signaling as a driver in basal cell carcinoma."
   cell_types:
   - preferred_term: basal cell of epidermis
@@ -141,6 +142,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Basal Cell Carcinoma
+  finding_term:
+    preferred_term: Basal Cell Carcinoma
+    term:
+      id: NCIT:C156767
+      label: Basal Cell Carcinoma
   frequency: VERY_FREQUENT
   description: Basal cell carcinomas are common cutaneous carcinomas.
   evidence:
@@ -285,5 +291,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

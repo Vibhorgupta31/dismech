@@ -37,8 +37,10 @@ pathophysiology:
   evidence:
   - reference: PMID:26729443
     supports: SUPPORT
-    snippet: MET exon 14 mutations were identified in 28 of 933 nonsquamous NSCLCs (3.0%) and were not seen in other cancer types in this study.
-    explanation: This abstract documents MET exon 14 mutations in NSCLC, supporting the presence of exon 14 alterations in this subtype.
+    snippet: MET exon 14 mutations were identified in 28 of 933 nonsquamous NSCLCs (3.0%) and were not seen in other 
+      cancer types in this study.
+    explanation: This abstract documents MET exon 14 mutations in NSCLC, supporting the presence of exon 14 alterations 
+      in this subtype.
   cell_types:
   - preferred_term: type II pneumocyte
     term:
@@ -96,6 +98,11 @@ pathophysiology:
       label: response to drug
 histopathology:
 - name: Adenocarcinoma Predominance
+  finding_term:
+    preferred_term: Lung Adenocarcinoma
+    term:
+      id: NCIT:C3512
+      label: Lung Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common histologic subtype in NSCLC.
   evidence:
@@ -226,5 +233,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

@@ -120,6 +120,11 @@ pathophysiology:
       label: B cell
 histopathology:
 - name: Mature B-Cell Lymphoma
+  finding_term:
+    preferred_term: Mature B-Cell Non-Hodgkin Lymphoma
+    term:
+      id: NCIT:C7056
+      label: Mature B-Cell Non-Hodgkin Lymphoma
   frequency: VERY_FREQUENT
   description: Mantle cell lymphoma is a mature B-cell non-Hodgkin lymphoma.
   evidence:
@@ -316,5 +321,5 @@ classifications:
   icdo_morphology:
     classification_value: Lymphoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

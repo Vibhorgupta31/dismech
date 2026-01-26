@@ -39,7 +39,8 @@ environmental:
   evidence:
   - reference: PMID:36414699
     supports: SUPPORT
-    snippet: "Besides tobacco and alcohol abuse, human papilloma virus (HPV) infection is an independent risk factor, particularly in oropharyngeal squamous cell carcinomas (OPSCC)."
+    snippet: "Besides tobacco and alcohol abuse, human papilloma virus (HPV) infection is an independent risk factor, particularly
+      in oropharyngeal squamous cell carcinomas (OPSCC)."
     explanation: "Identifies tobacco (and alcohol) as major risk factors for HNSCC."
   exposure_term:
     preferred_term: exposure to tobacco smoking
@@ -136,6 +137,11 @@ pathophysiology:
       label: Notch signaling pathway
 histopathology:
 - name: Squamous Cell Carcinoma
+  finding_term:
+    preferred_term: Squamous Cell Carcinoma
+    term:
+      id: NCIT:C2929
+      label: Squamous Cell Carcinoma
   frequency: VERY_FREQUENT
   description: Head and neck squamous cell carcinoma is a squamous carcinoma of the head and neck.
   evidence:
@@ -319,5 +325,5 @@ classifications:
   icdo_morphology:
     classification_value: Squamous Cell Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

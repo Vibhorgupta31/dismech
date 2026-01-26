@@ -39,8 +39,10 @@ pathophysiology:
   evidence:
   - reference: PMID:33112834
     supports: SUPPORT
-    snippet: "SDHx mutations lead to the accumulation of succinate, which acts as an oncometabolite by inhibiting iron(II) and alpha-ketoglutarate-dependent dioxygenases thereby regulating the cell's hypoxic response and epigenetic processes."
-    explanation: This abstract connects SDHx mutations to succinate accumulation and dioxygenase inhibition, matching the described mechanism.
+    snippet: "SDHx mutations lead to the accumulation of succinate, which acts as an oncometabolite by inhibiting iron(II)
+      and alpha-ketoglutarate-dependent dioxygenases thereby regulating the cell's hypoxic response and epigenetic processes."
+    explanation: This abstract connects SDHx mutations to succinate accumulation and dioxygenase inhibition, matching 
+      the described mechanism.
   cell_types:
   - preferred_term: chromaffin cell
     term:
@@ -98,6 +100,11 @@ pathophysiology:
       label: catecholamine biosynthetic process
 histopathology:
 - name: Neuroendocrine Tumor
+  finding_term:
+    preferred_term: Neuroendocrine Tumor
+    term:
+      id: NCIT:C188218
+      label: Neuroendocrine Tumor
   frequency: VERY_FREQUENT
   description: Pheochromocytomas and paragangliomas are rare neuroendocrine tumors.
   evidence:
@@ -257,5 +264,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

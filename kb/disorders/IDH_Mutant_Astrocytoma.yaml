@@ -41,8 +41,10 @@ pathophysiology:
   evidence:
   - reference: PMID:40916936
     supports: SUPPORT
-    snippet: "This unique immune microenvironment is shaped by 2-hydroxyglutarate (2-HG), an oncometabolite produced by mutant IDH."
-    explanation: This abstract directly states that mutant IDH produces 2-HG, supporting the neomorphic IDH activity described.
+    snippet: "This unique immune microenvironment is shaped by 2-hydroxyglutarate (2-HG), an oncometabolite produced by mutant
+      IDH."
+    explanation: This abstract directly states that mutant IDH produces 2-HG, supporting the neomorphic IDH activity 
+      described.
   cell_types:
   - preferred_term: astrocyte
     term:
@@ -101,6 +103,11 @@ pathophysiology:
       label: glial cell differentiation
 histopathology:
 - name: Diffuse Glioma
+  finding_term:
+    preferred_term: Diffuse Glioma
+    term:
+      id: NCIT:C129325
+      label: Diffuse Glioma
   frequency: VERY_FREQUENT
   description: Diffuse gliomas include IDH-mutant astrocytoma and oligodendroglioma subtypes.
   evidence:
@@ -238,5 +245,5 @@ classifications:
   icdo_morphology:
     classification_value: Glioma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

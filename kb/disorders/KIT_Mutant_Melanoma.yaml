@@ -38,7 +38,8 @@ pathophysiology:
   evidence:
   - reference: PMID:41042158
     supports: SUPPORT
-    snippet: Mutation of c-KIT has been observed in acral, mucosal, and chronically sun-damaged melanoma subtypes marking it as a key therapeutic target for melanoma.
+    snippet: Mutation of c-KIT has been observed in acral, mucosal, and chronically sun-damaged melanoma subtypes 
+      marking it as a key therapeutic target for melanoma.
     explanation: This abstract documents c-KIT mutations in melanoma subtypes associated with KIT-mutant disease.
   cell_types:
   - preferred_term: melanocyte
@@ -112,6 +113,11 @@ pathophysiology:
       label: apoptotic process
 histopathology:
 - name: Melanocytic Neoplasm
+  finding_term:
+    preferred_term: Melanocytic Neoplasm
+    term:
+      id: NCIT:C7058
+      label: Melanocytic Neoplasm
   frequency: VERY_FREQUENT
   description: Malignant melanoma represents a neoplasm stemming from melanocytes.
   evidence:
@@ -233,5 +239,5 @@ classifications:
   icdo_morphology:
     classification_value: Melanoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

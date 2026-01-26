@@ -36,8 +36,10 @@ pathophysiology:
   evidence:
   - reference: PMID:37526143
     supports: SUPPORT
-    snippet: "Mutations in isocitrate dehydrogenase (IDH) 1 and -2 increase the capacity of cancer cells to produce a normally scarce metabolite, D-2-hydroxyglutarate (2-HG), by several orders of magnitude."
-    explanation: This abstract links IDH1/2 mutations to increased 2-HG production, supporting the neomorphic IDH activity described.
+    snippet: "Mutations in isocitrate dehydrogenase (IDH) 1 and -2 increase the capacity of cancer cells to produce a normally
+      scarce metabolite, D-2-hydroxyglutarate (2-HG), by several orders of magnitude."
+    explanation: This abstract links IDH1/2 mutations to increased 2-HG production, supporting the neomorphic IDH 
+      activity described.
   cell_types:
   - preferred_term: myeloblast
     term:
@@ -108,6 +110,11 @@ pathophysiology:
       label: bone marrow
 histopathology:
 - name: Myeloblast Predominance
+  finding_term:
+    preferred_term: Myeloblasts Present
+    term:
+      id: NCIT:C155995
+      label: Myeloblasts Present
   frequency: VERY_FREQUENT
   description: Acute myeloid leukemia features increased myeloblasts in blood or marrow.
   evidence:
@@ -270,5 +277,5 @@ classifications:
   icdo_morphology:
     classification_value: Leukemia
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: hematologic malignancy
+  - classification_value: cancer
+  - classification_value: hematologic malignancy

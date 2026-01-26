@@ -22,8 +22,10 @@ epidemiology:
   evidence:
   - reference: PMID:41569770
     supports: SUPPORT
-    snippet: Glioblastoma, isocitrate dehydrogenase-wildtype CNS WHO grade 4 (formerly primary glioblastoma multiforme), is the most common and most malignant primary brain tumor.
-    explanation: This abstract explicitly identifies IDH-wildtype glioblastoma as the most common and most malignant primary brain tumor.
+    snippet: Glioblastoma, isocitrate dehydrogenase-wildtype CNS WHO grade 4 (formerly primary glioblastoma multiforme),
+      is the most common and most malignant primary brain tumor.
+    explanation: This abstract explicitly identifies IDH-wildtype glioblastoma as the most common and most malignant 
+      primary brain tumor.
 has_subtypes:
 - name: Giant Cell Glioblastoma
   description: >-
@@ -162,6 +164,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Astrocytic Glioma
+  finding_term:
+    preferred_term: Astrocytoma
+    term:
+      id: NCIT:C60781
+      label: Astrocytoma
   frequency: VERY_FREQUENT
   description: Glioblastoma is a malignant astrocytic glioma.
   evidence:
@@ -327,5 +334,5 @@ classifications:
   icdo_morphology:
     classification_value: Glioma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

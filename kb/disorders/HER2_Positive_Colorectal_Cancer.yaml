@@ -25,7 +25,8 @@ pathophysiology:
   - reference: PMID:41361014
     supports: SUPPORT
     snippet: Among 5545 patients, 144 (3.1%) had ERBB2 amp+ mCRC.
-    explanation: This abstract quantifies ERBB2-amplified metastatic colorectal cancer, supporting the existence of this molecular subgroup.
+    explanation: This abstract quantifies ERBB2-amplified metastatic colorectal cancer, supporting the existence of this
+      molecular subgroup.
   cell_types:
   - preferred_term: colon epithelial cell
     term:
@@ -87,6 +88,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Adenocarcinoma
+  finding_term:
+    preferred_term: Adenocarcinoma
+    term:
+      id: NCIT:C2852
+      label: Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common pathologic subtype of colon cancer.
   evidence:
@@ -258,5 +264,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

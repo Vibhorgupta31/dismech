@@ -39,7 +39,8 @@ pathophysiology:
   evidence:
   - reference: PMID:38110308
     supports: SUPPORT
-    snippet: "Nearly 1% to 2% of NSCLCs harbor RET fusions, and this patient population may not respond well to traditional treatments like chemotherapy or radiation therapy."
+    snippet: "Nearly 1% to 2% of NSCLCs harbor RET fusions, and this patient population may not respond well to traditional
+      treatments like chemotherapy or radiation therapy."
     explanation: "Supports the presence of RET fusions in a subset of NSCLC."
   cell_types:
   - preferred_term: type II pneumocyte
@@ -99,6 +100,11 @@ pathophysiology:
       label: response to drug
 histopathology:
 - name: Adenocarcinoma Predominance
+  finding_term:
+    preferred_term: Lung Adenocarcinoma
+    term:
+      id: NCIT:C3512
+      label: Lung Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common histologic subtype in NSCLC.
   evidence:
@@ -239,5 +245,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

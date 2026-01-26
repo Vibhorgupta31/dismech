@@ -34,8 +34,10 @@ pathophysiology:
   evidence:
   - reference: PMID:30739887
     supports: SUPPORT
-    snippet: BRAF mutations confers a poor prognosis in Western CRC patients, particularly in metastatic CRC (mCRC) and its mutations occur in approximately 4-20% CRC, with the vast majority being the V600E hotspot mutation.
-    explanation: This abstract links BRAF mutations in CRC to the V600E hotspot and supports the relevance of V600E in colorectal cancer.
+    snippet: BRAF mutations confers a poor prognosis in Western CRC patients, particularly in metastatic CRC (mCRC) and 
+      its mutations occur in approximately 4-20% CRC, with the vast majority being the V600E hotspot mutation.
+    explanation: This abstract links BRAF mutations in CRC to the V600E hotspot and supports the relevance of V600E in 
+      colorectal cancer.
   cell_types:
   - preferred_term: colon epithelial cell
     term:
@@ -99,6 +101,11 @@ pathophysiology:
     to block the reactivation pathway.
 histopathology:
 - name: Adenocarcinoma
+  finding_term:
+    preferred_term: Adenocarcinoma
+    term:
+      id: NCIT:C2852
+      label: Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common pathologic subtype of colon cancer.
   evidence:
@@ -243,5 +250,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

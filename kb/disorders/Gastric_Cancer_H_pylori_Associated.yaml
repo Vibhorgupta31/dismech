@@ -38,8 +38,11 @@ infectious_agent:
   evidence:
   - reference: PMID:39004993
     supports: SUPPORT
-    snippet: Gastric cancer is one of the major causes of cancer-related deaths worldwide, and infection with Helicobacter pylori and EBV, smoking and a salt-heavy diet have been shown to be risk factors for the development of gastric cancer.
-    explanation: This abstract identifies H. pylori infection as a risk factor for gastric cancer, supporting the infectious etiology noted here.
+    snippet: Gastric cancer is one of the major causes of cancer-related deaths worldwide, and infection with 
+      Helicobacter pylori and EBV, smoking and a salt-heavy diet have been shown to be risk factors for the development 
+      of gastric cancer.
+    explanation: This abstract identifies H. pylori infection as a risk factor for gastric cancer, supporting the 
+      infectious etiology noted here.
   infectious_agent_term:
     preferred_term: Helicobacter pylori
     term:
@@ -136,6 +139,11 @@ pathophysiology:
     description: Enables single-cell infiltrative growth pattern
 histopathology:
 - name: Gastric Adenocarcinoma
+  finding_term:
+    preferred_term: Gastric Adenocarcinoma
+    term:
+      id: NCIT:C4004
+      label: Gastric Adenocarcinoma
   frequency: VERY_FREQUENT
   description: Adenocarcinoma is the most common histologic type of gastric cancer.
   evidence:
@@ -321,5 +329,5 @@ classifications:
   icdo_morphology:
     classification_value: Adenocarcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

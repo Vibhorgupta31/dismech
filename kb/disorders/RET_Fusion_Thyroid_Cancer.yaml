@@ -81,6 +81,11 @@ pathophysiology:
       label: phosphatidylinositol 3-kinase signaling
 histopathology:
 - name: Papillary Thyroid Carcinoma
+  finding_term:
+    preferred_term: Thyroid Gland Papillary Carcinoma
+    term:
+      id: NCIT:C4035
+      label: Thyroid Gland Papillary Carcinoma
   frequency: VERY_FREQUENT
   description: Papillary thyroid carcinomas are the most common thyroid cancers.
   evidence:
@@ -214,5 +219,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor

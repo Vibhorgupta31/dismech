@@ -126,6 +126,11 @@ pathophysiology:
       label: cell population proliferation
 histopathology:
 - name: Squamous Cell Carcinoma
+  finding_term:
+    preferred_term: Squamous Cell Carcinoma
+    term:
+      id: NCIT:C2929
+      label: Squamous Cell Carcinoma
   frequency: VERY_FREQUENT
   description: Squamous cell carcinoma is the most common malignant cervical tumor.
   evidence:
@@ -269,5 +274,5 @@ classifications:
   icdo_morphology:
     classification_value: Carcinoma
   harrisons_chapter:
-    - classification_value: cancer
-    - classification_value: solid tumor
+  - classification_value: cancer
+  - classification_value: solid tumor
