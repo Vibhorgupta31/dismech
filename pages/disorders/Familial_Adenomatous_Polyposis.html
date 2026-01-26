@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -981,10 +1014,10 @@
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
     APC_Tumor_Suppressor_Loss[&#34;APC Tumor Suppressor Loss&#34;]
-    Uncontrolled_Intestinal_Epithelial_Proliferation[&#34;Uncontrolled Intestinal Epithelial Proliferation&#34;]
     Colorectal_Cancer_Progression[&#34;Colorectal Cancer Progression&#34;]
     Adenoma_Formation[&#34;Adenoma Formation&#34;]
     Wnt_β_Catenin_Pathway_Activation[&#34;Wnt/β-Catenin Pathway Activation&#34;]
+    Uncontrolled_Intestinal_Epithelial_Proliferation[&#34;Uncontrolled Intestinal Epithelial Proliferation&#34;]
 
     APC_Tumor_Suppressor_Loss --&gt; Wnt_β_Catenin_Pathway_Activation
     Wnt_β_Catenin_Pathway_Activation --&gt; Uncontrolled_Intestinal_Epithelial_Proliferation
@@ -992,10 +1025,10 @@
     Adenoma_Formation --&gt; Colorectal_Cancer_Progression
 
     style APC_Tumor_Suppressor_Loss fill:#dbeafe
-    style Uncontrolled_Intestinal_Epithelial_Proliferation fill:#dbeafe
     style Colorectal_Cancer_Progression fill:#dbeafe
     style Adenoma_Formation fill:#dbeafe
-    style Wnt_β_Catenin_Pathway_Activation fill:#dbeafe</pre>
+    style Wnt_β_Catenin_Pathway_Activation fill:#dbeafe
+    style Uncontrolled_Intestinal_Epithelial_Proliferation fill:#dbeafe</pre>
             </div>
         </div>
         
@@ -1359,6 +1392,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->

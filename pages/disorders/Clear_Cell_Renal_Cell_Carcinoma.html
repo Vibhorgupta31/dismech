@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -1129,22 +1162,22 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    HIF_2α_Stabilization[&#34;HIF-2α Stabilization&#34;]
-    Epigenetic_Dysregulation[&#34;Epigenetic Dysregulation&#34;]
     Growth_Factor_Pathway_Activation[&#34;Growth Factor Pathway Activation&#34;]
+    Epigenetic_Dysregulation[&#34;Epigenetic Dysregulation&#34;]
     VEGF_Driven_Angiogenesis[&#34;VEGF-Driven Angiogenesis&#34;]
     VHL_Tumor_Suppressor_Inactivation[&#34;VHL Tumor Suppressor Inactivation&#34;]
+    HIF_2α_Stabilization[&#34;HIF-2α Stabilization&#34;]
 
     VHL_Tumor_Suppressor_Inactivation --&gt; HIF_2α_Stabilization
     HIF_2α_Stabilization --&gt; VEGF_Driven_Angiogenesis
     HIF_2α_Stabilization --&gt; Growth_Factor_Pathway_Activation
     Epigenetic_Dysregulation --&gt; Growth_Factor_Pathway_Activation
 
-    style HIF_2α_Stabilization fill:#dbeafe
-    style Epigenetic_Dysregulation fill:#dbeafe
     style Growth_Factor_Pathway_Activation fill:#dbeafe
+    style Epigenetic_Dysregulation fill:#dbeafe
     style VEGF_Driven_Angiogenesis fill:#dbeafe
-    style VHL_Tumor_Suppressor_Inactivation fill:#dbeafe</pre>
+    style VHL_Tumor_Suppressor_Inactivation fill:#dbeafe
+    style HIF_2α_Stabilization fill:#dbeafe</pre>
             </div>
         </div>
         
@@ -1456,6 +1489,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->

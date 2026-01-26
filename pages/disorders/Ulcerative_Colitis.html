@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -1409,14 +1442,14 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Impaired_Colonocyte_Energy_Metabolism[&#34;Impaired Colonocyte Energy Metabolism&#34;]
-    Mucosal_Inflammation[&#34;Mucosal Inflammation&#34;]
-    Loss_of_Microbial_Diversity[&#34;Loss of Microbial Diversity&#34;]
-    Decreased_Butyrate_Production[&#34;Decreased Butyrate Production&#34;]
-    Pathobiont_Expansion[&#34;Pathobiont Expansion&#34;]
     Epithelial_Barrier_Dysfunction[&#34;Epithelial Barrier Dysfunction&#34;]
     Increased_Microbial_Community_Instability[&#34;Increased Microbial Community Instability&#34;]
     Loss_of_Keystone_SCFA_Producers[&#34;Loss of Keystone SCFA Producers&#34;]
+    Mucosal_Inflammation[&#34;Mucosal Inflammation&#34;]
+    Decreased_Butyrate_Production[&#34;Decreased Butyrate Production&#34;]
+    Pathobiont_Expansion[&#34;Pathobiont Expansion&#34;]
+    Loss_of_Microbial_Diversity[&#34;Loss of Microbial Diversity&#34;]
+    Impaired_Colonocyte_Energy_Metabolism[&#34;Impaired Colonocyte Energy Metabolism&#34;]
 
     Loss_of_Microbial_Diversity --&gt; Loss_of_Keystone_SCFA_Producers
     Loss_of_Microbial_Diversity --&gt; Increased_Microbial_Community_Instability
@@ -1427,14 +1460,14 @@
     Impaired_Colonocyte_Energy_Metabolism --&gt; Epithelial_Barrier_Dysfunction
     Increased_Microbial_Community_Instability --&gt; Loss_of_Microbial_Diversity
 
-    style Impaired_Colonocyte_Energy_Metabolism fill:#dbeafe
-    style Mucosal_Inflammation fill:#dbeafe
-    style Loss_of_Microbial_Diversity fill:#dbeafe
-    style Decreased_Butyrate_Production fill:#dbeafe
-    style Pathobiont_Expansion fill:#dbeafe
     style Epithelial_Barrier_Dysfunction fill:#dbeafe
     style Increased_Microbial_Community_Instability fill:#dbeafe
-    style Loss_of_Keystone_SCFA_Producers fill:#dbeafe</pre>
+    style Loss_of_Keystone_SCFA_Producers fill:#dbeafe
+    style Mucosal_Inflammation fill:#dbeafe
+    style Decreased_Butyrate_Production fill:#dbeafe
+    style Pathobiont_Expansion fill:#dbeafe
+    style Loss_of_Microbial_Diversity fill:#dbeafe
+    style Impaired_Colonocyte_Energy_Metabolism fill:#dbeafe</pre>
             </div>
         </div>
         
@@ -1958,6 +1991,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->

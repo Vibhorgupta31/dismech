@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -1199,14 +1232,14 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Neutrophil_Recruitment_and_Inflammation[&#34;Neutrophil Recruitment and Inflammation&#34;]
-    Loss_of_Secondary_Bile_Acid_Production[&#34;Loss of Secondary Bile Acid Production&#34;]
-    C._difficile_Germination_and_Expansion[&#34;C. difficile Germination and Expansion&#34;]
-    Antibiotic_Induced_Microbial_Depletion[&#34;Antibiotic-Induced Microbial Depletion&#34;]
-    Pseudomembranous_Colitis[&#34;Pseudomembranous Colitis&#34;]
-    Loss_of_Colonization_Resistance[&#34;Loss of Colonization Resistance&#34;]
-    Epithelial_Cell_Death_and_Barrier_Disruption[&#34;Epithelial Cell Death and Barrier Disruption&#34;]
     Toxin_Production_TcdA_TcdB[&#34;Toxin Production (TcdA/TcdB)&#34;]
+    Pseudomembranous_Colitis[&#34;Pseudomembranous Colitis&#34;]
+    Loss_of_Secondary_Bile_Acid_Production[&#34;Loss of Secondary Bile Acid Production&#34;]
+    Antibiotic_Induced_Microbial_Depletion[&#34;Antibiotic-Induced Microbial Depletion&#34;]
+    Epithelial_Cell_Death_and_Barrier_Disruption[&#34;Epithelial Cell Death and Barrier Disruption&#34;]
+    Loss_of_Colonization_Resistance[&#34;Loss of Colonization Resistance&#34;]
+    C._difficile_Germination_and_Expansion[&#34;C. difficile Germination and Expansion&#34;]
+    Neutrophil_Recruitment_and_Inflammation[&#34;Neutrophil Recruitment and Inflammation&#34;]
 
     Antibiotic_Induced_Microbial_Depletion --&gt; Loss_of_Colonization_Resistance
     Antibiotic_Induced_Microbial_Depletion --&gt; Loss_of_Secondary_Bile_Acid_Production
@@ -1218,14 +1251,14 @@
     Epithelial_Cell_Death_and_Barrier_Disruption --&gt; Pseudomembranous_Colitis
     Neutrophil_Recruitment_and_Inflammation --&gt; Pseudomembranous_Colitis
 
-    style Neutrophil_Recruitment_and_Inflammation fill:#dbeafe
-    style Loss_of_Secondary_Bile_Acid_Production fill:#dbeafe
-    style C._difficile_Germination_and_Expansion fill:#dbeafe
-    style Antibiotic_Induced_Microbial_Depletion fill:#dbeafe
+    style Toxin_Production_TcdA_TcdB fill:#dbeafe
     style Pseudomembranous_Colitis fill:#dbeafe
-    style Loss_of_Colonization_Resistance fill:#dbeafe
+    style Loss_of_Secondary_Bile_Acid_Production fill:#dbeafe
+    style Antibiotic_Induced_Microbial_Depletion fill:#dbeafe
     style Epithelial_Cell_Death_and_Barrier_Disruption fill:#dbeafe
-    style Toxin_Production_TcdA_TcdB fill:#dbeafe</pre>
+    style Loss_of_Colonization_Resistance fill:#dbeafe
+    style C._difficile_Germination_and_Expansion fill:#dbeafe
+    style Neutrophil_Recruitment_and_Inflammation fill:#dbeafe</pre>
             </div>
         </div>
         
@@ -2048,6 +2081,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->

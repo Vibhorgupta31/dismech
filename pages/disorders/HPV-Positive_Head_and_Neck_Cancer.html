@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -1053,18 +1086,18 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Uncontrolled_Cell_Proliferation[&#34;Uncontrolled Cell Proliferation&#34;]
     Loss_of_DNA_Damage_Response[&#34;Loss of DNA Damage Response&#34;]
-    E6_Mediated_p53_Degradation[&#34;E6-Mediated p53 Degradation&#34;]
     E7_Mediated_pRB_Inactivation[&#34;E7-Mediated pRB Inactivation&#34;]
+    E6_Mediated_p53_Degradation[&#34;E6-Mediated p53 Degradation&#34;]
+    Uncontrolled_Cell_Proliferation[&#34;Uncontrolled Cell Proliferation&#34;]
 
     E6_Mediated_p53_Degradation -.-&gt; Loss_of_DNA_Damage_Response
     E7_Mediated_pRB_Inactivation -.-&gt; Uncontrolled_Cell_Proliferation
 
-    style Uncontrolled_Cell_Proliferation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
     style Loss_of_DNA_Damage_Response fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style E7_Mediated_pRB_Inactivation fill:#dbeafe
     style E6_Mediated_p53_Degradation fill:#dbeafe
-    style E7_Mediated_pRB_Inactivation fill:#dbeafe</pre>
+    style Uncontrolled_Cell_Proliferation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5</pre>
             </div>
         </div>
         
@@ -1405,6 +1438,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->

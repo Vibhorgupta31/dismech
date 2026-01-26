@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -1098,28 +1131,28 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Asbestos_Induced_Mesothelial_Injury[&#34;Asbestos-Induced Mesothelial Injury&#34;]
-    Genomic_Instability[&#34;Genomic Instability&#34;]
+    DNA_Damage_and_Genomic_Instability[&#34;DNA Damage and Genomic Instability&#34;]
     YAP_TAZ_Activation[&#34;YAP/TAZ Activation&#34;]
+    Asbestos_Induced_Mesothelial_Injury[&#34;Asbestos-Induced Mesothelial Injury&#34;]
+    CDKN2A_p16_Loss[&#34;CDKN2A/p16 Loss&#34;]
+    Genomic_Instability[&#34;Genomic Instability&#34;]
+    NF2_Merlin_Inactivation[&#34;NF2/Merlin Inactivation&#34;]
     BAP1_Tumor_Suppressor_Inactivation[&#34;BAP1 Tumor Suppressor Inactivation&#34;]
     Cell_Cycle_Dysregulation[&#34;Cell Cycle Dysregulation&#34;]
-    CDKN2A_p16_Loss[&#34;CDKN2A/p16 Loss&#34;]
-    DNA_Damage_and_Genomic_Instability[&#34;DNA Damage and Genomic Instability&#34;]
-    NF2_Merlin_Inactivation[&#34;NF2/Merlin Inactivation&#34;]
 
     Asbestos_Induced_Mesothelial_Injury -.-&gt; DNA_Damage_and_Genomic_Instability
     BAP1_Tumor_Suppressor_Inactivation -.-&gt; Genomic_Instability
     NF2_Merlin_Inactivation -.-&gt; YAP_TAZ_Activation
     CDKN2A_p16_Loss -.-&gt; Cell_Cycle_Dysregulation
 
-    style Asbestos_Induced_Mesothelial_Injury fill:#dbeafe
-    style Genomic_Instability fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style YAP_TAZ_Activation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style BAP1_Tumor_Suppressor_Inactivation fill:#dbeafe
-    style Cell_Cycle_Dysregulation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style CDKN2A_p16_Loss fill:#dbeafe
     style DNA_Damage_and_Genomic_Instability fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style NF2_Merlin_Inactivation fill:#dbeafe</pre>
+    style YAP_TAZ_Activation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style Asbestos_Induced_Mesothelial_Injury fill:#dbeafe
+    style CDKN2A_p16_Loss fill:#dbeafe
+    style Genomic_Instability fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style NF2_Merlin_Inactivation fill:#dbeafe
+    style BAP1_Tumor_Suppressor_Inactivation fill:#dbeafe
+    style Cell_Cycle_Dysregulation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5</pre>
             </div>
         </div>
         
@@ -1489,6 +1522,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->

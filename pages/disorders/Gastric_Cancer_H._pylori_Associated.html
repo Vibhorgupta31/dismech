@@ -517,6 +517,35 @@
             color: #1d4ed8;
         }
 
+        /* Clinical Trials */
+        .clinical-trial-box {
+            background: #f5f3ff;
+            border-left: 4px solid #a855f7;
+        }
+        .clinical-trial-box .item-name { color: #6b21a8; }
+        .clinical-trial-box .item-desc { color: #7e22ce; }
+
+        .tag-phase {
+            background: #ede9fe;
+            color: #6b21a8;
+        }
+
+        .tag-status {
+            background: #fce7f3;
+            color: #9d174d;
+        }
+
+        .trial-nct a {
+            font-family: 'Fira Code', 'Consolas', monospace;
+            font-size: 0.85rem;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .trial-nct a:hover {
+            text-decoration: underline;
+        }
+
         .dataset-accession a {
             font-family: 'Fira Code', 'Consolas', monospace;
             font-size: 0.85rem;
@@ -738,6 +767,10 @@
             <div class="stat-item">
                 <div class="stat-value">0</div>
                 <div class="stat-label">Datasets</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Trials</div>
             </div>
         </div>
 
@@ -1092,16 +1125,16 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
+    SHP_2_Activation[&#34;SHP-2 Activation&#34;]
     Chronic_Inflammation_Correa_Cascade[&#34;Chronic Inflammation (Correa Cascade)&#34;]
+    CDH1_E_cadherin_Inactivation[&#34;CDH1/E-cadherin Inactivation&#34;]
     Disrupted_Cell_Polarity[&#34;Disrupted Cell Polarity&#34;]
+    Intestinal_Metaplasia[&#34;Intestinal Metaplasia&#34;]
+    Immune_Suppression[&#34;Immune Suppression&#34;]
     VacA_Induced_Cellular_Damage[&#34;VacA-Induced Cellular Damage&#34;]
+    Loss_of_Cell_Cohesion[&#34;Loss of Cell Cohesion&#34;]
     CagA_Mediated_Oncogenic_Signaling[&#34;CagA-Mediated Oncogenic Signaling&#34;]
     Atrophic_Gastritis[&#34;Atrophic Gastritis&#34;]
-    Immune_Suppression[&#34;Immune Suppression&#34;]
-    Loss_of_Cell_Cohesion[&#34;Loss of Cell Cohesion&#34;]
-    CDH1_E_cadherin_Inactivation[&#34;CDH1/E-cadherin Inactivation&#34;]
-    SHP_2_Activation[&#34;SHP-2 Activation&#34;]
-    Intestinal_Metaplasia[&#34;Intestinal Metaplasia&#34;]
 
     CagA_Mediated_Oncogenic_Signaling -.-&gt; Disrupted_Cell_Polarity
     CagA_Mediated_Oncogenic_Signaling -.-&gt; SHP_2_Activation
@@ -1110,16 +1143,16 @@
     Chronic_Inflammation_Correa_Cascade -.-&gt; Intestinal_Metaplasia
     CDH1_E_cadherin_Inactivation -.-&gt; Loss_of_Cell_Cohesion
 
-    style Chronic_Inflammation_Correa_Cascade fill:#dbeafe
-    style Disrupted_Cell_Polarity fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style VacA_Induced_Cellular_Damage fill:#dbeafe
-    style CagA_Mediated_Oncogenic_Signaling fill:#dbeafe
-    style Atrophic_Gastritis fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style Immune_Suppression fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style Loss_of_Cell_Cohesion fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style CDH1_E_cadherin_Inactivation fill:#dbeafe
     style SHP_2_Activation fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style Intestinal_Metaplasia fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5</pre>
+    style Chronic_Inflammation_Correa_Cascade fill:#dbeafe
+    style CDH1_E_cadherin_Inactivation fill:#dbeafe
+    style Disrupted_Cell_Polarity fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style Intestinal_Metaplasia fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style Immune_Suppression fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style VacA_Induced_Cellular_Damage fill:#dbeafe
+    style Loss_of_Cell_Cohesion fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style CagA_Mediated_Oncogenic_Signaling fill:#dbeafe
+    style Atrophic_Gastritis fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5</pre>
             </div>
         </div>
         
@@ -1522,6 +1555,9 @@
         
 
         <!-- Datasets -->
+        
+
+        <!-- Clinical Trials -->
         
 
         <!-- YAML Source -->
