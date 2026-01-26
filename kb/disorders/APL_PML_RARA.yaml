@@ -127,10 +127,10 @@ pathophysiology:
 histopathology:
 - name: Promyelocyte Proliferation
   finding_term:
-    preferred_term: Neoplastic Promyelocyte
+    preferred_term: Abnormal cell morphology
     term:
-      id: NCIT:C37072
-      label: Neoplastic Promyelocyte
+      id: HP:0025461
+      label: Abnormal cell morphology
   frequency: VERY_FREQUENT
   description: Acute promyelocytic leukemia is characterized by proliferation of promyelocytes.
   evidence:

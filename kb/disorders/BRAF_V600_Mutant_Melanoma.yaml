@@ -166,20 +166,6 @@ treatments:
     term:
       id: MAXO:0000058
       label: pharmacotherapy
-  regimen_term:
-    preferred_term: Dabrafenib/Trametinib Regimen
-    term:
-      id: NCIT:C154325
-      label: Dabrafenib/Trametinib Regimen
-    therapeutic_agent:
-    - preferred_term: dabrafenib
-      term:
-        id: CHEBI:75045
-        label: dabrafenib
-    - preferred_term: trametinib
-      term:
-        id: CHEBI:75998
-        label: trametinib
 - name: Vemurafenib plus Cobimetinib
   description: >-
     Alternative BRAF plus MEK inhibitor combination. Vemurafenib was the first BRAF
