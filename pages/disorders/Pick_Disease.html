@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -694,6 +710,10 @@
             <div class="stat-item">
                 <div class="stat-value">3</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">12</div>
@@ -1141,6 +1161,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1161,21 +1184,21 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Executive_Dysfunction[&#34;Executive Dysfunction&#34;]
-    Frontotemporal_Dementia[&#34;Frontotemporal Dementia&#34;]
-    Tauopathy[&#34;Tauopathy&#34;]
     Progressive_Dementia[&#34;Progressive Dementia&#34;]
+    Tauopathy[&#34;Tauopathy&#34;]
+    Frontotemporal_Dementia[&#34;Frontotemporal Dementia&#34;]
     Loss_of_Social_Awareness[&#34;Loss of Social Awareness&#34;]
+    Executive_Dysfunction[&#34;Executive Dysfunction&#34;]
 
     Tauopathy -.-&gt; Frontotemporal_Dementia
     Progressive_Dementia --&gt; Loss_of_Social_Awareness
     Progressive_Dementia --&gt; Executive_Dysfunction
 
-    style Executive_Dysfunction fill:#fef3c7
-    style Frontotemporal_Dementia fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style Tauopathy fill:#dbeafe
     style Progressive_Dementia fill:#fef3c7
-    style Loss_of_Social_Awareness fill:#fef3c7</pre>
+    style Tauopathy fill:#dbeafe
+    style Frontotemporal_Dementia fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
+    style Loss_of_Social_Awareness fill:#fef3c7
+    style Executive_Dysfunction fill:#fef3c7</pre>
             </div>
         </div>
         

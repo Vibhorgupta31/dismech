@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -696,6 +712,10 @@
             <div class="stat-item">
                 <div class="stat-value">6</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">10</div>
@@ -1243,6 +1263,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1264,10 +1287,10 @@
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
     HBV_DNA_Integration[&#34;HBV DNA Integration&#34;]
-    Liver_Fibrosis[&#34;Liver Fibrosis&#34;]
-    Hepatocyte_Infection_and_cccDNA_Formation[&#34;Hepatocyte Infection and cccDNA Formation&#34;]
     Cirrhosis[&#34;Cirrhosis&#34;]
+    Hepatocyte_Infection_and_cccDNA_Formation[&#34;Hepatocyte Infection and cccDNA Formation&#34;]
     Chronic_Inflammation[&#34;Chronic Inflammation&#34;]
+    Liver_Fibrosis[&#34;Liver Fibrosis&#34;]
     Hepatocellular_Carcinoma[&#34;Hepatocellular Carcinoma&#34;]
 
     Hepatocyte_Infection_and_cccDNA_Formation --&gt; Chronic_Inflammation
@@ -1278,10 +1301,10 @@
     Liver_Fibrosis --&gt; Cirrhosis
 
     style HBV_DNA_Integration fill:#dbeafe
-    style Liver_Fibrosis fill:#dbeafe
-    style Hepatocyte_Infection_and_cccDNA_Formation fill:#dbeafe
     style Cirrhosis fill:#dbeafe
+    style Hepatocyte_Infection_and_cccDNA_Formation fill:#dbeafe
     style Chronic_Inflammation fill:#dbeafe
+    style Liver_Fibrosis fill:#dbeafe
     style Hepatocellular_Carcinoma fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5</pre>
             </div>
         </div>

@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -698,6 +714,10 @@
             <div class="stat-item">
                 <div class="stat-value">5</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">6</div>
@@ -1048,6 +1068,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1058,13 +1081,13 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Erythema_Infectiosum_Fifth_Disease[&#34;Erythema Infectiosum (Fifth Disease)&#34;]
     Slapped_Cheek_Rash[&#34;Slapped Cheek Rash&#34;]
+    Erythema_Infectiosum_Fifth_Disease[&#34;Erythema Infectiosum (Fifth Disease)&#34;]
 
     Erythema_Infectiosum_Fifth_Disease --&gt; Slapped_Cheek_Rash
 
-    style Erythema_Infectiosum_Fifth_Disease fill:#fef3c7
-    style Slapped_Cheek_Rash fill:#fef3c7</pre>
+    style Slapped_Cheek_Rash fill:#fef3c7
+    style Erythema_Infectiosum_Fifth_Disease fill:#fef3c7</pre>
             </div>
         </div>
         

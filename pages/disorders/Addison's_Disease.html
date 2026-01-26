@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -698,6 +714,10 @@
             <div class="stat-item">
                 <div class="stat-value">4</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">12</div>
@@ -1201,6 +1221,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1211,14 +1234,14 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Autoimmune_Adrenalitis[&#34;Autoimmune Adrenalitis&#34;]
-    Reduced_Cortisol_Production[&#34;Reduced Cortisol Production&#34;]
-    Hyponatremia[&#34;Hyponatremia&#34;]
-    Polygenic_Susceptibility[&#34;Polygenic Susceptibility&#34;]
-    Hypoglycemia[&#34;Hypoglycemia&#34;]
-    Hyperkalemia[&#34;Hyperkalemia&#34;]
     Reduced_Aldosterone_Production[&#34;Reduced Aldosterone Production&#34;]
+    Autoimmune_Adrenalitis[&#34;Autoimmune Adrenalitis&#34;]
+    Polygenic_Susceptibility[&#34;Polygenic Susceptibility&#34;]
+    Hyperkalemia[&#34;Hyperkalemia&#34;]
+    Hyponatremia[&#34;Hyponatremia&#34;]
+    Hypoglycemia[&#34;Hypoglycemia&#34;]
     Weight_Loss[&#34;Weight Loss&#34;]
+    Reduced_Cortisol_Production[&#34;Reduced Cortisol Production&#34;]
 
     Autoimmune_Adrenalitis --&gt; Reduced_Cortisol_Production
     Autoimmune_Adrenalitis --&gt; Reduced_Aldosterone_Production
@@ -1228,14 +1251,14 @@
     Reduced_Aldosterone_Production --&gt; Hyperkalemia
     Polygenic_Susceptibility --&gt; Autoimmune_Adrenalitis
 
-    style Autoimmune_Adrenalitis fill:#dbeafe
-    style Reduced_Cortisol_Production fill:#dbeafe
-    style Hyponatremia fill:#fef3c7
-    style Polygenic_Susceptibility fill:#dbeafe
-    style Hypoglycemia fill:#fef3c7
-    style Hyperkalemia fill:#fef3c7
     style Reduced_Aldosterone_Production fill:#dbeafe
-    style Weight_Loss fill:#fef3c7</pre>
+    style Autoimmune_Adrenalitis fill:#dbeafe
+    style Polygenic_Susceptibility fill:#dbeafe
+    style Hyperkalemia fill:#fef3c7
+    style Hyponatremia fill:#fef3c7
+    style Hypoglycemia fill:#fef3c7
+    style Weight_Loss fill:#fef3c7
+    style Reduced_Cortisol_Production fill:#dbeafe</pre>
             </div>
         </div>
         

@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -698,6 +714,10 @@
             <div class="stat-item">
                 <div class="stat-value">6</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">16</div>
@@ -1410,6 +1430,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1420,19 +1443,19 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Malnutrition[&#34;Malnutrition&#34;]
-    Diarrhea[&#34;Diarrhea&#34;]
     Weight_Loss[&#34;Weight Loss&#34;]
+    Malnutrition[&#34;Malnutrition&#34;]
     Dehydration[&#34;Dehydration&#34;]
+    Diarrhea[&#34;Diarrhea&#34;]
 
     Diarrhea --&gt; Weight_Loss
     Diarrhea --&gt; Malnutrition
     Diarrhea --&gt; Dehydration
 
-    style Malnutrition fill:#fef3c7
-    style Diarrhea fill:#fef3c7
     style Weight_Loss fill:#fef3c7
-    style Dehydration fill:#fef3c7</pre>
+    style Malnutrition fill:#fef3c7
+    style Dehydration fill:#fef3c7
+    style Diarrhea fill:#fef3c7</pre>
             </div>
         </div>
         

@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -694,6 +710,10 @@
             <div class="stat-item">
                 <div class="stat-value">7</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">7</div>
@@ -1218,6 +1238,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1238,13 +1261,13 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Psychotic_Symptoms[&#34;Psychotic Symptoms&#34;]
     Dysregulation_of_Dopamine_Neurotransmission[&#34;Dysregulation of Dopamine Neurotransmission&#34;]
+    Psychotic_Symptoms[&#34;Psychotic Symptoms&#34;]
 
     Dysregulation_of_Dopamine_Neurotransmission -.-&gt; Psychotic_Symptoms
 
-    style Psychotic_Symptoms fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style Dysregulation_of_Dopamine_Neurotransmission fill:#dbeafe</pre>
+    style Dysregulation_of_Dopamine_Neurotransmission fill:#dbeafe
+    style Psychotic_Symptoms fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5</pre>
             </div>
         </div>
         

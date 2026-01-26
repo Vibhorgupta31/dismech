@@ -69,7 +69,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Acute Promyelocytic Leukemia, PML-RARA",
@@ -146,7 +148,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 6,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "ATTR_Amyloidosis",
@@ -256,7 +260,9 @@ window.searchData = [
     "num_phenotypes": 13,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "7",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Achoo Syndrome",
@@ -331,7 +337,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 6,
-    "num_treatments": 1
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Acquired Immunodeficiency Syndrome",
@@ -420,7 +428,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 6,
     "num_genes": 8,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Addison's Disease",
@@ -535,7 +545,9 @@ window.searchData = [
     "num_phenotypes": 12,
     "num_pathophysiology": 4,
     "num_genes": 10,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "7",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Adult T-Cell Leukemia/Lymphoma",
@@ -625,7 +637,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Aflatoxin-Related Hepatocellular Carcinoma",
@@ -708,7 +722,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 6,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Age-Related Macular Degeneration",
@@ -789,7 +805,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Alhzeimer_Disease",
@@ -896,7 +914,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 7,
     "num_genes": 8,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Alopecia Areata",
@@ -964,7 +984,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Alpha-1 Antitrypsin Deficiency",
@@ -1035,7 +1057,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Alveolar Rhabdomyosarcoma",
@@ -1109,7 +1133,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Alzheimer's Disease",
@@ -1173,7 +1199,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "9",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Amyotrophic Lateral Sclerosis",
@@ -1282,7 +1310,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 10,
     "num_genes": 5,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Ankylosing Spondylitis",
@@ -1353,7 +1383,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Antiphospholipid Syndrome",
@@ -1440,7 +1472,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 6,
     "num_genes": 2,
-    "num_treatments": 0
+    "num_treatments": 0,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Aromatase Deficiency",
@@ -1540,7 +1574,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 2,
     "num_genes": 4,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Arsenic-Related Cancers",
@@ -1625,7 +1661,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 7,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "8",
+    "causal_graph_longest_path": "4"
   },
   {
     "name": "Asthma",
@@ -1742,7 +1780,9 @@ window.searchData = [
     "num_phenotypes": 12,
     "num_pathophysiology": 4,
     "num_genes": 6,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Atrial Fibrillation",
@@ -1833,7 +1873,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Autoimmune Hemolytic Anemia",
@@ -1906,7 +1948,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Autoimmune Hepatitis",
@@ -1985,7 +2029,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Axenfeld-Rieger_syndrome",
@@ -2068,7 +2114,9 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 5,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "BRAF-Mutant Papillary Thyroid Cancer",
@@ -2137,7 +2185,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "BRAF V600E-Mutant Colorectal Cancer",
@@ -2213,7 +2263,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "BRAF V600E-Mutant Non-Small Cell Lung Cancer",
@@ -2283,7 +2335,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "BRAF V600 Mutant Melanoma",
@@ -2344,7 +2398,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "BRCA-Mutant Prostate Cancer",
@@ -2411,7 +2467,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Bacterial meningitis",
@@ -2503,7 +2561,9 @@ window.searchData = [
     "num_phenotypes": 14,
     "num_pathophysiology": 6,
     "num_genes": 0,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Bardet-Biedl Syndrome",
@@ -2609,7 +2669,9 @@ window.searchData = [
     "num_phenotypes": 15,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Basal Cell Carcinoma",
@@ -2678,7 +2740,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Behcet's Disease",
@@ -2752,7 +2816,52 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Bejel",
+    "disease_id": "MONDO:0001714",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Bejel (endemic syphilis) is a non-venereal treponemal infection caused by Treponema pallidum subsp. endemicum.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Uveitis",
+      "Optic atrophy"
+    ],
+    "phenotype_categories": [
+      "Ophthalmologic"
+    ],
+    "phenotype_ids": [
+      "HP:0000554",
+      "HP:0000648"
+    ],
+    "frequencies": [
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Penicillin therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Bejel.yaml",
+    "page_url": "../pages/disorders/Bejel.html",
+    "num_phenotypes": 2,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Benign Prostatic Hyperplasia",
@@ -2845,7 +2954,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 9,
     "num_genes": 5,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Beta Mannosidosis",
@@ -2906,7 +3017,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 1,
     "num_genes": 1,
-    "num_treatments": 1
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Bipolar Disorder",
@@ -2997,7 +3110,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Bronchiectasis",
@@ -3096,7 +3211,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 8,
     "num_genes": 2,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Burkitt Lymphoma",
@@ -3178,7 +3295,53 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
+  },
+  {
+    "name": "Buruli ulcer",
+    "disease_id": "MONDO:0000327",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Buruli ulcer is an indolent necrotizing disease of the skin and subcutaneous tissues caused by Mycobacterium ulcerans, leading to deep ulcerations and disability.",
+    "pathophysiology": [
+      "Mycolactone-mediated tissue destruction"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Skin ulcer"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0200042"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Antimycobacterial therapy",
+      "Surgical management"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Buruli_Ulcer.yaml",
+    "page_url": "../pages/disorders/Buruli_ulcer.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "CHIME_syndrome",
@@ -3258,7 +3421,9 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "CTCF-related Neurodevelopmental Disorder",
@@ -3353,7 +3518,9 @@ window.searchData = [
     "num_phenotypes": 12,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Camptodactyly",
@@ -3432,7 +3599,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 5,
     "num_genes": 8,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Celiac Disease",
@@ -3525,7 +3694,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Cervical Cancer",
@@ -3602,7 +3773,102 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
+  },
+  {
+    "name": "Chagas disease",
+    "disease_id": "MONDO:0001444",
+    "category": "Infectious Disease",
+    "parents": [
+      "Neglected tropical disease",
+      "Protozoal infection"
+    ],
+    "subtypes": [],
+    "description": "Chagas disease (American trypanosomiasis) is a vector-borne protozoal infection caused by Trypanosoma cruzi, transmitted by triatomine insects, with an intracellular amastigote phase in human tissues and chronic cardiac morbidity.",
+    "pathophysiology": [
+      "Intracellular amastigote replication in host cells"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Cardiomyopathy",
+      "Heart failure"
+    ],
+    "phenotype_categories": [
+      "Cardiovascular"
+    ],
+    "phenotype_ids": [
+      "HP:0001638",
+      "HP:0001635"
+    ],
+    "frequencies": [
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Benznidazole or nifurtimox therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Chagas_Disease.yaml",
+    "page_url": "../pages/disorders/Chagas_disease.html",
+    "num_phenotypes": 2,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Chikungunya",
+    "disease_id": "MONDO:0017941",
+    "category": "Infectious Disease",
+    "parents": [
+      "Arbovirus Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Chikungunya is an arboviral disease caused by chikungunya virus and transmitted by Aedes mosquitoes, presenting with acute fever, rash, and incapacitating arthralgia.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Fever",
+      "Skin rash",
+      "Arthralgia"
+    ],
+    "phenotype_categories": [
+      "Systemic",
+      "Dermatologic",
+      "Musculoskeletal"
+    ],
+    "phenotype_ids": [
+      "HP:0001945",
+      "HP:0000988",
+      "HP:0002829"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Symptomatic management"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Chikungunya.yaml",
+    "page_url": "../pages/disorders/Chikungunya.html",
+    "num_phenotypes": 3,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Cholera",
@@ -3704,7 +3970,50 @@ window.searchData = [
     "num_phenotypes": 14,
     "num_pathophysiology": 9,
     "num_genes": 0,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "14",
+    "causal_graph_longest_path": "5"
+  },
+  {
+    "name": "Chromoblastomycosis",
+    "disease_id": "MONDO:0015908",
+    "category": "Infectious Disease",
+    "parents": [
+      "Infectious Disease",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Chromoblastomycosis is a chronic fungal disease of the skin and subcutaneous tissues caused by dematiaceous fungi.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Verrucous papule",
+      "Skin plaque"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0012500",
+      "HP:0200035"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Chromoblastomycosis.yaml",
+    "page_url": "../pages/disorders/Chromoblastomycosis.html",
+    "num_phenotypes": 2,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 0,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Chronic Inflammatory Demyelinating Polyneuropathy",
@@ -3775,7 +4084,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Chronic Kidney Disease",
@@ -3872,7 +4183,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Chronic Lymphocytic Leukemia",
@@ -3961,7 +4274,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Chronic Myeloid Leukemia, BCR-ABL1 Positive",
@@ -4046,7 +4361,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Chronic_Obstructive_Pulmonary_Disease",
@@ -4181,7 +4498,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 8,
     "num_genes": 7,
-    "num_treatments": 11
+    "num_treatments": 11,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Chronic Pancreatitis",
@@ -4269,7 +4588,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Clear Cell Renal Cell Carcinoma",
@@ -4349,7 +4670,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Clear Cell Sarcoma",
@@ -4416,7 +4739,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Clostridioides difficile Infection",
@@ -4479,7 +4804,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 8,
     "num_genes": 0,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "9",
+    "causal_graph_longest_path": "5"
   },
   {
     "name": "Acute Myeloid Leukemia, Core Binding Factor",
@@ -4560,7 +4887,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Coronary Artery Disease",
@@ -4644,7 +4973,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Crohn Disease",
@@ -4773,7 +5104,9 @@ window.searchData = [
     "num_phenotypes": 16,
     "num_pathophysiology": 6,
     "num_genes": 6,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Cronkhite-Canada syndrome",
@@ -4842,7 +5175,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 0,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Cushing's Syndrome",
@@ -4905,7 +5240,53 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Cystic echinococcosis",
+    "disease_id": "MONDO:0018408",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Cystic echinococcosis is a helminthic disease caused by the larval stage of Echinococcus granulosus.",
+    "pathophysiology": [
+      "Hepatic cyst formation"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Hepatic cysts"
+    ],
+    "phenotype_categories": [
+      "Hepatic"
+    ],
+    "phenotype_ids": [
+      "HP:0001407"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [
+      "Benzimidazole chemotherapy",
+      "Surgical and percutaneous approaches"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Cystic_Echinococcosis.yaml",
+    "page_url": "../pages/disorders/Cystic_echinococcosis.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Cystic Fibrosis",
@@ -4993,7 +5374,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Dementia with Lewy Bodies",
@@ -5052,175 +5435,54 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Dengue",
     "disease_id": "MONDO:0005502",
     "category": "Infectious Disease",
     "parents": [
-      "Arbovirus Infection"
+      "Arbovirus Infection",
+      "Neglected tropical disease"
     ],
     "subtypes": [],
-    "description": "A Flavivirus transmitted by Aedes mosquitoes, causing a wide range of symptoms from mild fever to severe hemorrhagic fever and shock.",
+    "description": "Dengue is a mosquito-borne viral disease caused by dengue virus and transmitted by Aedes mosquitoes, with severe cases characterized by plasma leakage and shock.",
     "pathophysiology": [
-      "Dengue Virus (DENV) Infection",
-      "Viral Replication",
-      "Immune System Activation",
-      "Cytokine Release",
-      "Antibody-Dependent Enhancement (ADE)",
-      "Endothelial Dysfunction",
-      "NS1-Mediated Endothelial Glycocalyx Degradation",
-      "NS1-Mediated Complement Activation and Modulation",
-      "Inflammasome Activation by NS1",
-      "Mast Cell Degranulation and Mediator Release",
-      "Platelet and Megakaryocyte Dysfunction",
-      "Innate Immune Antagonism",
-      "Coagulopathy",
-      "Organ Involvement",
-      "Severe Dengue",
-      "Dengue Hemorrhagic Fever (DHF)",
-      "Dengue Shock Syndrome (DSS)",
-      "Vascular Leakage",
-      "Plasma Leakage"
+      "Plasma leakage leading to shock in severe dengue"
     ],
-    "cell_types": [
-      "Dendritic Cell",
-      "Monocyte",
-      "Macrophage",
-      "Endothelial Cell",
-      "Mast Cell",
-      "Natural Killer Cell",
-      "T Cell",
-      "B Cell",
-      "Platelet",
-      "Megakaryocyte"
-    ],
-    "cell_type_ids": [
-      "CL:0000451",
-      "CL:0000576",
-      "CL:0000235",
-      "CL:0000115",
-      "CL:0000097",
-      "CL:0000623",
-      "CL:0000084",
-      "CL:0000236",
-      "CL:0000233",
-      "CL:0000556"
-    ],
-    "biological_processes": [
-      "Viral Infection",
-      "TNF-alpha Production",
-      "IL-1beta Production",
-      "IL-6 Production",
-      "IL-8 Production",
-      "IFN-gamma Production",
-      "Endothelial Glycocalyx Organization",
-      "Inflammatory Response",
-      "Complement Activation",
-      "Inflammasome Complex Assembly",
-      "Mast Cell Degranulation",
-      "Platelet Activation",
-      "Platelet Degranulation",
-      "Type I Interferon Signaling",
-      "Innate Immune Response"
-    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
     "phenotypes": [
       "Fever",
-      "Severe Muscle and Joint Pain",
-      "Vomiting",
-      "Diarrhea",
-      "Petechiae",
-      "Epistaxis",
-      "Gum Bleeding",
-      "Severe Headache",
-      "Fatigue",
-      "Maculopapular Rash",
-      "Conjunctival Injection",
-      "Abdominal Pain",
-      "Lymphadenopathy",
-      "Cough",
-      "Altered Mental Status",
-      "Hypotension",
-      "Hepatomegaly",
-      "Leukopenia",
-      "Elevated Liver Enzymes",
-      "Hemorrhage",
-      "Myocarditis",
-      "Pleural Effusion",
-      "Shock",
-      "Acute Kidney Injury",
-      "Encephalitis",
-      "Hepatitis",
-      "Hemorrhagic Manifestations",
-      "Hemoconcentration",
-      "Neurological Complications"
+      "Skin rash"
     ],
     "phenotype_categories": [
       "Systemic",
-      "Musculoskeletal",
-      "Gastrointestinal",
-      "Hemorrhagic",
-      "Neurologic",
-      "Dermatologic",
-      "Ocular",
-      "Respiratory",
-      "Cardiovascular",
-      "Hepatic",
-      "Laboratory",
-      "Renal",
-      "Hematologic"
+      "Dermatologic"
     ],
     "phenotype_ids": [
       "HP:0001945",
-      "HP:0002013",
-      "HP:0002014",
-      "HP:0000967",
-      "HP:0000421",
-      "HP:0012378",
-      "HP:0002027",
-      "HP:0002716",
-      "HP:0012735",
-      "HP:0002615",
-      "HP:0002240",
-      "HP:0001882",
-      "HP:0001892",
-      "HP:0012819",
-      "HP:0002202",
-      "HP:0031273",
-      "HP:0001919",
-      "HP:0002383",
-      "HP:0012115",
-      "HP:0001899",
-      "HP:0000707"
+      "HP:0000988"
     ],
     "frequencies": [
       "VERY_FREQUENT",
-      "FREQUENT",
-      "OCCASIONAL",
-      "RARE"
+      "FREQUENT"
     ],
     "genes": [],
-    "treatments": [
-      "Supportive Care",
-      "Platelet Transfusions",
-      "Pain Relief",
-      "Vector Control"
-    ],
+    "treatments": [],
     "environmental": [],
-    "biochemical": [
-      "Dengue NS1 Antigen",
-      "Dengue IgM Antibodies",
-      "Dengue IgG Antibodies",
-      "Platelet Count",
-      "Hematocrit"
-    ],
+    "biochemical": [],
     "source_file": "Dengue.yaml",
     "page_url": "../pages/disorders/Dengue.html",
-    "num_phenotypes": 29,
-    "num_pathophysiology": 19,
+    "num_phenotypes": 2,
+    "num_pathophysiology": 1,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 0,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Dermatofibrosarcoma Protuberans",
@@ -5283,7 +5545,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Dermatomyositis",
@@ -5363,7 +5627,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Desmoplastic Small Round Cell Tumor",
@@ -5432,7 +5698,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Dieulafoy Lesion",
@@ -5485,7 +5753,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 2,
     "num_genes": 0,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Diffuse Large B-Cell Lymphoma",
@@ -5573,7 +5843,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Down_syndrome",
@@ -5668,7 +5940,42 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 3,
     "num_genes": 8,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Dracunculiasis",
+    "disease_id": "MONDO:0016472",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Dracunculiasis (guinea worm disease) is caused by Dracunculus medinensis and is transmitted through contaminated drinking water containing infected copepods.",
+    "pathophysiology": [
+      "Larval transmission by copepods"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [],
+    "phenotype_categories": [],
+    "phenotype_ids": [],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Dracunculiasis.yaml",
+    "page_url": "../pages/disorders/Dracunculiasis.html",
+    "num_phenotypes": 0,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 0,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Dravet_syndrome",
@@ -5765,7 +6072,9 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 3,
     "num_genes": 9,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Duchenne Muscular Dystrophy",
@@ -5840,7 +6149,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "EBV-Associated Gastric Cancer",
@@ -5918,7 +6229,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "EGFR-Mutant Non-Small Cell Lung Cancer",
@@ -5992,7 +6305,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "ER-Positive Breast Cancer",
@@ -6064,7 +6379,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Ebola Virus Disease (EVD)",
@@ -6179,7 +6496,9 @@ window.searchData = [
     "num_phenotypes": 18,
     "num_pathophysiology": 5,
     "num_genes": 6,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "8",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Ehlers-Danlos Syndrome",
@@ -6289,7 +6608,9 @@ window.searchData = [
     "num_phenotypes": 13,
     "num_pathophysiology": 6,
     "num_genes": 9,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Ehlers-Danlos Syndrome, COL5A1-related",
@@ -6379,7 +6700,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Embryonal Rhabdomyosarcoma",
@@ -6452,7 +6775,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Endometriosis",
@@ -6543,7 +6868,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 7,
     "num_genes": 4,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Epilepsy",
@@ -6635,7 +6962,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 3,
     "num_genes": 5,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Essential Hypertension",
@@ -6723,7 +7052,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Essential Thrombocythemia",
@@ -6800,7 +7131,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Ewing Sarcoma",
@@ -6872,7 +7205,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "FGFR-Altered Cholangiocarcinoma",
@@ -6951,7 +7286,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "FGFR-Altered Urothelial Carcinoma",
@@ -7016,7 +7353,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Acute Myeloid Leukemia, FLT3-Mutated",
@@ -7096,7 +7435,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Fabry disease",
@@ -7184,7 +7525,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 7,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Familial Adenomatous Polyposis",
@@ -7261,7 +7604,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "4"
   },
   {
     "name": "Familial Mediterranean Fever",
@@ -7351,7 +7696,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Fanconi_Anemia",
@@ -7467,7 +7814,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 7,
     "num_genes": 21,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "8",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Fibrodysplasia Ossificans Progressiva",
@@ -7550,7 +7899,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Fibromyalgia",
@@ -7657,7 +8008,40 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 6,
     "num_genes": 9,
-    "num_treatments": 10
+    "num_treatments": 10,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Foodborne trematodiases",
+    "disease_id": "MONDO:0015675",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Foodborne trematodiases are infections with food-borne trematodes, including liver, lung, and intestinal flukes.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [],
+    "phenotype_categories": [],
+    "phenotype_ids": [],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Foodborne_Trematodiases.yaml",
+    "page_url": "../pages/disorders/Foodborne_trematodiases.html",
+    "num_phenotypes": 0,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 0,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Fragile X Syndrome",
@@ -7734,7 +8118,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Frontotemporal Dementia",
@@ -7792,7 +8178,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Gastric Cancer H. pylori Associated",
@@ -7876,7 +8264,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Gastroesophageal Reflux Disease",
@@ -7956,7 +8346,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 6,
     "num_genes": 2,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Gastrointestinal Stromal Tumor",
@@ -8033,7 +8425,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Gaucher Disease",
@@ -8110,7 +8504,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Generalized Anxiety Disorder",
@@ -8197,7 +8593,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 7,
     "num_genes": 4,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Giant Cell Arteritis",
@@ -8274,7 +8672,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Glaucoma",
@@ -8361,7 +8761,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Glioblastoma, IDH-Wildtype",
@@ -8445,7 +8847,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 7,
     "num_genes": 6,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Glucose-6-Phosphate Dehydrogenase (G6PD) Deficiency",
@@ -8531,7 +8935,9 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Gout",
@@ -8614,7 +9020,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 6,
     "num_genes": 3,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Grange syndrome",
@@ -8681,7 +9089,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Granulomatosis with Polyangiitis",
@@ -8755,7 +9165,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Graves' Disease",
@@ -8880,7 +9292,9 @@ window.searchData = [
     "num_phenotypes": 16,
     "num_pathophysiology": 5,
     "num_genes": 6,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Guillain-Barre Syndrome",
@@ -8951,7 +9365,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Diffuse Midline Glioma, H3 K27-Altered",
@@ -9027,7 +9443,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 7,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "HER2-Positive Breast Cancer",
@@ -9095,7 +9513,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "HER2-Positive Colorectal Cancer",
@@ -9171,7 +9591,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "HER2-Positive Gastric Cancer",
@@ -9249,7 +9671,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "HIDEA_Syndrome",
@@ -9346,7 +9770,9 @@ window.searchData = [
     "num_phenotypes": 13,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "HPV-Negative Head and Neck Cancer",
@@ -9434,7 +9860,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "HPV-Positive Head and Neck Cancer",
@@ -9514,7 +9942,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Hashimoto's Thyroiditis",
@@ -9601,7 +10031,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Heart Failure",
@@ -9690,7 +10122,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Hemochromatosis",
@@ -9760,7 +10194,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Hemophilia A",
@@ -9831,7 +10267,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Hepatitis B",
@@ -9929,7 +10367,9 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 6,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Hepatitis C",
@@ -10019,7 +10459,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Hepatocellular Carcinoma",
@@ -10114,7 +10556,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 7,
     "num_genes": 5,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Hereditary Breast and Ovarian Cancer Syndrome",
@@ -10183,7 +10627,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Hirschsprung Disease",
@@ -10270,7 +10716,9 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 2,
     "num_genes": 9,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Holt-Oram syndrome",
@@ -10338,7 +10786,52 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Human African trypanosomiasis",
+    "disease_id": "MONDO:0005459",
+    "category": "Infectious Disease",
+    "parents": [
+      "Neglected tropical disease",
+      "Protozoal infection"
+    ],
+    "subtypes": [],
+    "description": "Human African trypanosomiasis (sleeping sickness) is a tsetse fly\u2013borne infection caused by Trypanosoma brucei subspecies, characterized by an early hemolymphatic stage and a later meningoencephalitic stage with sleep-wake disturbances.",
+    "pathophysiology": [
+      "Central nervous system infection after BBB traversal"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Sleep-wake cycle disturbance"
+    ],
+    "phenotype_categories": [
+      "Neurologic"
+    ],
+    "phenotype_ids": [
+      "HP:0006979"
+    ],
+    "frequencies": [
+      "FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Fexinidazole therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Human_African_Trypanosomiasis.yaml",
+    "page_url": "../pages/disorders/Human_African_trypanosomiasis.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Huntington's Disease",
@@ -10439,7 +10932,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 6,
     "num_genes": 13,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Hypertensive Heart Disease",
@@ -10554,7 +11049,9 @@ window.searchData = [
     "num_phenotypes": 18,
     "num_pathophysiology": 7,
     "num_genes": 0,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Hypertrophic Cardiomyopathy",
@@ -10658,7 +11155,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 6,
     "num_genes": 7,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Acute Myeloid Leukemia, IDH-Mutated",
@@ -10736,7 +11235,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 5,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "IDH-Mutant Astrocytoma",
@@ -10809,7 +11310,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 5,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "IDH-Mutant Cholangiocarcinoma",
@@ -10886,7 +11389,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "IDH-Mutant and 1p/19q-Codeleted Oligodendroglioma",
@@ -10960,7 +11465,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 5,
     "num_genes": 6,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "IgA Nephropathy",
@@ -11037,7 +11544,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Immune Thrombocytopenia",
@@ -11113,7 +11622,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 0,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Irritable Bowel Syndrome",
@@ -11193,7 +11704,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 6,
     "num_genes": 2,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Jeavons Syndrome",
@@ -11276,7 +11789,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 9,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "KIT Mutant Melanoma",
@@ -11342,7 +11857,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "KRAS G12C-Mutant Non-Small Cell Lung Cancer",
@@ -11415,7 +11932,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Kaposi Sarcoma",
@@ -11499,7 +12018,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 7,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Kawasaki Disease",
@@ -11628,7 +12149,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 2,
     "num_genes": 21,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Klinefelter Syndrome",
@@ -11739,7 +12262,107 @@ window.searchData = [
     "num_phenotypes": 14,
     "num_pathophysiology": 4,
     "num_genes": 7,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Leishmaniasis",
+    "disease_id": "MONDO:0011989",
+    "category": "Infectious Disease",
+    "parents": [
+      "Neglected tropical disease",
+      "Protozoal infection"
+    ],
+    "subtypes": [
+      "Visceral leishmaniasis",
+      "Cutaneous leishmaniasis",
+      "Mucocutaneous leishmaniasis"
+    ],
+    "description": "Leishmaniasis is a protozoan infection caused by Leishmania parasites, transmitted by sand flies, with clinical forms including cutaneous, mucocutaneous, and visceral disease driven by intracellular amastigotes in macrophages.",
+    "pathophysiology": [
+      "Intracellular amastigote replication in macrophages"
+    ],
+    "cell_types": [
+      "macrophage"
+    ],
+    "cell_type_ids": [
+      "CL:0000235"
+    ],
+    "biological_processes": [],
+    "phenotypes": [
+      "Cutaneous ulcers"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0200042"
+    ],
+    "frequencies": [
+      "FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Liposomal amphotericin B therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Leishmaniasis.yaml",
+    "page_url": "../pages/disorders/Leishmaniasis.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Leprosy",
+    "disease_id": "MONDO:0005124",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Leprosy is a chronic infectious disease caused by Mycobacterium leprae that primarily affects the skin and peripheral nervous system.",
+    "pathophysiology": [
+      "Skin and peripheral nerve involvement",
+      "Peripheral nerve affinity"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Peripheral neuropathy",
+      "Localized skin lesion"
+    ],
+    "phenotype_categories": [
+      "Neurologic",
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0009830",
+      "HP:0011355"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [
+      "Multidrug therapy with rifampicin, dapsone, and clofazimine"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Leprosy.yaml",
+    "page_url": "../pages/disorders/Leprosy.html",
+    "num_phenotypes": 2,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Li-Fraumeni Syndrome",
@@ -11816,7 +12439,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 6,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "7",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Liver Cirrhosis",
@@ -11916,7 +12541,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Long COVID",
@@ -12043,7 +12670,9 @@ window.searchData = [
     "num_phenotypes": 21,
     "num_pathophysiology": 11,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Lyme Disease",
@@ -12142,7 +12771,59 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Lymphatic filariasis",
+    "disease_id": "MONDO:0016075",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease",
+      "Filariasis"
+    ],
+    "subtypes": [],
+    "description": "Lymphatic filariasis is a mosquito-borne nematode infection in which adult filarial worms inhabit lymphatic vessels, causing lymphatic dysfunction and chronic morbidity including lymphedema and hydrocele.",
+    "pathophysiology": [
+      "Lymphatic vessel blockage and dysfunction",
+      "Lymphatic vessel remodeling and dilation"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Lymphedema",
+      "Hydrocele",
+      "Elephantiasis"
+    ],
+    "phenotype_categories": [
+      "Lymphatic",
+      "Genitourinary"
+    ],
+    "phenotype_ids": [
+      "HP:0001004",
+      "HP:0000034"
+    ],
+    "frequencies": [
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Mass drug administration with albendazole plus ivermectin or DEC"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Lymphatic_Filariasis.yaml",
+    "page_url": "../pages/disorders/Lymphatic_filariasis.html",
+    "num_phenotypes": 3,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Lynch Syndrome",
@@ -12235,7 +12916,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "MET Exon 14 Skipping Non-Small Cell Lung Cancer",
@@ -12307,7 +12990,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "MSI-High Colorectal Cancer",
@@ -12390,7 +13075,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 6,
     "num_genes": 5,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "MSI-High Endometrial Cancer",
@@ -12462,7 +13149,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Major Depressive Disorder",
@@ -12562,7 +13251,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Malignant Mesothelioma",
@@ -12643,7 +13334,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Mantle Cell Lymphoma",
@@ -12729,7 +13422,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Maple Syrup Urine Disease",
@@ -12838,7 +13533,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Marfan Syndrome",
@@ -12944,7 +13641,9 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 6,
     "num_genes": 10,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Meckel Diverticulum",
@@ -12995,7 +13694,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 1,
     "num_genes": 0,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Medullary Thyroid Carcinoma",
@@ -13064,7 +13765,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Medulloblastoma, SHH-Activated",
@@ -13136,7 +13839,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 7,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Medulloblastoma, WNT-Activated",
@@ -13207,7 +13912,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 6,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Melanoma_in_Congenital_Melanocytic_Nevus",
@@ -13293,7 +14000,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 5,
     "num_genes": 8,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Meniere's Disease",
@@ -13354,7 +14063,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 0,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Merkel Cell Carcinoma",
@@ -13421,7 +14132,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Migraine",
@@ -13508,7 +14221,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Mixed Connective Tissue Disease",
@@ -13584,7 +14299,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Monkeypox",
@@ -13709,7 +14426,9 @@ window.searchData = [
     "num_phenotypes": 15,
     "num_pathophysiology": 7,
     "num_genes": 9,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Multiple Endocrine Neoplasia Type 2",
@@ -13791,7 +14510,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Multiple Sclerosis",
@@ -13886,7 +14607,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 3,
     "num_genes": 6,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Multisystem Inflammatory Syndrome in Children (MIS-C)",
@@ -14017,7 +14740,9 @@ window.searchData = [
     "num_phenotypes": 12,
     "num_pathophysiology": 7,
     "num_genes": 16,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
@@ -14121,7 +14846,9 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 7,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Myasthenia Gravis",
@@ -14218,7 +14945,50 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Mycetoma",
+    "disease_id": "MONDO:0016823",
+    "category": "Infectious Disease",
+    "parents": [
+      "Infectious Disease",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Mycetoma is a chronic infection of the skin and subcutaneous tissues caused by fungi or bacteria.",
+    "pathophysiology": [
+      "Cutaneous and subcutaneous infection by fungi or bacteria"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Subcutaneous nodule"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0001482"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Mycetoma.yaml",
+    "page_url": "../pages/disorders/Mycetoma.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 0,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Acute Myeloid Leukemia, NPM1-Mutated",
@@ -14291,7 +15061,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "NRAS Mutant Melanoma",
@@ -14352,7 +15124,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "NTRK Fusion-Positive Cancer",
@@ -14414,7 +15188,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Narcolepsy",
@@ -14494,7 +15270,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 2,
     "num_genes": 3,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Nasopharyngeal Carcinoma",
@@ -14577,7 +15355,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Nephronophthisis",
@@ -14678,7 +15458,9 @@ window.searchData = [
     "num_phenotypes": 11,
     "num_pathophysiology": 11,
     "num_genes": 5,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "12",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Neuroblastoma",
@@ -14763,7 +15545,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Neurofibromatosis Type 1",
@@ -14843,7 +15627,50 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "3"
+  },
+  {
+    "name": "Noma",
+    "disease_id": "MONDO:0017124",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Noma (cancrum oris) is an aggressive orofacial gangrenous disease that damages hard and soft tissues of the mouth and face.",
+    "pathophysiology": [
+      "Polymicrobial infection with tissue necrosis"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Gangrene"
+    ],
+    "phenotype_categories": [
+      "Craniofacial"
+    ],
+    "phenotype_ids": [
+      "HP:0100758"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Noma.yaml",
+    "page_url": "../pages/disorders/Noma.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 0,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Non-Small Cell Lung Cancer",
@@ -14944,7 +15771,9 @@ window.searchData = [
     "num_phenotypes": 9,
     "num_pathophysiology": 6,
     "num_genes": 8,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Obesity",
@@ -15044,7 +15873,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 5,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Obstructive Sleep Apnea",
@@ -15129,7 +15960,56 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 2,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Onchocerciasis",
+    "disease_id": "MONDO:0017137",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Onchocerciasis (river blindness) is a filarial infection caused by Onchocerca volvulus, transmitted by black flies, leading to pruritus, dermatitis, and ocular disease that can progress to blindness.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Pruritus",
+      "Dermatitis",
+      "Blindness"
+    ],
+    "phenotype_categories": [
+      "Dermatologic",
+      "Ophthalmologic"
+    ],
+    "phenotype_ids": [
+      "HP:0000989",
+      "HP:0000964",
+      "HP:0000618"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Ivermectin therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Onchocerciasis.yaml",
+    "page_url": "../pages/disorders/Onchocerciasis.html",
+    "num_phenotypes": 3,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Osteoarthritis",
@@ -15216,7 +16096,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Osteoporosis",
@@ -15301,7 +16183,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "PIK3CA-Mutant Breast Cancer",
@@ -15366,7 +16250,9 @@ window.searchData = [
     "num_phenotypes": 2,
     "num_pathophysiology": 5,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Parkinson's Disease",
@@ -15484,7 +16370,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 12,
     "num_genes": 5,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "27",
+    "causal_graph_longest_path": "5"
   },
   {
     "name": "Parvovirus B19 Infection",
@@ -15563,7 +16451,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 0,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Pemphigus Vulgaris",
@@ -15635,7 +16525,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Peripheral Artery Disease",
@@ -15719,7 +16611,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Peroxisome Biogenesis Disorder",
@@ -15847,7 +16741,9 @@ window.searchData = [
     "num_phenotypes": 15,
     "num_pathophysiology": 11,
     "num_genes": 10,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia",
@@ -15925,7 +16821,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 5,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Phenylketonuria",
@@ -16005,7 +16903,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Pheochromocytoma and Paraganglioma",
@@ -16083,7 +16983,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Pick Disease",
@@ -16177,7 +17079,50 @@ window.searchData = [
     "num_phenotypes": 12,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
+  },
+  {
+    "name": "Pinta",
+    "disease_id": "MONDO:0000979",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Pinta is a non-venereal treponematosis caused by Treponema carateum.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Abnormality of skin pigmentation"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0001000"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [
+      "Penicillin injection"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Pinta.yaml",
+    "page_url": "../pages/disorders/Pinta.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Polycystic echinococcosis",
@@ -16227,7 +17172,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Polycystic Kidney Disease",
@@ -16312,7 +17259,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Polycystic Ovary Syndrome",
@@ -16395,7 +17344,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Polycythemia Vera",
@@ -16472,7 +17423,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Polymyositis",
@@ -16552,7 +17505,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 7,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Primary Biliary Cholangitis",
@@ -16626,7 +17581,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Primary_Ciliary_Dyskinesia",
@@ -16732,7 +17689,9 @@ window.searchData = [
     "num_phenotypes": 13,
     "num_pathophysiology": 3,
     "num_genes": 12,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "4",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Primary Myelofibrosis",
@@ -16811,7 +17770,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Primary Sclerosing Cholangitis",
@@ -16886,7 +17847,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Primary_Tonsillar_Lymphoma",
@@ -16968,7 +17931,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 5,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Psoriasis",
@@ -17065,7 +18030,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Pulmonary_hypertension",
@@ -17175,7 +18142,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 7,
     "num_genes": 9,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "RET Fusion-Positive Thyroid Cancer",
@@ -17246,7 +18215,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "RET-Rearranged Non-Small Cell Lung Cancer",
@@ -17319,7 +18290,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "ROS1-Rearranged Non-Small Cell Lung Cancer",
@@ -17393,7 +18366,54 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 2,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
+  },
+  {
+    "name": "Rabies",
+    "disease_id": "MONDO:0019173",
+    "category": "Infectious Disease",
+    "parents": [
+      "Viral Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Rabies is an acute, progressive viral encephalitis caused by rabies virus, typically transmitted through animal bites with centrifugal spread to the salivary glands.",
+    "pathophysiology": [
+      "Viral encephalitis",
+      "Centripetal spread to the central nervous system"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Infectious encephalitis"
+    ],
+    "phenotype_categories": [
+      "Neurologic"
+    ],
+    "phenotype_ids": [
+      "HP:0002383"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT"
+    ],
+    "genes": [],
+    "treatments": [
+      "Rabies post-exposure vaccination",
+      "Rabies immunoglobulin administration"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Rabies.yaml",
+    "page_url": "../pages/disorders/Rabies.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Retinoblastoma",
@@ -17465,7 +18485,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Retrograde Cricopharyngeus Dysfunction",
@@ -17523,7 +18545,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 2,
     "num_genes": 0,
-    "num_treatments": 1
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Rett Syndrome",
@@ -17597,7 +18621,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Rheumatoid Arthritis",
@@ -17720,7 +18746,9 @@ window.searchData = [
     "num_phenotypes": 15,
     "num_pathophysiology": 9,
     "num_genes": 9,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Roifman-syndrome",
@@ -17792,7 +18820,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 4,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Sarcoidosis",
@@ -17876,7 +18906,104 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 3,
     "num_genes": 2,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Scabies",
+    "disease_id": "MONDO:0004525",
+    "category": "Infectious Disease",
+    "parents": [
+      "Parasitic infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Scabies is a contagious parasitic skin disease caused by Sarcoptes scabiei infestation.",
+    "pathophysiology": [
+      "Mite infestation of the skin"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Pruritus",
+      "Skin rash"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0000989",
+      "HP:0000988"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [
+      "Permethrin cream or ivermectin"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Scabies.yaml",
+    "page_url": "../pages/disorders/Scabies.html",
+    "num_phenotypes": 2,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Schistosomiasis",
+    "disease_id": "MONDO:0015254",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Schistosomiasis is a helminth infection caused by blood flukes of the genus Schistosoma, with disease driven by egg deposition that triggers granulomatous inflammation in intestinal, hepatosplenic, and urogenital tissues.",
+    "pathophysiology": [
+      "Adult worm residence in mesenteric or pelvic veins",
+      "Egg trapping triggers granulomatous inflammation",
+      "Periportal fibrosis with portal hypertension",
+      "Urogenital inflammation and scarring"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Anemia",
+      "Hepatosplenomegaly"
+    ],
+    "phenotype_categories": [
+      "Hematologic",
+      "Hepatic"
+    ],
+    "phenotype_ids": [
+      "HP:0001903",
+      "HP:0001433"
+    ],
+    "frequencies": [
+      "FREQUENT",
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Praziquantel mass drug administration"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Schistosomiasis.yaml",
+    "page_url": "../pages/disorders/Schistosomiasis.html",
+    "num_phenotypes": 2,
+    "num_pathophysiology": 4,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Schizophrenia",
@@ -17979,7 +19106,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 7,
     "num_genes": 11,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Scurvy",
@@ -18037,7 +19166,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 2,
     "num_genes": 0,
-    "num_treatments": 1
+    "num_treatments": 1,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Semicircular Canal Dehiscence Syndrome",
@@ -18112,7 +19243,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 4,
     "num_genes": 0,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Sickle Cell Disease",
@@ -18213,7 +19346,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 5,
     "num_genes": 3,
-    "num_treatments": 9
+    "num_treatments": 9,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Sjogren's Syndrome",
@@ -18293,7 +19428,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 4,
     "num_genes": 4,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Small Cell Lung Cancer",
@@ -18316,7 +19453,10 @@ window.searchData = [
       "RB1 Inactivation",
       "Loss of Cell Cycle Checkpoints",
       "Genomic Instability",
-      "Neuroendocrine Differentiation"
+      "Neuroendocrine Differentiation",
+      "Functional Neuron-SCLC Synapses",
+      "Neuron-Driven Proliferation",
+      "Glutamate Signaling Dependency"
     ],
     "cell_types": [
       "type II pneumocyte"
@@ -18329,7 +19469,12 @@ window.searchData = [
       "negative regulation of G1/S transition of mitotic cell cycle",
       "cell population proliferation",
       "DNA repair",
-      "neuron differentiation"
+      "neuron differentiation",
+      "synapse assembly",
+      "chemical synaptic transmission",
+      "positive regulation of cell population proliferation",
+      "glutamate receptor signaling pathway",
+      "synaptic transmission, glutamatergic"
     ],
     "phenotypes": [
       "Lung Neoplasm",
@@ -18365,16 +19510,20 @@ window.searchData = [
       "Lurbinectedin",
       "Topotecan"
     ],
-    "environmental": [],
+    "environmental": [
+      "Tobacco Smoking"
+    ],
     "biochemical": [
       "Neuroendocrine Markers"
     ],
     "source_file": "Small_Cell_Lung_Cancer.yaml",
     "page_url": "../pages/disorders/Small_Cell_Lung_Cancer.html",
     "num_phenotypes": 4,
-    "num_pathophysiology": 5,
+    "num_pathophysiology": 8,
     "num_genes": 4,
-    "num_treatments": 7
+    "num_treatments": 7,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Small Intestinal Bacterial Overgrowth",
@@ -18435,7 +19584,105 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 1,
     "num_genes": 0,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Snakebite envenoming",
+    "disease_id": "MONDO:0018669",
+    "category": "Injury",
+    "parents": [
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Snakebite envenoming results from exposure to snake venom and can cause local tissue damage and life-threatening systemic effects.",
+    "pathophysiology": [
+      "Venom toxins with broad toxic actions",
+      "Local and systemic effects driven by venom variability"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Edema",
+      "Abnormal bleeding",
+      "Paralysis",
+      "Acute kidney injury"
+    ],
+    "phenotype_categories": [
+      "Dermatologic",
+      "Hematologic",
+      "Neurologic",
+      "Renal"
+    ],
+    "phenotype_ids": [
+      "HP:0000969",
+      "HP:0001892",
+      "HP:0003470",
+      "HP:0001919"
+    ],
+    "frequencies": [
+      "COMMON",
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Antivenom administration"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Snakebite_Envenoming.yaml",
+    "page_url": "../pages/disorders/Snakebite_envenoming.html",
+    "num_phenotypes": 4,
+    "num_pathophysiology": 2,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Soil-transmitted helminthiases",
+    "disease_id": "MONDO:0004664",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Soil-transmitted helminthiases are intestinal nematode infections caused by Ascaris, Trichuris, hookworms, and Strongyloides, transmitted through contaminated environments and resulting in chronic morbidity.",
+    "pathophysiology": [
+      "Blood-feeding hookworms cause iron deficiency anemia"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Anemia"
+    ],
+    "phenotype_categories": [
+      "Hematologic"
+    ],
+    "phenotype_ids": [
+      "HP:0001903"
+    ],
+    "frequencies": [
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Albendazole or mebendazole therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Soil_Transmitted_Helminthiases.yaml",
+    "page_url": "../pages/disorders/Soil-transmitted_helminthiases.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Spinal Muscular Atrophy",
@@ -18510,7 +19757,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 2,
     "num_genes": 2,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Stiff Person Syndrome",
@@ -18594,7 +19843,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Synovial Sarcoma",
@@ -18661,7 +19912,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Systemic Lupus Erythematosus",
@@ -18800,7 +20053,9 @@ window.searchData = [
     "num_phenotypes": 13,
     "num_pathophysiology": 12,
     "num_genes": 11,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Systemic Sclerosis",
@@ -18881,7 +20136,9 @@ window.searchData = [
     "num_phenotypes": 4,
     "num_pathophysiology": 3,
     "num_genes": 3,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "TARP syndrome",
@@ -18970,7 +20227,53 @@ window.searchData = [
     "num_phenotypes": 12,
     "num_pathophysiology": 2,
     "num_genes": 5,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Taeniasis/cysticercosis",
+    "disease_id": "MONDO:0015484",
+    "category": "Infectious Disease",
+    "parents": [
+      "Helminth infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Taeniasis/cysticercosis is caused by Taenia solium, with intestinal taeniasis and tissue cysticercosis including neurocysticercosis, a major cause of seizures in endemic regions.",
+    "pathophysiology": [
+      "Larval infection of the nervous system (neurocysticercosis)"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Seizures"
+    ],
+    "phenotype_categories": [
+      "Neurologic"
+    ],
+    "phenotype_ids": [
+      "HP:0001250"
+    ],
+    "frequencies": [
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Antiparasitic therapy",
+      "Surgical management"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Taeniasis_Cysticercosis.yaml",
+    "page_url": "../pages/disorders/Taeniasis_cysticercosis.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Tay-Sachs Disease",
@@ -19045,7 +20348,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 2,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Tetanus",
@@ -19110,7 +20415,52 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Trachoma",
+    "disease_id": "MONDO:0001249",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Trachoma is a neglected tropical disease caused by conjunctival infection with Chlamydia trachomatis, leading to chronic conjunctival inflammation, scarring, trichiasis, and blindness.",
+    "pathophysiology": [
+      "Chronic conjunctival infection with scarring"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Blindness"
+    ],
+    "phenotype_categories": [
+      "Ophthalmologic"
+    ],
+    "phenotype_ids": [
+      "HP:0000618"
+    ],
+    "frequencies": [
+      "OCCASIONAL"
+    ],
+    "genes": [],
+    "treatments": [
+      "Antibiotic mass drug administration (SAFE strategy)"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Trachoma.yaml",
+    "page_url": "../pages/disorders/Trachoma.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 1,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Transient Neonatal Pustular Melanosis",
@@ -19182,7 +20532,9 @@ window.searchData = [
     "num_phenotypes": 5,
     "num_pathophysiology": 7,
     "num_genes": 1,
-    "num_treatments": 1
+    "num_treatments": 1,
+    "causal_graph_edges": "5",
+    "causal_graph_longest_path": "3"
   },
   {
     "name": "Traveler's Diarrhea",
@@ -19225,7 +20577,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 1,
     "num_genes": 0,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Triple-Negative Breast Cancer",
@@ -19296,7 +20650,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 4,
     "num_genes": 3,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Tuberculosis",
@@ -19398,7 +20754,9 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 4,
     "num_genes": 7,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Type 2 Diabetes Mellitus",
@@ -19501,7 +20859,9 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 5,
     "num_genes": 4,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Type I Diabetes",
@@ -19639,7 +20999,9 @@ window.searchData = [
     "num_phenotypes": 18,
     "num_pathophysiology": 11,
     "num_genes": 9,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "24",
+    "causal_graph_longest_path": "5"
   },
   {
     "name": "Ulcerative Colitis",
@@ -19737,7 +21099,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 10,
     "num_genes": 4,
-    "num_treatments": 8
+    "num_treatments": 8,
+    "causal_graph_edges": "8",
+    "causal_graph_longest_path": "5"
   },
   {
     "name": "Uveal Melanoma",
@@ -19806,7 +21170,9 @@ window.searchData = [
     "num_phenotypes": 3,
     "num_pathophysiology": 4,
     "num_genes": 5,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Visual Snow Syndrome",
@@ -19872,7 +21238,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 2,
     "num_genes": 0,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Vitiligo",
@@ -19974,7 +21342,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 7,
     "num_genes": 10,
-    "num_treatments": 6
+    "num_treatments": 6,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Von Hippel-Lindau Disease",
@@ -20056,7 +21426,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 6,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "4"
   },
   {
     "name": "Whipple Disease",
@@ -20132,7 +21504,9 @@ window.searchData = [
     "num_phenotypes": 10,
     "num_pathophysiology": 3,
     "num_genes": 0,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Wilms Tumor",
@@ -20208,7 +21582,9 @@ window.searchData = [
     "num_phenotypes": 6,
     "num_pathophysiology": 3,
     "num_genes": 4,
-    "num_treatments": 3
+    "num_treatments": 3,
+    "causal_graph_edges": "1",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Wilson Disease",
@@ -20289,7 +21665,9 @@ window.searchData = [
     "num_phenotypes": 7,
     "num_pathophysiology": 3,
     "num_genes": 1,
-    "num_treatments": 5
+    "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "Wolf-Hirschhorn_Syndrome",
@@ -20370,7 +21748,50 @@ window.searchData = [
     "num_phenotypes": 15,
     "num_pathophysiology": 1,
     "num_genes": 1,
-    "num_treatments": 4
+    "num_treatments": 4,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Yaws",
+    "disease_id": "MONDO:0006019",
+    "category": "Infectious Disease",
+    "parents": [
+      "Bacterial Infection",
+      "Neglected tropical disease"
+    ],
+    "subtypes": [],
+    "description": "Yaws is a chronic and disfiguring bacterial infection caused by Treponema pallidum subsp. pertenue.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Skin ulcer"
+    ],
+    "phenotype_categories": [
+      "Dermatologic"
+    ],
+    "phenotype_ids": [
+      "HP:0200042"
+    ],
+    "frequencies": [
+      "COMMON"
+    ],
+    "genes": [],
+    "treatments": [
+      "Azithromycin therapy"
+    ],
+    "environmental": [],
+    "biochemical": [],
+    "source_file": "Yaws.yaml",
+    "page_url": "../pages/disorders/Yaws.html",
+    "num_phenotypes": 1,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   },
   {
     "name": "You-Hoover-Fong Syndrome",
@@ -20434,7 +21855,9 @@ window.searchData = [
     "num_phenotypes": 8,
     "num_pathophysiology": 1,
     "num_genes": 1,
-    "num_treatments": 2
+    "num_treatments": 2,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
   }
 ];
 window.dispatchEvent(new Event('searchDataReady'));

@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -694,6 +710,10 @@
             <div class="stat-item">
                 <div class="stat-value">6</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">11</div>
@@ -1358,6 +1378,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1368,15 +1391,15 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Palpitations[&#34;Palpitations&#34;]
     Arrhythmias[&#34;Arrhythmias&#34;]
+    Palpitations[&#34;Palpitations&#34;]
     Sudden_Cardiac_Death[&#34;Sudden Cardiac Death&#34;]
 
     Arrhythmias --&gt; Palpitations
     Arrhythmias --&gt; Sudden_Cardiac_Death
 
-    style Palpitations fill:#fef3c7
     style Arrhythmias fill:#fef3c7
+    style Palpitations fill:#fef3c7
     style Sudden_Cardiac_Death fill:#fef3c7</pre>
             </div>
         </div>

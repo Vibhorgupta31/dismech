@@ -368,6 +368,22 @@
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
 
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
+
         /* Phenotypes */
         .phenotype-box {
             background: #f0fdf4;
@@ -694,6 +710,10 @@
             <div class="stat-item">
                 <div class="stat-value">7</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">8</div>
@@ -1078,6 +1098,9 @@
         </div>
         
 
+        <!-- Histopathology -->
+        
+
         <!-- Causal Graph -->
         
         <div class="card">
@@ -1098,18 +1121,18 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Dyspnea[&#34;Dyspnea&#34;]
-    Reduced_Exercise_Tolerance[&#34;Reduced Exercise Tolerance&#34;]
-    Right_Heart_Failure[&#34;Right Heart Failure&#34;]
     Right_Ventricular_Hypertrophy[&#34;Right Ventricular Hypertrophy&#34;]
+    Dyspnea[&#34;Dyspnea&#34;]
+    Right_Heart_Failure[&#34;Right Heart Failure&#34;]
+    Reduced_Exercise_Tolerance[&#34;Reduced Exercise Tolerance&#34;]
 
     Right_Ventricular_Hypertrophy -.-&gt; Right_Heart_Failure
     Dyspnea --&gt; Reduced_Exercise_Tolerance
 
+    style Right_Ventricular_Hypertrophy fill:#dbeafe
     style Dyspnea fill:#fef3c7
-    style Reduced_Exercise_Tolerance fill:#fef3c7
     style Right_Heart_Failure fill:#fee2e2,stroke:#dc2626,stroke-dasharray: 5 5
-    style Right_Ventricular_Hypertrophy fill:#dbeafe</pre>
+    style Reduced_Exercise_Tolerance fill:#fef3c7</pre>
             </div>
         </div>
         
