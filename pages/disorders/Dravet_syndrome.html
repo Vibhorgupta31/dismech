@@ -210,9 +210,43 @@
             color: #92400e;
         }
 
+        .tag-modifier {
+            background: #fee2e2;
+            color: #991b1b;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
         .tag-parent {
             background: #e0e7ff;
             color: #3730a3;
+        }
+
+        .tag-classification {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .tag-mechanistic {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .linkout {
+            color: inherit;
+            margin-left: 6px;
+            font-size: 0.75rem;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+        }
+
+        .classification-category {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 8px;
         }
 
         /* Evidence styling */
@@ -333,6 +367,22 @@
         }
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
+
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
 
         /* Phenotypes */
         .phenotype-box {
@@ -647,6 +697,10 @@
     
 
     
+
+    
+    
+
     
 
     
@@ -666,7 +720,7 @@
                 
                 
                 <span class="badge badge-mondo">
-                    <a href="https://monarchinitiative.org/disease/MONDO:0100135" target="_blank">
+                    <a href="http://purl.obolibrary.org/obo/MONDO_0100135" target="_blank">
                         MONDO:0100135
                     </a>
                 </span>
@@ -677,6 +731,11 @@
                 <span class="badge badge-category" style="background: rgba(255,255,255,0.1);">Neurologic Disorder</span>
                 
             </div>
+            
+            <p style="margin-top: 16px; font-size: 1rem; line-height: 1.6; opacity: 0.95; position: relative;">
+                Dravet syndrome is a severe developmental and epileptic encephalopathy characterized by treatment-resistant seizures beginning in infancy, developmental regression, and cognitive impairment. It is primarily caused by de novo loss-of-function mutations in SCN1A, encoding the Nav1.1 voltage-gated sodium channel.
+            </p>
+            
         </header>
 
         <!-- Stats bar -->
@@ -684,6 +743,10 @@
             <div class="stat-item">
                 <div class="stat-value">3</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">9</div>
@@ -715,6 +778,35 @@
             </div>
         </div>
 
+        <!-- Classifications -->
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon" style="background: #fef3c7; color: #d97706;">🏷</div>
+                <h2 class="card-title">Classifications</h2>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+                <div class="classification-category">Harrison's Chapter</div>
+                <div class="tag-list">
+                    
+                    <span class="tag tag-classification">nervous system disorder</span>
+                    
+                    <span class="tag tag-classification">epilepsy</span>
+                    
+                    <span class="tag tag-classification">hereditary disease</span>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+
         <!-- Subtypes -->
         
 
@@ -738,18 +830,37 @@
                     <span class="tag tag-cell">
                         inhibitory interneuron
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000498" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000498" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">voltage-gated sodium channel activity</span>
+                    <span class="tag tag-bio">
+                        voltage-gated sodium channel activity
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0005248" target="_blank" class="linkout">link</a>
+                        
+                    </span>
                     
-                    <span class="tag tag-bio">neuronal action potential</span>
+    
+    
+                    
+                    <span class="tag tag-bio">
+                        neuronal action potential
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0019228" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -764,7 +875,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/21463282" target="_blank">PMID:21463282</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/21463282" target="_blank">PMID:21463282</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -794,16 +905,27 @@
                     <span class="tag tag-cell">
                         inhibitory interneuron
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000498" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000498" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">synaptic transmission, GABAergic</span>
+                    <span class="tag tag-bio">
+                        synaptic transmission, GABAergic
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0051932" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -818,7 +940,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/21463282" target="_blank">PMID:21463282</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/21463282" target="_blank">PMID:21463282</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -848,9 +970,12 @@
                     <span class="tag tag-cell">
                         astrocyte
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000127" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000127" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -861,6 +986,9 @@
             </div>
             
         </div>
+        
+
+        <!-- Histopathology -->
         
 
         <!-- Causal Graph -->
@@ -886,7 +1014,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001250" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001250" target="_blank">
                             HP:0001250
                         </a>
                     </span>
@@ -907,7 +1035,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/21463282" target="_blank">PMID:21463282</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/21463282" target="_blank">PMID:21463282</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -937,7 +1065,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001263" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001263" target="_blank">
                             HP:0001263
                         </a>
                     </span>
@@ -958,7 +1086,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/21463282" target="_blank">PMID:21463282</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/21463282" target="_blank">PMID:21463282</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -988,7 +1116,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001249" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001249" target="_blank">
                             HP:0001249
                         </a>
                     </span>
@@ -1014,7 +1142,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0000752" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0000752" target="_blank">
                             HP:0000752
                         </a>
                     </span>
@@ -1040,7 +1168,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002373" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002373" target="_blank">
                             HP:0002373
                         </a>
                     </span>
@@ -1066,7 +1194,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001251" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001251" target="_blank">
                             HP:0001251
                         </a>
                     </span>
@@ -1092,7 +1220,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0000717" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0000717" target="_blank">
                             HP:0000717
                         </a>
                     </span>
@@ -1118,7 +1246,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002878" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002878" target="_blank">
                             HP:0002878
                         </a>
                     </span>
@@ -1144,7 +1272,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0033258" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0033258" target="_blank">
                             HP:0033258
                         </a>
                     </span>
@@ -1190,7 +1318,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/21463282" target="_blank">PMID:21463282</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/21463282" target="_blank">PMID:21463282</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1330,7 +1458,7 @@
                     Antiepileptic Medications
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000058" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000058" target="_blank">
                             MAXO:0000058
                         </a>
                     </span>
@@ -1349,7 +1477,7 @@
                     Ketogenic Diet
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000088" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000088" target="_blank">
                             MAXO:0000088
                         </a>
                     </span>
@@ -1368,7 +1496,7 @@
                     Supportive Therapies
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000950" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000950" target="_blank">
                             MAXO:0000950
                         </a>
                     </span>
@@ -1387,7 +1515,7 @@
                     Vagus Nerve Stimulation (VNS)
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000004" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000004" target="_blank">
                             MAXO:0000004
                         </a>
                     </span>
@@ -1406,7 +1534,7 @@
                     Antisense Oligonucleotide Therapy (STK-001/Zorevunersen)
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0001001" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0001001" target="_blank">
                             MAXO:0001001
                         </a>
                     </span>
@@ -1425,7 +1553,7 @@
                     AAV Gene Therapy (ETX101)
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0001001" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0001001" target="_blank">
                             MAXO:0001001
                         </a>
                     </span>
@@ -1444,7 +1572,7 @@
                     Cannabidiol
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000058" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000058" target="_blank">
                             MAXO:0000058
                         </a>
                     </span>
@@ -1463,7 +1591,7 @@
                     Fenfluramine
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000058" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000058" target="_blank">
                             MAXO:0000058
                         </a>
                     </span>
@@ -1482,7 +1610,7 @@
                     Stiripentol
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000058" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000058" target="_blank">
                             MAXO:0000058
                         </a>
                     </span>
@@ -1913,6 +2041,11 @@ disease_term:
   term:
     id: MONDO:0100135
     label: Dravet syndrome
+classifications:
+  harrisons_chapter:
+    - classification_value: nervous system disorder
+    - classification_value: epilepsy
+    - classification_value: hereditary disease
 </pre>
             </div>
         </div>

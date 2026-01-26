@@ -210,9 +210,43 @@
             color: #92400e;
         }
 
+        .tag-modifier {
+            background: #fee2e2;
+            color: #991b1b;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
         .tag-parent {
             background: #e0e7ff;
             color: #3730a3;
+        }
+
+        .tag-classification {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .tag-mechanistic {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .linkout {
+            color: inherit;
+            margin-left: 6px;
+            font-size: 0.75rem;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+        }
+
+        .classification-category {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 8px;
         }
 
         /* Evidence styling */
@@ -333,6 +367,22 @@
         }
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
+
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
 
         /* Phenotypes */
         .phenotype-box {
@@ -647,6 +697,10 @@
     
 
     
+
+    
+    
+
     
 
     
@@ -666,7 +720,7 @@
                 
                 
                 <span class="badge badge-mondo">
-                    <a href="https://monarchinitiative.org/disease/MONDO:0013433" target="_blank">
+                    <a href="http://purl.obolibrary.org/obo/MONDO_0013433" target="_blank">
                         MONDO:0013433
                     </a>
                 </span>
@@ -677,6 +731,11 @@
                 <span class="badge badge-category" style="background: rgba(255,255,255,0.1);">Liver Disease</span>
                 
             </div>
+            
+            <p style="margin-top: 16px; font-size: 1rem; line-height: 1.6; opacity: 0.95; position: relative;">
+                A chronic cholestatic liver disease characterized by inflammation and fibrosis of intrahepatic and extrahepatic bile ducts, leading to multifocal strictures and eventual biliary cirrhosis. Strongly associated with inflammatory bowel disease, particularly ulcerative colitis.
+            </p>
+            
         </header>
 
         <!-- Stats bar -->
@@ -684,6 +743,10 @@
             <div class="stat-item">
                 <div class="stat-value">3</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">4</div>
@@ -715,6 +778,33 @@
             </div>
         </div>
 
+        <!-- Classifications -->
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon" style="background: #fef3c7; color: #d97706;">🏷</div>
+                <h2 class="card-title">Classifications</h2>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+                <div class="classification-category">Harrison's Chapter</div>
+                <div class="tag-list">
+                    
+                    <span class="tag tag-classification">liver disorder</span>
+                    
+                    <span class="tag tag-classification">autoimmune disease</span>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+
         <!-- Subtypes -->
         
 
@@ -738,16 +828,27 @@
                     <span class="tag tag-cell">
                         Fibroblast
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000057" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000057" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">Inflammatory Response</span>
+                    <span class="tag tag-bio">
+                        Inflammatory Response
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006954" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -762,7 +863,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39250501" target="_blank">PMID:39250501</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39250501" target="_blank">PMID:39250501</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -779,7 +880,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39250501" target="_blank">PMID:39250501</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39250501" target="_blank">PMID:39250501</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -811,16 +912,27 @@
                     <span class="tag tag-cell">
                         T Cell
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000084" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000084" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">Cell Migration</span>
+                    <span class="tag tag-bio">
+                        Cell Migration
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0016477" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -835,7 +947,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39250501" target="_blank">PMID:39250501</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39250501" target="_blank">PMID:39250501</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -865,7 +977,15 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">Cellular Senescence</span>
+                    <span class="tag tag-bio">
+                        Cellular Senescence
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0090398" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -880,7 +1000,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39250501" target="_blank">PMID:39250501</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39250501" target="_blank">PMID:39250501</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -902,6 +1022,9 @@
             </div>
             
         </div>
+        
+
+        <!-- Histopathology -->
         
 
         <!-- Causal Graph -->
@@ -927,7 +1050,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0000989" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0000989" target="_blank">
                             HP:0000989
                         </a>
                     </span>
@@ -951,7 +1074,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0012378" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0012378" target="_blank">
                             HP:0012378
                         </a>
                     </span>
@@ -975,7 +1098,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0000952" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0000952" target="_blank">
                             HP:0000952
                         </a>
                     </span>
@@ -999,7 +1122,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002027" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002027" target="_blank">
                             HP:0002027
                         </a>
                     </span>
@@ -1081,7 +1204,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39404413" target="_blank">PMID:39404413</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39404413" target="_blank">PMID:39404413</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1134,7 +1257,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39250501" target="_blank">PMID:39250501</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39250501" target="_blank">PMID:39250501</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1224,7 +1347,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/39250501" target="_blank">PMID:39250501</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/39250501" target="_blank">PMID:39250501</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1316,7 +1439,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://bioregistry.io/clinicaltrials:NCT06037577" target="_blank">clinicaltrials:NCT06037577</a>
+                        <a href="https://clinicaltrials.gov/study/NCT06037577" target="_blank">clinicaltrials:NCT06037577</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1540,6 +1663,10 @@ clinical_trials:
     supports: SUPPORT
     snippet: CM-101 is developed as treatment for medical conditions involving inflammatory and fibrotic mechanisms such as non-alcoholic steatohepatitis (NASH) and primary sclerosing cholangitis (PSC) and systemic sclerosis (SSc). In this current study, the IP is tested in healthy male volunteers.
     explanation: This Phase I study characterizes CM-101, a candidate therapy for PSC and related fibrotic diseases, establishing early human safety data.
+classifications:
+  harrisons_chapter:
+    - classification_value: liver disorder
+    - classification_value: autoimmune disease
 </pre>
             </div>
         </div>

@@ -210,9 +210,43 @@
             color: #92400e;
         }
 
+        .tag-modifier {
+            background: #fee2e2;
+            color: #991b1b;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
         .tag-parent {
             background: #e0e7ff;
             color: #3730a3;
+        }
+
+        .tag-classification {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .tag-mechanistic {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .linkout {
+            color: inherit;
+            margin-left: 6px;
+            font-size: 0.75rem;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+        }
+
+        .classification-category {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 8px;
         }
 
         /* Evidence styling */
@@ -333,6 +367,22 @@
         }
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
+
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
 
         /* Phenotypes */
         .phenotype-box {
@@ -647,6 +697,10 @@
     
 
     
+
+    
+    
+
     
 
     
@@ -666,7 +720,7 @@
                 
                 
                 <span class="badge badge-mondo">
-                    <a href="https://monarchinitiative.org/disease/MONDO:0020066" target="_blank">
+                    <a href="http://purl.obolibrary.org/obo/MONDO_0020066" target="_blank">
                         MONDO:0020066
                     </a>
                 </span>
@@ -677,6 +731,7 @@
                 <span class="badge badge-category" style="background: rgba(255,255,255,0.1);">Inherited Disorder</span>
                 
             </div>
+            
         </header>
 
         <!-- Stats bar -->
@@ -684,6 +739,10 @@
             <div class="stat-item">
                 <div class="stat-value">6</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">13</div>
@@ -715,6 +774,44 @@
             </div>
         </div>
 
+        <!-- Classifications -->
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon" style="background: #fef3c7; color: #d97706;">🏷</div>
+                <h2 class="card-title">Classifications</h2>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+                <div class="classification-category">Harrison's Chapter</div>
+                <div class="tag-list">
+                    
+                    <span class="tag tag-classification">musculoskeletal system disorder</span>
+                    
+                    <span class="tag tag-classification">connective tissue disease</span>
+                    
+                    <span class="tag tag-classification">hereditary disease</span>
+                    
+                </div>
+            </div>
+            
+            
+            <div style="margin-bottom: 16px;">
+                <div class="classification-category">Mechanistic Nosology</div>
+                <div class="tag-list">
+                    
+                    <span class="tag tag-mechanistic">collagenopathy</span>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+
         <!-- Subtypes -->
         
         <div class="card">
@@ -740,7 +837,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/28192633" target="_blank">PMID:28192633</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/28192633" target="_blank">PMID:28192633</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -777,7 +874,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/20301456" target="_blank">PMID:20301456</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/20301456" target="_blank">PMID:20301456</a>
                     </span>
                     
                     <span class="evidence-support support-PARTIAL">PARTIAL</span>
@@ -794,7 +891,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/31582002" target="_blank">PMID:31582002</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/31582002" target="_blank">PMID:31582002</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -811,7 +908,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/28145611" target="_blank">PMID:28145611</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/28145611" target="_blank">PMID:28145611</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -848,7 +945,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/33650410" target="_blank">PMID:33650410</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/33650410" target="_blank">PMID:33650410</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -865,7 +962,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/32941194" target="_blank">PMID:32941194</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/32941194" target="_blank">PMID:32941194</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -882,7 +979,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/29709596" target="_blank">PMID:29709596</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/29709596" target="_blank">PMID:29709596</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -921,7 +1018,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/18155911" target="_blank">PMID:18155911</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/18155911" target="_blank">PMID:18155911</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -938,7 +1035,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/20301635" target="_blank">PMID:20301635</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/20301635" target="_blank">PMID:20301635</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -980,9 +1077,25 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">collagen fibril organization</span>
+                    <span class="tag tag-bio">
+                        collagen fibril organization
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0030199" target="_blank" class="linkout">link</a>
+                        
+                    </span>
                     
-                    <span class="tag tag-bio">collagen biosynthetic process</span>
+    
+    
+                    
+                    <span class="tag tag-bio">
+                        collagen biosynthetic process
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0032964" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -997,7 +1110,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/7086195" target="_blank">PMID:7086195</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/7086195" target="_blank">PMID:7086195</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1014,7 +1127,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/37187299" target="_blank">PMID:37187299</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/37187299" target="_blank">PMID:37187299</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1031,7 +1144,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/2010058" target="_blank">PMID:2010058</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/2010058" target="_blank">PMID:2010058</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1065,23 +1178,37 @@
                     <span class="tag tag-cell">
                         fibroblast
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000057" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000057" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                     <span class="tag tag-cell">
                         vascular associated smooth muscle cell
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000359" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0000359" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">extracellular matrix organization</span>
+                    <span class="tag tag-bio">
+                        extracellular matrix organization
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0030198" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -1096,7 +1223,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/358109" target="_blank">PMID:358109</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/358109" target="_blank">PMID:358109</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1113,7 +1240,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36960056" target="_blank">PMID:36960056</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36960056" target="_blank">PMID:36960056</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1130,7 +1257,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/1448" target="_blank">PMID:1448</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/1448" target="_blank">PMID:1448</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1171,7 +1298,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/24443025" target="_blank">PMID:24443025</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24443025" target="_blank">PMID:24443025</a>
                     </span>
                     
                     <span class="evidence-support support-PARTIAL">PARTIAL</span>
@@ -1188,7 +1315,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/29982180" target="_blank">PMID:29982180</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/29982180" target="_blank">PMID:29982180</a>
                     </span>
                     
                     <span class="evidence-support support-PARTIAL">PARTIAL</span>
@@ -1205,7 +1332,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/19592142" target="_blank">PMID:19592142</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/19592142" target="_blank">PMID:19592142</a>
                     </span>
                     
                     <span class="evidence-support support-PARTIAL">PARTIAL</span>
@@ -1235,9 +1362,25 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">integrin-mediated signaling pathway</span>
+                    <span class="tag tag-bio">
+                        integrin-mediated signaling pathway
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0007229" target="_blank" class="linkout">link</a>
+                        
+                    </span>
                     
-                    <span class="tag tag-bio">inflammatory response</span>
+    
+    
+                    
+                    <span class="tag tag-bio">
+                        inflammatory response
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006954" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -1255,9 +1398,25 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">autophagy</span>
+                    <span class="tag tag-bio">
+                        autophagy
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006914" target="_blank" class="linkout">link</a>
+                        
+                    </span>
                     
-                    <span class="tag tag-bio">protein folding</span>
+    
+    
+                    
+                    <span class="tag tag-bio">
+                        protein folding
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006457" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -1275,9 +1434,25 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">complement activation, classical pathway</span>
+                    <span class="tag tag-bio">
+                        complement activation, classical pathway
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006958" target="_blank" class="linkout">link</a>
+                        
+                    </span>
                     
-                    <span class="tag tag-bio">proteolysis</span>
+    
+    
+                    
+                    <span class="tag tag-bio">
+                        proteolysis
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006508" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -1287,6 +1462,9 @@
             </div>
             
         </div>
+        
+
+        <!-- Histopathology -->
         
 
         <!-- Causal Graph -->
@@ -1299,15 +1477,15 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Joint_Hypermobility[&#34;Joint Hypermobility&#34;]
     Chronic_Joint_Pain[&#34;Chronic Joint Pain&#34;]
+    Joint_Hypermobility[&#34;Joint Hypermobility&#34;]
     Recurrent_Joint_Dislocations[&#34;Recurrent Joint Dislocations&#34;]
 
     Joint_Hypermobility --&gt; Recurrent_Joint_Dislocations
     Joint_Hypermobility --&gt; Chronic_Joint_Pain
 
-    style Joint_Hypermobility fill:#fef3c7
     style Chronic_Joint_Pain fill:#fef3c7
+    style Joint_Hypermobility fill:#fef3c7
     style Recurrent_Joint_Dislocations fill:#fef3c7</pre>
             </div>
         </div>
@@ -1333,7 +1511,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001382" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001382" target="_blank">
                             HP:0001382
                         </a>
                     </span>
@@ -1361,7 +1539,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34807421" target="_blank">PMID:34807421</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34807421" target="_blank">PMID:34807421</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1378,7 +1556,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/29915965" target="_blank">PMID:29915965</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/29915965" target="_blank">PMID:29915965</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1395,7 +1573,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/37726791" target="_blank">PMID:37726791</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/37726791" target="_blank">PMID:37726791</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1440,7 +1618,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/358109" target="_blank">PMID:358109</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/358109" target="_blank">PMID:358109</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1457,7 +1635,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/30837697" target="_blank">PMID:30837697</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/30837697" target="_blank">PMID:30837697</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1474,7 +1652,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/434850" target="_blank">PMID:434850</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/434850" target="_blank">PMID:434850</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1508,7 +1686,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001058" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001058" target="_blank">
                             HP:0001058
                         </a>
                     </span>
@@ -1527,7 +1705,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/19055167" target="_blank">PMID:19055167</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/19055167" target="_blank">PMID:19055167</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1544,7 +1722,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/2728341" target="_blank">PMID:2728341</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/2728341" target="_blank">PMID:2728341</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1561,7 +1739,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/20847697" target="_blank">PMID:20847697</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/20847697" target="_blank">PMID:20847697</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1606,7 +1784,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/19462862" target="_blank">PMID:19462862</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/19462862" target="_blank">PMID:19462862</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1623,7 +1801,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/30999998" target="_blank">PMID:30999998</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/30999998" target="_blank">PMID:30999998</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1655,7 +1833,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0000563" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0000563" target="_blank">
                             HP:0000563
                         </a>
                     </span>
@@ -1674,7 +1852,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36237549" target="_blank">PMID:36237549</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36237549" target="_blank">PMID:36237549</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1691,7 +1869,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/28757364" target="_blank">PMID:28757364</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/28757364" target="_blank">PMID:28757364</a>
                     </span>
                     
                     <span class="evidence-support support-NO_EVIDENCE">NO_EVIDENCE</span>
@@ -1708,7 +1886,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/9493273" target="_blank">PMID:9493273</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/9493273" target="_blank">PMID:9493273</a>
                     </span>
                     
                     <span class="evidence-support support-NO_EVIDENCE">NO_EVIDENCE</span>
@@ -1742,7 +1920,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001634" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001634" target="_blank">
                             HP:0001634
                         </a>
                     </span>
@@ -1761,7 +1939,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/35000503" target="_blank">PMID:35000503</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/35000503" target="_blank">PMID:35000503</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1778,7 +1956,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/6993166" target="_blank">PMID:6993166</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/6993166" target="_blank">PMID:6993166</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1795,7 +1973,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34776077" target="_blank">PMID:34776077</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34776077" target="_blank">PMID:34776077</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1842,7 +2020,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/19462862" target="_blank">PMID:19462862</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/19462862" target="_blank">PMID:19462862</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1859,7 +2037,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/23657781" target="_blank">PMID:23657781</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23657781" target="_blank">PMID:23657781</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1876,7 +2054,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/7455751" target="_blank">PMID:7455751</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/7455751" target="_blank">PMID:7455751</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1910,7 +2088,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002020" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002020" target="_blank">
                             HP:0002020
                         </a>
                     </span>
@@ -1929,7 +2107,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/26376608" target="_blank">PMID:26376608</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26376608" target="_blank">PMID:26376608</a>
                     </span>
                     
                     <span class="evidence-support support-NO_EVIDENCE">NO_EVIDENCE</span>
@@ -1946,7 +2124,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36000988" target="_blank">PMID:36000988</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36000988" target="_blank">PMID:36000988</a>
                     </span>
                     
                     <span class="evidence-support support-NO_EVIDENCE">NO_EVIDENCE</span>
@@ -1963,7 +2141,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34811894" target="_blank">PMID:34811894</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34811894" target="_blank">PMID:34811894</a>
                     </span>
                     
                     <span class="evidence-support support-PARTIAL">PARTIAL</span>
@@ -1995,7 +2173,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0000563" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0000563" target="_blank">
                             HP:0000563
                         </a>
                     </span>
@@ -2014,7 +2192,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36237549" target="_blank">PMID:36237549</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36237549" target="_blank">PMID:36237549</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2031,7 +2209,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34501218" target="_blank">PMID:34501218</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34501218" target="_blank">PMID:34501218</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2063,7 +2241,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001382" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001382" target="_blank">
                             HP:0001382
                         </a>
                     </span>
@@ -2087,7 +2265,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002829" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002829" target="_blank">
                             HP:0002829
                         </a>
                     </span>
@@ -2111,7 +2289,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0004349" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0004349" target="_blank">
                             HP:0004349
                         </a>
                     </span>
@@ -2137,7 +2315,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001252" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001252" target="_blank">
                             HP:0001252
                         </a>
                     </span>
@@ -2183,7 +2361,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36896471" target="_blank">PMID:36896471</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36896471" target="_blank">PMID:36896471</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2223,7 +2401,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34560710" target="_blank">PMID:34560710</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34560710" target="_blank">PMID:34560710</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2240,7 +2418,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/30837697" target="_blank">PMID:30837697</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/30837697" target="_blank">PMID:30837697</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2257,7 +2435,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/35699227" target="_blank">PMID:35699227</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/35699227" target="_blank">PMID:35699227</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2297,7 +2475,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/16278879" target="_blank">PMID:16278879</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/16278879" target="_blank">PMID:16278879</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2337,7 +2515,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/16278879" target="_blank">PMID:16278879</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/16278879" target="_blank">PMID:16278879</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2377,7 +2555,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/12646579" target="_blank">PMID:12646579</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/12646579" target="_blank">PMID:12646579</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2417,7 +2595,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36108117" target="_blank">PMID:36108117</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36108117" target="_blank">PMID:36108117</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2457,7 +2635,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36960056" target="_blank">PMID:36960056</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36960056" target="_blank">PMID:36960056</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2497,7 +2675,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/36960056" target="_blank">PMID:36960056</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/36960056" target="_blank">PMID:36960056</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2537,7 +2715,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/32174067" target="_blank">PMID:32174067</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/32174067" target="_blank">PMID:32174067</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2554,7 +2732,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/15979919" target="_blank">PMID:15979919</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/15979919" target="_blank">PMID:15979919</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2571,7 +2749,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/29982180" target="_blank">PMID:29982180</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/29982180" target="_blank">PMID:29982180</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2611,7 +2789,7 @@
                     Supportive Care
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000011" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000011" target="_blank">
                             MAXO:0000011
                         </a>
                     </span>
@@ -2631,7 +2809,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38189943" target="_blank">PMID:38189943</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38189943" target="_blank">PMID:38189943</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2648,7 +2826,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34145717" target="_blank">PMID:34145717</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34145717" target="_blank">PMID:34145717</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2665,7 +2843,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/17067502" target="_blank">PMID:17067502</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/17067502" target="_blank">PMID:17067502</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2693,7 +2871,7 @@
                     Surgical Interventions
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000004" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000004" target="_blank">
                             MAXO:0000004
                         </a>
                     </span>
@@ -2713,7 +2891,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/32904109" target="_blank">PMID:32904109</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/32904109" target="_blank">PMID:32904109</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2730,7 +2908,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/30999998" target="_blank">PMID:30999998</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/30999998" target="_blank">PMID:30999998</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2747,7 +2925,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/33650410" target="_blank">PMID:33650410</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/33650410" target="_blank">PMID:33650410</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2773,7 +2951,7 @@
                     Lifestyle Modifications
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000088" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000088" target="_blank">
                             MAXO:0000088
                         </a>
                     </span>
@@ -2793,7 +2971,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/17067502" target="_blank">PMID:17067502</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/17067502" target="_blank">PMID:17067502</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2810,7 +2988,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/35756986" target="_blank">PMID:35756986</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/35756986" target="_blank">PMID:35756986</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2836,7 +3014,7 @@
                     Orthotic Interventions
                     
                     <span class="phenotype-id">
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/maxo/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMAXO_0000004" target="_blank">
+                        <a href="https://bioregistry.io/MAXO:0000004" target="_blank">
                             MAXO:0000004
                         </a>
                     </span>
@@ -2856,7 +3034,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/27349123" target="_blank">PMID:27349123</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/27349123" target="_blank">PMID:27349123</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2873,7 +3051,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/32709178" target="_blank">PMID:32709178</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/32709178" target="_blank">PMID:32709178</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2921,7 +3099,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/26452443" target="_blank">PMID:26452443</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26452443" target="_blank">PMID:26452443</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2938,7 +3116,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/28186390" target="_blank">PMID:28186390</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/28186390" target="_blank">PMID:28186390</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2955,7 +3133,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/23095510" target="_blank">PMID:23095510</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23095510" target="_blank">PMID:23095510</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -2991,7 +3169,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/31582002" target="_blank">PMID:31582002</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/31582002" target="_blank">PMID:31582002</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -3008,7 +3186,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/32175940" target="_blank">PMID:32175940</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/32175940" target="_blank">PMID:32175940</a>
                     </span>
                     
                     <span class="evidence-support support-PARTIAL">PARTIAL</span>
@@ -3060,7 +3238,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/23645670" target="_blank">PMID:23645670</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23645670" target="_blank">PMID:23645670</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -3077,7 +3255,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/35245290" target="_blank">PMID:35245290</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/35245290" target="_blank">PMID:35245290</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -3094,7 +3272,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/34226255" target="_blank">PMID:34226255</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/34226255" target="_blank">PMID:34226255</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -4244,6 +4422,13 @@ disease_term:
   term:
     id: MONDO:0020066
     label: Ehlers-Danlos syndrome
+classifications:
+  harrisons_chapter:
+    - classification_value: musculoskeletal system disorder
+    - classification_value: connective tissue disease
+    - classification_value: hereditary disease
+  mechanistic_category:
+    - classification_value: collagenopathy
 </pre>
             </div>
         </div>

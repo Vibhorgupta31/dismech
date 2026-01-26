@@ -210,9 +210,43 @@
             color: #92400e;
         }
 
+        .tag-modifier {
+            background: #fee2e2;
+            color: #991b1b;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
         .tag-parent {
             background: #e0e7ff;
             color: #3730a3;
+        }
+
+        .tag-classification {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .tag-mechanistic {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .linkout {
+            color: inherit;
+            margin-left: 6px;
+            font-size: 0.75rem;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+        }
+
+        .classification-category {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 8px;
         }
 
         /* Evidence styling */
@@ -333,6 +367,22 @@
         }
         .pathophys-box .item-name { color: #92400e; }
         .pathophys-box .item-desc { color: #78350f; }
+
+        /* Histopathology */
+        .histopathology-box {
+            background: #fff7ed;
+            border-left: 4px solid #fb923c;
+        }
+        .histopathology-box .item-name { color: #9a3412; }
+        .histopathology-box .item-desc { color: #c2410c; }
+
+        .histopathology-freq {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #ffedd5;
+            color: #c2410c;
+        }
 
         /* Phenotypes */
         .phenotype-box {
@@ -647,6 +697,10 @@
     
 
     
+
+    
+    
+
     
 
     
@@ -666,7 +720,7 @@
                 
                 
                 <span class="badge badge-mondo">
-                    <a href="https://monarchinitiative.org/disease/MONDO:0007186" target="_blank">
+                    <a href="http://purl.obolibrary.org/obo/MONDO_0007186" target="_blank">
                         MONDO:0007186
                     </a>
                 </span>
@@ -675,6 +729,7 @@
                 <span class="badge badge-category" style="background: rgba(255,255,255,0.1);">Gastrointestinal Disease</span>
                 
             </div>
+            
         </header>
 
         <!-- Stats bar -->
@@ -682,6 +737,10 @@
             <div class="stat-item">
                 <div class="stat-value">6</div>
                 <div class="stat-label">Mechanisms</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">0</div>
+                <div class="stat-label">Histopathology</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value">5</div>
@@ -713,6 +772,33 @@
             </div>
         </div>
 
+        <!-- Classifications -->
+        
+        <div class="card">
+            <div class="card-header">
+                <div class="card-icon" style="background: #fef3c7; color: #d97706;">🏷</div>
+                <h2 class="card-title">Classifications</h2>
+            </div>
+            
+            <div style="margin-bottom: 16px;">
+                <div class="classification-category">Harrison's Chapter</div>
+                <div class="tag-list">
+                    
+                    <span class="tag tag-classification">digestive system disorder</span>
+                    
+                    <span class="tag tag-classification">peptic disorder</span>
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+
         <!-- Subtypes -->
         
 
@@ -735,7 +821,15 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">Smooth Muscle Contraction</span>
+                    <span class="tag tag-bio">
+                        Smooth Muscle Contraction
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0006939" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -750,7 +844,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38177402" target="_blank">PMID:38177402</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38177402" target="_blank">PMID:38177402</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -767,7 +861,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38177402" target="_blank">PMID:38177402</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38177402" target="_blank">PMID:38177402</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -800,9 +894,12 @@
                     <span class="tag tag-cell">
                         Esophageal Epithelial Cell
                         
-                        <a href="https://www.ebi.ac.uk/ols4/ontologies/cl/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0002252" target="_blank" style="color: inherit; margin-left: 4px;">↗</a>
+                        <a href="http://purl.obolibrary.org/obo/CL_0002252" target="_blank" class="linkout">link</a>
                         
                     </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -818,7 +915,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38177402" target="_blank">PMID:38177402</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38177402" target="_blank">PMID:38177402</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -835,7 +932,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38177402" target="_blank">PMID:38177402</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38177402" target="_blank">PMID:38177402</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -866,7 +963,15 @@
                 
                 <div class="item-meta">
                     
-                    <span class="tag tag-bio">Digestion</span>
+                    <span class="tag tag-bio">
+                        Digestion
+                        
+                        <a href="http://purl.obolibrary.org/obo/GO_0007586" target="_blank" class="linkout">link</a>
+                        
+                    </span>
+                    
+    
+    
                     
                 </div>
                 
@@ -881,7 +986,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38177402" target="_blank">PMID:38177402</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38177402" target="_blank">PMID:38177402</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -921,7 +1026,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38177402" target="_blank">PMID:38177402</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38177402" target="_blank">PMID:38177402</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -961,7 +1066,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38449873" target="_blank">PMID:38449873</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38449873" target="_blank">PMID:38449873</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -978,7 +1083,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/38449873" target="_blank">PMID:38449873</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/38449873" target="_blank">PMID:38449873</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1018,7 +1123,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/17932229" target="_blank">PMID:17932229</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/17932229" target="_blank">PMID:17932229</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1035,7 +1140,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/17932229" target="_blank">PMID:17932229</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/17932229" target="_blank">PMID:17932229</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1052,7 +1157,7 @@
             <div class="evidence-item">
                 <div class="evidence-header">
                     <span class="evidence-ref">
-                        <a href="https://pubmed.ncbi.nlm.nih.gov/17932229" target="_blank">PMID:17932229</a>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/17932229" target="_blank">PMID:17932229</a>
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
@@ -1074,6 +1179,9 @@
             </div>
             
         </div>
+        
+
+        <!-- Histopathology -->
         
 
         <!-- Causal Graph -->
@@ -1099,7 +1207,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0410281" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0410281" target="_blank">
                             HP:0410281
                         </a>
                     </span>
@@ -1123,7 +1231,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002020" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002020" target="_blank">
                             HP:0002020
                         </a>
                     </span>
@@ -1147,7 +1255,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0002015" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0002015" target="_blank">
                             HP:0002015
                         </a>
                     </span>
@@ -1173,7 +1281,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0012735" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0012735" target="_blank">
                             HP:0012735
                         </a>
                     </span>
@@ -1199,7 +1307,7 @@
                     
                     
                     <span class="phenotype-id">
-                        <a href="https://hpo.jax.org/browse/term/HP:0001609" target="_blank">
+                        <a href="http://purl.obolibrary.org/obo/HP_0001609" target="_blank">
                             HP:0001609
                         </a>
                     </span>
@@ -1652,6 +1760,10 @@ treatments:
   description: Surgical option for refractory GERD.
 - name: LINX Device
   description: Magnetic sphincter augmentation.
+classifications:
+  harrisons_chapter:
+    - classification_value: digestive system disorder
+    - classification_value: peptic disorder
 datasets:
 </pre>
             </div>

@@ -15,11 +15,17 @@ requires-python = ">=3.11,<4.0"
 dynamic = ["version"]
 
 dependencies = [
+  "beautifulsoup4>=4.14.3",
+  "httpx>=0.28.1",
   "linkml-data-qc[viz]",
   "linkml-reference-validator>=0.1.4rc8",
   "linkml-runtime >=1.9.4",
   "linkml-term-validator>=0.2.1",
+  "typer>=0.9.0",
 ]
+
+[project.scripts]
+clingen-go = "dismech.clingen.cli:main"
 
 [dependency-groups]
 dev = [
@@ -29,6 +35,14 @@ dev = [
     "jupyter>=1.0.0",
     "mknotebooks>= 0.8.0",
     "deep-research-client[cyberian]",
+]
+embeddings = [
+    "linkml-store[llm]>=0.2.0",
+    "umap-learn>=0.5.0",
+    "matplotlib>=3.5.0",
+    "numpy>=1.21.0",
+    "scikit-learn>=1.0.0",
+    "plotly>=5.0.0",
 ]
 
 # See https://hatch.pypa.io/latest/config/build/#file-selection for how to
