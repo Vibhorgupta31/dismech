@@ -303,6 +303,7 @@
             border-radius: 4px;
             font-weight: 600;
             text-transform: uppercase;
+            transition: transform 120ms ease, box-shadow 120ms ease;
         }
 
         .support-SUPPORT { background: #dcfce7; color: #166534; }
@@ -310,6 +311,29 @@
         .support-REFUTE { background: #fee2e2; color: #991b1b; }
         .support-NO_EVIDENCE { background: #f1f5f9; color: #64748b; }
         .support-WRONG_STATEMENT { background: #fecaca; color: #7f1d1d; }
+
+        .evidence-source {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            background: #e2e8f0;
+            color: #334155;
+            transition: transform 120ms ease, box-shadow 120ms ease;
+        }
+
+        .evidence-support:hover,
+        .evidence-source:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .source-HUMAN_CLINICAL { background: #e0f2fe; color: #075985; }
+        .source-MODEL_ORGANISM { background: #fef9c3; color: #854d0e; }
+        .source-IN_VITRO { background: #ede9fe; color: #5b21b6; }
+        .source-COMPUTATIONAL { background: #cffafe; color: #0e7490; }
+        .source-OTHER { background: #e5e7eb; color: #374151; }
 
         .evidence-snippet {
             font-size: 0.85rem;
@@ -904,6 +928,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"High microsatellite instability (MSI-H) colorectal cancer (CRC), caused by deficient mismatch repair, accounts for about 15% of all CRC cases and is more common in right-sided tumors."</div>
@@ -943,6 +968,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"Microsatellite unstable (MSI) colorectal cancers (CRCs) are due to DNA mismatch repair (MMR) deficiency"</div>
@@ -981,6 +1007,7 @@
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
+                    
                     
                 </div>
                 
@@ -1122,6 +1149,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"Adenocarcinoma is the most common pathologic subtype of colon cancer"</div>
@@ -1151,10 +1179,10 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Neoantigen_Driven_Immune_Response[&#34;Neoantigen-Driven Immune Response&#34;]
-    Frameshift_Mutations_in_Tumor_Suppressors[&#34;Frameshift Mutations in Tumor Suppressors&#34;]
     DNA_Mismatch_Repair_Deficiency[&#34;DNA Mismatch Repair Deficiency&#34;]
+    Frameshift_Mutations_in_Tumor_Suppressors[&#34;Frameshift Mutations in Tumor Suppressors&#34;]
     Microsatellite_Instability[&#34;Microsatellite Instability&#34;]
+    Neoantigen_Driven_Immune_Response[&#34;Neoantigen-Driven Immune Response&#34;]
     PD_L1_Upregulation_and_Immune_Evasion[&#34;PD-L1 Upregulation and Immune Evasion&#34;]
     Hypermutation_and_High_TMB[&#34;Hypermutation and High TMB&#34;]
 
@@ -1164,10 +1192,10 @@
     Hypermutation_and_High_TMB --&gt; Neoantigen_Driven_Immune_Response
     Neoantigen_Driven_Immune_Response --&gt; PD_L1_Upregulation_and_Immune_Evasion
 
-    style Neoantigen_Driven_Immune_Response fill:#dbeafe
-    style Frameshift_Mutations_in_Tumor_Suppressors fill:#dbeafe
     style DNA_Mismatch_Repair_Deficiency fill:#dbeafe
+    style Frameshift_Mutations_in_Tumor_Suppressors fill:#dbeafe
     style Microsatellite_Instability fill:#dbeafe
+    style Neoantigen_Driven_Immune_Response fill:#dbeafe
     style PD_L1_Upregulation_and_Immune_Evasion fill:#dbeafe
     style Hypermutation_and_High_TMB fill:#dbeafe</pre>
             </div>
@@ -1421,6 +1449,7 @@
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
+                    
                     
                 </div>
                 

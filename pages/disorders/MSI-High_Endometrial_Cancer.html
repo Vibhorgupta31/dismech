@@ -303,6 +303,7 @@
             border-radius: 4px;
             font-weight: 600;
             text-transform: uppercase;
+            transition: transform 120ms ease, box-shadow 120ms ease;
         }
 
         .support-SUPPORT { background: #dcfce7; color: #166534; }
@@ -310,6 +311,29 @@
         .support-REFUTE { background: #fee2e2; color: #991b1b; }
         .support-NO_EVIDENCE { background: #f1f5f9; color: #64748b; }
         .support-WRONG_STATEMENT { background: #fecaca; color: #7f1d1d; }
+
+        .evidence-source {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            background: #e2e8f0;
+            color: #334155;
+            transition: transform 120ms ease, box-shadow 120ms ease;
+        }
+
+        .evidence-support:hover,
+        .evidence-source:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .source-HUMAN_CLINICAL { background: #e0f2fe; color: #075985; }
+        .source-MODEL_ORGANISM { background: #fef9c3; color: #854d0e; }
+        .source-IN_VITRO { background: #ede9fe; color: #5b21b6; }
+        .source-COMPUTATIONAL { background: #cffafe; color: #0e7490; }
+        .source-OTHER { background: #e5e7eb; color: #374151; }
 
         .evidence-snippet {
             font-size: 0.85rem;
@@ -904,6 +928,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"Cancer immunotherapy through the use of PD-1/PD-L1 inhibitors have shown significant promise in endometrial carcinoma (EC), particularly in tumors with microsatellite instability (MSI) or mismatch repair deficiency (dMMR), present in approximately 30% of cases."</div>
@@ -960,6 +985,7 @@
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
+                    
                     
                 </div>
                 
@@ -1045,6 +1071,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"histological subtype is endometrioid adenocarcinoma."</div>
@@ -1074,15 +1101,15 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Hypermutation_and_Neoantigen_Generation[&#34;Hypermutation and Neoantigen Generation&#34;]
     Mismatch_Repair_Deficiency[&#34;Mismatch Repair Deficiency&#34;]
+    Hypermutation_and_Neoantigen_Generation[&#34;Hypermutation and Neoantigen Generation&#34;]
     Microsatellite_Instability[&#34;Microsatellite Instability&#34;]
 
     Mismatch_Repair_Deficiency --&gt; Microsatellite_Instability
     Mismatch_Repair_Deficiency --&gt; Hypermutation_and_Neoantigen_Generation
 
-    style Hypermutation_and_Neoantigen_Generation fill:#dbeafe
     style Mismatch_Repair_Deficiency fill:#dbeafe
+    style Hypermutation_and_Neoantigen_Generation fill:#dbeafe
     style Microsatellite_Instability fill:#dbeafe</pre>
             </div>
         </div>
@@ -1317,6 +1344,7 @@
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
+                    
                     
                 </div>
                 
