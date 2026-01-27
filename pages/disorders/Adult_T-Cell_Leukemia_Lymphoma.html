@@ -303,6 +303,7 @@
             border-radius: 4px;
             font-weight: 600;
             text-transform: uppercase;
+            transition: transform 120ms ease, box-shadow 120ms ease;
         }
 
         .support-SUPPORT { background: #dcfce7; color: #166534; }
@@ -310,6 +311,29 @@
         .support-REFUTE { background: #fee2e2; color: #991b1b; }
         .support-NO_EVIDENCE { background: #f1f5f9; color: #64748b; }
         .support-WRONG_STATEMENT { background: #fecaca; color: #7f1d1d; }
+
+        .evidence-source {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-transform: uppercase;
+            background: #e2e8f0;
+            color: #334155;
+            transition: transform 120ms ease, box-shadow 120ms ease;
+        }
+
+        .evidence-support:hover,
+        .evidence-source:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .source-HUMAN_CLINICAL { background: #e0f2fe; color: #075985; }
+        .source-MODEL_ORGANISM { background: #fef9c3; color: #854d0e; }
+        .source-IN_VITRO { background: #ede9fe; color: #5b21b6; }
+        .source-COMPUTATIONAL { background: #cffafe; color: #0e7490; }
+        .source-OTHER { background: #e5e7eb; color: #374151; }
 
         .evidence-snippet {
             font-size: 0.85rem;
@@ -922,6 +946,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"HTLV-1 causes 2 major diseases: adult T-cell leukemia/lymphoma (ATLL) and tropical spastic paraparesis/HTLV-1-associated myelopathy."</div>
@@ -938,6 +963,7 @@
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
+                    
                     
                 </div>
                 
@@ -1127,6 +1153,7 @@
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
                     
+                    
                 </div>
                 
                 <div class="evidence-snippet">"Adult T-cell lymphoma/leukemia (ATL) is a rare T-cell lymphoproliferative"</div>
@@ -1156,11 +1183,11 @@
             
             <div class="mermaid-container">
                 <pre class="mermaid">graph TD
-    Uncontrolled_T_Cell_Proliferation[&#34;Uncontrolled T-Cell Proliferation&#34;]
-    Tax_Mediated_NF_kappaB_Activation[&#34;Tax-Mediated NF-kappaB Activation&#34;]
-    Genomic_Instability_and_Accumulation_of_Mutations[&#34;Genomic Instability and Accumulation of Mutations&#34;]
-    Apoptosis_Resistance[&#34;Apoptosis Resistance&#34;]
     HTLV_1_Infection_and_Tax_Oncoprotein_Expression[&#34;HTLV-1 Infection and Tax Oncoprotein Expression&#34;]
+    Uncontrolled_T_Cell_Proliferation[&#34;Uncontrolled T-Cell Proliferation&#34;]
+    Genomic_Instability_and_Accumulation_of_Mutations[&#34;Genomic Instability and Accumulation of Mutations&#34;]
+    Tax_Mediated_NF_kappaB_Activation[&#34;Tax-Mediated NF-kappaB Activation&#34;]
+    Apoptosis_Resistance[&#34;Apoptosis Resistance&#34;]
 
     HTLV_1_Infection_and_Tax_Oncoprotein_Expression --&gt; Tax_Mediated_NF_kappaB_Activation
     HTLV_1_Infection_and_Tax_Oncoprotein_Expression --&gt; Genomic_Instability_and_Accumulation_of_Mutations
@@ -1168,11 +1195,11 @@
     Tax_Mediated_NF_kappaB_Activation --&gt; Uncontrolled_T_Cell_Proliferation
     Genomic_Instability_and_Accumulation_of_Mutations --&gt; Uncontrolled_T_Cell_Proliferation
 
+    style HTLV_1_Infection_and_Tax_Oncoprotein_Expression fill:#dbeafe
     style Uncontrolled_T_Cell_Proliferation fill:#dbeafe
-    style Tax_Mediated_NF_kappaB_Activation fill:#dbeafe
     style Genomic_Instability_and_Accumulation_of_Mutations fill:#dbeafe
-    style Apoptosis_Resistance fill:#dbeafe
-    style HTLV_1_Infection_and_Tax_Oncoprotein_Expression fill:#dbeafe</pre>
+    style Tax_Mediated_NF_kappaB_Activation fill:#dbeafe
+    style Apoptosis_Resistance fill:#dbeafe</pre>
             </div>
         </div>
         
@@ -1268,6 +1295,7 @@
                     </span>
                     
                     <span class="evidence-support support-SUPPORT">SUPPORT</span>
+                    
                     
                 </div>
                 
