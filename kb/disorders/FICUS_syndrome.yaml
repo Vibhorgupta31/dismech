@@ -1,12 +1,11 @@
 name: FICUS syndrome
 category: Psychiatric
+description: >
+  This entry describes the psychiatric PICS-F concept in ICU family members.
+  Note: MONDO:0978296 refers to a genetic dysmorphology syndrome (OMIM 621193),
+  not the PICS-F condition described here.
 parents:
   - Psychiatric Disease
-disease_term:
-  preferred_term: FICUS syndrome
-  term:
-    id: MONDO:0978296
-    label: FICUS syndrome
 prevalence:
   - population: ICU family members of COVID-19 patients (single-center, Japan)
     percentage: 33
