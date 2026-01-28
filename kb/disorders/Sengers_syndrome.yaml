@@ -41,11 +41,25 @@ inheritance:
         snippet: "Genetic testing of a boy revealed a homozygous pathogenic variant for Sengers syndrome in AGK (c.1131+2T>C) which was classified as likely pathogenic according to the ACMG guideline"
         explanation: Identification of a homozygous AGK variant supports autosomal recessive inheritance.
 pathophysiology:
-  - name: Loss of AGK disrupts TIM22 complex assembly in the mitochondrial inner membrane
+  - name: AGK loss of function disrupts lipid signaling
     description: >
-      Loss of functional AGK in Sengers syndrome perturbs TIM22 complex integrity
-      at the mitochondrial inner membrane, initiating downstream defects in
-      carrier protein import.
+      Loss of functional AGK impairs lipid signaling activity attributed to
+      mitochondrial acylglycerol kinase.
+    biological_processes:
+      - preferred_term: phosphatidic acid metabolic process
+        term:
+          id: GO:0046473
+          label: phosphatidic acid metabolic process
+        modifier: DYSREGULATED
+    evidence:
+      - reference: DOI:10.3390/ijms222413484
+        supports: SUPPORT
+        snippet: "AGK, a mitochondrial acylglycerol kinase, is not only involved in lipid signaling but is also a component of the TIM22 complex in the inner mitochondrial membrane, which mediates the import of a subset of membrane proteins."
+        explanation: This establishes AGK's role in lipid signaling that is lost with AGK deficiency.
+  - name: TIM22 complex assembly defect
+    description: >
+      Disrupted TIM22 complex assembly at the mitochondrial inner membrane
+      impairs the carrier protein import machinery.
     cellular_components:
       - preferred_term: mitochondrial inner membrane
         term:
@@ -55,21 +69,32 @@ pathophysiology:
       - reference: DOI:10.3390/ijms222413484
         supports: SUPPORT
         snippet: "AGK, a mitochondrial acylglycerol kinase, is not only involved in lipid signaling but is also a component of the TIM22 complex in the inner mitochondrial membrane, which mediates the import of a subset of membrane proteins."
-        explanation: This establishes AGK as a TIM22 subunit in the mitochondrial inner membrane.
-  - name: Impaired TIM22-mediated carrier import and one-carbon metabolism
+        explanation: This supports a TIM22 assembly defect at the mitochondrial inner membrane in AGK deficiency.
+  - name: Reduced TIM22-mediated import of inner-membrane carrier proteins
     description: >
-      TIM22 dysfunction in Sengers syndrome is associated with reduced import of
-      inner-membrane carriers and sideroflexins, with downstream effects on
-      mitochondrial one-carbon metabolism.
+      Disruption of the TIM22 complex reduces import of multi-pass carrier
+      proteins and sideroflexins into the inner mitochondrial membrane.
     biological_processes:
       - preferred_term: protein insertion into mitochondrial inner membrane
         term:
           id: GO:0045039
           label: protein insertion into mitochondrial inner membrane
+        modifier: DECREASED
+    evidence:
+      - reference: DOI:10.1091/mbc.e20-06-0390
+        supports: SUPPORT
+        snippet: "Proteomic profiling of Sengers patient fibroblasts and AGK knockout models identifies remodeling of the mitochondrial proteome, including mitochondrial one-carbon metabolism enzymes, inner membrane serine transporters, sideroflexins, and Complex I subunits and assembly factors."
+        explanation: This supports reduced import/abundance of inner-membrane carriers and sideroflexins in AGK deficiency.
+  - name: Impaired mitochondrial one-carbon metabolism
+    description: >
+      Reduced abundance of sideroflexins and one-carbon enzymes disrupts
+      mitochondrial one-carbon metabolism.
+    biological_processes:
       - preferred_term: one-carbon metabolic process
         term:
           id: GO:0006730
           label: one-carbon metabolic process
+        modifier: DYSREGULATED
     evidence:
       - reference: DOI:10.1091/mbc.e20-06-0390
         supports: SUPPORT
@@ -84,6 +109,7 @@ pathophysiology:
         term:
           id: GO:0006644
           label: phospholipid metabolic process
+        modifier: DYSREGULATED
     evidence:
       - reference: DOI:10.3390/ijms222413484
         supports: SUPPORT
@@ -98,6 +124,7 @@ pathophysiology:
         term:
           id: GO:0006119
           label: oxidative phosphorylation
+        modifier: DECREASED
     evidence:
       - reference: DOI:10.3390/ijms222413484
         supports: SUPPORT
@@ -106,6 +133,7 @@ pathophysiology:
 phenotypes:
   - name: Hypertrophic cardiomyopathy
     category: Cardiovascular
+    frequency: VERY_FREQUENT
     phenotype_term:
       preferred_term: Hypertrophic cardiomyopathy
       term:
@@ -122,6 +150,7 @@ phenotypes:
         explanation: This longitudinal case report reiterates hypertrophic cardiomyopathy as a defining feature.
   - name: Developmental cataract
     category: Ophthalmologic
+    frequency: VERY_FREQUENT
     phenotype_term:
       preferred_term: Developmental cataract
       term:
@@ -138,6 +167,7 @@ phenotypes:
         explanation: This report highlights congenital cataract as a core feature.
   - name: Myopathy
     category: Neuromuscular
+    frequency: VERY_FREQUENT
     phenotype_term:
       preferred_term: Myopathy
       term:
@@ -154,6 +184,7 @@ phenotypes:
         explanation: This report specifies mitochondrial myopathy as a defining feature.
   - name: Lactic acidosis
     category: Metabolic
+    frequency: VERY_FREQUENT
     phenotype_term:
       preferred_term: Lactic acidosis
       term:
@@ -170,6 +201,7 @@ phenotypes:
         explanation: This longitudinal case report includes lactic acidosis as a defining feature.
   - name: Congestive heart failure
     category: Cardiovascular
+    frequency: FREQUENT
     phenotype_term:
       preferred_term: Congestive heart failure
       term:
@@ -186,6 +218,7 @@ phenotypes:
         explanation: This case report documents biochemical evidence of heart failure in a Sengers syndrome patient.
   - name: Aplasia of the ovary
     category: Genitourinary
+    frequency: VERY_RARE
     phenotype_term:
       preferred_term: Aplasia of the ovary
       term:
@@ -199,7 +232,7 @@ phenotypes:
 genetic:
   - name: AGK
     association: Causative
-    notes: Autosomal recessive
+    notes: Autosomal recessive; HGNC:21869
     evidence:
       - reference: DOI:10.3389/fped.2021.639687
         supports: SUPPORT
@@ -266,6 +299,17 @@ treatments:
       term:
         id: MAXO:0010012
         label: coenzyme Q10 supplementation
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: coenzyme Q10
+            term:
+              id: NCIT:C916
+              label: Coenzyme Q10
   - name: Carnitine supplementation
     description: L-carnitine provided as part of mitochondrial supportive therapy.
     evidence:
@@ -282,6 +326,17 @@ treatments:
       term:
         id: MAXO:0010006
         label: carnitine supplementation
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: levocarnitine
+            term:
+              id: NCIT:C26657
+              label: Levocarnitine
   - name: B vitamin supplementation
     description: Vitamin B complex supplementation as part of supportive therapy.
     evidence:
@@ -298,6 +353,27 @@ treatments:
       term:
         id: MAXO:0000761
         label: B vitamin supplementation
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: thiamine
+            term:
+              id: NCIT:C874
+              label: Thiamine
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: riboflavin
+            term:
+              id: NCIT:C808
+              label: Riboflavin
   - name: ACE inhibitor therapy
     description: ACE inhibitor therapy used for heart failure management.
     evidence:
@@ -318,6 +394,17 @@ treatments:
       term:
         id: MAXO:0000652
         label: ACE inhibitor therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: captopril
+            term:
+              id: NCIT:C340
+              label: Captopril
   - name: Cardiac transplantation
     description: Heart transplantation for severe cardiomyopathy in Sengers syndrome.
     evidence:
@@ -350,6 +437,27 @@ treatments:
       term:
         id: MAXO:0000165
         label: diuretic agent therapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: furosemide
+            term:
+              id: NCIT:C515
+              label: Furosemide
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: spironolactone
+            term:
+              id: NCIT:C840
+              label: Spironolactone
   - name: Levosimendan infusion
     description: Levosimendan infusions used for heart failure support.
     evidence:
@@ -357,6 +465,22 @@ treatments:
         supports: SUPPORT
         snippet: "Baby was on regular follow-up and was thriving well on diuretics, sacubitril-valsartan and weekly levosimendan infusions."
         explanation: This neonatal case report describes levosimendan infusions in Sengers syndrome.
+    treatment_term:
+      preferred_term: pharmacotherapy
+      term:
+        id: MAXO:0000058
+        label: pharmacotherapy
+      qualifiers:
+        - predicate:
+            preferred_term: therapeutic agent
+            term:
+              id: NCIT:C2259
+              label: Therapeutic Agent
+          value:
+            preferred_term: levosimendan
+            term:
+              id: NCIT:C174653
+              label: Levosimendan
 datasets: []
 differential_diagnoses:
   - name: Barth syndrome
@@ -393,3 +517,16 @@ differential_diagnoses:
         supports: SUPPORT
         snippet: "Sengers syndrome (due to mutations in AGK), MEGDEL syndrome (or SERAC defect, SERAC1), Barth syndrome (or TAZ defect, TAZ)"
         explanation: This review lists MEGDEL syndrome as a related phospholipid metabolism disorder to consider in the differential.
+  - name: Adenine nucleotide translocator 1 (ANT1) deficiency
+    description: Reduced ANT1 protein and activity can present with overlapping mitochondrial cardiomyopathy and myopathy features.
+    distinguishing_features:
+      - ANT1 protein content and transport activity are markedly reduced in muscle, yet sequence and linkage analyses may exclude ANT1 as the primary genetic cause.
+    evidence:
+      - reference: DOI:10.1002/ana.10214
+        supports: SUPPORT
+        snippet: "In immunoblot analysis, the protein content of the mitochondrial adenine nucleotide translocator 1 (ANT1) was found to be strongly reduced in the muscle tissues of two unrelated patients with Sengers syndrome."
+        explanation: The abstract documents reduced ANT1 protein in muscle, a key differential consideration.
+      - reference: DOI:10.1002/ana.10214
+        supports: SUPPORT
+        snippet: "Sequence analysis and linkage analysis showed that ANT1 was not the primary genetic cause of Sengers syndrome."
+        explanation: This supports distinguishing ANT1 deficiency from primary AGK-related Sengers syndrome.
