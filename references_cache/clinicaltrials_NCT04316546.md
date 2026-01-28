@@ -34,4 +34,4 @@ Participants will complete surveys about their levels of pain, physical function
 
 Participants may have additional tests performed to assess their individual disease. They may have consultations with other specialists.
 
-Participation lasts about 4 years. Participants will have 20-30 visits at the NIH....
+Participation lasts about 4 years. Participants will have 20-30 visits at the NIH.
