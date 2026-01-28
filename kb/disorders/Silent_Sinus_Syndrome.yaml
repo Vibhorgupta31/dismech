@@ -13,6 +13,26 @@ synonyms:
   - Chronic maxillary atelectasis
   - Maxillary sinus atelectasis
 pathophysiology:
+  - name: Ostiomeatal Complex Obstruction
+    description: >-
+      Obstruction of the maxillary sinus ostium leads to impaired ventilation
+      and drainage, creating negative intrasinus pressure. The complete
+      obstruction results in gas resorption similar to middle ear atelectasis
+      due to Eustachian tube dysfunction.
+    evidence:
+      - reference: PMID:23946747
+        supports: SUPPORT
+        snippet: >-
+          Obstruction of the maxillary ostium appears to play a critical role
+          in the development of SSS.
+        explanation: >-
+          The reference explicitly states that ostium obstruction plays a
+          critical role in SSS development.
+    downstream:
+      - target: Maxillary Sinus Atelectasis
+        description: >-
+          Ostial obstruction leads to gas resorption and negative pressure,
+          causing progressive sinus wall collapse.
   - name: Maxillary Sinus Atelectasis
     description: >-
       Progressive collapse and inward retraction of the maxillary sinus walls
@@ -43,21 +63,11 @@ pathophysiology:
         explanation: >-
           This reference describes the progressive collapse mechanism due to
           sinus hypoventilation.
-  - name: Ostiomeatal Complex Obstruction
-    description: >-
-      Obstruction of the maxillary sinus ostium leads to impaired ventilation
-      and drainage, creating negative intrasinus pressure. The complete
-      obstruction results in gas resorption similar to middle ear atelectasis
-      due to Eustachian tube dysfunction.
-    evidence:
-      - reference: PMID:23946747
-        supports: SUPPORT
-        snippet: >-
-          Obstruction of the maxillary ostium appears to play a critical role
-          in the development of SSS.
-        explanation: >-
-          The reference explicitly states that ostium obstruction plays a
-          critical role in SSS development.
+    downstream:
+      - target: Orbital Floor Resorption and Descent
+        description: >-
+          Chronic negative pressure and sinus wall collapse causes the orbital
+          floor (maxillary sinus roof) to descend into the atelectatic sinus.
   - name: Orbital Floor Resorption and Descent
     description: >-
       The weakened and retracting maxillary sinus roof (which forms the orbital
@@ -179,6 +189,11 @@ diagnosis:
       sinus walls, particularly the orbital floor. Characteristic imaging
       features include maxillary sinus outlet obstruction, sinus opacification,
       and sinus volume loss.
+    diagnosis_term:
+      preferred_term: computed tomography procedure
+      term:
+        id: MAXO:0000571
+        label: computed tomography procedure
     evidence:
       - reference: PMID:23946747
         supports: SUPPORT
@@ -208,10 +223,10 @@ treatments:
       ventilation and equalize pressure. This addresses the underlying cause
       by relieving ostial obstruction.
     treatment_term:
-      preferred_term: surgical procedure
+      preferred_term: nasal endoscopy
       term:
-        id: MAXO:0000004
-        label: surgical procedure
+        id: MAXO:0035089
+        label: nasal endoscopy
     evidence:
       - reference: PMID:23946747
         supports: SUPPORT
@@ -232,10 +247,10 @@ treatments:
       enophthalmos when spontaneous resolution does not occur after sinus
       surgery. May be performed simultaneously with or staged after FESS.
     treatment_term:
-      preferred_term: surgical procedure
+      preferred_term: surgical plastic reconstruction of face
       term:
-        id: MAXO:0000004
-        label: surgical procedure
+        id: MAXO:0001292
+        label: surgical plastic reconstruction of face
     evidence:
       - reference: PMID:11404606
         supports: SUPPORT
