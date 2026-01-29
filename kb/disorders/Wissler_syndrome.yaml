@@ -21,13 +21,12 @@ phenotypes:
 - name: Recurrent high fever
   category: Systemic
   frequency: FREQUENT
+  severity: High
   phenotype_term:
     preferred_term: Recurrent fever
     term:
       id: HP:0001954
       label: Recurrent fever
-    qualifiers:
-      - HIGH
   evidence:
   - reference: PMID:8150635
     supports: SUPPORT
