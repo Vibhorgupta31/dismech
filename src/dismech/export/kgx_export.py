@@ -324,7 +324,7 @@ def gene_to_edge(disease_id: str, gene: dict[str, Any]) -> GeneToDiseaseAssociat
 
     # Use HGNC symbol format for gene identifier
     gene_id = f"HGNC.SYMBOL:{gene_name}"
-    predicate = "biolink:gene_associated_with_condition"
+    predicate = "biolink:contributes_to"
 
     # Format evidence (direct - attached to genetic entry)
     publications, supporting_text = _format_evidence(gene.get("evidence"), indirect=False)

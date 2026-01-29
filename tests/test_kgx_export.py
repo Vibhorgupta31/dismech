@@ -172,7 +172,7 @@ class TestGeneToEdge:
         edge = gene_to_edge("MONDO:0004979", gene)
         assert isinstance(edge, GeneToDiseaseAssociation)
         assert edge.subject == "HGNC.SYMBOL:IL4"
-        assert edge.predicate == "biolink:gene_associated_with_condition"
+        assert edge.predicate == "biolink:contributes_to"
         assert edge.object == "MONDO:0004979"
         assert edge.primary_knowledge_source == KNOWLEDGE_SOURCE
 
@@ -295,7 +295,7 @@ class TestTransform:
         assert predicates.count("biolink:affects") == 1  # biological process
         assert predicates.count("biolink:disease_has_location") == 1
         assert predicates.count("biolink:treats_or_applied_or_studied_to_treat") == 1
-        assert predicates.count("biolink:gene_associated_with_condition") == 1
+        assert predicates.count("biolink:contributes_to") == 1
 
     def test_transform_missing_disease_term(self):
         """Test that transform returns nothing if disease_term is missing."""

@@ -294,7 +294,7 @@ gen-all: gen-browser-data gen-pages
 [group('Export')]
 export-kgx:
     mkdir -p output/kgx
-    uv run koza transform src/dismech/export/kgx_export.py -i 'kb/disorders/*.yaml' -o output/kgx -f jsonl
+    uv run koza transform src/dismech/export/kgx_export.py -o output/kgx -f jsonl kb/disorders/*.yaml
 
 # ============== Deep Research ==============
 
