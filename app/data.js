@@ -7637,6 +7637,74 @@ window.searchData = [
     "causal_graph_longest_path": "1"
   },
   {
+    "name": "FICUS syndrome",
+    "disease_id": null,
+    "category": "Psychiatric",
+    "parents": [
+      "Psychiatric Disease"
+    ],
+    "subtypes": [],
+    "description": "This entry describes the psychiatric PICS-F concept in ICU family members. Note: MONDO:0978296 refers to a genetic dysmorphology syndrome (OMIM 621193), not the PICS-F condition described here.\n",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Anxiety symptoms",
+      "Depressive symptoms",
+      "Posttraumatic stress symptoms",
+      "Anger",
+      "Agitation",
+      "Avoidance of stimuli associated with traumatic event",
+      "Abnormal fear-induced behavior",
+      "Sleep disturbance",
+      "Fatigue",
+      "Memory impairment",
+      "Recurrent, involuntary, and intrusive distressing memories",
+      "Hopelessness",
+      "Diminished health-related quality of life",
+      "Pain"
+    ],
+    "phenotype_categories": [
+      "Psychiatric",
+      "Systemic",
+      "Neurological"
+    ],
+    "phenotype_ids": [
+      "HP:0000739",
+      "HP:0000716",
+      "HP:0033676",
+      "HP:0031473",
+      "HP:0000713",
+      "HP:0032942",
+      "HP:0100852",
+      "HP:0002360",
+      "HP:0012378",
+      "HP:0002354",
+      "HP:0032937",
+      "HP:5200271",
+      "HP:0033665",
+      "HP:0012531"
+    ],
+    "frequencies": [],
+    "genes": [],
+    "treatments": [
+      "Family support intervention"
+    ],
+    "environmental": [
+      "ICU admission exposure and family stressor"
+    ],
+    "biochemical": [],
+    "source_file": "FICUS_syndrome.yaml",
+    "page_url": "../pages/disorders/FICUS_syndrome.html",
+    "num_phenotypes": 14,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 1,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
     "name": "Acute Myeloid Leukemia, FLT3-Mutated",
     "disease_id": "MONDO:0100415",
     "category": "",
@@ -20008,6 +20076,85 @@ window.searchData = [
     "num_pathophysiology": 4,
     "num_genes": 0,
     "num_treatments": 3,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Sengers syndrome",
+    "disease_id": "MONDO:0008922",
+    "category": "Mendelian",
+    "parents": [],
+    "subtypes": [],
+    "description": "Loss of functional AGK impairs lipid signaling activity attributed to mitochondrial acylglycerol kinase.\n",
+    "pathophysiology": [
+      "AGK loss of function disrupts lipid signaling",
+      "TIM22 complex assembly defect",
+      "Reduced TIM22-mediated import of inner-membrane carrier proteins",
+      "Impaired mitochondrial one-carbon metabolism",
+      "Disrupted mitochondrial phospholipid metabolism",
+      "Oxidative phosphorylation deficiency"
+    ],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [
+      "phosphatidic acid metabolic process",
+      "protein insertion into mitochondrial inner membrane",
+      "one-carbon metabolic process",
+      "phospholipid metabolic process",
+      "oxidative phosphorylation"
+    ],
+    "phenotypes": [
+      "Hypertrophic cardiomyopathy",
+      "Developmental cataract",
+      "Myopathy",
+      "Lactic acidosis",
+      "Congestive heart failure",
+      "Aplasia of the ovary"
+    ],
+    "phenotype_categories": [
+      "Cardiovascular",
+      "Ophthalmologic",
+      "Neuromuscular",
+      "Metabolic",
+      "Genitourinary"
+    ],
+    "phenotype_ids": [
+      "HP:0001639",
+      "HP:0000519",
+      "HP:0003198",
+      "HP:0003128",
+      "HP:0001635",
+      "HP:0010463"
+    ],
+    "frequencies": [
+      "VERY_FREQUENT",
+      "FREQUENT",
+      "VERY_RARE"
+    ],
+    "genes": [
+      "AGK"
+    ],
+    "treatments": [
+      "Coenzyme Q10 supplementation",
+      "Carnitine supplementation",
+      "B vitamin supplementation",
+      "ACE inhibitor therapy",
+      "Cardiac transplantation",
+      "Diuretic therapy",
+      "Levosimendan infusion"
+    ],
+    "environmental": [],
+    "biochemical": [
+      "Lactate",
+      "N-terminal pro-brain natriuretic peptide (NT-proBNP)",
+      "3-hydroxybutyrate"
+    ],
+    "source_file": "Sengers_syndrome.yaml",
+    "page_url": "../pages/disorders/Sengers_syndrome.html",
+    "num_phenotypes": 6,
+    "num_pathophysiology": 6,
+    "num_genes": 1,
+    "num_treatments": 7,
     "causal_graph_edges": "0",
     "causal_graph_longest_path": "0"
   },
