@@ -4,6 +4,8 @@
 
 This project aims to curate comprehensive pathophysiology entries for major chronic diseases in the Disorder Mechanisms Knowledge Base. Chronic diseases represent long-term conditions that require ongoing management and significantly impact quality of life.
 
+This is an evergreen project: beyond the initial phases, "Other" expansion categories capture related conditions that share mechanisms and can be unfolded as curation continues.
+
 ## Goals
 
 - Document disease mechanisms with evidence-backed pathophysiology
@@ -40,10 +42,12 @@ This project aims to curate comprehensive pathophysiology entries for major chro
 - [x] Hypothyroidism (Hashimoto's Thyroiditis) - `Hashimotos_Thyroiditis.yaml`
 - [x] Polycystic Ovary Syndrome (PCOS) - `Polycystic_Ovary_Syndrome.yaml`
 - [x] Gout - `Gout.yaml`
+- [ ] Other endocrine/metabolic; e.g. Cushing syndrome, acromegaly, hyperparathyroidism
 
 ### Musculoskeletal
 - [x] Osteoporosis - `Osteoporosis.yaml`
 - [x] Fibromyalgia - `Fibromyalgia.yaml`
+- [ ] Other musculoskeletal; e.g. Paget disease, osteogenesis imperfecta, ankylosing spondylitis
 
 ### Gastrointestinal
 - [x] Gastroesophageal Reflux Disease (GERD) - `Gastroesophageal_Reflux_Disease.yaml`
@@ -51,28 +55,36 @@ This project aims to curate comprehensive pathophysiology entries for major chro
 - [x] Ulcerative Colitis - `Ulcerative_Colitis.yaml`
 - [x] Celiac Disease - `Celiac_Disease.yaml`
 - [x] Chronic Pancreatitis - `Chronic_Pancreatitis.yaml`
+- [ ] Other gastrointestinal; e.g. Barrett esophagus, diverticular disease, chronic constipation
 
 ### Psychiatric/Neurological
 - [x] Bipolar Disorder - `Bipolar_Disorder.yaml`
 - [x] Generalized Anxiety Disorder - `Generalized_Anxiety_Disorder.yaml`
 - [x] Migraine - `Migraine.yaml`
+- [ ] Other psychiatric; e.g. schizophrenia, OCD, PTSD, eating disorders
+- [ ] Other neurological; e.g. ALS, Huntington disease, essential tremor, neuropathies
 
 ### Cardiovascular
 - [x] Peripheral Artery Disease - `Peripheral_Artery_Disease.yaml`
+- [ ] Other cardiovascular; e.g. cardiomyopathies, valvular heart disease, aortic aneurysm
 
 ### Respiratory
 - [x] Obstructive Sleep Apnea - `Obstructive_Sleep_Apnea.yaml`
+- [ ] Other respiratory; e.g. pulmonary fibrosis, bronchiectasis, pulmonary hypertension
 
 ### Reproductive/Urological
 - [x] Endometriosis - `Endometriosis.yaml`
 - [x] Benign Prostatic Hyperplasia - `Benign_Prostatic_Hyperplasia.yaml`
+- [ ] Other reproductive/urological; e.g. chronic pelvic pain, interstitial cystitis, male infertility
 
 ### Ophthalmological
 - [x] Glaucoma - `Glaucoma.yaml`
 - [x] Age-related Macular Degeneration - `Age_Related_Macular_Degeneration.yaml`
+- [ ] Other ophthalmological; e.g. diabetic retinopathy, cataracts, dry eye disease
 
 ### Hematological
 - [x] Sickle Cell Disease - `Sickle_Cell_Disease.yaml`
+- [ ] Other hematological; e.g. thalassemias, hemophilia, myelodysplastic syndromes
 
 ## Curation Workflow
 
@@ -87,13 +99,25 @@ This project aims to curate comprehensive pathophysiology entries for major chro
 
 **Phase 1:** 20/20 (100%) Complete
 **Phase 2:** 20/20 (100%) Complete
-**Overall:** 40/40 (100%)
+**Core diseases:** 40/40 (100%)
 
 Both phases complete. All 40 target chronic diseases have been curated with:
 - Evidence-backed pathophysiology mechanisms
 - HPO phenotype annotations
 - PMID-supported evidence items
 - Schema-validated YAML files
+
+## Expansion Categories
+- [ ] Other endocrine/metabolic; e.g. Cushing syndrome, acromegaly, hyperparathyroidism
+- [ ] Other musculoskeletal; e.g. Paget disease, osteogenesis imperfecta
+- [ ] Other gastrointestinal; e.g. Barrett esophagus, diverticular disease
+- [ ] Other psychiatric; e.g. schizophrenia, OCD, PTSD, eating disorders
+- [ ] Other neurological; e.g. ALS, Huntington disease, essential tremor
+- [ ] Other cardiovascular; e.g. cardiomyopathies, valvular heart disease
+- [ ] Other respiratory; e.g. pulmonary fibrosis, bronchiectasis, pulmonary hypertension
+- [ ] Other reproductive/urological; e.g. chronic pelvic pain, interstitial cystitis
+- [ ] Other ophthalmological; e.g. diabetic retinopathy, cataracts, dry eye disease
+- [ ] Other hematological; e.g. thalassemias, hemophilia, myelodysplastic syndromes
 
 # NOTES
 
