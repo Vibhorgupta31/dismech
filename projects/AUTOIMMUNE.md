@@ -3,6 +3,8 @@
 ## Overview
 Comprehensive curation of autoimmune diseases for the dismech knowledge base, covering diverse autoimmune mechanisms including organ-specific, systemic, and autoinflammatory conditions.
 
+This is an evergreen project: beyond the initial diseases, "Other" expansion categories capture related conditions that share autoimmune mechanisms and can be unfolded as curation continues.
+
 ## Existing Autoimmune Diseases in KB (14)
 These are already in the knowledge base and may benefit from enhancement:
 
@@ -33,6 +35,7 @@ These are already in the knowledge base and may benefit from enhancement:
 | Mixed Connective Tissue Disease | Mixed_Connective_Tissue_Disease.yaml | ✅ Complete | 9 |
 | Dermatomyositis | Dermatomyositis.yaml | ✅ Complete | 12 |
 | Polymyositis | Polymyositis.yaml | ✅ Complete | 11 |
+| Other systemic autoimmune | — | [ ] | e.g. adult Still disease, relapsing polychondritis |
 
 ### Neurological Autoimmune Diseases
 | Disease | File | Status | Evidence Items |
@@ -40,11 +43,13 @@ These are already in the knowledge base and may benefit from enhancement:
 | Myasthenia Gravis | Myasthenia_Gravis.yaml | ✅ Complete | 9 |
 | Guillain-Barré Syndrome | Guillain_Barre_Syndrome.yaml | ✅ Complete | 7 |
 | CIDP | Chronic_Inflammatory_Demyelinating_Polyneuropathy.yaml | ✅ Complete | 6 |
+| Other neurological autoimmune | — | [ ] | e.g. autoimmune encephalitis, neuromyelitis optica, ADEM |
 
 ### Musculoskeletal Autoimmune Diseases
 | Disease | File | Status | Evidence Items |
 |---------|------|--------|----------------|
 | Ankylosing Spondylitis | Ankylosing_Spondylitis.yaml | ✅ Complete | 9 |
+| Other spondyloarthropathies | — | [ ] | e.g. psoriatic arthritis, reactive arthritis, enteropathic arthritis |
 
 ### Hepatobiliary Autoimmune Diseases
 | Disease | File | Status | Evidence Items |
@@ -52,6 +57,7 @@ These are already in the knowledge base and may benefit from enhancement:
 | Primary Biliary Cholangitis | Primary_Biliary_Cholangitis.yaml | ✅ Complete | 9 |
 | Autoimmune Hepatitis | Autoimmune_Hepatitis.yaml | ✅ Complete | 6 |
 | Primary Sclerosing Cholangitis | Primary_Sclerosing_Cholangitis.yaml | ✅ Complete | 7 |
+| Other hepatobiliary autoimmune | — | [ ] | e.g. IgG4-related cholangitis, overlap syndromes |
 
 ### Vasculitis
 | Disease | File | Status | Evidence Items |
@@ -59,23 +65,28 @@ These are already in the knowledge base and may benefit from enhancement:
 | Giant Cell Arteritis | Giant_Cell_Arteritis.yaml | ✅ Complete | 9 |
 | Granulomatosis with Polyangiitis | Granulomatosis_with_Polyangiitis.yaml | ✅ Complete | 10 |
 | Behçet's Disease | Behcets_Disease.yaml | ✅ Complete | 6 |
+| Other large vessel vasculitis | — | [ ] | e.g. Takayasu arteritis |
+| Other small vessel vasculitis | — | [ ] | e.g. microscopic polyangiitis, eosinophilic GPA, anti-GBM disease |
 
 ### Dermatological Autoimmune Diseases
 | Disease | File | Status | Evidence Items |
 |---------|------|--------|----------------|
 | Pemphigus Vulgaris | Pemphigus_Vulgaris.yaml | ✅ Complete | 7 |
 | Alopecia Areata | Alopecia_Areata.yaml | ✅ Complete | 10 |
+| Other bullous autoimmune | — | [ ] | e.g. bullous pemphigoid, dermatitis herpetiformis, epidermolysis bullosa acquisita |
 
 ### Hematological Autoimmune Diseases
 | Disease | File | Status | Evidence Items |
 |---------|------|--------|----------------|
 | Autoimmune Hemolytic Anemia | Autoimmune_Hemolytic_Anemia.yaml | ✅ Complete | 7 |
 | Immune Thrombocytopenia (ITP) | Immune_Thrombocytopenia.yaml | ✅ Complete | 7 |
+| Other hematological autoimmune | — | [ ] | e.g. autoimmune neutropenia, Evans syndrome, TTP |
 
 ### Renal Autoimmune Diseases
 | Disease | File | Status | Evidence Items |
 |---------|------|--------|----------------|
 | IgA Nephropathy | IgA_Nephropathy.yaml | ✅ Complete | 7 |
+| Other renal autoimmune | — | [ ] | e.g. membranous nephropathy, lupus nephritis, anti-GBM nephritis |
 
 ## Progress
 - **Existing (enhancement):** 9/10 (90%) - Only Antiphospholipid Syndrome remains
@@ -127,7 +138,7 @@ These are already in the knowledge base and may benefit from enhancement:
 - [x] Immune Thrombocytopenia
 - [x] IgA Nephropathy
 
-## Existing Diseases Needing Enhancement (8/10)
+## Existing Diseases Needing Enhancement (9/10)
 - [x] Graves' Disease (77.7% -> 81.9% compliance)
 - [x] Multiple Sclerosis (86.6% -> 92.0% compliance)
 - [x] Rheumatoid Arthritis (83.0% -> 87.6% compliance)
@@ -138,6 +149,17 @@ These are already in the knowledge base and may benefit from enhancement:
 - [x] Addison's Disease (73.4% -> 77.7% compliance)
 - [ ] Antiphospholipid Syndrome (89.8% compliance)
 - [x] Stiff Person Syndrome (100% compliance - done)
+
+## Expansion Categories
+- [ ] Other systemic autoimmune; e.g. adult Still disease, relapsing polychondritis
+- [ ] Other neurological autoimmune; e.g. autoimmune encephalitis, neuromyelitis optica, ADEM
+- [ ] Other spondyloarthropathies; e.g. psoriatic arthritis, reactive arthritis
+- [ ] Other hepatobiliary autoimmune; e.g. IgG4-related cholangitis, overlap syndromes
+- [ ] Other large vessel vasculitis; e.g. Takayasu arteritis
+- [ ] Other small vessel vasculitis; e.g. microscopic polyangiitis, eosinophilic GPA
+- [ ] Other bullous autoimmune; e.g. bullous pemphigoid, dermatitis herpetiformis
+- [ ] Other hematological autoimmune; e.g. autoimmune neutropenia, Evans syndrome, TTP
+- [ ] Other renal autoimmune; e.g. membranous nephropathy, lupus nephritis
 
 # NOTES
 

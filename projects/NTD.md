@@ -1,7 +1,11 @@
 # Neglected Tropical Diseases Curation Project
 
+> **GitHub Epic**: https://github.com/monarch-initiative/dismech/issues/220
+
 ## Overview
 Curate the WHO-recognized neglected tropical diseases (NTDs) in the Disorder Mechanisms Knowledge Base, with emphasis on pathogen life cycles, transmission routes, immune evasion, and chronic morbidity mechanisms. The current WHO list includes 21 diseases or disease groups, which maps to 22 KB files when splitting the dengue/chikungunya group.
+
+This is an evergreen project: beyond the WHO core list, "Other" expansion categories capture related diseases that share mechanisms (e.g. other arboviruses, other filarial parasites) and can be unfolded as curation continues.
 
 ## Goals
 - Create or enhance NTD YAML files in `kb/disorders/`
@@ -26,6 +30,7 @@ The WHO list below is used as the project scope. Some WHO groups are split into 
 | Trachoma | Trachoma.yaml | Chlamydia trachomatis | [x] |
 | Noma (cancrum oris) | Noma.yaml | Added to WHO list in 2023 | [x] |
 | Yaws and other endemic treponematoses | Yaws.yaml | Bejel.yaml and Pinta.yaml added | [x] |
+| Other bacterial NTDs | — | e.g. leptospirosis, relapsing fever, bartonellosis | [ ] |
 
 ### Protozoal NTDs
 | Disease | Planned File | Notes | Status |
@@ -33,6 +38,7 @@ The WHO list below is used as the project scope. Some WHO groups are split into 
 | Chagas disease | Chagas_Disease.yaml | Trypanosoma cruzi | [x] |
 | Human African trypanosomiasis | Human_African_Trypanosomiasis.yaml | T. brucei; stage 1/2 | [x] |
 | Leishmaniasis | Leishmaniasis.yaml | Visceral/cutaneous/mucosal | [x] |
+| Other protozoal NTDs | — | e.g. babesiosis, balantidiasis, free-living amoebae | [ ] |
 
 ### Viral NTDs
 | Disease | Planned File | Notes | Status |
@@ -40,6 +46,7 @@ The WHO list below is used as the project scope. Some WHO groups are split into 
 | Dengue | Dengue.yaml | Existing | [x] |
 | Chikungunya | Chikungunya.yaml | Often paired with dengue in WHO list | [x] |
 | Rabies | Rabies.yaml | Neurotropic lyssavirus | [x] |
+| Other arboviral NTDs | — | e.g. Zika, yellow fever, Rift Valley fever | [ ] |
 
 ### Helminth NTDs
 | Disease/Group | Planned File | Notes | Status |
@@ -47,22 +54,27 @@ The WHO list below is used as the project scope. Some WHO groups are split into 
 | Dracunculiasis (Guinea-worm disease) | Dracunculiasis.yaml | Eradication focus | [x] |
 | Lymphatic filariasis | Lymphatic_Filariasis.yaml | Wuchereria/Brugia | [x] |
 | Onchocerciasis (river blindness) | Onchocerciasis.yaml | O. volvulus | [x] |
+| Other filarial diseases | — | e.g. loiasis, mansonellosis, Dirofilaria | [ ] |
 | Schistosomiasis | Schistosomiasis.yaml | S. haematobium/mansoni/japonicum | [x] |
 | Soil-transmitted helminthiases | Soil_Transmitted_Helminthiases.yaml | Ascaris, Trichuris, hookworm | [x] |
 | Foodborne trematodiases | Foodborne_Trematodiases.yaml | Clonorchis, Opisthorchis, Fasciola, Paragonimus | [x] |
 | Taeniasis/cysticercosis | Taeniasis_Cysticercosis.yaml | Taenia solium | [x] |
+| Other cestode infections | — | e.g. Hymenolepis, Diphyllobothrium, sparganosis | [ ] |
 | Echinococcosis | Cystic_Echinococcosis.yaml | Cystic form added; polycystic file exists | [x] |
 
 ### Fungal NTDs
 | Disease/Group | Planned File | Notes | Status |
 |---------------|--------------|-------|--------|
 | Mycetoma, chromoblastomycosis and other deep mycoses | Mycetoma.yaml | Chromoblastomycosis.yaml added | [x] |
+| Other deep mycoses | — | e.g. sporotrichosis, paracoccidioidomycosis, histoplasmosis | [ ] |
 
 ### Ectoparasites, Other, and Envenoming
 | Disease/Group | Planned File | Notes | Status |
 |---------------|--------------|-------|--------|
 | Scabies and other ectoparasitoses | Scabies.yaml | Consider Tungiasis.yaml | [x] |
+| Other ectoparasitoses | — | e.g. tungiasis, myiasis, pediculosis | [ ] |
 | Snakebite envenoming | Snakebite_Envenoming.yaml | Toxin-mediated | [x] |
+| Other envenoming | — | e.g. scorpion stings, spider bites, jellyfish | [ ] |
 
 ## Cross-Cutting Mechanisms to Capture
 1. **Vector biology**: insect/arthropod vectors, seasonality, geographic range
@@ -84,7 +96,7 @@ The WHO list below is used as the project scope. Some WHO groups are split into 
 
 # STATUS
 
-## New NTD Disease Files (20/20)
+## WHO List NTDs (20/20)
 - [x] Buruli ulcer
 - [x] Chagas disease
 - [x] Chikungunya
@@ -109,6 +121,16 @@ The WHO list below is used as the project scope. Some WHO groups are split into 
 ## Existing NTD Diseases (2/2)
 - [x] Dengue
 - [x] Echinococcosis (polycystic file exists; cystic form added)
+
+## Expansion Categories
+- [ ] Other bacterial NTDs; e.g. leptospirosis, relapsing fever, bartonellosis
+- [ ] Other protozoal NTDs; e.g. babesiosis, balantidiasis, free-living amoebae
+- [ ] Other arboviral NTDs; e.g. Zika, yellow fever, Rift Valley fever
+- [ ] Other filarial diseases; e.g. loiasis, mansonellosis, Dirofilaria
+- [ ] Other cestode infections; e.g. Hymenolepis, Diphyllobothrium, sparganosis
+- [ ] Other deep mycoses; e.g. sporotrichosis, paracoccidioidomycosis, histoplasmosis
+- [ ] Other ectoparasitoses; e.g. tungiasis, myiasis, pediculosis
+- [ ] Other envenoming; e.g. scorpion stings, spider bites, jellyfish
 
 # NOTES
 

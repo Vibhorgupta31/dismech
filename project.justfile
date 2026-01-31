@@ -383,6 +383,36 @@ validate-classifications:
 validate-classification file:
     uv run linkml-term-validator validate-schema {{file}} -c {{oak_config}}
 
+# ============== Epic Issue Sync ==============
+
+# Project files are in projects/ with ALL_CAPS names (e.g., CANCER.md, NTD.md)
+projects_dir := "projects"
+epic_sync_script := ".claude/skills/projman/scripts/sync_epic.py"
+
+# Push markdown project to GitHub epic issue
+# Example: just epic-push NTD
+[group('Projects')]
+epic-push project:
+    python3 {{epic_sync_script}} push {{projects_dir}}/{{project}}.md
+
+# Pull GitHub epic issue state to markdown
+# Example: just epic-pull CANCER
+[group('Projects')]
+epic-pull project:
+    python3 {{epic_sync_script}} pull {{projects_dir}}/{{project}}.md
+
+# Show sync status between markdown and GitHub epic
+# Example: just epic-status AUTOIMMUNE
+[group('Projects')]
+epic-status project:
+    python3 {{epic_sync_script}} status {{projects_dir}}/{{project}}.md
+
+# List all project files
+[group('Projects')]
+list-projects:
+    @echo "Projects in {{projects_dir}}/:"
+    @ls -1 {{projects_dir}}/*.md 2>/dev/null | xargs -I {} basename {} .md | sort
+
 # ============== Embedding Analysis ==============
 
 embed_dir := "cache/embeddings"
