@@ -1099,7 +1099,9 @@ window.searchData = [
     "pathophysiology": [
       "Protease-Antiprotease Imbalance in Lung",
       "Hepatic Protein Aggregation",
-      "Pulmonary Inflammation"
+      "Neutrophil Recruitment to Lung Parenchyma",
+      "Neutrophil Elastase Release",
+      "Alveolar Tissue Destruction"
     ],
     "cell_types": [
       "neutrophil",
@@ -1112,7 +1114,9 @@ window.searchData = [
     "biological_processes": [
       "neutrophil degranulation",
       "response to endoplasmic reticulum stress",
-      "inflammatory response"
+      "leukocyte migration",
+      "proteolysis",
+      "extracellular matrix disassembly"
     ],
     "phenotypes": [
       "Emphysema",
@@ -1153,11 +1157,11 @@ window.searchData = [
     "source_file": "Alpha_1_Antitrypsin_Deficiency.yaml",
     "page_url": "../pages/disorders/Alpha-1_Antitrypsin_Deficiency.html",
     "num_phenotypes": 7,
-    "num_pathophysiology": 3,
+    "num_pathophysiology": 5,
     "num_genes": 0,
     "num_treatments": 5,
-    "causal_graph_edges": "0",
-    "causal_graph_longest_path": "0"
+    "causal_graph_edges": "2",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Alveolar Rhabdomyosarcoma",
@@ -5273,10 +5277,14 @@ window.searchData = [
     "pathophysiology": [
       "Dysregulated Immune Response",
       "Microbiome Imbalance",
-      "Autophagy and Paneth Cell Dysfunction",
+      "Paneth Cell Autophagy Impairment",
+      "Antimicrobial Defense Deficiency",
+      "Macrophage Autophagy Dysfunction",
       "IL-23/Th17 Axis Dysregulation",
       "Fibrosis and Stricture Formation",
-      "Fistula Formation via Myeloid-Stromal Crosstalk"
+      "TL1A-Mediated T Cell Activation",
+      "Myeloid Cell Recruitment to Perianal Tissue",
+      "Myeloid-Stromal Cell Crosstalk"
     ],
     "cell_types": [
       "Paneth cell",
@@ -5298,13 +5306,14 @@ window.searchData = [
     ],
     "biological_processes": [
       "Autophagy",
-      "Antimicrobial peptide secretion",
+      "Antimicrobial humoral response",
       "Th17 cell differentiation",
       "IL-23 signaling",
       "Extracellular matrix organization",
       "Tissue remodeling",
-      "Type II interferon signaling",
-      "T-cell costimulation"
+      "T cell activation",
+      "Leukocyte migration",
+      "Type II interferon signaling"
     ],
     "phenotypes": [
       "Abdominal Pain",
@@ -5381,11 +5390,11 @@ window.searchData = [
     "source_file": "Crohn_Disease.yaml",
     "page_url": "../pages/disorders/Crohn_Disease.html",
     "num_phenotypes": 16,
-    "num_pathophysiology": 6,
+    "num_pathophysiology": 10,
     "num_genes": 6,
     "num_treatments": 9,
-    "causal_graph_edges": "3",
-    "causal_graph_longest_path": "1"
+    "causal_graph_edges": "6",
+    "causal_graph_longest_path": "2"
   },
   {
     "name": "Cronkhite-Canada syndrome",
@@ -7168,24 +7177,34 @@ window.searchData = [
     "description": "Imbalance between excitatory (glutamate) and inhibitory (GABA) neurotransmission leads to synchronized, excessive neuronal firing. Ion channel dysfunction is a common mechanism.\n",
     "pathophysiology": [
       "Neuronal Hyperexcitability",
-      "Abnormal Network Synchronization",
-      "Epileptogenesis"
+      "Blood-Brain Barrier Disruption",
+      "Network Hyperexcitability",
+      "Neuroinflammation and Gliosis",
+      "Synaptic Reorganization",
+      "mTOR Pathway Hyperactivation",
+      "Dysmorphic Neuron Generation"
     ],
     "cell_types": [
       "Pyramidal Neuron",
       "GABAergic Interneuron",
+      "Endothelial Cell",
       "Astrocyte",
       "Microglia"
     ],
     "cell_type_ids": [
       "CL:0000598",
       "CL:0000617",
+      "CL:0000115",
       "CL:0000127",
       "CL:0000129"
     ],
     "biological_processes": [
       "Synaptic Transmission",
-      "Neuronal Activity"
+      "Blood-Brain Barrier Maintenance",
+      "Neuronal Activity",
+      "Neuroinflammatory Response",
+      "Synaptic Plasticity",
+      "mTOR Signaling"
     ],
     "phenotypes": [
       "Seizures",
@@ -7239,11 +7258,11 @@ window.searchData = [
     "source_file": "Epilepsy.yaml",
     "page_url": "../pages/disorders/Epilepsy.html",
     "num_phenotypes": 6,
-    "num_pathophysiology": 3,
+    "num_pathophysiology": 7,
     "num_genes": 5,
     "num_treatments": 6,
-    "causal_graph_edges": "0",
-    "causal_graph_longest_path": "0"
+    "causal_graph_edges": "3",
+    "causal_graph_longest_path": "1"
   },
   {
     "name": "Essential Hypertension",
@@ -21105,7 +21124,9 @@ window.searchData = [
     "description": "An autoimmune multi-organ disease typically associated with vasculopathy and autoantibody production. Most patients have antinuclear antibodies (ANA). The presence of anti-dsDNA or anti-Smith antibodies are highly-specific",
     "pathophysiology": [
       "Formation of Immune Complexes",
-      "Deposition of immune complexes in tissues",
+      "Glomerular Immune Complex Deposition",
+      "Cutaneous Immune Complex Deposition",
+      "Synovial Immune Complex Deposition",
       "Inflammation And Tissue Damage",
       "Chronic Inflammation",
       "Flare-Ups",
@@ -21136,6 +21157,8 @@ window.searchData = [
       "CL:0002038"
     ],
     "biological_processes": [
+      "complement activation",
+      "inflammatory response",
       "type I interferon signaling pathway",
       "toll-like receptor signaling pathway",
       "toll-like receptor 7 signaling pathway",
@@ -21225,7 +21248,7 @@ window.searchData = [
     "source_file": "Systemic_Lupus_Erythematosus.yaml",
     "page_url": "../pages/disorders/Systemic_Lupus_Erythematosus.html",
     "num_phenotypes": 13,
-    "num_pathophysiology": 12,
+    "num_pathophysiology": 14,
     "num_genes": 11,
     "num_treatments": 5,
     "causal_graph_edges": "1",
@@ -22849,6 +22872,75 @@ window.searchData = [
     "num_pathophysiology": 3,
     "num_genes": 1,
     "num_treatments": 5,
+    "causal_graph_edges": "0",
+    "causal_graph_longest_path": "0"
+  },
+  {
+    "name": "Wissler syndrome",
+    "disease_id": "MONDO:0006018",
+    "category": "Immune",
+    "parents": [
+      "Autoinflammatory Disease",
+      "Inflammatory Arthritis"
+    ],
+    "subtypes": [],
+    "description": "A rheumatic syndrome of possibly allergic origin, usually affecting children and adolescents, and characterized by high fever, exanthema, arthralgia, leukocytosis, and increased sedimentation rate. Also called Wissler-Fanconi syndrome or subsepsis allergica.",
+    "pathophysiology": [],
+    "cell_types": [],
+    "cell_type_ids": [],
+    "biological_processes": [],
+    "phenotypes": [
+      "Recurrent high fever",
+      "Exanthem",
+      "Arthralgia",
+      "Leukocytosis",
+      "Microscopic hematuria",
+      "Arthritis",
+      "Pericarditis",
+      "Myocarditis",
+      "Congestive heart failure"
+    ],
+    "phenotype_categories": [
+      "Systemic",
+      "Dermatological",
+      "Musculoskeletal",
+      "Hematologic",
+      "Renal",
+      "Cardiovascular"
+    ],
+    "phenotype_ids": [
+      "HP:0001954",
+      "HP:4000054",
+      "HP:0002829",
+      "HP:0001974",
+      "HP:0002907",
+      "HP:0001369",
+      "HP:0001701",
+      "HP:0012819",
+      "HP:0001635"
+    ],
+    "frequencies": [
+      "FREQUENT",
+      "VERY_RARE"
+    ],
+    "genes": [],
+    "treatments": [
+      "Nonsteroidal anti-inflammatory drugs",
+      "Corticosteroids",
+      "Dapsone",
+      "Azathioprine"
+    ],
+    "environmental": [],
+    "biochemical": [
+      "Erythrocyte sedimentation rate",
+      "C-reactive protein"
+    ],
+    "source_file": "Wissler_syndrome.yaml",
+    "page_url": "../pages/disorders/Wissler_syndrome.html",
+    "num_phenotypes": 9,
+    "num_pathophysiology": 0,
+    "num_genes": 0,
+    "num_treatments": 4,
     "causal_graph_edges": "0",
     "causal_graph_longest_path": "0"
   },
