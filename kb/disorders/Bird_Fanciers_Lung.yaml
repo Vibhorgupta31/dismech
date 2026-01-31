@@ -3,6 +3,27 @@ category: Respiratory Disease
 parents:
 - Respiratory Disease
 - Inflammatory Lung Disease
+has_subtypes:
+- name: Recurrent chronic bird fancier's lung
+  description: Chronic BFL with recurrent acute episodes that progress to
+    interstitial pulmonary fibrosis.
+  evidence:
+  - reference: PMID:12839317
+    supports: SUPPORT
+    evidence_source: HUMAN_CLINICAL
+    snippet: "One subgroup of patients develops interstitial pulmonary fibrosis after recurrent acute episodes (recurrent BFL)"
+    explanation: The abstract defines a recurrent chronic BFL subtype marked by
+      recurrent acute episodes and fibrotic progression.
+- name: Insidious chronic bird fancier's lung
+  description: Chronic BFL with slowly progressive respiratory disease without a
+    history of acute episodes.
+  evidence:
+  - reference: PMID:12839317
+    supports: SUPPORT
+    evidence_source: HUMAN_CLINICAL
+    snippet: "the other subgroup of patients has no history of acute episodes but has slowly progressive chronic respiratory disease (insidious BFL)."
+    explanation: The abstract defines an insidious subtype with slow progression
+      and no acute episode history.
 disease_term:
   preferred_term: bird fancier's lung
   term:
@@ -14,6 +35,12 @@ synonyms:
 - Bird-related hypersensitivity pneumonitis
 - Bird-related HP
 - BRHP
+- Avian hypersensitivity pneumonitis
+- Avian HP
+- Bird fancier's lung
+- Pigeon breeder's disease
+- Pigeon breeders' disease
+- Pigeon fancier's lung
 prevalence:
 - population: United Kingdom
   percentage: 0.001
@@ -45,15 +72,6 @@ epidemiology:
     evidence_source: HUMAN_CLINICAL
     snippet: "Bird fancier's lung (BFL) resulting from avian antigen exposure is a very common form of hypersensitivity pneumonitis."
     explanation: The review describes BFL as a very common form of HP.
-- name: Chronic bird fancier's lung subtypes
-  description: Chronic BFL can present as recurrent or insidious disease patterns.
-  evidence:
-  - reference: PMID:12839317
-    supports: SUPPORT
-    evidence_source: HUMAN_CLINICAL
-    snippet: "Chronic bird fancier's lung (BFL) can be subgrouped into two types."
-    explanation: The clinical series outlines distinct chronic BFL subtypes, which
-      informs epidemiologic characterization of disease patterns.
 progression:
 - phase: Acute
   notes: Acute hypersensitivity pneumonitis presents within hours after heavy
@@ -93,9 +111,9 @@ stages:
     snippet: "Chronically, these diseases may present with the gradual onset of cough, dyspnea on exertion, fatigue, anorexia, and weight loss which may progress to pulmonary fibrosis or severe pulmonary insufficiency."
     explanation: The review describes chronic progression with fibrotic outcomes.
 pathophysiology:
-- name: Avian Protein-Induced Interstitial Lung Disease
-  description: Bird-related hypersensitivity pneumonitis is an interstitial lung
-    disease triggered by avian proteins.
+- name: Exposure to Avian Proteins
+  description: Repeated inhalation of avian proteins from bird droppings, feathers,
+    or serum triggers bird-related hypersensitivity pneumonitis.
   locations:
   - preferred_term: lung
     term:
@@ -120,11 +138,37 @@ pathophysiology:
     snippet: "Bird Fancier's Lung is a type of hypersensitivity pneumonitis, an immunologically mediated lung disease due to repetitive exposure of air-borne avian antigen."
     explanation: The report characterizes BFL as an immune-mediated interstitial
       lung disease driven by repetitive avian antigen exposure.
-- name: Myeloid and Dendritic Cell Compartment Remodeling
-  description: Bird antigen exposure remodels lung myeloid compartments with
-    increases in resident monocytes, interstitial macrophages, and type 2 dendritic
-    cells alongside reductions in inflammatory monocytes, alveolar macrophages,
-    and tolerogenic dendritic cells.
+- name: Expansion of Resident Monocytes and Interstitial Macrophages
+  description: Bird antigen exposure is associated with increased resident
+    monocytes, interstitial macrophages, and type 2 dendritic cells in the lung.
+  cell_types:
+  - preferred_term: monocyte
+    term:
+      id: CL:0000576
+      label: monocyte
+  - preferred_term: macrophage
+    term:
+      id: CL:0000235
+      label: macrophage
+  - preferred_term: dendritic cell
+    term:
+      id: CL:0000451
+      label: dendritic cell
+  locations:
+  - preferred_term: lung
+    term:
+      id: UBERON:0002048
+      label: lung
+  evidence:
+  - reference: DOI:10.3390/ijms24032884
+    supports: SUPPORT
+    evidence_source: MODEL_ORGANISM
+    snippet: "Both groups presented increases in resident monocytes, interstitial macrophages and type 2 dendritic cells (DCs), but also reductions in inflammatory monocytes, alveolar macrophages and tolerogenic DCs compared with their control groups."
+    explanation: The mouse model reports increased resident monocytes, interstitial
+      macrophages, and type 2 dendritic cells after bird antigen exposure.
+- name: Reduction of Inflammatory Monocytes and Alveolar Macrophages
+  description: Bird antigen exposure is associated with reduced inflammatory
+    monocytes, alveolar macrophages, and tolerogenic dendritic cells in the lung.
   cell_types:
   - preferred_term: monocyte
     term:
@@ -152,8 +196,8 @@ pathophysiology:
     supports: SUPPORT
     evidence_source: MODEL_ORGANISM
     snippet: "Both groups presented increases in resident monocytes, interstitial macrophages and type 2 dendritic cells (DCs), but also reductions in inflammatory monocytes, alveolar macrophages and tolerogenic DCs compared with their control groups."
-    explanation: The mouse model demonstrates coordinated shifts in myeloid and
-      dendritic cell populations in BRHP.
+    explanation: The same experiment reports reduced inflammatory monocytes,
+      alveolar macrophages, and tolerogenic dendritic cells.
 - name: Th1/Th2 to Th2/Th17 Cytokine Shift
   description: Early disease shows a mixed Th1/Th2 response, while progression
     shifts toward a Th2/Th17 mixed response.
@@ -494,7 +538,7 @@ biochemical:
       serum in fibrotic avian HP.
 genetic:
 - name: MUC5B
-  association: Susceptibility and survival in fibrotic hypersensitivity pneumonitis
+  association: Susceptibility risk in fibrotic hypersensitivity pneumonitis (non-causal)
   gene_term:
     preferred_term: MUC5B
     term:
@@ -507,7 +551,7 @@ genetic:
     snippet: "MUC5B rs35705950 and three neighboring TOLLIP variants (rs3750920, rs111521887, and rs5743894) were associated with increased susceptibility to fHP."
     explanation: The case-control study reports MUC5B association with susceptibility.
 - name: TOLLIP
-  association: Susceptibility and survival in fibrotic hypersensitivity pneumonitis
+  association: Susceptibility risk in fibrotic hypersensitivity pneumonitis (non-causal)
   gene_term:
     preferred_term: TOLLIP
     term:
