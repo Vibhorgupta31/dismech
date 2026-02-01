@@ -321,7 +321,28 @@ enums:
     description: An ICD-10-CM diagnosis code
     reachable_from:
       source_nodes:
-        - ICD10CM:ICD-10-CM  ## ICD-10-CM tabular list
+        - ICD10CM:A00-B99   ## Certain infectious and parasitic diseases
+        - ICD10CM:C00-D49   ## Neoplasms
+        - ICD10CM:D50-D89   ## Diseases of the blood and immune mechanism
+        - ICD10CM:E00-E89   ## Endocrine, nutritional and metabolic diseases
+        - ICD10CM:F01-F99   ## Mental, Behavioral and Neurodevelopmental disorders
+        - ICD10CM:G00-G99   ## Diseases of the nervous system
+        - ICD10CM:H00-H59   ## Diseases of the eye and adnexa
+        - ICD10CM:H60-H95   ## Diseases of the ear and mastoid process
+        - ICD10CM:I00-I99   ## Diseases of the circulatory system
+        - ICD10CM:J00-J99   ## Diseases of the respiratory system
+        - ICD10CM:K00-K95   ## Diseases of the digestive system
+        - ICD10CM:L00-L99   ## Diseases of the skin and subcutaneous tissue
+        - ICD10CM:M00-M99   ## Diseases of the musculoskeletal system and connective tissue
+        - ICD10CM:N00-N99   ## Diseases of the genitourinary system
+        - ICD10CM:O00-O9A   ## Pregnancy, childbirth and the puerperium
+        - ICD10CM:P00-P96   ## Certain conditions originating in the perinatal period
+        - ICD10CM:Q00-Q99   ## Congenital malformations, deformations and chromosomal abnormalities
+        - ICD10CM:R00-R99   ## Symptoms, signs and abnormal clinical findings
+        - ICD10CM:S00-T88   ## Injury, poisoning and other consequences
+        - ICD10CM:U00-U85   ## Codes for special purposes
+        - ICD10CM:V00-Y99   ## External causes of morbidity
+        - ICD10CM:Z00-Z99   ## Factors influencing health status
       is_direct: false
       relationship_types:
         - rdfs:subClassOf
@@ -670,6 +691,7 @@ slots:
       - value: Eyelid Myoclonia with Absences
     range: string
   population:
+    description: Population or cohort description (e.g., for prevalence or association signals)
     examples:
       - value: Global
     range: string
@@ -694,6 +716,7 @@ slots:
       - value: Terminated
     range: string
   age_range:
+    description: Age range or stratification, if applicable
     examples:
       - value: Childhood-Adolescence
     range: string
@@ -1407,18 +1430,12 @@ slots:
   curation_status:
     description: Curation workflow status
     range: CurationStatusEnum
-  population:
-    description: Population or cohort description for an association signal
-    range: string
   demographics:
     description: Demographic stratification for an association signal
     range: Demographics
     inlined: true
   sex:
     description: Sex-specific stratum, if applicable
-    range: string
-  age_range:
-    description: Age range or stratification, if applicable
     range: string
   a_before_b:
     description: Probability or fraction of A before B in an EHR signal
