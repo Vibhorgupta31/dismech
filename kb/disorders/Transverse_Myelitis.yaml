@@ -38,6 +38,38 @@ mappings:
 description: >-
   Transverse myelitis is an acquired inflammatory disorder of the spinal cord
   that can cause rapid onset neurologic deficits.
+definitions:
+- name: Clinical presentation summary (StatPearls)
+  definition_type: CASE_DEFINITION
+  description: >-
+    Transverse myelitis (TM) is a rare, acquired focal inflammatory disorder often
+    presenting with rapid onset weakness, sensory deficits, and bowel/bladder
+    dysfunction.
+  criteria_sets:
+  - name: Common presenting features
+    core_clinical_characteristics:
+    - preferred_term: Rapid onset weakness
+      term:
+        id: HP:0001324
+        label: Muscle weakness
+      description: Rapid onset muscle weakness.
+    - preferred_term: Sensory deficits
+      term:
+        id: HP:0003474
+        label: Somatic sensory dysfunction
+    - preferred_term: Neurogenic bladder
+      term:
+        id: HP:0000011
+        label: Neurogenic bladder
+    - preferred_term: Bowel incontinence
+      term:
+        id: HP:0002607
+        label: Bowel incontinence
+  evidence:
+  - reference: PMID:32644728
+    supports: SUPPORT
+    snippet: "Transverse myelitis (TM) is a rare, acquired focal inflammatory disorder often presenting with rapid onset weakness, sensory deficits, and bowel/bladder dysfunction."
+    explanation: The abstract summarizes common presenting features used here as a minimal case definition.
 pathophysiology:
 - name: Spinal Cord Inflammation
   description: >-
