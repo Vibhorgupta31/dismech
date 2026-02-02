@@ -1,0 +1,11 @@
+name: Alcoholic Liver Disease
+category: Complex
+parents:
+- Hepatic Disease
+disease_term:
+  preferred_term: alcoholic liver disease
+  term:
+    id: MONDO:0043693
+    label: alcoholic liver diseases
+pathophysiology: []
+phenotypes: []

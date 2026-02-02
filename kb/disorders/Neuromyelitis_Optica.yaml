@@ -1,0 +1,126 @@
+name: Neuromyelitis Optica
+category: Neurological Disorder
+parents:
+- Autoimmune Disorder
+disease_term:
+  preferred_term: neuromyelitis optica
+  term:
+    id: MONDO:0019100
+    label: neuromyelitis optica
+description: >-
+  Neuromyelitis optica is an autoimmune astrocytopathy characterized by
+  aquaporin-4 (AQP4) autoantibody-mediated injury to astrocytes and secondary
+  demyelination.
+pathophysiology:
+- name: AQP4-IgG-Mediated Astrocyte Injury
+  description: >-
+    Autoantibodies against AQP4 bind astrocytic end-feet and trigger
+    complement-dependent astrocyte damage, driving neuroinflammation.
+  cell_types:
+  - preferred_term: astrocyte
+    term:
+      id: CL:0000127
+      label: astrocyte
+  biological_processes:
+  - preferred_term: complement activation
+    modifier: INCREASED
+    term:
+      id: GO:0006956
+      label: complement activation
+  evidence:
+  - reference: PMID:35454180
+    supports: SUPPORT
+    snippet: "In NMOSD, the autoantibody (NMO-IgG) binds to the extracellular loops of AQP4 as expressed in perivascular astrocytic end-feet and disrupts astrocytes in a complement-dependent manner."
+    explanation: The abstract describes AQP4-IgG binding and complement-mediated astrocyte disruption.
+- name: AQP4 Endocytosis and Complement-Independent Cytotoxicity
+  description: >-
+    NMO-IgG can induce complement-independent astrocyte injury, with antibody-
+    induced endocytosis of AQP4 implicated in this mechanism.
+  biological_processes:
+  - preferred_term: endocytosis
+    modifier: INCREASED
+    term:
+      id: GO:0006897
+      label: endocytosis
+  evidence:
+  - reference: PMID:35454180
+    supports: SUPPORT
+    snippet: "Recent studies have also demonstrated complement-independent cytotoxic effects of NMO-IgG. Antibody-induced endocytosis of AQP4 has been suggested to be involved in this mechanism."
+    explanation: The abstract notes complement-independent cytotoxicity and AQP4 endocytosis in NMOSD.
+phenotypes:
+- name: Visual Loss
+  category: Ophthalmologic
+  frequency: COMMON
+  phenotype_term:
+    preferred_term: Visual loss
+    term:
+      id: HP:0000572
+      label: Visual loss
+  evidence:
+  - reference: PMID:38819039
+    supports: SUPPORT
+    snippet: "Neuromyelitis optica spectrum disorders are neuroinflammatory demyelinating disorders that lead to permanent visual loss and motor dysfunction."
+    explanation: Visual loss is explicitly described as a consequence of NMOSD.
+- name: Muscle Weakness
+  category: Neurologic
+  frequency: COMMON
+  phenotype_term:
+    preferred_term: Muscle weakness
+    term:
+      id: HP:0001324
+      label: Muscle weakness
+  evidence:
+  - reference: PMID:38819039
+    supports: SUPPORT
+    snippet: "Neuromyelitis optica spectrum disorders are neuroinflammatory demyelinating disorders that lead to permanent visual loss and motor dysfunction."
+    explanation: Motor dysfunction in NMOSD manifests clinically as weakness.
+- name: Nausea and Vomiting
+  category: Gastrointestinal
+  frequency: OCCASIONAL
+  phenotype_term:
+    preferred_term: Nausea and vomiting
+    term:
+      id: HP:0002017
+      label: Nausea and vomiting
+  evidence:
+  - reference: PMID:21368286
+    supports: SUPPORT
+    snippet: "Aquaporin-4 (AQP4) autoimmunity targets this region, resulting in intractable nausea associated with vomiting or hiccups in NMO."
+    explanation: The abstract links NMO area postrema involvement with intractable nausea and vomiting.
+treatments:
+- name: Eculizumab
+  description: Maintenance therapy approved for AQP-4 seropositive NMOSD.
+  treatment_term:
+    preferred_term: pharmacotherapy
+    term:
+      id: MAXO:0000058
+      label: pharmacotherapy
+  evidence:
+  - reference: PMID:33741809
+    supports: SUPPORT
+    snippet: "Eculizumab, inebilizumab, and satralizumab are effective maintenance therapies approved for the treatment of AQP-4 seropositive NMOSD."
+    explanation: The abstract lists eculizumab as an approved maintenance therapy for NMOSD.
+- name: Inebilizumab
+  description: Maintenance therapy approved for AQP-4 seropositive NMOSD.
+  treatment_term:
+    preferred_term: pharmacotherapy
+    term:
+      id: MAXO:0000058
+      label: pharmacotherapy
+  evidence:
+  - reference: PMID:33741809
+    supports: SUPPORT
+    snippet: "Eculizumab, inebilizumab, and satralizumab are effective maintenance therapies approved for the treatment of AQP-4 seropositive NMOSD."
+    explanation: The abstract lists inebilizumab as an approved maintenance therapy for NMOSD.
+- name: Satralizumab
+  description: Maintenance therapy approved for AQP-4 seropositive NMOSD.
+  treatment_term:
+    preferred_term: pharmacotherapy
+    term:
+      id: MAXO:0000058
+      label: pharmacotherapy
+  evidence:
+  - reference: PMID:33741809
+    supports: SUPPORT
+    snippet: "Eculizumab, inebilizumab, and satralizumab are effective maintenance therapies approved for the treatment of AQP-4 seropositive NMOSD."
+    explanation: The abstract lists satralizumab as an approved maintenance therapy for NMOSD.
