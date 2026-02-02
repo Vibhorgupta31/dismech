@@ -43,6 +43,7 @@ jobs:
               - 'uv.lock'
             kb_disorders:
               - 'kb/disorders/**/*.yaml'
+              - '!kb/disorders/**/*.history.yaml'
             kb_comorbidities:
               - 'kb/comorbidities/**/*.yaml'
 
