@@ -392,6 +392,11 @@ phenotypes:
         evidence_source: HUMAN_CLINICAL
         snippet: "The pregnancy was terminated due to occipital meningocele and enlarged cystic dysplastic kidney revealed by ultrasonography."
         explanation: Prenatal case report documents an occipital meningocele in suspected MKS.
+      - reference: PMID:34821546
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        snippet: "Antenatally detected occipital encephalocele and polycystic kidneys are a common presentation of ciliopathies like Joubert syndrome and Meckel Gruber syndrome"
+        explanation: Prenatal case series reports occipital encephalocele among common MKS presentations.
   - name: Cystic renal dysplasia
     category: Renal
     frequency: VERY_FREQUENT
@@ -426,6 +431,11 @@ phenotypes:
         evidence_source: HUMAN_CLINICAL
         snippet: "The pregnancy was terminated due to occipital meningocele and enlarged cystic dysplastic kidney revealed by ultrasonography."
         explanation: Prenatal case report documents enlarged cystic dysplastic kidney in suspected MKS.
+      - reference: PMID:34821546
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        snippet: "Antenatally detected occipital encephalocele and polycystic kidneys are a common presentation of ciliopathies like Joubert syndrome and Meckel Gruber syndrome"
+        explanation: Prenatal case series notes polycystic/enlarged kidneys as a common MKS presentation.
   - name: Postaxial polydactyly
     category: Musculoskeletal
     frequency: VERY_FREQUENT
@@ -483,6 +493,11 @@ phenotypes:
         evidence_source: HUMAN_CLINICAL
         snippet: "Death is mainly due to pulmonary hypoplasia."
         explanation: This case report links MKS lethality to pulmonary hypoplasia.
+      - reference: PMID:39412385
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        snippet: "the fetus, which was found to have polyhydramnios, gastric dilatation, lung hypoplasia, and cystic formation with a diameter of 68*62mm in the abdomen"
+        explanation: Case report documents lung hypoplasia in an MKS fetus.
 treatments:
   - name: Occipital encephalocele repair
     description: Surgical excision/repair of occipital encephalocele or meningocele in MKS.
