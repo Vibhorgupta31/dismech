@@ -541,10 +541,15 @@ research-disorder-cyberian-codex disorder *args="":
 research-providers:
     uv run deep-research-client providers
 
-# Fetch and cache a reference by PMID
+# Fetch and cache a reference by ID
+# This may be a PMID, DOI, or other supported identifier
 [group('Research')]
-fetch-reference pmid:
-    uv run linkml-reference-validator cache reference {{pmid}}
+fetch-reference +identifiers:
+    #!/usr/bin/env bash
+    for identifier in {{identifiers}}; do
+        echo "Fetching reference: $identifier"
+        uv run linkml-reference-validator cache reference "$identifier"
+    done
 
 # ============== Classification Schemas ==============
 
