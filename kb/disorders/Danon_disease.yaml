@@ -35,13 +35,41 @@ inheritance:
         explanation: Confirms X-linked dominant inheritance pattern.
 
 pathophysiology:
-  - name: LAMP2 deficiency and impaired autophagosome-lysosome fusion
+  - name: LAMP2 protein deficiency
     description: >
-      Mutations in LAMP2 lead to deficiency of lysosome-associated membrane protein 2,
-      particularly the LAMP-2B isoform which is critical for autophagosome-lysosome
-      fusion in cardiomyocytes and skeletal muscle. This causes a late-stage block in
-      the autophagy pathway, resulting in accumulation of autophagic vacuoles with
-      sarcolemmal features (AVSFs) containing glycogen and undegraded cellular debris.
+      Mutations in the LAMP2 gene lead to deficiency of lysosome-associated membrane
+      protein 2, particularly the LAMP-2B isoform which is essential for proper
+      autophagosome-lysosome fusion in cardiac and skeletal muscle cells.
+    cell_types:
+      - preferred_term: cardiomyocyte
+        term:
+          id: CL:0000746
+          label: cardiac muscle cell
+      - preferred_term: skeletal muscle fiber
+        term:
+          id: CL:0008002
+          label: skeletal muscle fiber
+    biological_processes:
+      - preferred_term: lysosome organization
+        term:
+          id: GO:0007040
+          label: lysosome organization
+    downstream:
+      - target: Impaired autophagosome-lysosome fusion
+        description: >
+          LAMP-2B deficiency prevents proper docking and fusion of autophagosomes
+          with lysosomes, blocking completion of the autophagy pathway.
+    evidence:
+      - reference: DOI:10.1111/nan.12587
+        supports: SUPPORT
+        snippet: "The primary deficiency of lysosome-associated membrane protein-2 (LAMP-2) causes disruption of autophagy, leading to an impaired fusion of lysosomes to autophagosomes and biogenesis of lysosomes."
+        explanation: Confirms that LAMP-2 deficiency disrupts autophagy through impaired lysosome-autophagosome fusion.
+
+  - name: Impaired autophagosome-lysosome fusion
+    description: >
+      LAMP-2B deficiency causes a late-stage block in the autophagy pathway by
+      preventing fusion of autophagosomes with lysosomes, leading to accumulation
+      of unprocessed autophagosomes.
     cell_types:
       - preferred_term: cardiomyocyte
         term:
@@ -60,52 +88,28 @@ pathophysiology:
         term:
           id: GO:0097352
           label: autophagosome maturation
-      - preferred_term: lysosome organization
-        term:
-          id: GO:0007040
-          label: lysosome organization
+    downstream:
+      - target: Autophagic vacuole accumulation
+        description: >
+          Failed fusion results in accumulation of autophagic vacuoles containing
+          undegraded cellular material and glycogen.
+      - target: Impaired mitophagy
+        description: >
+          Defective autophagosome-lysosome fusion specifically impairs clearance
+          of damaged mitochondria via mitophagy.
     evidence:
       - reference: DOI:10.1038/cddis.2016.475
         supports: SUPPORT
+        evidence_source: MODEL_ORGANISM
         snippet: "DD is characterized by mutations in the lysosome-associated membrane protein 2 (LAMP2) gene. The DD mouse model suggests that inefficient lysosome biogenesis/maturation and impairment of autophagosome-lysosome fusion contribute to the pathogenesis of muscle wasting."
         explanation: Demonstrates that LAMP2 mutations cause impaired autophagosome-lysosome fusion and lysosome biogenesis defects.
-      - reference: DOI:10.1111/nan.12587
-        supports: SUPPORT
-        snippet: "The primary deficiency of lysosome-associated membrane protein-2 (LAMP-2) causes disruption of autophagy, leading to an impaired fusion of lysosomes to autophagosomes and biogenesis of lysosomes."
-        explanation: Confirms that LAMP-2 deficiency disrupts autophagy through impaired lysosome-autophagosome fusion.
 
-  - name: Impaired mitophagy and mitochondrial dysfunction
+  - name: Autophagic vacuole accumulation
     description: >
-      LAMP2 deficiency leads to impaired mitophagy, causing accumulation of damaged
-      and depolarized mitochondria. This results in reduced mitochondrial respiration,
-      increased reactive oxygen species production, oxidative stress, and ultimately
-      contributes to cardiomyocyte injury and arrhythmogenesis.
-    cell_types:
-      - preferred_term: cardiomyocyte
-        term:
-          id: CL:0000746
-          label: cardiac muscle cell
-    biological_processes:
-      - preferred_term: mitophagy
-        term:
-          id: GO:0000423
-          label: mitophagy
-      - preferred_term: response to oxidative stress
-        term:
-          id: GO:0006979
-          label: response to oxidative stress
-    evidence:
-      - reference: DOI:10.3390/biom14101272
-        supports: SUPPORT
-        snippet: "This disease is one of the autophagy-related muscle diseases."
-        explanation: Confirms Danon disease as an autophagy-related disorder affecting muscle.
-
-  - name: Autophagic vacuole accumulation with glycogen storage
-    description: >
-      Defective autophagy leads to accumulation of autophagic vacuoles with sarcolemmal
-      features (AVSFs) in cardiac and skeletal muscle. These vacuoles contain glycogen
-      and undegraded cellular components, representing a histopathological hallmark of
-      the disease distinct from other glycogen storage disorders.
+      Accumulation of autophagic vacuoles with sarcolemmal features (AVSFs) in
+      cardiac and skeletal muscle. These vacuoles contain glycogen and undegraded
+      cellular components, representing a histopathological hallmark distinct from
+      other glycogen storage disorders.
     cell_types:
       - preferred_term: cardiomyocyte
         term:
@@ -129,6 +133,53 @@ pathophysiology:
         supports: SUPPORT
         snippet: "Among them, Danon Disease (DD) and glycogen storage disease type II (GSDII) are due to primary lysosomal protein defects."
         explanation: Establishes Danon disease as a lysosomal storage disorder with autophagic vacuolar myopathy.
+
+  - name: Impaired mitophagy
+    description: >
+      Defective autophagosome-lysosome fusion specifically impairs the mitophagy
+      pathway, preventing clearance of damaged and depolarized mitochondria from
+      cardiomyocytes.
+    cell_types:
+      - preferred_term: cardiomyocyte
+        term:
+          id: CL:0000746
+          label: cardiac muscle cell
+    biological_processes:
+      - preferred_term: mitophagy
+        term:
+          id: GO:0000423
+          label: mitophagy
+    downstream:
+      - target: Mitochondrial dysfunction and oxidative stress
+        description: >
+          Accumulation of damaged mitochondria leads to reduced respiration,
+          increased reactive oxygen species production, and oxidative stress.
+    evidence:
+      - reference: DOI:10.3390/biom14101272
+        supports: SUPPORT
+        snippet: "This disease is one of the autophagy-related muscle diseases."
+        explanation: Confirms Danon disease as an autophagy-related disorder affecting muscle.
+
+  - name: Mitochondrial dysfunction and oxidative stress
+    description: >
+      Accumulation of damaged and depolarized mitochondria results in reduced
+      mitochondrial respiration, increased reactive oxygen species production,
+      and oxidative stress, contributing to cardiomyocyte injury and arrhythmogenesis.
+    cell_types:
+      - preferred_term: cardiomyocyte
+        term:
+          id: CL:0000746
+          label: cardiac muscle cell
+    biological_processes:
+      - preferred_term: response to oxidative stress
+        term:
+          id: GO:0006979
+          label: response to oxidative stress
+    evidence:
+      - reference: DOI:10.3390/biom14101272
+        supports: SUPPORT
+        snippet: "This disease is one of the autophagy-related muscle diseases."
+        explanation: Confirms the role of autophagy dysfunction in muscle disease pathogenesis.
 
 phenotypes:
   - name: Hypertrophic cardiomyopathy
