@@ -227,6 +227,83 @@ pathophysiology:
         evidence_source: IN_VITRO
         snippet: "Immunofluorescence staining of patient's fibroblast cells demonstrates that the cells lack cilia, providing evidence for the critical role of CC2D2A in cilia formation."
         explanation: Patient fibroblasts lacking cilia link CC2D2A to cilia formation.
+  - name: Reduced axonemal microtubule posttranslational modifications
+    description: Disruption of the B9-TMEM67 complex at the transition zone reduces axonemal microtubule modifications.
+    cellular_components:
+      - preferred_term: primary cilium
+        term:
+          id: GO:0005929
+          label: cilium
+      - preferred_term: axoneme
+        term:
+          id: GO:0005930
+          label: axoneme
+      - preferred_term: ciliary basal body
+        term:
+          id: GO:0036064
+          label: ciliary basal body
+      - preferred_term: ciliary base
+        term:
+          id: GO:0097546
+          label: ciliary base
+    evidence:
+      - reference: PMID:41165761
+        supports: SUPPORT
+        evidence_source: IN_VITRO
+        snippet: "the B9 complex interacted with and anchored TMEM67 to the TZ membrane."
+        explanation: Disruption of the B9-TMEM67 transition zone interaction underlies downstream axonemal defects.
+      - reference: PMID:41165761
+        supports: SUPPORT
+        evidence_source: IN_VITRO
+        snippet: "Disruption of the B9-TMEM67 complex reduced posttranslational modifications of axonemal microtubules due to deregulation of tubulin-modifying enzymes within cilia."
+        explanation: B9 complex disruption impairs axonemal microtubule posttranslational modifications.
+  - name: Impaired initiation of ciliogenesis
+    description: B9 proteins facilitate early ciliogenesis; disruption impairs initiation.
+    biological_processes:
+      - preferred_term: cilium assembly
+        term:
+          id: GO:0060271
+          label: cilium assembly
+        modifier: DYSREGULATED
+    evidence:
+      - reference: PMID:41165761
+        supports: SUPPORT
+        evidence_source: IN_VITRO
+        snippet: "B9 proteins localized to centrioles prior to ciliogenesis, where they facilitated the initiation of ciliogenesis."
+        explanation: B9 proteins are required for initiating ciliogenesis.
+  - name: TMEM67 cleavage uncouples ciliogenesis and Wnt signaling
+    description: Proteolytic cleavage of TMEM67 separates ciliary assembly from Wnt pathway activity.
+    biological_processes:
+      - preferred_term: cilium assembly
+        term:
+          id: GO:0060271
+          label: cilium assembly
+        modifier: DYSREGULATED
+      - preferred_term: Wnt signaling pathway
+        term:
+          id: GO:0016055
+          label: Wnt signaling pathway
+        modifier: DYSREGULATED
+    evidence:
+      - reference: PMID:40436881
+        supports: SUPPORT
+        evidence_source: IN_VITRO
+        snippet: "Cleavage of the Meckel-Gruber syndrome protein TMEM67 by ADAMTS9 uncouples Wnt signaling and ciliogenesis."
+        explanation: TMEM67 cleavage separates Wnt signaling from ciliogenesis in MKS.
+  - name: TMEM17 loss disrupts Sonic Hedgehog signaling
+    description: TMEM17 dysfunction at the ciliary transition zone abrogates Sonic Hedgehog signaling.
+    biological_processes:
+      - preferred_term: hedgehog signaling pathway
+        term:
+          id: GO:0007224
+          label: hedgehog signaling pathway
+        modifier: DYSREGULATED
+    evidence:
+      - reference: PMID:40841990
+        supports: SUPPORT
+        evidence_source: IN_VITRO
+        snippet: "Our study reveals severe functional consequences, including TMEM17 destabilization and mislocalization, anomalies in cilium composition and function, and abrogation of Sonic Hedgehog signaling."
+        explanation: TMEM17 variants disrupt ciliary function and abrogate SHH signaling.
   - name: Altered Hedgehog signaling in neural tube patterning
     description: Hedgehog signaling is altered during neural tube development.
     cellular_components:
@@ -673,6 +750,11 @@ genetic:
         evidence_source: MODEL_ORGANISM
         snippet: "Mice lacking B9d1 displayed polydactyly, kidney cysts, ductal plate malformations, and abnormal patterning of the neural tube, concomitant with compromised ciliogenesis, ciliary protein localization, and Hedgehog (Hh) signal transduction."
         explanation: Loss of B9d1 causes MKS-like phenotypes with ciliary dysfunction in model organisms.
+      - reference: PMID:40933483
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        snippet: "Compound heterozygous missense and intronic variants in B9D1 contribute to a recurrent Meckel syndrome pedigree."
+        explanation: This case report identifies pathogenic B9D1 variants in a recurrent MKS pedigree.
     gene_term:
       preferred_term: B9D1
       term:
@@ -784,11 +866,29 @@ genetic:
         evidence_source: HUMAN_CLINICAL
         snippet: "Biallelic TXNDC15 variants have been reported in six individuals of Meckel syndrome (MKS) with perinatal lethal phenotypes"
         explanation: This report summarizes prior MKS cases with biallelic TXNDC15 variants, supporting causation.
+      - reference: PMID:41518077
+        supports: SUPPORT
+        evidence_source: MODEL_ORGANISM
+        snippet: "Homozygous Txndc15mt/mt embryos displayed the complete MKS phenotype-fetal lethality, exencephaly, omphalocele, post-axial polydactyly, and polycystic kidneys-together with markedly reduced TXNDC15 protein in brain, liver, and kidney."
+        explanation: Mouse model confirms TXNDC15 loss produces an MKS phenotype.
     gene_term:
       preferred_term: TXNDC15
       term:
         id: hgnc:20652
         label: TXNDC15
+  - name: TMEM17
+    association: Causative
+    evidence:
+      - reference: PMID:40841990
+        supports: SUPPORT
+        evidence_source: HUMAN_CLINICAL
+        snippet: "we report two unrelated fetuses with occipital encephalocele, polydactyly, and kidney cysts, in whom exome sequencing identified a founder homozygous missense variant (Arg94Trp) in TMEM17"
+        explanation: Case report expands TMEM17-associated phenotypes to include MKS.
+    gene_term:
+      preferred_term: TMEM17
+      term:
+        id: hgnc:26623
+        label: TMEM17
   - name: KIF7
     association: Modifier
     evidence:
