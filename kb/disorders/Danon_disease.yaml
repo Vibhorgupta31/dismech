@@ -278,6 +278,11 @@ phenotypes:
 genetic:
   - name: LAMP2 mutations
     association: Causative
+    gene_term:
+      preferred_term: LAMP2
+      term:
+        id: hgnc:6501
+        label: LAMP2
     notes: >
       Danon disease is caused by loss-of-function mutations in the LAMP2 gene located
       on chromosome Xq24. The LAMP-2B isoform is particularly important for cardiac
