@@ -631,4 +631,9 @@ treatments:
       term:
         id: MAXO:0000011
         label: physical therapy
+    target_phenotypes:
+      - preferred_term: Global developmental delay
+        term:
+          id: HP:0001263
+          label: Global developmental delay
 datasets:
