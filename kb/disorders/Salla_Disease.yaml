@@ -95,6 +95,11 @@ pathophysiology:
     description: Biallelic pathogenic variants in SLC17A5 disrupt the coding or regulatory
       regions necessary for sialin protein function. The c.115C>T (p.Arg39Cys) Finnish
       founder mutation is the most common variant in Salla disease.
+    gene:
+      preferred_term: SLC17A5
+      term:
+        id: hgnc:10933
+        label: SLC17A5
     evidence:
       - reference: PMID:37727271
         supports: SUPPORT
@@ -115,6 +120,7 @@ pathophysiology:
         term:
           id: GO:0015739
           label: sialic acid transport
+        modifier: DECREASED
     evidence:
       - reference: DOI:10.1126/sciadv.ade8346
         supports: SUPPORT
@@ -470,6 +476,11 @@ genetic:
 biochemical:
   - name: Free Sialic Acid
     presence: Elevated
+    biomarker_term:
+      preferred_term: N-acetylneuraminic acid
+      term:
+        id: CHEBI:17012
+        label: N-acetylneuraminic acid
     evidence:
       - reference: PMID:40529477
         supports: SUPPORT
