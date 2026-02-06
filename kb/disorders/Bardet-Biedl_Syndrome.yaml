@@ -104,22 +104,34 @@ prevalence:
       no direct evidence about the global prevalence of Bardet-Biedl Syndrome.
 inheritance:
 - name: Autosomal recessive
+  inheritance_term:
+    preferred_term: Autosomal recessive inheritance
+    term:
+      id: HP:0000007
+      label: Autosomal recessive inheritance
+  expressivity: VARIABLE
+  description: >
+    Bardet-Biedl syndrome is classically autosomal recessive with clinically variable
+    presentation. Complex inheritance is not typical for BBS1.
   evidence:
   - reference: PMID:36374067
     supports: SUPPORT
+    evidence_source: HUMAN_CLINICAL
     snippet: Bardet Biedl syndrome is an autosomal recessive ciliopathie.
+    explanation: States autosomal recessive inheritance.
   - reference: PMID:19701229
     supports: SUPPORT
-    snippet: Bardet-Biedl syndrome... is a clinically variable condition... Most of
-      the 12 genes mutated in Bardet-Biedl syndrome are also involved in ciliary function,
-      as are the genes implicated in other 'ciliopathies' with similar phenotypes,
-      including Meckel syndrome.
-    explanation: The statement is supported by the reference, which mentions the autosomal
-      recessive inheritance mode involving multiple genes.
+    evidence_source: HUMAN_CLINICAL
+    snippet: Bardet-Biedl syndrome is a clinically variable condition associated with learning
+      disabilities, progressive visual loss, obesity, polydactyly, hypogonadism, and
+      cystic and fibrotic renal changes that can lead to renal failure.
+    explanation: Supports variable expressivity.
   - reference: PMID:12524598
     supports: SUPPORT
     snippet: Finally, we demonstrate that BBS1 is inherited in an autosomal recessive
       manner and is rarely, if ever, involved in complex inheritance.
+    evidence_source: HUMAN_CLINICAL
+    explanation: Confirms autosomal recessive inheritance for BBS1 and notes complex inheritance is rare.
 pathophysiology:
 - name: Ciliary Dysfunction
   description: Defects in the function of primary cilia due to mutations in BBS genes

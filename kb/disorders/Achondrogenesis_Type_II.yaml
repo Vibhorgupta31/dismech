@@ -18,6 +18,12 @@ parents:
   - Lethal Skeletal Dysplasia
 inheritance:
   - name: Autosomal Dominant (de novo)
+    inheritance_term:
+      preferred_term: Autosomal dominant inheritance
+      term:
+        id: HP:0000006
+        label: Autosomal dominant inheritance
+    de_novo_rate: Most cases (not quantified)
     description: >
       Almost all cases arise from de novo heterozygous mutations in COL2A1, as affected
       individuals do not survive to reproduce. Germline mosaicism can lead to recurrence
