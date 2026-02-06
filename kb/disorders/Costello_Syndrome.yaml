@@ -205,16 +205,16 @@ treatments:
     treatment_term:
       preferred_term: Cardiac monitoring
       term:
-        id: MAXO:0000004
-        label: surgical procedure
+        id: MAXO:0000003
+        label: diagnostic procedure
   - name: Tumor Surveillance
     description: >
       Regular screening for embryonal tumors, particularly in childhood.
     treatment_term:
       preferred_term: Cancer screening
       term:
-        id: MAXO:0000004
-        label: surgical procedure
+        id: MAXO:0000013
+        label: screening procedure
   - name: MEK Inhibitor Therapy
     description: >
       MEK inhibitors (e.g., trametinib) are being investigated as targeted
