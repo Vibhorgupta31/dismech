@@ -5,10 +5,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://monarch-initiative.github.io/dismech/elements/AnatomicalEntityDescriptor/" rel="canonical"/>
+<link href="https://monarch-initiative.github.io/dismech/elements/InheritanceDescriptor/" rel="canonical"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.7.0" name="generator"/>
-<title>Class: AnatomicalEntityDescriptor - dismech</title>
+<title>Class: InheritanceDescriptor - dismech</title>
 <link href="../../assets/stylesheets/main.618322db.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
@@ -23,7 +23,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#class-anatomicalentitydescriptor">
+<a class="md-skip" href="#class-inheritancedescriptor">
           Skip to content
         </a>
 </div>
@@ -47,7 +47,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Class: AnatomicalEntityDescriptor
+              Class: InheritanceDescriptor
             
           </span>
 </div>
@@ -266,70 +266,70 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="class-anatomicalentitydescriptor">Class: AnatomicalEntityDescriptor</h1>
-<p><em>A descriptor for anatomical locations, bindable to UBERON</em></p>
-<p>URI: <a href="https://w3id.org/monarch-initiative/dismech/AnatomicalEntityDescriptor">dismech:AnatomicalEntityDescriptor</a></p>
+<h1 id="class-inheritancedescriptor">Class: InheritanceDescriptor</h1>
+<p><em>A descriptor for inheritance patterns, bindable to HPO mode of inheritance terms</em></p>
+<p>URI: <a href="https://w3id.org/monarch-initiative/dismech/InheritanceDescriptor">dismech:InheritanceDescriptor</a></p>
 <div class="mermaid"> classDiagram
-    class AnatomicalEntityDescriptor
-    click AnatomicalEntityDescriptor href "../AnatomicalEntityDescriptor/"
-      Descriptor &lt;|-- AnatomicalEntityDescriptor
+    class InheritanceDescriptor
+    click InheritanceDescriptor href "../InheritanceDescriptor/"
+      Descriptor &lt;|-- InheritanceDescriptor
         click Descriptor href "../Descriptor/"
 
-      AnatomicalEntityDescriptor : description
+      InheritanceDescriptor : description
 
-      AnatomicalEntityDescriptor : laterality
-
-
+      InheritanceDescriptor : laterality
 
 
 
-        AnatomicalEntityDescriptor --&gt; "0..1" LateralityEnum : laterality
+
+
+        InheritanceDescriptor --&gt; "0..1" LateralityEnum : laterality
         click LateralityEnum href "../LateralityEnum/"
 
 
 
-      AnatomicalEntityDescriptor : located_in
+      InheritanceDescriptor : located_in
 
 
 
 
 
-        AnatomicalEntityDescriptor --&gt; "0..1" AnatomicalEntityDescriptor : located_in
+        InheritanceDescriptor --&gt; "0..1" AnatomicalEntityDescriptor : located_in
         click AnatomicalEntityDescriptor href "../AnatomicalEntityDescriptor/"
 
 
 
-      AnatomicalEntityDescriptor : modifier
+      InheritanceDescriptor : modifier
 
 
 
 
 
-        AnatomicalEntityDescriptor --&gt; "0..1" ModifierEnum : modifier
+        InheritanceDescriptor --&gt; "0..1" ModifierEnum : modifier
         click ModifierEnum href "../ModifierEnum/"
 
 
 
-      AnatomicalEntityDescriptor : preferred_term
+      InheritanceDescriptor : preferred_term
 
-      AnatomicalEntityDescriptor : qualifiers
-
-
+      InheritanceDescriptor : qualifiers
 
 
 
-        AnatomicalEntityDescriptor --&gt; "*" Qualifier : qualifiers
+
+
+        InheritanceDescriptor --&gt; "*" Qualifier : qualifiers
         click Qualifier href "../Qualifier/"
 
 
 
-      AnatomicalEntityDescriptor : term
+      InheritanceDescriptor : term
 
 
 
 
 
-        AnatomicalEntityDescriptor --&gt; "0..1 _recommended_" Term : term
+        InheritanceDescriptor --&gt; "0..1 _recommended_" Term : term
         click Term href "../Term/"
 
 
@@ -339,7 +339,7 @@
 <h2 id="inheritance">Inheritance</h2>
 <ul>
 <li><a href="../Descriptor/">Descriptor</a><ul>
-<li><strong>AnatomicalEntityDescriptor</strong></li>
+<li><strong>InheritanceDescriptor</strong></li>
 </ul>
 </li>
 </ul>
@@ -369,7 +369,7 @@
 <tr>
 <td><a href="../term/">term</a></td>
 <td>0..1 <em>recommended</em> <br/> <a href="../Term/">Term</a></td>
-<td>Optional UBERON anatomical entity term reference</td>
+<td>Optional HPO mode of inheritance term reference</td>
 <td><a href="../Descriptor/">Descriptor</a></td>
 </tr>
 <tr>
@@ -380,7 +380,7 @@
 </tr>
 <tr>
 <td><a href="../located_in/">located_in</a></td>
-<td>0..1 <br/> <a href="./">AnatomicalEntityDescriptor</a></td>
+<td>0..1 <br/> <a href="../AnatomicalEntityDescriptor/">AnatomicalEntityDescriptor</a></td>
 <td>Anatomical location where this entity/process occurs or procedure is performe...</td>
 <td><a href="../Descriptor/">Descriptor</a></td>
 </tr>
@@ -410,172 +410,10 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../Descriptor/">Descriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
+<td><a href="../Inheritance/">Inheritance</a></td>
+<td><a href="../inheritance_term/">inheritance_term</a></td>
 <td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../CellTypeDescriptor/">CellTypeDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../BiologicalProcessDescriptor/">BiologicalProcessDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../ChemicalEntityDescriptor/">ChemicalEntityDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../GeneDescriptor/">GeneDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../CellularComponentDescriptor/">CellularComponentDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../AssayDescriptor/">AssayDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../TriggerDescriptor/">TriggerDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../DiseaseDescriptor/">DiseaseDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../BiomarkerDescriptor/">BiomarkerDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../GeneProductDescriptor/">GeneProductDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../HistopathologyFindingDescriptor/">HistopathologyFindingDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../LifeCycleStageDescriptor/">LifeCycleStageDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../PhenotypeDescriptor/">PhenotypeDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../InheritanceDescriptor/">InheritanceDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../TreatmentDescriptor/">TreatmentDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../RegimenDescriptor/">RegimenDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../ExposureDescriptor/">ExposureDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../EnvironmentDescriptor/">EnvironmentDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../OrganismDescriptor/">OrganismDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../HostDescriptor/">HostDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../SampleTypeDescriptor/">SampleTypeDescriptor</a></td>
-<td><a href="../tissue_term/">tissue_term</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../SampleTypeDescriptor/">SampleTypeDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../Subtype/">Subtype</a></td>
-<td><a href="../locations/">locations</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../Pathophysiology/">Pathophysiology</a></td>
-<td><a href="../locations/">locations</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../CriteriaItem/">CriteriaItem</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
-</tr>
-<tr>
-<td><a href="../ConditionDescriptor/">ConditionDescriptor</a></td>
-<td><a href="../located_in/">located_in</a></td>
-<td>range</td>
-<td><a href="./">AnatomicalEntityDescriptor</a></td>
+<td><a href="./">InheritanceDescriptor</a></td>
 </tr>
 </tbody>
 </table>
@@ -595,11 +433,11 @@
 <tbody>
 <tr>
 <td>self</td>
-<td>dismech:AnatomicalEntityDescriptor</td>
+<td>dismech:InheritanceDescriptor</td>
 </tr>
 <tr>
 <td>native</td>
-<td>dismech:AnatomicalEntityDescriptor</td>
+<td>dismech:InheritanceDescriptor</td>
 </tr>
 </tbody>
 </table>
@@ -607,27 +445,37 @@
 <!-- TODO: investigate https://stackoverflow.com/questions/37606292/how-to-create-tabbed-code-blocks-in-mkdocs-or-sphinx -->
 <h3 id="direct">Direct</h3>
 <details>
-<pre><code class="language-yaml">name: AnatomicalEntityDescriptor
-description: A descriptor for anatomical locations, bindable to UBERON
+<pre><code class="language-yaml">name: InheritanceDescriptor
+description: A descriptor for inheritance patterns, bindable to HPO mode of inheritance
+  terms
 from_schema: https://w3id.org/monarch-initiative/dismech
 is_a: Descriptor
 slot_usage:
   term:
     name: term
-    description: Optional UBERON anatomical entity term reference
+    description: Optional HPO mode of inheritance term reference
+    bindings:
+    - range: InheritanceTerm
+      obligation_level: REQUIRED
+      binds_value_of: id
 
 </code></pre>
 </details>
 <h3 id="induced">Induced</h3>
 <details>
-<pre><code class="language-yaml">name: AnatomicalEntityDescriptor
-description: A descriptor for anatomical locations, bindable to UBERON
+<pre><code class="language-yaml">name: InheritanceDescriptor
+description: A descriptor for inheritance patterns, bindable to HPO mode of inheritance
+  terms
 from_schema: https://w3id.org/monarch-initiative/dismech
 is_a: Descriptor
 slot_usage:
   term:
     name: term
-    description: Optional UBERON anatomical entity term reference
+    description: Optional HPO mode of inheritance term reference
+    bindings:
+    - range: InheritanceTerm
+      obligation_level: REQUIRED
+      binds_value_of: id
 attributes:
   preferred_term:
     name: preferred_term
@@ -635,7 +483,7 @@ attributes:
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: preferred_term
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     - ConditionDescriptor
@@ -650,7 +498,7 @@ attributes:
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: description
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     - Dataset
@@ -689,17 +537,21 @@ attributes:
     recommended: false
   term:
     name: term
-    description: Optional UBERON anatomical entity term reference
+    description: Optional HPO mode of inheritance term reference
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: term
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     - TermMapping
     - ConditionDescriptor
     - GOEnrichmentTerm
     range: Term
+    bindings:
+    - range: InheritanceTerm
+      obligation_level: REQUIRED
+      binds_value_of: id
     recommended: true
     inlined: true
   modifier:
@@ -709,7 +561,7 @@ attributes:
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: modifier
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     range: ModifierEnum
@@ -720,7 +572,7 @@ attributes:
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: located_in
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     range: AnatomicalEntityDescriptor
@@ -731,7 +583,7 @@ attributes:
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: laterality
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     range: LateralityEnum
@@ -744,7 +596,7 @@ attributes:
     from_schema: https://w3id.org/monarch-initiative/dismech
     rank: 1000
     alias: qualifiers
-    owner: AnatomicalEntityDescriptor
+    owner: InheritanceDescriptor
     domain_of:
     - Descriptor
     range: Qualifier
