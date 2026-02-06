@@ -1,25 +1,26 @@
 ---
-name: one-up-review
+name: dismech-pr-review
 description: >
-  Curation review checklist and guidance for dismech disorder entries. Use when
-  reviewing, QA'ing, or refining curation guidelines for pathophysiology,
-  ontology term precision, evidence alignment, and section placement.
+  Instructions for reviewing a dismech PR, in particular PRs relating to disorder curation,
+  either creating new dismech entries or updating existing ones.
 ---
 
-# One-Up Review Skill
+# PR Review Skill
 
 Use this skill to review or draft curation guidance and to QA disorder entries
 for correctness, specificity, and schema alignment.
 
-## Curation Guidelines (dismech)
+Use all appropriate skills. What follows are some specific guidelines
+aimed to catch common suboptimal things we see in PRs a lot. This list
+is not complete and you should always consult skills and comparable entries.
+
+## Common things to suggest fixing
 
 1. Debundle Pathophysiology Entries
-Each pathophysiology entry must be a single atomic event, not a chain.
+Each pathophysiology entry must be a single atomic event, not a chain or pathway.
 Example:
 - Bad: "Mutations cause X which leads to Y resulting in Z"
 - Good: Separate nodes: mutation -> X -> Y -> Z, connected with `downstream` links.
-
-Trigger phrases: "debundle", "split", "too bundled", "broken into multiple steps".
 
 2. Term Precision Over False Matches
 Prefer no ontology term over a misleading or too-general term.
@@ -66,7 +67,7 @@ Put content in the correct section:
 - MAXO diagnostic branch != treatment terms
 
 8. Treatment Modeling
-- Use specific MAXO terms, not generic "pharmacotherapy" if a better term exists
+- Use specific MAXO terms, not generic "pharmacotherapy"  if a better term exists (but this term is ok if combined with other terms)
 - Explicitly model ion therapies when relevant
 - Include therapeutic agents (CHEBI) when known
 - Generic MAXO terms are acceptable but less informative
@@ -86,22 +87,3 @@ Put non-genetic data in `biochemical` or appropriate sections.
 11. Evidence at Cell-Type Granularity
 When possible, consider evidence at the cell-type level and annotate `cell_types` accordingly.
 
-12. Agent Delegation Patterns
-Use agent calls only for investigation workflow notes, not YAML content.
-Examples:
-- `@dragon-ai-agent please analyze...`
-- `[no agent required just now]`
-- `[no action required for agent now]`
-
-## Summary Checklist
-
-Before merging, verify:
-- Pathophysiology entries are atomic and linked via `downstream`
-- Ontology terms are precise or omitted with "needs term / NTR" notes
-- GO terms are molecular/cellular scope only
-- Evidence snippets directly support claims and are exact quotes
-- Model organism evidence is tagged `MODEL_ORGANISM`
-- Qualifiers added for location, direction, time, laterality
-- Content placed in correct sections
-- MONDO mappings reflect correct concepts
-- `stages` vs `has_subtypes` used appropriately

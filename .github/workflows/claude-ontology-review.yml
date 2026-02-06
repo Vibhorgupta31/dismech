@@ -12,6 +12,10 @@ on:
     paths:
       - "src/ontology"
 
+concurrency:
+  group: claude-ontology-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   claude-review:
     # Optional: Filter by PR author
